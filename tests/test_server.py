@@ -123,7 +123,8 @@ def settings(tmp_path: Path) -> Settings:
 
 def _client(index, settings, generator=None, guard=None) -> tuple[TestClient, StubGenerator, Guard]:
     generator = generator or StubGenerator()
-    guard = guard or Guard(settings, MemoryLedger(), now=lambda: datetime(2026, 8, 3, tzinfo=UTC))
+    now = lambda: datetime(2026, 8, 3, tzinfo=UTC)
+    guard = guard or Guard(settings, MemoryLedger(now=now), now=now)
     app = create_app(
         settings=settings, index=index, guard=guard, generator=generator, embedder=_embedder
     )
