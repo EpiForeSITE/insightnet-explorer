@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-04T23:45:32.126666Z",
+  "generated_at": "2026-08-09T06:36:41.272722Z",
   "details": {
     "c2eb6d9d6bbafbc57f4b": {
       "abstract": "Semantic trajectories enrich spatiotemporal data with textual semantics such as trip purposes and activities at points of interest, enabling the discovery of outlier behaviors relevant to public health, social security, and urban planning. Existing detectors often depend on hand crafted rules and rarely fuse space, time, and text in a transferable way. We propose TOD4Traj , an unsupervised and transfer ready framework for human semantic trajectories that detects anomalies at both the individual and collective levels. TOD4Traj first unifies modalities through spatiotemporal to semantic contrastive alignment so heterogeneous signals share a common representation. It then learns regular mobility via temporal contrastive learning that aligns the same weekday and separates different weekdays. Deviations are scored by combining a consistency score against a user’s own history with a population score based on a small set of learned centroids that capture low rank mobility regularities. For group analysis, we introduce a population level contrastive objective and a collective outlier score that compare a date’s population embedding with historical weekday prototypes, revealing collective abnormality. Across simulated cities and a GeoLife derived dataset, TOD4Traj consistently outperforms strong baselines on both tasks and shows robust zero shot transfer across cities, demonstrating effectiveness, robustness, and adaptability for outlier detection in human semantic trajectories.",
@@ -159,36 +159,331 @@
         }
       ]
     },
-    "a4584872a3beb6aadf42": {
-      "abstract": "Legionnaires disease is a severe respiratory illness caused by Legionella bacteria, with most cases occurring sporadically and environmental sources often unidentified. Effective outbreak detection requires understanding the spatiotemporal dynamics of sporadic cases and their environmental drivers. We developed a mechanistically informed spatiotemporal model integrating fine-scale spatial heterogeneity, multi-week meteorological influences, and extended temporal lags. The framework combines a negative binomial generalised additive model (GAM), a Besag-York-Mollie (BYM2) spatial component, and distributed lag nonlinear models (DLNMs) to capture nonlinear, delayed effects of temperature, dewpoint depression, precipitation, and cloud cover. These outputs generate a national daily index of weather-driven vulnerability, which is combined with hierarchical clustering to identify potential outbreaks. Across 2000-2019, our model improved outbreak detection in 15 of 20 years compared with the baseline UKHSA approach; in the remaining years performance was either equivalent (two years) or only slightly worse (three years, 0.98% reduction). Mean relative improvements were 6.0%, with a maximum of 14.4% in 2013. Improvements were consistent across months, and coarser 0.25-degree grid evaluations likely underestimate the models advantage at finer spatial scales. The analysis also clarified dual-stage Legionnaires disease dynamics, distinguishing environmental bacterial growth from the sho…",
+    "f6b199413e7fcfd54dbb": {
       "authors": [
         {
-          "name": "Nyall Jamieson",
-          "orcid": "0009-0004-1491-6885"
+          "name": "Alexander Rodríguez",
+          "orcid": "0000-0002-4313-9913"
         },
         {
-          "name": "Christiana Charalambous",
-          "orcid": "0000-0002-6711-1974"
+          "name": "Bijaya Adhikari",
+          "orcid": "0000-0001-8409-8073"
         },
         {
-          "name": "David M. Schultz",
-          "orcid": "0000-0003-1558-6975"
+          "name": "Ajitesh Srivastava",
+          "orcid": "0000-0002-8706-5717"
         },
         {
-          "name": "Falguni Naik",
+          "name": "Kai Wang",
+          "orcid": "0000-0002-2446-987X"
+        },
+        {
+          "name": "Marie-Laure Charpignon",
+          "orcid": "0000-0002-5786-2627"
+        },
+        {
+          "name": "Serina Chang",
+          "orcid": "0000-0002-4253-1016"
+        },
+        {
+          "name": "Jiaming Cui",
+          "orcid": "0000-0002-2685-2776"
+        },
+        {
+          "name": "Wei Jin",
+          "orcid": "0000-0002-5054-954X"
+        },
+        {
+          "name": "Ananya Joshi",
+          "orcid": "0000-0003-4937-3046"
+        },
+        {
+          "name": "Anil Vullikanti",
+          "orcid": "0000-0002-8597-6197"
+        },
+        {
+          "name": "B. Aditya Prakash",
+          "orcid": "0000-0002-3252-455X"
+        }
+      ]
+    },
+    "d9403851032942cf8161": {
+      "authors": [
+        {
+          "name": "Blessy Antony",
+          "orcid": "0000-0002-1269-5191"
+        },
+        {
+          "name": "Amartya Dutta",
+          "orcid": "0009-0005-4340-6080"
+        },
+        {
+          "name": "Sneha Aggarwal",
+          "orcid": "0009-0005-5193-8060"
+        },
+        {
+          "name": "Vasu Gatne",
+          "orcid": "0009-0009-6942-8981"
+        },
+        {
+          "name": "Ozan Gökdemir",
+          "orcid": "0000-0001-5299-1983"
+        },
+        {
+          "name": "Samantha L. Grimes",
+          "orcid": "0000-0003-1124-2956"
+        },
+        {
+          "name": "Adam S. Lauring",
+          "orcid": "0000-0003-2906-8335"
+        },
+        {
+          "name": "Brian R. Wasik",
+          "orcid": "0000-0001-5442-3883"
+        },
+        {
+          "name": "Anuj Karpatne",
+          "orcid": "0000-0003-1647-3534"
+        },
+        {
+          "name": "T. M. Murali",
+          "orcid": "0000-0003-3688-4672"
+        }
+      ]
+    },
+    "150f40348b903e321ee0": {
+      "authors": [
+        {
+          "name": "Ajitesh Srivastava",
+          "orcid": "0000-0002-8706-5717"
+        },
+        {
+          "name": "Shanghua Teng",
+          "orcid": "0000-0001-5011-4514"
+        }
+      ]
+    },
+    "82208a30021332736fac": {
+      "authors": [
+        {
+          "name": "Zewen Liu",
+          "orcid": "0009-0001-1147-4274"
+        },
+        {
+          "name": "Juntong Ni",
+          "orcid": "0009-0006-7070-8137"
+        },
+        {
+          "name": "Bohan Wang",
+          "orcid": "0009-0006-8781-2379"
+        },
+        {
+          "name": "Max S. Y. Lau",
+          "orcid": "0000-0001-6590-0294"
+        },
+        {
+          "name": "Wei Jin",
+          "orcid": "0000-0002-5054-954X"
+        }
+      ]
+    },
+    "485814e2f7660707ebe5": {
+      "authors": [
+        {
+          "name": "Yonchanok Khaokaew",
+          "orcid": "0000-0003-4297-6274"
+        },
+        {
+          "name": "Ruochen Kong",
+          "orcid": "0009-0006-0329-8019"
+        },
+        {
+          "name": "Andreas Züfle",
+          "orcid": "0000-0001-7001-4123"
+        },
+        {
+          "name": "Hao Xue",
+          "orcid": "0000-0003-1700-9215"
+        },
+        {
+          "name": "Taylor Anderson",
+          "orcid": "0000-0003-1145-0608"
+        },
+        {
+          "name": "Chandini Raina MacIntyre",
+          "orcid": "0000-0002-3060-0555"
+        },
+        {
+          "name": "Matthew Scotch",
+          "orcid": "0000-0001-5100-9724"
+        },
+        {
+          "name": "Flora D. Salim",
+          "orcid": "0000-0002-1237-1664"
+        },
+        {
+          "name": "David J. Heslop",
+          "orcid": "0000-0002-1978-770X"
+        }
+      ]
+    },
+    "b22351992fc872c955db": {
+      "abstract": "Abstract Background Consensus definitions for clinical identification of invasive aspergillosis (IA) are lacking, likely owed to difficulties in diagnosis. While the European Organization for Research and Treatment of Cancer-Mycoses Study Group (EORTC/MSG) has provided benchmark guidelines to define IA, the criteria are highly restrictive. In this study, we constructed alternative definitions of IA using structured data from electronic health records (EHR). Methods From 01 October 2015 to 31 March 2022, we identified patients with IA from EHR at Kaiser Permanente Southern California using definitions comprised of combinations of diagnosis codes, antifungal prescriptions, and/or positive mycological findings. Here, we report patient characteristics, including demographic information, underlying comorbidities and immunosuppression, diagnostic measures, as well as morbidity and mortality after diagnosis for the population comprising each IA definition. Results Between 86 and 4580 individuals were identified as possible IA cases across seven definitions. All IA definitions that except for that only required positive mycology had similar patient characteristics and outcomes to those meeting 2008 EORTC/MSG criteria. The largest of these cohorts was comprised of 1067 patients compared to the 86 that met EORTC/MSG criteria. Across IA definitions, all-cause mortality ranged from 11.7-33.1% within 6 months following diagnosis. The number of IA cases began trending upwards between 2019…",
+      "authors": [
+        {
+          "name": "Emily Rayens",
+          "orcid": "0000-0003-3369-3475"
+        },
+        {
+          "name": "Jessica Skela",
           "orcid": ""
         },
         {
-          "name": "David Howett",
+          "name": "Bradley K Ackerson",
+          "orcid": "0000-0002-0816-7345"
+        },
+        {
+          "name": "Magdalena E Pomichowski",
+          "orcid": "0009-0004-7280-9084"
+        },
+        {
+          "name": "Lance B Price",
           "orcid": ""
         },
         {
-          "name": "Gavin Dabrera",
+          "name": "Sara Y Tartof",
+          "orcid": "0000-0003-2336-8476"
+        }
+      ]
+    },
+    "944ce1582f071b72363a": {
+      "abstract": "Objective The increasing frequency and severity of climate-related disasters pose major threats to public health, particularly when they intersect with other crises like pandemics. Puerto Rico has faced multiple large-scale disasters in recent years, yet research on their cumulative health effects remains limited. This study examines associations between disaster exposure-Hurricane María and the COVID-19 pandemic-and self-reported physical, mental, and behavioral health among Puerto Rican adults using Behavioral Risk Factor Surveillance System data (2015-2021). Methods We used multivariable linear and log-binomial models, adjusting for key sociodemographic factors. Results Among 35,517 respondents, post-disaster periods were mostly linked to worse health outcomes, including more days of poor mental health, increased substance use, and more negative health perceptions. The early post-hurricane period showed the greatest harm, with participants reporting 2.47 more poor mental health days ( P Conclusions Our results underscore the need for disaster-responsive mental health care, resilient infrastructure, and policies addressing financial inequities that heighten vulnerability. Strengthening community networks and ensuring equitable preparedness and relief efforts are essential to reducing the health impacts of future disasters.",
+      "authors": [
+        {
+          "name": "Valentin-Cortes MA",
+          "orcid": "0000-0003-3714-4326"
+        },
+        {
+          "name": "O'Neill MS",
           "orcid": ""
         },
         {
-          "name": "Ian Hall",
-          "orcid": "0000-0002-3033-2335"
+          "name": "Elliott MR",
+          "orcid": ""
+        },
+        {
+          "name": "Fleming PJ",
+          "orcid": ""
+        },
+        {
+          "name": "Rodriguez-Diaz CE",
+          "orcid": ""
+        },
+        {
+          "name": "Handal AJ",
+          "orcid": ""
+        }
+      ]
+    },
+    "cf8a17401df48c1f0404": {
+      "abstract": "BACKGROUND AND OBJECTIVES: We lack national data on the maturing clinical use of telemedicine (TM) in children's primary care. This manuscript describes patterns of TM use for problem-based visits overall, across clinical domains, and associations of use with clinic visit volume. METHODS: We conducted a retrospective repeated cross-sectional analysis using electronic health records from 1088 pediatric and family medicine primary care practices nationwide, including children aged less than 18 years who received care between 2019 and 2024. We assessed monthly TM use by measuring problem-based visits per 1000 active primary care patients and the proportion conducted via TM, overall and within 6 distinct clinical domains. Regression modeling evaluated whether TM visit volume was associated with an increase, no change, or decrease in total visit volume. RESULTS: The study included 19 633 472 problem-based visits (6% TM, 55% Medicaid, 14% Spanish language). TM represented less than 1% of visits in 2019, peaked at 55% in April 2020, and declined to 6% in 2024. In 2024, TM represented 20% of endocrinology (including obesity) visits and 15% of behavioral health visits compared to only 3% of respiratory visits. From 2019 to May 2023, each additional TM visit was associated with a non-significant net change in total visit volume (-0.1, 95% CI, -0.3-0.2). After May 2023, each additional TM visit was associated with an increase in total visit volume (2.02, 95% CI, 1.67-2.37). CONCLUSIONS…",
+      "authors": [
+        {
+          "name": "Alexander G Fiks",
+          "orcid": ""
+        },
+        {
+          "name": "Janani Ramachandran",
+          "orcid": ""
+        },
+        {
+          "name": "Samuel Wittman",
+          "orcid": ""
+        },
+        {
+          "name": "Mary Kate Kelly",
+          "orcid": ""
+        },
+        {
+          "name": "Kristin Davis",
+          "orcid": ""
+        },
+        {
+          "name": "Jennifer Steffes",
+          "orcid": ""
+        },
+        {
+          "name": "Donna Harris",
+          "orcid": ""
+        },
+        {
+          "name": "Frances M Biel",
+          "orcid": ""
+        },
+        {
+          "name": "Brigit Hatch",
+          "orcid": ""
+        },
+        {
+          "name": "Jody Butto",
+          "orcid": ""
+        },
+        {
+          "name": "Everly Macario",
+          "orcid": ""
+        },
+        {
+          "name": "Jonathan G Yabes",
+          "orcid": ""
+        },
+        {
+          "name": "Dara D Mendez",
+          "orcid": ""
+        },
+        {
+          "name": "Julia E Szymczak",
+          "orcid": ""
+        },
+        {
+          "name": "Robert W Grundmeier",
+          "orcid": ""
+        },
+        {
+          "name": "Kristin N Ray",
+          "orcid": ""
+        }
+      ]
+    },
+    "a4584872a3beb6aadf42": {
+      "abstract": "Legionnaires’ disease is a severe respiratory illness caused by Legionella bacteria, with most cases occurring sporadically and environmental sources often unidentified. Effective outbreak detection requires understanding the spatiotemporal dynamics of sporadic cases and their environmental drivers. We developed a mechanistically informed spatiotemporal model integrating fine-scale spatial heterogeneity, multi-week meteorological influences, and extended temporal lags. The framework combines a negative binomial generalised additive model (GAM), a Besag–York–Mollié (BYM2) spatial component, and distributed lag nonlinear models (DLNMs) to capture nonlinear, delayed effects of temperature, dewpoint depression, precipitation, and cloud cover. These outputs generate a national daily index of weather-driven vulnerability, which is combined with hierarchical clustering to identify potential outbreaks. Across 2000–2019, our model improved outbreak detection in 15 of 20 years compared with the baseline UKHSA approach; in the remaining years performance was either equivalent (two years) or only slightly worse (three years, 0.98% reduction). Mean relative improvements were 6.0%, with a maximum of 14.4% in 2013. Improvements were consistent across months, and coarser 0.25° grid evaluations likely underestimate the model’s advantage at finer spatial scales. The analysis also clarified dual-stage Legionnaires’ disease dynamics, distinguishing environmental bacterial growth from the shorte…",
+      "authors": [
+        {
+          "name": "Jamieson N",
+          "orcid": ""
+        },
+        {
+          "name": "Charalambous C",
+          "orcid": ""
+        },
+        {
+          "name": "Schultz DM",
+          "orcid": ""
+        },
+        {
+          "name": "Naik F",
+          "orcid": ""
+        },
+        {
+          "name": "Howett D",
+          "orcid": ""
+        },
+        {
+          "name": "Dabrera G",
+          "orcid": ""
+        },
+        {
+          "name": "Hall I",
+          "orcid": ""
         }
       ]
     },
@@ -451,6 +746,87 @@
         }
       ]
     },
+    "22459a61dfe1ba086185": {
+      "abstract": "Background Beliefs of a child's primary caregiver are known to influence immunization uptake. As coverage increases, the characteristics of households with undervaccinated children may be shifting. Methods We conducted a cross-sectional survey of households with a child 12-23 months of age. Vaccine status was verified by inspection of immunization cards or caregiver report. Composite scores captured caregiver beliefs and experiences with vaccination. Associations between these measures and vaccination status were evaluated using weighted logistic regression. Results Caregivers of 1689 children were surveyed. The odds of full vaccination were not associated with composite beliefs (adjusted odds ratio [aOR] 1.04 [95% confidence interval {CI} 0.95 to 1.14]) or experiences scores (aOR 1.04 [95% CI 0.96 to 1.13]). Specific beliefs that vaccines prevent severe disease (aOR 2.68 [95% CI 1.64 to 4.37]) and protect the community (aOR 1.67 [95% CI 1.10 to 2.53]) were positively associated, whereas beliefs that children receive too many vaccines (aOR 0.60 [95% CI 0.44 to 0.83]) were negatively associated with full vaccination. Positive experiences, including knowing someone affected by a vaccine-preventable disease (aOR 2.10 [95% CI 1.47 to 3.00]) were also linked to full vaccination. Conclusions Although composite scores were not associated with immunization status, individual beliefs and experiences may still factor into caregiver decisions to vaccinate their children.",
+      "authors": [
+        {
+          "name": "Gunderson AK",
+          "orcid": "0000-0003-3536-3672"
+        },
+        {
+          "name": "Kwon T",
+          "orcid": ""
+        },
+        {
+          "name": "Kumarasinghe Y",
+          "orcid": ""
+        },
+        {
+          "name": "Yan Y",
+          "orcid": ""
+        },
+        {
+          "name": "Choe J",
+          "orcid": ""
+        },
+        {
+          "name": "Jiang Q",
+          "orcid": ""
+        },
+        {
+          "name": "Baguma E",
+          "orcid": ""
+        },
+        {
+          "name": "Bwambale S",
+          "orcid": ""
+        },
+        {
+          "name": "Barber JR",
+          "orcid": ""
+        },
+        {
+          "name": "Reyes R",
+          "orcid": ""
+        },
+        {
+          "name": "Ntaro M",
+          "orcid": ""
+        },
+        {
+          "name": "Delamater PL",
+          "orcid": "0000-0003-3627-9739"
+        },
+        {
+          "name": "Mulogo EM",
+          "orcid": ""
+        },
+        {
+          "name": "Boyce RM",
+          "orcid": "0000-0002-9489-6324"
+        }
+      ]
+    },
+    "733e9ddd9089afcc8c52": {
+      "authors": [
+        {
+          "name": "Kenneth E. Warner",
+          "orcid": "0000-0002-8214-1776"
+        },
+        {
+          "name": "Ruoyan Sun",
+          "orcid": "0000-0001-8412-7727"
+        },
+        {
+          "name": "Andrew F. Brouwer",
+          "orcid": "0000-0002-3779-5287"
+        },
+        {
+          "name": "David Méndez",
+          "orcid": "0000-0002-4415-4832"
+        }
+      ]
+    },
     "39aff44087574797c028": {
       "abstract": "Background How anti-SARS-CoV-2 monoclonal antibodies (mAbs) change subsequent vaccine responses remains uncertain. Methods We conducted a prospective, phase IV, open-label study of adults who received mRNA-1273 or BNT162b2. Cohort 1 included outpatients with acute COVID-19 previously randomized to mAbs (tixagevimab/cilgavimab or amubarvimab/romlusevimab), camostat, or placebo in ACTIV-2/A5401. Cohort 2 included unvaccinated adults without reported prior COVID-19 and was analyzed as naive or non-naive by baseline neutralizing antibodies (nAbs). We measured binding IgG, nAbs, spike-specific memory B cells, and CD4+/CD8+ T cells at baseline and days 28, 56, and 140. Results Forty-three participants were analyzed. At day 140, nAb titers were lower among prior mAb recipients and COVID-19-naive participants than among placebo/camostat recipients and those with evidence of prior infection (overall P = .018). RBD-specific, but not spike-specific, memory B cells were reduced after prior mAb therapy at days 56 and 140. Frequency of spike-specific CD4 + and CD8+ T-cell responses did not differ by prior mAb exposure. Adverse events were mostly grade 1-2 and consistent with vaccine trials. Conclusions Prior anti-SARS-CoV-2 mAb treatment limits endogenous RBD-focused B-cell responses to later mRNA vaccination without measurably affecting T-cell immunity. Timing of vaccination after mAb therapy may matter and warrants study. Clinical trials registration NCT04952402.",
       "authors": [
@@ -557,6 +933,63 @@
         {
           "name": "Chew KW",
           "orcid": "0000-0003-4865-4348"
+        }
+      ]
+    },
+    "9558adb436b9610aecd0": {
+      "abstract": "Introduction Characterization of emerging diseases often has to occur when analysts who are in charge of tracking emerging threats have limited time. Topic modeling approaches that require limited analyst input and can be applied on electronic health records (EHR) may provide earlier insights. We applied large language model (LLM) based topic modeling to text from emerging pathogens to discover themes. Materials and methods EHR notes were extracted from Veterans Affairs (VA) Corporate Data Warehouse. We included up to 200 notes from 5 cohorts including Nationally Notifiable Disease (2005-2007), early COVID-19 cases, and outbreak-related notes from Zika, leptospirosis, COVID-19, and mpox. Notes were sampled from early and late outbreak periods, with a separate cohort that was matched to the early period. Clinical sections were identified using medspaCy to extract tokens from the History of Present Illness (HPI). Topic modeling was conducted using TopicGPT (Mistral-7B-Instruct-0.3), which was modified to perform inferences on local infrastructure to protect sensitive data. Results A total of 1,841 clinical documents were processed for this analysis on an NVIDIA A40 GPU. The most frequent topic category surfaced by TopicGPT in each cohort was \"Infectious Disease.\" Expert review on a sample of topics demonstrated a 61.5% appropriate representation of topic and explanation based on the original HPI. Conclusions Automated topic modeling methods permit extraction and summary of cru…",
+      "authors": [
+        {
+          "name": "Callahan A",
+          "orcid": ""
+        },
+        {
+          "name": "Peterson K",
+          "orcid": "0000-0001-7803-6984"
+        },
+        {
+          "name": "Kalvesmaki A",
+          "orcid": ""
+        },
+        {
+          "name": "Willson T",
+          "orcid": ""
+        },
+        {
+          "name": "Dalton C",
+          "orcid": ""
+        },
+        {
+          "name": "Vuong J",
+          "orcid": ""
+        },
+        {
+          "name": "Gordon C",
+          "orcid": ""
+        },
+        {
+          "name": "Barker C",
+          "orcid": ""
+        },
+        {
+          "name": "Ajinwo N",
+          "orcid": ""
+        },
+        {
+          "name": "Humpherys J",
+          "orcid": ""
+        },
+        {
+          "name": "Stevens V",
+          "orcid": ""
+        },
+        {
+          "name": "Pugh MJ",
+          "orcid": ""
+        },
+        {
+          "name": "Jones M",
+          "orcid": "0000-0001-5580-6739"
         }
       ]
     },
@@ -710,6 +1143,18 @@
         }
       ]
     },
+    "a9c62ed45aabc06e797b": {
+      "authors": [
+        {
+          "name": "Lex A",
+          "orcid": "0000-0001-6930-5468"
+        },
+        {
+          "name": "Jambor HK",
+          "orcid": "0000-0003-3397-1842"
+        }
+      ]
+    },
     "0eebee5b9eda51b0ec23": {
       "abstract": "Background This study evaluated the effectiveness of the 2024-2025 coronavirus disease 2019 (COVID-19) messenger RNA (mRNA) vaccine against COVID-19 emergency department (ED) visits and hospitalizations. Methods Using electronic health records from a large South Carolina health system, we emulated a target trial comparing adults aged 18 years and older who did and did not receive the 2024-2025 COVID-19 mRNA vaccine. Vaccinated individuals during September 1, 2024-March 15, 2025, were risk-set matched 1:2 to unvaccinated individuals on demographic and clinical covariates using propensity score matching. Primary outcomes were time to COVID-19 ED or more severe care and time to hospitalization through April 16, 2025, analyzed using Cox proportional hazards models. Results The final matched cohort included 30,080 individuals, including 10,029 vaccinated participants. Mean age was 65.5 years, 36.5% male, 66.7% Caucasian; 85.6% had a pre-existing condition. Vaccine effectiveness against ED or more severe care was 41.3% (95% CI, 17.2%-58.4%) and 46.1% (95% CI, 13.6%-66.3%) against hospitalization. Conclusions The 2024-2025 mRNA COVID-19 vaccine provided moderate protection against COVID-19 ED visits and hospitalizations among an older population with a high burden of pre-existing conditions, supporting continued efforts to improve vaccine uptake in higher-risk adults.",
       "authors": [
@@ -769,6 +1214,203 @@
         {
           "name": "Marc Lipsitch",
           "orcid": ""
+        }
+      ]
+    },
+    "f897151fabf1ca36c8e8": {
+      "abstract": "Background Prevalence surveys in U.S. hospitals in 2011 and 2015 showed that half of inpatients received antimicrobials on the survey day or day before. We repeated the survey in 2023 to assess changes in antimicrobial use (AU). Methods Ten Emerging Infections Program (EIP) sites recruited up to 25 hospitals each, prioritizing prior participants. EIP staff reviewed medical records of randomly selected inpatients from the survey day morning census and documented AU on the survey day or day before. We compared AU and stewardship characteristics between 2023 and 2015 and used multivariable log-binomial regression to identify factors associated with AU in 2023. Results Antimicrobial stewardship programs were present in 215/218 hospitals in 2023 (98.6%) compared with 158/199 (79.4%) in 2015. Of 13 653 patients in 2023, 6785 (49.7%) received ≥1 antimicrobial on the survey day or day before. Among 151 hospitals participating in both surveys, overall AU prevalence was similar in 2015 and 2023 (49.2% vs 49.1%), with decreases in neonatal critical care (23.4% to 17.1%) and increases in mother-baby units (24.4% to 32.8%). Fluoroquinolone use declined (9.2% to 2.8%), while third- or fourth-generation cephalosporin use increased (12.3% to 18.6%). In 2023, higher AU was associated with patient factors (medical devices, inpatient location, obesity, 4-17 day hospital stays, and suburban residence) and hospital factors (Northeast and South regions, AU audits). Conclusions One in two inpatien…",
+      "authors": [
+        {
+          "name": "Keino BC",
+          "orcid": "0000-0001-8523-0187"
+        },
+        {
+          "name": "Eure T",
+          "orcid": "0000-0002-6471-485X"
+        },
+        {
+          "name": "Ramirez RA",
+          "orcid": "0000-0003-2554-4875"
+        },
+        {
+          "name": "Nadle J",
+          "orcid": ""
+        },
+        {
+          "name": "Lee JE",
+          "orcid": ""
+        },
+        {
+          "name": "Lehmann M",
+          "orcid": ""
+        },
+        {
+          "name": "Sardenga L",
+          "orcid": ""
+        },
+        {
+          "name": "Czaja CA",
+          "orcid": "0000-0002-1742-514X"
+        },
+        {
+          "name": "Johnston H",
+          "orcid": "0009-0004-7590-2049"
+        },
+        {
+          "name": "Kellogg M",
+          "orcid": ""
+        },
+        {
+          "name": "Emanuel C",
+          "orcid": "0009-0000-4670-2292"
+        },
+        {
+          "name": "Cilwick A",
+          "orcid": ""
+        },
+        {
+          "name": "Correa MA",
+          "orcid": "0000-0001-9706-3910"
+        },
+        {
+          "name": "Maloney M",
+          "orcid": "0009-0001-2917-4085"
+        },
+        {
+          "name": "Prignano J",
+          "orcid": ""
+        },
+        {
+          "name": "Ray SM",
+          "orcid": "0000-0002-6327-088X"
+        },
+        {
+          "name": "Howard-Anderson J",
+          "orcid": "0000-0001-9924-0458"
+        },
+        {
+          "name": "Carswell S",
+          "orcid": ""
+        },
+        {
+          "name": "Wilson LE",
+          "orcid": ""
+        },
+        {
+          "name": "Perlmutter R",
+          "orcid": ""
+        },
+        {
+          "name": "Mahoehney JP",
+          "orcid": ""
+        },
+        {
+          "name": "Lynfield R",
+          "orcid": ""
+        },
+        {
+          "name": "Sievers M",
+          "orcid": "0000-0002-4726-974X"
+        },
+        {
+          "name": "Cline C",
+          "orcid": ""
+        },
+        {
+          "name": "Judson M",
+          "orcid": "0009-0009-0068-7838"
+        },
+        {
+          "name": "Dumyati G",
+          "orcid": "0000-0002-3634-2841"
+        },
+        {
+          "name": "Hurley C",
+          "orcid": ""
+        },
+        {
+          "name": "Keller E",
+          "orcid": "0009-0008-9815-728X"
+        },
+        {
+          "name": "Walsh M",
+          "orcid": ""
+        },
+        {
+          "name": "Licherdell E",
+          "orcid": "0009-0005-9662-1841"
+        },
+        {
+          "name": "Tellerman J",
+          "orcid": "0009-0003-2726-5113"
+        },
+        {
+          "name": "Pierce R",
+          "orcid": "0000-0002-7390-8744"
+        },
+        {
+          "name": "Ocampo VLS",
+          "orcid": "0000-0001-9529-4790"
+        },
+        {
+          "name": "Samper ME",
+          "orcid": ""
+        },
+        {
+          "name": "Hires KA",
+          "orcid": "0009-0004-6982-2376"
+        },
+        {
+          "name": "Adrian LT",
+          "orcid": ""
+        },
+        {
+          "name": "Tammer RP",
+          "orcid": "0009-0004-3690-0497"
+        },
+        {
+          "name": "Zhang AY",
+          "orcid": ""
+        },
+        {
+          "name": "Hiratzka S",
+          "orcid": ""
+        },
+        {
+          "name": "Dusko A",
+          "orcid": "0009-0000-9201-6672"
+        },
+        {
+          "name": "Wilson C",
+          "orcid": ""
+        },
+        {
+          "name": "Harriott M",
+          "orcid": "0000-0002-8303-7065"
+        },
+        {
+          "name": "Li R",
+          "orcid": "0000-0003-0664-4803"
+        },
+        {
+          "name": "Neuhauser MM",
+          "orcid": "0000-0002-6062-2413"
+        },
+        {
+          "name": "Thompson ND",
+          "orcid": "0000-0002-1672-4359"
+        },
+        {
+          "name": "Magill SS",
+          "orcid": "0000-0003-4748-1000"
+        },
+        {
+          "name": "Grigg CT",
+          "orcid": "0000-0001-9910-0463"
+        },
+        {
+          "name": "Chea N",
+          "orcid": "0000-0002-5195-2277"
         }
       ]
     },
@@ -988,6 +1630,35 @@
         {
           "name": "Jenness SM",
           "orcid": "0000-0001-8840-105X"
+        }
+      ]
+    },
+    "33230fb663905e3fae75": {
+      "abstract": "Background Switching to injectable long-acting cabotegravir and rilpivirine (LA-CAB/RPV) may improve viral suppression among pregnant and breastfeeding women (PBFW) who have persistent viremia on first-line antiretroviral therapy (ART), resulting in the prevention of vertical transmission (PVT). Methods We used a microsimulation model of PBFW living with HIV in Kenya on dolutegravir-based first-line ART to evaluate the PVT potential of LA-CAB/RPV in 2 maternal populations-newly positive (NP) pregnant women who initiate ART during antenatal care, and known positive (KP) women who initiate ART prior to conception-during antenatal care through 18 months postpartum. For each population, we modeled a standard of care (SOC) without access to a second-line regimen, and a strategy with LA-CAB/RPV as a second-line regimen. Both strategies implement routine maternal viral load (VL) monitoring every 6 months and account for an imperfect cascade, including a 50% probability of regimen switching among eligible PBFW in the LA-CAB/RPV strategy. Results The average time from having unsuppressed VL to switching regimens was over 8 months, and 5.1% of NP and 8.2% of KP women ultimately switched. Compared to SOC, the LA-CAB/RPV strategy reduced vertical transmission by 1.2% for NP and 4.2% for KP women. These reductions increased to 4.0% and 11.5%, respectively, when assuming perfect adherence to more frequent VL monitoring (3-month intervals) and 100% regimen switching when eligible. Conclusi…",
+      "authors": [
+        {
+          "name": "Duarte HA",
+          "orcid": "0000-0002-6478-097X"
+        },
+        {
+          "name": "Carlucci JG",
+          "orcid": ""
+        },
+        {
+          "name": "Schwartz EL",
+          "orcid": "0000-0002-9550-0635"
+        },
+        {
+          "name": "Sam-Agudu NA",
+          "orcid": "0000-0001-5052-7730"
+        },
+        {
+          "name": "Enns EA",
+          "orcid": "0000-0003-0693-7358"
+        },
+        {
+          "name": "Birnbaum JK",
+          "orcid": ""
         }
       ]
     },
@@ -1683,7 +2354,7 @@
       ]
     },
     "eb70b86be9291f37198c": {
-      "abstract": "Background: Quantifying the effect of Shigella diarrhea with and without antibiotic treatment on linear growth faltering is critical to understanding the potential impact of Shigella vaccines. Methods Using individual-level data from five multisite studies, we estimated the effect of Shigella diarrhea on length/height-for-age z-score (HAZ) 60-90 days after the episode compared to diarrhea episodes with no etiology identified and non-diarrheal controls. Effects were estimated under treatment with and without antibiotics using augmented inverse probability weighted estimators with ensemble machine learning. Findings Among 26,752 diarrhea episodes, 5,503 (20.6%) were attributed to Shigella and of those, 2,567 (46.6%) were treated with guideline recommended antibiotics. Compared to other diarrhea episodes, Shigella diarrhea without treatment with guideline recommended antibiotics was associated with small reductions in HAZ (HAZ difference: -0.03, 95% CI: -0.05, -0.01), but not when treated with guideline recommended antibiotics (HAZ difference: -0.01, 95% CI: -0.02, 0.01). Compared to non-diarrheal controls, Shigella diarrhea was associated with decrements in HAZ in the following 60-90 days regardless of antibiotic treatment (HAZ difference overall: -0.08, 95% CI: -0.10, -0.07). A larger impact of Shigella diarrhea was observed among younger children. Interpretation Shigella diarrhea was associated with short-term decrements in height. Treatment with guideline recommended antibi…",
+      "abstract": "Background Quantifying the effect of Shigella diarrhea with and without antibiotic treatment on linear growth faltering is critical to understanding the potential impact of Shigella vaccines. Methods Using individual-level data from five multisite studies, we estimated the effect of Shigella diarrhea on length/height-for-age z-score (HAZ) 60-90 days after the episode compared to diarrhea episodes with no etiology identified and non-diarrheal controls. Effects were estimated under treatment with and without antibiotics using augmented inverse probability weighted estimators with ensemble machine learning. Findings Among 26,752 diarrhea episodes, 5,503 (20.6%) were attributed to Shigella and of those, 2,567 (46.6%) were treated with guideline recommended antibiotics. Compared to other diarrhea episodes, Shigella diarrhea without treatment with guideline recommended antibiotics was associated with small reductions in HAZ (HAZ difference: -0.03, 95% CI: -0.05, -0.01), but not when treated with guideline recommended antibiotics (HAZ difference: -0.01, 95% CI: -0.02, 0.01). Compared to non-diarrheal controls, Shigella diarrhea was associated with decrements in HAZ in the following 60-90 days regardless of antibiotic treatment (HAZ difference overall: -0.08, 95% CI: -0.10, -0.07). A larger impact of Shigella diarrhea was observed among younger children. Interpretation Shigella diarrhea was associated with short-term decrements in height. Treatment with guideline recommended antibio…",
       "authors": [
         {
           "name": "Rogawski McQuade ET",
@@ -1694,15 +2365,15 @@
           "orcid": "0000-0001-6562-607X"
         },
         {
-          "name": "Pavlinac PM",
+          "name": "Pavlinac PB",
           "orcid": "0000-0002-0051-9131"
         },
         {
-          "name": "Feutz EL",
+          "name": "Feutz E",
           "orcid": ""
         },
         {
-          "name": "Kotloff KL",
+          "name": "Kotloff K",
           "orcid": ""
         },
         {
@@ -7256,7 +7927,7 @@
         },
         {
           "name": "Grigg MJ",
-          "orcid": ""
+          "orcid": "0000-0001-9914-8352"
         },
         {
           "name": "Piera KA",
@@ -9764,67 +10435,6 @@
         }
       ]
     },
-    "22459a61dfe1ba086185": {
-      "abstract": "Background Beliefs of a child's primary caregiver are known to influence immunization uptake. As coverage increases, the characteristics of households with undervaccinated children may be shifting. Methods We conducted a cross-sectional survey of households with a child 12-23 months of age. Vaccine status was verified by inspection of immunization cards or caregiver report. Composite scores captured caregiver beliefs and experiences with vaccination. Associations between these measures and vaccination status were evaluated using weighted logistic regression. Results Caregivers of 1689 children were surveyed. The odds of full vaccination were not associated with composite beliefs (adjusted odds ratio [aOR] 1.04 [95% confidence interval {CI} 0.95 to 1.14]) or experiences scores (aOR 1.04 [95% CI 0.96 to 1.13]). Specific beliefs that vaccines prevent severe disease (aOR 2.68 [95% CI 1.64 to 4.37]) and protect the community (aOR 1.67 [95% CI 1.10 to 2.53]) were positively associated, whereas beliefs that children receive too many vaccines (aOR 0.60 [95% CI 0.44 to 0.83]) were negatively associated with full vaccination. Positive experiences, including knowing someone affected by a vaccine-preventable disease (aOR 2.10 [95% CI 1.47 to 3.00]) were also linked to full vaccination. Conclusions Although composite scores were not associated with immunization status, individual beliefs and experiences may still factor into caregiver decisions to vaccinate their children.",
-      "authors": [
-        {
-          "name": "Gunderson AK",
-          "orcid": "0000-0003-3536-3672"
-        },
-        {
-          "name": "Kwon T",
-          "orcid": ""
-        },
-        {
-          "name": "Kumarasinghe Y",
-          "orcid": ""
-        },
-        {
-          "name": "Yan Y",
-          "orcid": ""
-        },
-        {
-          "name": "Choe J",
-          "orcid": ""
-        },
-        {
-          "name": "Jiang Q",
-          "orcid": ""
-        },
-        {
-          "name": "Baguma E",
-          "orcid": ""
-        },
-        {
-          "name": "Bwambale S",
-          "orcid": ""
-        },
-        {
-          "name": "Barber JR",
-          "orcid": ""
-        },
-        {
-          "name": "Reyes R",
-          "orcid": ""
-        },
-        {
-          "name": "Ntaro M",
-          "orcid": ""
-        },
-        {
-          "name": "Delamater PL",
-          "orcid": "0000-0003-3627-9739"
-        },
-        {
-          "name": "Mulogo EM",
-          "orcid": ""
-        },
-        {
-          "name": "Boyce RM",
-          "orcid": "0000-0002-9489-6324"
-        }
-      ]
-    },
     "fee804ff04d3b8a58677": {
       "abstract": "Unlabelled Public health emergencies such as pandemics, natural disasters, and epidemics may require rapid, high-stakes decisions often made by elected officials with limited public health training. Artificial intelligence (AI) holds significant promise to enhance the quality, transparency, and timeliness of governmental decision-making during such crises. This paper examines the potential of AI as a decision-support tool for elected officials while identifying key technical, logistical, ethical, and policy challenges. Technical considerations include model accuracy, data representativeness, and privacy protection, while ethical imperatives center on fairness, transparency, and accountability to prevent amplification of existing health disparities. The paper further explores workforce development needs, emphasizing AI literacy and cross-sector collaboration to enable informed use of AI insights. This viewpoint presents a novel AI Decision Support Lifecycle framework specifically designed for governmental public health emergency response, mapping six phases from problem definition through post-emergency evaluation. We provide stakeholder-specific recommendations for model developers, health agencies, and elected officials, and illustrate practical application through a detailed case example and use cases. Drawing on empirical evidence regarding digital health technologies and AI governance, we emphasize that technology deployment alone is insufficient. Successful implementati…",
       "authors": [
@@ -10709,7 +11319,7 @@
         },
         {
           "name": "Moncla LH",
-          "orcid": ""
+          "orcid": "0000-0001-5722-1988"
         },
         {
           "name": "Müller NF",
@@ -18012,7 +18622,7 @@
         },
         {
           "name": "Ostrer L",
-          "orcid": ""
+          "orcid": "0009-0005-3541-6916"
         },
         {
           "name": "Wynn A",
@@ -18566,7 +19176,7 @@
       ]
     },
     "e4966c9d2ad147d96b0b": {
-      "abstract": "Successful implementation of evolutionary management programs to rescue climatically threatened species requires identification of adaptive genetic variation. Although current genotype-environment association methods have been successful in identifying adaptive variation, they can be improved in two important aspects. First, most existing methods do not account for genotype uncertainty in widely available low-coverage whole-genome sequencing data. Researchers often restrict analysis to loci for which genotypes can be inferred reliably or call the most probable genotype, allowing the use of traditional genotype-based methods, such as BayeScEnv and Bayenv. However, discarding data and false genotype calls increases the uncertainty in estimates of genetic variation and introduces systematic biases. Second, most methods use phenomenological approaches, such as logistic regression, to partition estimated genetic variation into adaptive and non-adaptive components. Consequently, current approaches may inadvertently fail to account for evolutionary processes, such as migration-selection balance. Structured migration between climatically disparate locations can produce deviations from a smooth S-shape response curve, which can be difficult to accommodate using generalized linear regression models. To overcome these challenges, we developed a method that accounts for genotype uncertainty in sequencing data and propagates this uncertainty to inform the parameters of a model of evoluti…",
+      "abstract": "Successful implementation of evolutionary programs to rescue climatically threatened species requires identification of adaptive variation. Although many genotype-environment association methods have been successful in identifying adaptive variation, current approaches can be improved in two important aspects. First, most existing methods do not account for genotype uncertainty in widely available low-coverage whole-genome sequencing data. Researchers often restrict analysis to loci for which genotypes can be inferred reliably or call the most probable genotype, allowing the use of genotype-based methods. However, discarding data and false genotype calls increase the uncertainty in estimates of genetic variation and can introduce systematic biases. Second, most methods use phenomenological approaches, such as logistic regression, to partition estimated variation into adaptive and non-adaptive components. Consequently, current approaches may fail to account for evolutionary processes, such as migration-selection balance. Structured migration between climatically disparate locations can produce deviations from a smooth S-shape response curve, which can be difficult to accommodate using generalized linear models. To overcome these challenges, we developed a method that accounts for genotype uncertainty in sequencing data and propagates this uncertainty to inform the parameters of an evolutionary model. A key feature of this model is that it describes mechanistically how genetic…",
       "authors": [
         {
           "name": "Goel N",
@@ -18581,11 +19191,11 @@
           "orcid": ""
         },
         {
-          "name": "Robertson ECN",
+          "name": "Brown TM",
           "orcid": ""
         },
         {
-          "name": "Brown TM",
+          "name": "Robertson ECN",
           "orcid": ""
         },
         {
@@ -18594,6 +19204,10 @@
         },
         {
           "name": "Vernasco BJ",
+          "orcid": ""
+        },
+        {
+          "name": "Amirkhiz RG",
           "orcid": ""
         },
         {
@@ -19270,6 +19884,59 @@
         {
           "name": "Schuler A",
           "orcid": "0000-0003-4853-6130"
+        }
+      ]
+    },
+    "cc7c330fe07ebfb73b97": {
+      "abstract": "The ReproSci project retrospectively analyzed the reproducibility of 1006 claims from 400 papers published between 1959 and 2011 in the field of Drosophila immunity. This project attempts to provide a comprehensive assessment, 14 years later, of the replicability of nearly all publications across an entire scientific community in experimental life sciences. We found that 61% of claims were verified, while only 7% were directly challenged (not reproducible), a replicability rate higher than previous assessments. Notably, 24% of claims had never been independently tested and remain unchallenged. We performed experimental validations of a selection of 45 unchallenged claim, that revealed that a significant fraction (38/45) of them is in fact non-reproducible. We also found that high-impact journals and top-ranked institutions are more likely to publish challenged claims. In line with the reproducibility crisis narrative, the rates of both challenged and unchallenged claims increased over time, especially as the field gained popularity. We characterized the uneven distribution of irreproducibility among first and last authors. Surprisingly, irreproducibility rates were similar between PhD students and postdocs, and did not decrease with experience or publication count. However, group leaders, who had prior experience as first authors in another Drosophila immunity team, had lower irreproducibility rates, underscoring the importance of early-career training. Finally, authors with…",
+      "authors": [
+        {
+          "name": "Joseph Lemaitre",
+          "orcid": "0000-0002-2677-6574"
+        },
+        {
+          "name": "Désirée Popelka",
+          "orcid": ""
+        },
+        {
+          "name": "Blandine Ribotta",
+          "orcid": "0000-0003-3366-6231"
+        },
+        {
+          "name": "Hannah Westlake",
+          "orcid": "0009-0000-0013-8980"
+        },
+        {
+          "name": "Sveta Chakrabarti",
+          "orcid": "0000-0002-5591-3718"
+        },
+        {
+          "name": "Li Xiaoxue",
+          "orcid": ""
+        },
+        {
+          "name": "Mark A Hanson",
+          "orcid": "0000-0002-6125-3672"
+        },
+        {
+          "name": "Haobo Jiang",
+          "orcid": "0000-0003-1357-1315"
+        },
+        {
+          "name": "Francesca Di Cara",
+          "orcid": "0000-0002-6973-3232"
+        },
+        {
+          "name": "Estee Kurant",
+          "orcid": "0000-0003-4795-4074"
+        },
+        {
+          "name": "Fabrice David",
+          "orcid": "0000-0001-8539-865X"
+        },
+        {
+          "name": "Bruno Lemaitre",
+          "orcid": "0000-0001-7970-1667"
         }
       ]
     },
@@ -20656,6 +21323,59 @@
         {
           "name": "Andreas Züfle",
           "orcid": "0000-0001-7001-4123"
+        }
+      ]
+    },
+    "7ae4fe2dd00e2ec4f51b": {
+      "abstract": "Communication and coordination among partners are critical to achieving a shared goal, especially when addressing homelessness. The Supportive Services for Veteran Families (SSVF) program is a partnership between the U.S. Department of Veterans Affairs (VA) and community nonprofit organizations (grantees) that aims to prevent and end homelessness among veterans. The study team conducted a qualitative study with SSVF program stakeholders, including SSVF grantee employees, VA homeless services providers, and veterans using SSVF services. The study team focused on themes related to communication and coordination. This article highlights these findings. The study team conducted semi-structured telephone interviews with 20 grantee employees, 21 VA homeless services providers, and 83 veterans receiving SSVF program services. The VA homeless services providers and SSVF grantee employees described their relationships as positive, with effective communication and coordination. However, these key informants reported communication challenges regarding changes in policy and eligibility requirements. Some veterans reported difficulties receiving timely and clear communication from grantees. All three groups recognized the high staff turnover and burnout among SSVF grantee employees, which negatively impacts the program. Participants offered strategies for improving communication, including additional meetings between VA homeless services providers and SSVF grantees, establishing consiste…",
+      "authors": [
+        {
+          "name": "Tania Velasquez",
+          "orcid": ""
+        },
+        {
+          "name": "Ann Elizabeth Montgomery",
+          "orcid": ""
+        },
+        {
+          "name": "Thomas Byrne",
+          "orcid": ""
+        },
+        {
+          "name": "Warren Pettey",
+          "orcid": ""
+        },
+        {
+          "name": "Ly Do",
+          "orcid": ""
+        },
+        {
+          "name": "Elisabeth Kimball",
+          "orcid": ""
+        },
+        {
+          "name": "Patrick Galyean",
+          "orcid": ""
+        },
+        {
+          "name": "Kennedi Bloomquist",
+          "orcid": ""
+        },
+        {
+          "name": "Ying Suo",
+          "orcid": ""
+        },
+        {
+          "name": "Atim Effiong",
+          "orcid": ""
+        },
+        {
+          "name": "Richard E Nelson",
+          "orcid": ""
+        },
+        {
+          "name": "Susan Zickmund",
+          "orcid": ""
         }
       ]
     },
@@ -22160,7 +22880,7 @@
           "orcid": ""
         },
         {
-          "name": "Eisenberg MC",
+          "name": "Eisenberg M",
           "orcid": ""
         },
         {
@@ -26307,7 +27027,7 @@
         },
         {
           "name": "Bozack AK",
-          "orcid": ""
+          "orcid": "0000-0003-0046-5767"
         },
         {
           "name": "Pillarisetti A",
@@ -31571,7 +32291,7 @@
       ]
     },
     "bcb74b1d09158c7958ad": {
-      "abstract": "Background People with opioid use disorder (OUD) often exhibit high rates of nonprescribed drug use and low retention on buprenorphine. This study tested the feasibility, acceptability, and preliminary efficacy of an intervention combining peer recovery coaching and CBT4CBT-buprenorphine (CBT4CBT+RC) to reduce nonprescribed drug use and increase buprenorphine retention. Methods A randomized trial conducted from December 15, 2020, to November 24, 2021, compared an 8-week CBT4CBT+RC intervention to treatment as usual (TAU). Outcomes included feasibility (recruitment, treatment initiation, and completion), acceptability (of CBT4CBT, recovery coaching, and integrated intervention), and preliminary efficacy (saliva toxicology and buprenorphine retention during treatment and at 1- and 3-mo follow-ups). Participants (N=38) had been receiving buprenorphine for an average of 270.1 days (SD=444.0) and reported recent nonprescribed drug use. Results Recruitment feasibility was 33.7%. Of the 19 participants assigned to CBT4CBT+RC, 94.7% met with a coach, and 52.6% initiated CBT4CBT. The average number of modules completed was 6.0 (299.7 min). Satisfaction with the intervention, coach, and CBT4CBT-buprenorphine was high (M≥4.9). Drug use was significantly lower in the CBT4CBT+RC group compared with TAU during treatment (35% vs. 69%, P=0.03), at 1 month (34% vs. 69%, P=0.009), and at 3 months (0% vs. 88%, P Conclusions The CBT4CBT+RC condition resulted in lower rates of saliva toxicology…",
+      "abstract": "Background People with opioid use disorder (OUD) often exhibit high rates of nonprescribed drug use and low retention on buprenorphine. This study tested the feasibility, acceptability, and preliminary efficacy of an intervention combining peer recovery coaching and CBT4CBT-buprenorphine (CBT4CBT+RC) to reduce nonprescribed drug use and increase buprenorphine retention. Methods A randomized trial conducted from December 15, 2020, to November 24, 2021, compared an 8-week CBT4CBT+RC intervention to treatment as usual (TAU). Outcomes included feasibility (recruitment, treatment initiation, and completion), acceptability (of CBT4CBT, recovery coaching, and integrated intervention), and preliminary efficacy (saliva toxicology and buprenorphine retention during treatment and at 1- and 3-mo follow-ups). Participants (N=38) had been receiving buprenorphine for an average of 270.1 days (SD=444.0) and reported recent nonprescribed drug use. Results Recruitment feasibility was 33.7%. Of the 19 participants assigned to CBT4CBT+RC, 94.7% met with a coach, and 52.6% initiated CBT4CBT. The average number of modules completed was 6.0 (299.7 min). Satisfaction with the intervention, coach, and CBT4CBT-buprenorphine was high (M≥4.9). Drug use was significantly lower in the CBT4CBT+RC group compared with TAU during treatment (35% vs. 69%, P =0.03), at 1 month (34% vs. 69%, P =0.009), and at 3 months (0% vs. 88%, P Conclusions The CBT4CBT+RC condition resulted in lower rates of saliva toxicolog…",
       "authors": [
         {
           "name": "Pericot-Valverde I",
@@ -35433,23 +36153,6 @@
         }
       ]
     },
-    "2f4d4276b0213269db82": {
-      "abstract": "Diffusion of innovations theory can be used to understand how to prevent or slow the spread of harmful behaviors, such as e-cigarette use in adolescent social networks. This study explores how different network intervention strategies could impact diffusion dynamics through network simulations based on observed social norms and e-cigarette use data. Simulations were initialized with baseline network data collected from 10 schools in a prospective cohort study of adolescent social networks and health behaviors in Southern California. Diffusion conditions varied by changes in social norms for intervention nodes (pro-e-cigarette, anti-e-cigarette, or neutral norms) and intervention strategy, where greater pro- and anti-tobacco norms were assigned to 15% of the network based on four intervention seeding conditions: opinion leadership, betweenness centrality, segmentation, and random selection. For each network, simulations were run using the netdiffuseR package in R and multivariate generalized linear models were estimated to examine changes in diffusion dynamics. Diffusion prevalence and rate were greater in denser networks and networks with more initial e-cigarette users. Anti-e-cigarette norms significantly decreased average prevalence across all intervention conditions. Strategically selecting high betweenness centrality nodes and opinion leader nodes significantly decreased the average prevalence of e-cigarette use. The results of this study show that achieving a change in…",
-      "authors": [
-        {
-          "name": "Piombo SE",
-          "orcid": "0000-0001-5118-7897"
-        },
-        {
-          "name": "Vega Yon GG",
-          "orcid": ""
-        },
-        {
-          "name": "Valente TW",
-          "orcid": ""
-        }
-      ]
-    },
     "66c2934687e439143332": {
       "abstract": "Delayed leaf senescence (staygreen) is an important agronomic trait associated with enhanced resilience to abiotic and biotic stresses and improved productivity. While senescence induces large-scale metabolomic changes, the characterization of metabolic shifts and the identification of key metabolites and pathways determining the staygreen trait remain limited. Here, we generated a temporal map of the physiological and metabolic variation in genetically diverse maize (Zea mays) inbred lines spanning the staygreen spectrum. Integrated analysis of the captured phenotypic variation revealed substantial metabolic perturbations and identified 42 primary and 141 specialized leaf metabolites. Non-staygreen inbred lines were enriched in primary metabolites represented by sugar alcohols (notably mannitol and erythritol), and amino acids including phenylalanine and arginine. In contrast, the staygreen inbred lines accumulated higher levels of specialized metabolites, primarily phenylpropanoids. Metabolome-to-genome mapping identified 56 candidate genes expressed in adult maize leaves responsible for the metabolic changes that occur during senescence. Reverse genetics validated the role of naringenin chalcone and eriodictyol in maize and Arabidopsis thaliana leaf senescence, demonstrating a conserved function of these flavonoids across monocots and dicots. Together, our results reveal the coordinated physiological and metabolic programs that govern senescence and provide a curated set…",
       "authors": [
@@ -37277,59 +37980,6 @@
         {
           "name": "Jianxi Gao",
           "orcid": "0000-0002-3952-208X"
-        }
-      ]
-    },
-    "cc7c330fe07ebfb73b97": {
-      "abstract": "The ReproSci project retrospectively analyzed the reproducibility of 1006 claims from 400 papers published between 1959 and 2011 in the field of Drosophila immunity. This project attempts to provide a comprehensive assessment, 14 years later, of the replicability of nearly all publications across an entire scientific community in experimental life sciences. We found that 61% of claims were verified, while only 7% were directly challenged (not reproducible), a replicability rate higher than previous assessments. Notably, 24% of claims had never been independently tested and remain unchallenged. We performed experimental validations of a selection of 45 unchallenged claim, that revealed that a significant fraction (38/45) of them is in fact non-reproducible. We also found that high-impact journals and top-ranked institutions are more likely to publish challenged claims. In line with the reproducibility crisis narrative, the rates of both challenged and unchallenged claims increased over time, especially as the field gained popularity. We characterized the uneven distribution of irreproducibility among first and last authors. Surprisingly, irreproducibility rates were similar between PhD students and postdocs, and did not decrease with experience or publication count. However, group leaders, who had prior experience as first authors in another Drosophila immunity team, had lower irreproducibility rates, underscoring the importance of early-career training. Finally, authors with…",
-      "authors": [
-        {
-          "name": "Lemaitre J",
-          "orcid": ""
-        },
-        {
-          "name": "Popelka D",
-          "orcid": ""
-        },
-        {
-          "name": "Ribotta B",
-          "orcid": "0000-0003-3366-6231"
-        },
-        {
-          "name": "Westlake H",
-          "orcid": ""
-        },
-        {
-          "name": "Chakrabarti S",
-          "orcid": "0000-0002-5591-3718"
-        },
-        {
-          "name": "Xiaoxue L",
-          "orcid": ""
-        },
-        {
-          "name": "Hanson MA",
-          "orcid": ""
-        },
-        {
-          "name": "Jiang H",
-          "orcid": "0000-0003-1357-1315"
-        },
-        {
-          "name": "Di Cara F",
-          "orcid": "0000-0002-6973-3232"
-        },
-        {
-          "name": "Kurant E",
-          "orcid": "0000-0003-4795-4074"
-        },
-        {
-          "name": "David F",
-          "orcid": ""
-        },
-        {
-          "name": "Lemaitre B",
-          "orcid": ""
         }
       ]
     },
@@ -44129,7 +44779,7 @@
         },
         {
           "name": "Key A",
-          "orcid": ""
+          "orcid": "0000-0001-9722-3689"
         },
         {
           "name": "Shariatzadeh N",
@@ -46242,6 +46892,23 @@
         {
           "name": "Assefaw H. Gebremedhin",
           "orcid": "0000-0001-5383-8032"
+        }
+      ]
+    },
+    "2f4d4276b0213269db82": {
+      "abstract": "Diffusion of innovations theory can be used to understand how to prevent or slow the spread of harmful behaviors, such as e-cigarette use in adolescent social networks. This study explores how different network intervention strategies could impact diffusion dynamics through network simulations based on observed social norms and e-cigarette use data. Simulations were initialized with baseline network data collected from 10 schools in a prospective cohort study of adolescent social networks and health behaviors in Southern California. Diffusion conditions varied by changes in social norms for intervention nodes (pro-e-cigarette, anti-e-cigarette, or neutral norms) and intervention strategy, where greater pro- and anti-tobacco norms were assigned to 15% of the network based on four intervention seeding conditions: opinion leadership, betweenness centrality, segmentation, and random selection. For each network, simulations were run using the netdiffuseR package in R and multivariate generalized linear models were estimated to examine changes in diffusion dynamics. Diffusion prevalence and rate were greater in denser networks and networks with more initial e-cigarette users. Anti-e-cigarette norms significantly decreased average prevalence across all intervention conditions. Strategically selecting high betweenness centrality nodes and opinion leader nodes significantly decreased the average prevalence of e-cigarette use. The results of this study show that achieving a change in…",
+      "authors": [
+        {
+          "name": "Piombo SE",
+          "orcid": "0000-0001-5118-7897"
+        },
+        {
+          "name": "Vega Yon GG",
+          "orcid": ""
+        },
+        {
+          "name": "Valente TW",
+          "orcid": ""
         }
       ]
     },
@@ -48526,7 +49193,7 @@
       "authors": [
         {
           "name": "Negeri AA",
-          "orcid": ""
+          "orcid": "0000-0001-8113-6548"
         },
         {
           "name": "Alemayehu DH",
@@ -54952,7 +55619,7 @@
         },
         {
           "name": "Hall DA",
-          "orcid": ""
+          "orcid": "0000-0003-0674-074X"
         }
       ]
     },
@@ -63270,7 +63937,7 @@
         },
         {
           "name": "Higgins MC",
-          "orcid": ""
+          "orcid": "0009-0003-1857-6112"
         },
         {
           "name": "Qian Y",
@@ -73282,6 +73949,59 @@
         }
       ]
     },
+    "e631ed673cc0046c3466": {
+      "abstract": "New vaccines, technologies, and regulations, alongside increased demand for vaccines, all require prioritization and coordination from key players within the vaccine sector. Inter-agency Coordinating Committees (ICC) support decision-making and coordination at the national-level and act as key drivers for sustainable improvements in vaccination programming. We utilized a previous qualitative case study, which investigated critical success factors for high routine immunization coverage in Zambia from 2000-2018, specifically to study the Zambian ICC. Qualitative data were collected between October 2019 and February 2020, including key informant interviews (n = 66) at the national, provincial, district, and health facility levels. Thematic analysis was applied to understand the role of the Zambian ICC and its impact on the policy environment over time. Within our study period, the ICC demonstrated the following improvements: 1) expanded membership to include diverse representation; 2) expanded scope and mandate to include maternal and child health in decision-making; and 3) distinct roles for collaboration with the Zambia Immunization Technical Advisory Group (ZITAG). The diverse and expansive membership of the Zambian ICC, along with its ability to foster government commitment and lobby for additional resources, supported improvements in immunization programming. The Zambian ICC holds considerable influence on government agencies and external partners, which facilitates procur…",
+      "authors": [
+        {
+          "name": "Sakas Z",
+          "orcid": ""
+        },
+        {
+          "name": "Rodriguez K",
+          "orcid": ""
+        },
+        {
+          "name": "Hester KA",
+          "orcid": "0000-0003-1257-3554"
+        },
+        {
+          "name": "Darwar R",
+          "orcid": "0000-0003-2622-2026"
+        },
+        {
+          "name": "Dounebaine B",
+          "orcid": "0000-0002-9303-9320"
+        },
+        {
+          "name": "Ellis AS",
+          "orcid": ""
+        },
+        {
+          "name": "Rosenblum S",
+          "orcid": "0000-0002-5634-9813"
+        },
+        {
+          "name": "Isett KR",
+          "orcid": "0000-0002-7584-0181"
+        },
+        {
+          "name": "Orenstein W",
+          "orcid": ""
+        },
+        {
+          "name": "Freeman MC",
+          "orcid": "0000-0002-1517-2572"
+        },
+        {
+          "name": "Kilembe W",
+          "orcid": ""
+        },
+        {
+          "name": "Bednarczyk RA",
+          "orcid": "0000-0002-6812-0928"
+        }
+      ]
+    },
     "11cdfeea59fcf296bb2a": {
       "abstract": "The human infectious reservoir of Plasmodium falciparum is governed by transmission efficiency during vector-human contact and mosquito biting preferences. Understanding biting bias in a natural setting can help target interventions to interrupt transmission. In a 15-month cohort in western Kenya, we detected P. falciparum in indoor-resting Anopheles and human blood samples by qPCR and matched mosquito bloodmeals to cohort participants using short-tandem repeat genotyping. Using risk factor analyses and discrete choice models, we assessed mosquito biting behavior with respect to parasite transmission. Biting was highly unequal; 20% of people received 86% of bites. Biting rates were higher on males (biting rate ratio (BRR): 1.68; CI: 1.28-2.19), children 5-15 years (BRR: 1.49; CI: 1.13-1.98), and P. falciparum-infected individuals (BRR: 1.25; CI: 1.01-1.55). In aggregate, P. falciparum-infected school-age (5-15 years) boys accounted for 50% of bites potentially leading to onward transmission and had an entomological inoculation rate 6.4x higher than any other group. Additionally, infectious mosquitoes were nearly 3x more likely than non-infectious mosquitoes to bite P. falciparum-infected individuals (relative risk ratio 2.76, 95% CI 1.65-4.61). Thus, persistent P. falciparum transmission was characterized by disproportionate onward transmission from school-age boys and by the preference of infected mosquitoes to feed upon infected people.",
       "authors": [
@@ -75511,7 +76231,7 @@
         },
         {
           "name": "Cai Z",
-          "orcid": ""
+          "orcid": "0000-0002-3791-1866"
         },
         {
           "name": "Chaney LE",
@@ -76144,71 +76864,6 @@
         }
       ]
     },
-    "9f4f7163928d7c20b4ad": {
-      "abstract": "Chronic kidney disease (CKD) represents a significant global burden. Hypertension is a modifiable risk factor for rapid progression of CKD. We extend the risk stratification by introducing the non-parametric determination of rhythmic components in 24-h profiles of ambulatory blood pressure monitoring (ABPM) in the Chronic Renal Insufficiency Cohort (CRIC) and the African American Study for Kidney Disease and Hypertension (AASK) cohort using Cox proportional hazards models. We find that rhythmic profiling of BP through JTK_CYCLE analysis identifies subgroups of CRIC participants that were more likely to die due to cardiovascular causes. While our fully adjusted model shows a trend towards a significant association between absent cyclic components and cardiovascular death in the full CRIC cohort (HR: 1.71,95% CI: 0.99-2.97, p = 0.056), CRIC participants with a history of cardiovascular disease (CVD) and absent cyclic components in their BP profile had at any time a 3.4-times higher risk of cardiovascular death than CVD patients with cyclic components present in their BP profile (HR: 3.37, 95% CI: 1.45-7.87, p = 0.005). This increased risk was not explained by the dipping or non-dipping pattern in ABPM. Due to the large differences in patient characteristics, the results do not replicate in the AASK cohort. This study suggests rhythmic blood pressure components as a potential novel biomarker to unmask excess risk among CKD patients with prior cardiovascular disease.",
-      "authors": [
-        {
-          "name": "El Jamal N",
-          "orcid": "0000-0003-0747-712X"
-        },
-        {
-          "name": "Brooks TG",
-          "orcid": ""
-        },
-        {
-          "name": "Cohen J",
-          "orcid": "0000-0003-4649-079X"
-        },
-        {
-          "name": "Townsend RR",
-          "orcid": "0000-0002-3215-9118"
-        },
-        {
-          "name": "Sosa GR",
-          "orcid": ""
-        },
-        {
-          "name": "Shah V",
-          "orcid": "0000-0002-3584-4057"
-        },
-        {
-          "name": "Chronic Renal Insufficiency Cohort Study (CRIC) Consortium",
-          "orcid": ""
-        },
-        {
-          "name": "Nelson RG",
-          "orcid": ""
-        },
-        {
-          "name": "Drawz PE",
-          "orcid": ""
-        },
-        {
-          "name": "Rao P",
-          "orcid": ""
-        },
-        {
-          "name": "Bhat Z",
-          "orcid": ""
-        },
-        {
-          "name": "Chang A",
-          "orcid": "0000-0002-8114-7447"
-        },
-        {
-          "name": "Yang W",
-          "orcid": ""
-        },
-        {
-          "name": "FitzGerald GA",
-          "orcid": ""
-        },
-        {
-          "name": "Skarke C",
-          "orcid": "0000-0001-5145-3681"
-        }
-      ]
-    },
     "568c7341460013c9a473": {
       "abstract": "Purpose Combination of chemotherapy with programmed cell death 1 (PD-1) blockade is a front-line treatment for lung cancer. However, it remains unknown whether and how chemotherapy affects the response of exhausted CD8 T cells to PD-1 blockade. Experimental design We used the well-established mouse model of T-cell exhaustion with chronic lymphocytic choriomeningitis virus (LCMV) infection to assess the effect of chemotherapy (cisplatin+pemetrexed) on T-cell response to PD-1 blockade, in the absence of the impact of chemotherapy on antigen release and presentation observed in tumor models. Results When concomitantly administered with PD-1 blockade, chemotherapy affected the differentiation path of LCMV-specific CD8 T cells from stem-like to transitory effector cells, thereby reducing their expansion and production of IFNγ. After combination treatment, these restrained effector responses resulted in impaired viral control, compared with PD-1 blockade alone. The sequential combination strategy, where PD-1 blockade followed chemotherapy, proved to be superior to the concomitant combination, preserving the proliferative response of exhausted CD8 T cells to PD-1 blockade. Our findings suggest that the stem-like CD8 T cells themselves are relatively unaffected by chemotherapy partly because they are quiescent and maintained by slow self-renewal at the steady state. However, upon the proliferative burst mediated by PD-1 blockade, the accelerated differentiation and self-renewal of s…",
       "authors": [
@@ -76371,7 +77026,7 @@
         },
         {
           "name": "Zang X",
-          "orcid": ""
+          "orcid": "0000-0002-5722-8255"
         },
         {
           "name": "Winograd R",
@@ -80687,7 +81342,7 @@
         },
         {
           "name": "Hall DA",
-          "orcid": ""
+          "orcid": "0000-0003-0674-074X"
         },
         {
           "name": "O'Donoghue AJ",
@@ -86283,6 +86938,71 @@
         {
           "name": "Cheever L",
           "orcid": ""
+        }
+      ]
+    },
+    "9f4f7163928d7c20b4ad": {
+      "abstract": "Chronic kidney disease (CKD) represents a significant global burden. Hypertension is a modifiable risk factor for rapid progression of CKD. We extend the risk stratification by introducing the non-parametric determination of rhythmic components in 24-h profiles of ambulatory blood pressure monitoring (ABPM) in the Chronic Renal Insufficiency Cohort (CRIC) and the African American Study for Kidney Disease and Hypertension (AASK) cohort using Cox proportional hazards models. We find that rhythmic profiling of BP through JTK_CYCLE analysis identifies subgroups of CRIC participants that were more likely to die due to cardiovascular causes. While our fully adjusted model shows a trend towards a significant association between absent cyclic components and cardiovascular death in the full CRIC cohort (HR: 1.71,95% CI: 0.99-2.97, p = 0.056), CRIC participants with a history of cardiovascular disease (CVD) and absent cyclic components in their BP profile had at any time a 3.4-times higher risk of cardiovascular death than CVD patients with cyclic components present in their BP profile (HR: 3.37, 95% CI: 1.45-7.87, p = 0.005). This increased risk was not explained by the dipping or non-dipping pattern in ABPM. Due to the large differences in patient characteristics, the results do not replicate in the AASK cohort. This study suggests rhythmic blood pressure components as a potential novel biomarker to unmask excess risk among CKD patients with prior cardiovascular disease.",
+      "authors": [
+        {
+          "name": "El Jamal N",
+          "orcid": "0000-0003-0747-712X"
+        },
+        {
+          "name": "Brooks TG",
+          "orcid": ""
+        },
+        {
+          "name": "Cohen J",
+          "orcid": "0000-0003-4649-079X"
+        },
+        {
+          "name": "Townsend RR",
+          "orcid": "0000-0002-3215-9118"
+        },
+        {
+          "name": "Sosa GR",
+          "orcid": ""
+        },
+        {
+          "name": "Shah V",
+          "orcid": "0000-0002-3584-4057"
+        },
+        {
+          "name": "Chronic Renal Insufficiency Cohort Study (CRIC) Consortium",
+          "orcid": ""
+        },
+        {
+          "name": "Nelson RG",
+          "orcid": ""
+        },
+        {
+          "name": "Drawz PE",
+          "orcid": "0000-0001-7301-9253"
+        },
+        {
+          "name": "Rao P",
+          "orcid": ""
+        },
+        {
+          "name": "Bhat Z",
+          "orcid": ""
+        },
+        {
+          "name": "Chang A",
+          "orcid": "0000-0002-8114-7447"
+        },
+        {
+          "name": "Yang W",
+          "orcid": ""
+        },
+        {
+          "name": "FitzGerald GA",
+          "orcid": ""
+        },
+        {
+          "name": "Skarke C",
+          "orcid": "0000-0001-5145-3681"
         }
       ]
     },
@@ -92266,7 +92986,7 @@
         },
         {
           "name": "Noble RT",
-          "orcid": ""
+          "orcid": "0000-0001-9071-8312"
         }
       ]
     },
@@ -97573,7 +98293,7 @@
         },
         {
           "name": "Hall DA",
-          "orcid": ""
+          "orcid": "0000-0003-0674-074X"
         },
         {
           "name": "Lo YH",
@@ -97614,7 +98334,7 @@
         },
         {
           "name": "Hall DA",
-          "orcid": ""
+          "orcid": "0000-0003-0674-074X"
         }
       ]
     },
@@ -98434,22 +99154,6 @@
         },
         {
           "name": "Nalugoda F",
-          "orcid": ""
-        }
-      ]
-    },
-    "b0878eaa36dcfe303903": {
-      "authors": [
-        {
-          "name": "Marie Ouellet",
-          "orcid": "0000-0003-4442-3374"
-        },
-        {
-          "name": "Sadaf Hashimi",
-          "orcid": ""
-        },
-        {
-          "name": "George G. Vega Yon",
           "orcid": ""
         }
       ]
@@ -99734,7 +100438,7 @@
         },
         {
           "name": "Noble RT",
-          "orcid": ""
+          "orcid": "0000-0001-9071-8312"
         }
       ]
     },
@@ -118561,47 +119265,6 @@
         }
       ]
     },
-    "7d2783d95237d2ebe7d7": {
-      "abstract": "Professional societies, guideline writing committees, and other interested parties emphasize the importance of accurate measurement of blood pressure for clinical and public health decisions related to prevention, treatment, and follow-up of high blood pressure. Use of a clinically validated instrument to measure blood pressure is a central component of measurement accuracy and precision. Despite this, most regulatory authorities do not specify validation requirements that manufacturers must meet to sell their blood pressure measurement devices. Likewise, device validity is not a major area of focus for most consumers and healthcare providers, perhaps because they assume it is a pre-requisite for market approval. This has led to a global proliferation of non-validated blood pressure measurement devices, with only a small minority of blood pressure measurement devices having passed internationally accepted validation protocols. The clinical consequences are likely to be significant because non-validated devices are more likely to provide inaccurate estimates of blood pressure compared with validated devices. Even small inaccuracies in blood pressure measurement can result in substantial misdiagnosis and mistreatment of hypertension. There is an urgent need for clinical validation of blood pressure measurement devices prior to marketing them to consumers. There is also need for simplification of the process for consumers and healthcare providers to determine whether a blood pr…",
-      "authors": [
-        {
-          "name": "Whelton PK",
-          "orcid": "0000-0002-2225-383X"
-        },
-        {
-          "name": "Picone DS",
-          "orcid": "0000-0002-4760-1634"
-        },
-        {
-          "name": "Padwal R",
-          "orcid": "0000-0003-3541-2817"
-        },
-        {
-          "name": "Campbell NRC",
-          "orcid": "0000-0002-1093-4742"
-        },
-        {
-          "name": "Drawz P",
-          "orcid": ""
-        },
-        {
-          "name": "Rakotz MK",
-          "orcid": ""
-        },
-        {
-          "name": "Parati G",
-          "orcid": ""
-        },
-        {
-          "name": "Zhang XH",
-          "orcid": ""
-        },
-        {
-          "name": "Sharman JE",
-          "orcid": "0000-0003-2792-0811"
-        }
-      ]
-    },
     "b003eda8926b6e3b7bbe": {
       "authors": [
         {
@@ -118991,7 +119654,7 @@
         },
         {
           "name": "Chung S",
-          "orcid": ""
+          "orcid": "0000-0002-6389-9709"
         },
         {
           "name": "Chang AY",
@@ -125479,7 +126142,7 @@
         },
         {
           "name": "Iwasaki A",
-          "orcid": ""
+          "orcid": "0000-0002-7824-9856"
         },
         {
           "name": "Cummings DAT",
@@ -128915,7 +129578,7 @@
         },
         {
           "name": "Smith GR",
-          "orcid": ""
+          "orcid": "0000-0003-0112-6134"
         },
         {
           "name": "Santos LC",
@@ -129493,7 +130156,7 @@
         },
         {
           "name": "Frosch AE",
-          "orcid": ""
+          "orcid": "0000-0003-1850-8913"
         },
         {
           "name": "Exline MC",
@@ -143981,6 +144644,22 @@
         }
       ]
     },
+    "b0878eaa36dcfe303903": {
+      "authors": [
+        {
+          "name": "Marie Ouellet",
+          "orcid": "0000-0003-4442-3374"
+        },
+        {
+          "name": "Sadaf Hashimi",
+          "orcid": ""
+        },
+        {
+          "name": "George G. Vega Yon",
+          "orcid": ""
+        }
+      ]
+    },
     "186dd321128864694a0f": {
       "authors": [
         {
@@ -149702,63 +150381,6 @@
         }
       ]
     },
-    "7ea4631c789510ae3678": {
-      "abstract": "Background and aims Opioid-related overdose death rates continue to rise in the United States, especially in racial/ethnic minority communities. Our objective was to determine if US municipalities with high percentages of non-white residents have equitable access to the overdose antidote naloxone distributed by community-based organizations. Methods We used community-based naloxone data from the Massachusetts Department of Public Health and the Rhode Island non-pharmacy naloxone distribution program for 2016-18. We obtained publicly available opioid-related overdose death data from Massachusetts and the Office of the State Medical Examiners in Rhode Island. We defined the naloxone coverage ratio as the number of community-based naloxone kits received by a resident in a municipality divided by the number of opioid-related overdose deaths among residents, updated annually. We used a Poisson regression with generalized estimating equations to analyze the relationship between the municipal racial/ethnic composition and naloxone coverage ratio. To account for the potential non-linear relationship between naloxone coverage ratio and race/ethnicity we created B-splines for the percentage of non-white residents; and for a secondary analysis examining the percentage of African American/black and Hispanic residents. The models were adjusted for the percentage of residents in poverty, urbanicity, state and population size. Results Between 2016 and 2018, the annual naloxone coverage rat…",
-      "authors": [
-        {
-          "name": "Nolen S",
-          "orcid": "0000-0002-1740-7435"
-        },
-        {
-          "name": "Zang X",
-          "orcid": ""
-        },
-        {
-          "name": "Chatterjee A",
-          "orcid": "0000-0001-8437-6774"
-        },
-        {
-          "name": "Behrends CN",
-          "orcid": "0000-0003-3885-088X"
-        },
-        {
-          "name": "Green TC",
-          "orcid": ""
-        },
-        {
-          "name": "Kumar A",
-          "orcid": ""
-        },
-        {
-          "name": "Linas BP",
-          "orcid": ""
-        },
-        {
-          "name": "Morgan JR",
-          "orcid": "0000-0002-1559-3983"
-        },
-        {
-          "name": "Murphy SM",
-          "orcid": "0000-0001-9104-0670"
-        },
-        {
-          "name": "Walley AY",
-          "orcid": "0000-0002-8158-4882"
-        },
-        {
-          "name": "Yan S",
-          "orcid": "0000-0001-6012-6850"
-        },
-        {
-          "name": "Schackman BR",
-          "orcid": "0000-0002-1132-2932"
-        },
-        {
-          "name": "Marshall BDL",
-          "orcid": "0000-0002-0134-7052"
-        }
-      ]
-    },
     "89f8e9a213a4a80e77f7": {
       "abstract": "Background Although efforts to treat hepatitis C virus (HCV) in people who inject drugs (PWID) yield high rates of sustained virologic response (SVR), the relationship between successful HCV treatment and health-related quality of life (HRQOL) among PWID is poorly understood. We examined HRQOL changes throughout HCV treatment and post-treatment for PWID achieving SVR. Methods Participants included 141 PWID who achieved SVR following HCV treatment onsite at 3 opioid agonist treatment (OAT) clinics in the Bronx, New York. EQ-5D-3L assesses 5 health dimensions (mobility, self-care, usual activities, pain/discomfort, and anxiety/depression), producing an index of HRQOL ranging from 0 to 1. EQ-5D-3L was measured at baseline; 4, 8, and 12 weeks during treatment; and 12 and 24 weeks post-treatment. Linear mixed effects regression models assessed changes in the mean EQ-5D-3L index over time. Results Mean EQ-5D-3L index baseline was 0.66 (standard error [SE] = 0.02). While over half the population reported no baseline problems with self-care (85.1%), usual activities (56.0%), and mobility (52.5%), at least two-thirds reported problems with pain/discomfort (78.0%) and anxiety/depression (66.0%). Twenty-four weeks post-treatment, proportions reporting pain/discomfort and anxiety/depression decreased by 25.7% and 24.0%, respectively. Mean EQ-5D-3L index significantly improved during treatment (P Conclusions HCV treatment led to sustained improvement in HRQOL for PWID on OAT who achieved…",
       "authors": [
@@ -149826,7 +150448,7 @@
       "authors": [
         {
           "name": "Schechter-Perkins EM",
-          "orcid": ""
+          "orcid": "0000-0003-1798-9663"
         },
         {
           "name": "Doron S",
@@ -155674,6 +156296,47 @@
         {
           "name": "Litwin AH",
           "orcid": "0000-0002-6717-0288"
+        }
+      ]
+    },
+    "7d2783d95237d2ebe7d7": {
+      "abstract": "Professional societies, guideline writing committees, and other interested parties emphasize the importance of accurate measurement of blood pressure for clinical and public health decisions related to prevention, treatment, and follow-up of high blood pressure. Use of a clinically validated instrument to measure blood pressure is a central component of measurement accuracy and precision. Despite this, most regulatory authorities do not specify validation requirements that manufacturers must meet to sell their blood pressure measurement devices. Likewise, device validity is not a major area of focus for most consumers and healthcare providers, perhaps because they assume it is a pre-requisite for market approval. This has led to a global proliferation of non-validated blood pressure measurement devices, with only a small minority of blood pressure measurement devices having passed internationally accepted validation protocols. The clinical consequences are likely to be significant because non-validated devices are more likely to provide inaccurate estimates of blood pressure compared with validated devices. Even small inaccuracies in blood pressure measurement can result in substantial misdiagnosis and mistreatment of hypertension. There is an urgent need for clinical validation of blood pressure measurement devices prior to marketing them to consumers. There is also need for simplification of the process for consumers and healthcare providers to determine whether a blood pr…",
+      "authors": [
+        {
+          "name": "Whelton PK",
+          "orcid": "0000-0002-2225-383X"
+        },
+        {
+          "name": "Picone DS",
+          "orcid": "0000-0002-4760-1634"
+        },
+        {
+          "name": "Padwal R",
+          "orcid": "0000-0003-3541-2817"
+        },
+        {
+          "name": "Campbell NRC",
+          "orcid": "0000-0002-1093-4742"
+        },
+        {
+          "name": "Drawz P",
+          "orcid": "0000-0001-7301-9253"
+        },
+        {
+          "name": "Rakotz MK",
+          "orcid": ""
+        },
+        {
+          "name": "Parati G",
+          "orcid": ""
+        },
+        {
+          "name": "Zhang XH",
+          "orcid": ""
+        },
+        {
+          "name": "Sharman JE",
+          "orcid": "0000-0003-2792-0811"
         }
       ]
     },
@@ -167635,6 +168298,63 @@
         }
       ]
     },
+    "7ea4631c789510ae3678": {
+      "abstract": "Background and aims Opioid-related overdose death rates continue to rise in the United States, especially in racial/ethnic minority communities. Our objective was to determine if US municipalities with high percentages of non-white residents have equitable access to the overdose antidote naloxone distributed by community-based organizations. Methods We used community-based naloxone data from the Massachusetts Department of Public Health and the Rhode Island non-pharmacy naloxone distribution program for 2016-18. We obtained publicly available opioid-related overdose death data from Massachusetts and the Office of the State Medical Examiners in Rhode Island. We defined the naloxone coverage ratio as the number of community-based naloxone kits received by a resident in a municipality divided by the number of opioid-related overdose deaths among residents, updated annually. We used a Poisson regression with generalized estimating equations to analyze the relationship between the municipal racial/ethnic composition and naloxone coverage ratio. To account for the potential non-linear relationship between naloxone coverage ratio and race/ethnicity we created B-splines for the percentage of non-white residents; and for a secondary analysis examining the percentage of African American/black and Hispanic residents. The models were adjusted for the percentage of residents in poverty, urbanicity, state and population size. Results Between 2016 and 2018, the annual naloxone coverage rat…",
+      "authors": [
+        {
+          "name": "Nolen S",
+          "orcid": "0000-0002-1740-7435"
+        },
+        {
+          "name": "Zang X",
+          "orcid": "0000-0002-5722-8255"
+        },
+        {
+          "name": "Chatterjee A",
+          "orcid": "0000-0001-8437-6774"
+        },
+        {
+          "name": "Behrends CN",
+          "orcid": "0000-0003-3885-088X"
+        },
+        {
+          "name": "Green TC",
+          "orcid": ""
+        },
+        {
+          "name": "Kumar A",
+          "orcid": ""
+        },
+        {
+          "name": "Linas BP",
+          "orcid": ""
+        },
+        {
+          "name": "Morgan JR",
+          "orcid": "0000-0002-1559-3983"
+        },
+        {
+          "name": "Murphy SM",
+          "orcid": "0000-0001-9104-0670"
+        },
+        {
+          "name": "Walley AY",
+          "orcid": "0000-0002-8158-4882"
+        },
+        {
+          "name": "Yan S",
+          "orcid": "0000-0001-6012-6850"
+        },
+        {
+          "name": "Schackman BR",
+          "orcid": "0000-0002-1132-2932"
+        },
+        {
+          "name": "Marshall BDL",
+          "orcid": "0000-0002-0134-7052"
+        }
+      ]
+    },
     "e2719248e10f347b3b5e": {
       "abstract": "Background and aims The individual-level effectiveness of opioid agonist treatment (OAT) in reducing mortality is well established, but there is less evidence on population-level benefits. We use modeling informed with linked data from the OAT program in New South Wales (NSW), Australia, to estimate the impact of OAT provision in the community and prisons on mortality and the impact of eliminating excess mortality during OAT initiation/discontinuation. Design Dynamic modeling. Setting and participants A cohort of 49 359 individuals who ever received OAT in NSW from 2001 to 2018. Measurements Receipt of OAT was represented through five stages: (i) first month on OAT, (ii) short (1-9 months) and (iii) longer (9+ months) duration on OAT, (iv) first month following OAT discontinuation and (v) rest of time following OAT discontinuation. Incarceration was represented as four strata: (i) never or not incarcerated in the past year, (ii) currently incarcerated, (iii) released from prison within the past month and (iv) released from prison 1-12 months ago. The model incorporated elevated mortality post-release from prison and OAT impact on reducing mortality and incarceration. Findings Among the cohort, mortality was 0.9 per 100 person-years, OAT coverage and retention remained high (> 50%, 1.74 years/episode). During 2001-20, we estimate that OAT provision reduced overdose and other cause mortality among the cohort by 52.8% [95% credible interval (CrI) = 49.4-56.9%] and 26.6% (95% Cr…",
       "authors": [
@@ -168557,59 +169277,6 @@
         }
       ]
     },
-    "e631ed673cc0046c3466": {
-      "abstract": "New vaccines, technologies, and regulations, alongside increased demand for vaccines, all require prioritization and coordination from key players within the vaccine sector. Inter-agency Coordinating Committees (ICC) support decision-making and coordination at the national-level and act as key drivers for sustainable improvements in vaccination programming. We employed a qualitative case study design to investigate critical success factors for the high routine immunization coverage in Zambia from 2000-2018. Qualitative data were collected between October 2019 and February 2020, including key informant interviews (n=66) at the national, provincial, district, and health facility levels. Thematic analysis was applied to understand the role of the Zambian ICC and its impact on the policy environment overtime. Throughout our study period, the Zambian ICC demonstrated the following improvements: 1) expanded membership to include diverse representation; 2) expanded scope and mandate to include maternal and child health in decision-making; and 3) collaboration with the ZITAG through distinct roles. The diverse and expansive membership of the Zambian ICC, along with its ability to foster government commitment and lobby for additional resources, supported improvements in immunization programming. The Zambian ICC holds considerable influence on government agencies and external partners which facilitates procurement of funding, policy decisions, and strategic planning.",
-      "authors": [
-        {
-          "name": "Sakas Z",
-          "orcid": ""
-        },
-        {
-          "name": "Rodriguez K",
-          "orcid": ""
-        },
-        {
-          "name": "Hester KA",
-          "orcid": "0000-0003-1257-3554"
-        },
-        {
-          "name": "Darwar R",
-          "orcid": ""
-        },
-        {
-          "name": "Dounebaine B",
-          "orcid": ""
-        },
-        {
-          "name": "Ellis AS",
-          "orcid": ""
-        },
-        {
-          "name": "Rosenblum S",
-          "orcid": ""
-        },
-        {
-          "name": "Isett KR",
-          "orcid": ""
-        },
-        {
-          "name": "Orenstein W",
-          "orcid": ""
-        },
-        {
-          "name": "Freeman MC",
-          "orcid": "0000-0002-1517-2572"
-        },
-        {
-          "name": "Kilembe W",
-          "orcid": ""
-        },
-        {
-          "name": "Bednarczyk RA",
-          "orcid": "0000-0002-6812-0928"
-        }
-      ]
-    },
     "921bd96194e5a3ef3c1e": {
       "abstract": "The US COVID-19 Trends and Impact Survey (CTIS) is a large, cross-sectional, internet-based survey that has operated continuously since April 6, 2020. By inviting a random sample of Facebook active users each day, CTIS collects information about COVID-19 symptoms, risks, mitigating behaviors, mental health, testing, vaccination, and other key priorities. The large scale of the survey-over 20 million responses in its first year of operation-allows tracking of trends over short timescales and allows comparisons at fine demographic and geographic detail. The survey has been repeatedly revised to respond to emerging public health priorities. In this paper, we describe the survey methods and content and give examples of CTIS results that illuminate key patterns and trends and help answer high-priority policy questions relevant to the COVID-19 epidemic and response. These results demonstrate how large online surveys can provide continuous, real-time indicators of important outcomes that are not subject to public health reporting delays and backlogs. The CTIS offers high value as a supplement to official reporting data by supplying essential information about behaviors, attitudes toward policy and preventive measures, economic impacts, and other topics not reported in public health surveillance systems.",
       "authors": [
@@ -169216,6 +169883,54 @@
         {
           "name": "Ávila-Ríos S",
           "orcid": ""
+        }
+      ]
+    },
+    "fcc116f7da0c0dcd5683": {
+      "authors": [
+        {
+          "name": "Natarajan A",
+          "orcid": "0000-0003-2180-7842"
+        },
+        {
+          "name": "Han A",
+          "orcid": "0000-0003-4525-0866"
+        },
+        {
+          "name": "Zlitni S",
+          "orcid": ""
+        },
+        {
+          "name": "Brooks EF",
+          "orcid": "0000-0002-5834-0679"
+        },
+        {
+          "name": "Vance SE",
+          "orcid": "0000-0002-1347-4729"
+        },
+        {
+          "name": "Wolfe M",
+          "orcid": "0000-0002-6476-0450"
+        },
+        {
+          "name": "Singh U",
+          "orcid": "0000-0003-0630-0306"
+        },
+        {
+          "name": "Jagannathan P",
+          "orcid": "0000-0001-6305-758X"
+        },
+        {
+          "name": "Pinsky BA",
+          "orcid": "0000-0001-8751-4810"
+        },
+        {
+          "name": "Boehm A",
+          "orcid": "0000-0002-8162-5090"
+        },
+        {
+          "name": "Bhatt AS",
+          "orcid": "0000-0001-8099-2975"
         }
       ]
     },
@@ -186178,7 +186893,7 @@
         },
         {
           "name": "Noble RT",
-          "orcid": ""
+          "orcid": "0000-0001-9071-8312"
         }
       ]
     },
@@ -188669,7 +189384,7 @@
         },
         {
           "name": "Warren JL",
-          "orcid": ""
+          "orcid": "0000-0002-6274-6970"
         },
         {
           "name": "Toscano CM",
@@ -209294,55 +210009,6 @@
         }
       ]
     },
-    "60b139ce857301d7371d": {
-      "abstract": "We describe a case of chronic coronavirus disease 2019 (COVID-19) in a patient with lymphoma and associated B-cell immunodeficiency. Viral cultures and sequence analysis demonstrate ongoing replication of infectious severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) for at least 119 days. The patient had 3 admissions related to COVID-19 over a 4-month period and was treated twice with remdesivir and convalescent plasma with resolution of symptoms. The patient's lack of seroconversion and prolonged course illustrate the importance of humoral immunity in resolving SARS-CoV-2 infection. This case highlights challenges in managing immunocompromised hosts, who may act as persistent shedders and sources of transmission.",
-      "authors": [
-        {
-          "name": "Baang JH",
-          "orcid": ""
-        },
-        {
-          "name": "Smith C",
-          "orcid": ""
-        },
-        {
-          "name": "Mirabelli C",
-          "orcid": ""
-        },
-        {
-          "name": "Valesano AL",
-          "orcid": ""
-        },
-        {
-          "name": "Manthei DM",
-          "orcid": ""
-        },
-        {
-          "name": "Bachman MA",
-          "orcid": "0000-0003-2507-6987"
-        },
-        {
-          "name": "Wobus CE",
-          "orcid": ""
-        },
-        {
-          "name": "Adams M",
-          "orcid": ""
-        },
-        {
-          "name": "Washer L",
-          "orcid": ""
-        },
-        {
-          "name": "Martin ET",
-          "orcid": ""
-        },
-        {
-          "name": "Lauring AS",
-          "orcid": "0000-0003-2906-8335"
-        }
-      ]
-    },
     "021aae33b59d48d29150": {
       "authors": [
         {
@@ -212811,7 +213477,7 @@
         },
         {
           "name": "Zang X",
-          "orcid": ""
+          "orcid": "0000-0002-5722-8255"
         },
         {
           "name": "Jiang Y",
@@ -228646,6 +229312,26 @@
         }
       ]
     },
+    "d441f66e75d462953a3f": {
+      "authors": [
+        {
+          "name": "Valente TW",
+          "orcid": ""
+        },
+        {
+          "name": "Pitts S",
+          "orcid": ""
+        },
+        {
+          "name": "Wipfli H",
+          "orcid": ""
+        },
+        {
+          "name": "Vega Yon GG",
+          "orcid": ""
+        }
+      ]
+    },
     "f1baaa8581bed9349c5b": {
       "abstract": "Bullying of sexual minorities in the United States is common and often begins in middle and high school, yet research that examines sexual harassment of sexual minorities is limited. This study examines whether sexual minorities are more likely than straight people to (a) report sexual harassment and (b) report sexual harassment as adolescents at middle or high school. We analyzed survey data from a cross-sectional study of sexual harassment and assault, conducted with nationally representative samples of adults in 2019 ( N = 2,205). Sexual harassment was categorized as non-physically aggressive sexual harassment only (NPSH; e.g., verbal or cyber harassment), physically aggressive sexual harassment (PSH; e.g., stalking, rubbing up against you; with or without NPSH), sexual assault (SA; i.e., forced sex; with or without NPSH or PSH), or no sexual harassment (none). In total, 6% of female and male respondents identified as a sexual minority. A history of sexual harassment or assault was reported by 95.0% of sexual minority women and 80.3% of straight women ( p = .001), and by 77.3% of sexual minority men and 41.3% of straight men ( p = .001). Multivariable multinomial models demonstrate that sexual minorities were more likely than straight individuals to report NPSH (Adjusted Odds Ratio [AOR] = 2.88, 95% [Confidence Interval] CI = [1.33, 6.20]), PSH (AOR = 4.15, 95% CI: [1.77, 9.77]), and SA (AOR = 5.48, 95% CI = [2.56, 11.73]; reference group: no harassment), as well as to re…",
       "authors": [
@@ -229517,7 +230203,7 @@
         },
         {
           "name": "Noble RT",
-          "orcid": ""
+          "orcid": "0000-0001-9071-8312"
         },
         {
           "name": "van Nuijs A",
@@ -234520,7 +235206,7 @@
         },
         {
           "name": "Gibbs H",
-          "orcid": ""
+          "orcid": "0000-0003-4413-453X"
         },
         {
           "name": "Russell TW",
@@ -242010,43 +242696,6 @@
         },
         {
           "name": "Prosser LA",
-          "orcid": ""
-        }
-      ]
-    },
-    "8d562cd66759356bb99b": {
-      "abstract": "BACKGROUND: Transversus abdominis plane block with liposomal bupivacaine has been studied as an effective method of reducing the need for postoperative opioids and increasing same-day discharge rates. However, less is known about the cost-effectiveness of this strategy relative to opioids alone for hernia repair. We performed an economic evaluation of these strategies using a computer simulation model. METHODS: A decision tree was constructed to determine cost-effectiveness as measured by incremental cost-effectiveness ratios per quality-adjusted life-year. Base-case costs, quality-adjusted life-year values, and probabilities were derived from published studies and Medicare fee schedules. For input parameters for which we could not find values in the published literature, we used expert opinion. A 1-month time horizon was selected to focus on the immediate postoperative period. Finally, we performed 1-way, 2-way, and probabilistic sensitivity analyses. RESULTS: The liposomal bupivacaine transversus abdominis plane block was a dominant strategy yielding a $456.75 decrease in cost and an 0.1 increase in quality-adjusted life-years relative to opioids alone. In 1-way sensitivity analysis of cost incremental cost-effectiveness ratio, values were most sensitive to variations in the amount saved by same-day discharge and the cost of bupivacaine. In probabilistic sensitivity analyses, transversus abdominis plane strategy was cost-effective at a willingness-to-pay threshold of $50,0…",
-      "authors": [
-        {
-          "name": "Alexander L Colonna",
-          "orcid": ""
-        },
-        {
-          "name": "Brandon K Bellows",
-          "orcid": ""
-        },
-        {
-          "name": "Toby M Enniss",
-          "orcid": ""
-        },
-        {
-          "name": "Jason B Young",
-          "orcid": ""
-        },
-        {
-          "name": "Marta McCrum",
-          "orcid": ""
-        },
-        {
-          "name": "Jade M Nunez",
-          "orcid": ""
-        },
-        {
-          "name": "Raminder Nirula",
-          "orcid": ""
-        },
-        {
-          "name": "Richard E Nelson",
           "orcid": ""
         }
       ]
@@ -264347,6 +264996,43 @@
         }
       ]
     },
+    "3c6d438793355e522d79": {
+      "abstract": "Objective To measure how much of the postdischarge cost and utilization attributable to methicillin-resistant Staphylococcus aureus (MRSA) health care-associated infections (HAIs) occur within the US Department of Veterans Affairs (VA) system and how much occurs outside. Data sources/study setting Health care encounters from 3 different settings and payment models: (1) within the VA; (2) outside the VA but paid for by the VA (purchased care); and (3) outside the VA and paid for by Medicare. Study design Historical cohort study using data from admissions to VA hospitals between 2007 and 2012. Methods We assessed the impact of a positive MRSA test result on costs and utilization during the 365 days following discharge using inverse probability of treatment weights to balance covariates. Principal findings Among a cohort of 152,687 hospitalized Veterans, a positive MRSA test result was associated with an overall increase of 6.6 (95 percent CI: 5.7-7.5) inpatient days and $9,237 (95 percent CI: $8,211-$10,262) during the postdischarge period. VA inpatient admissions, Medicare reimbursements, and purchased care payments accounted for 60.6 percent, 22.5 percent, and 16.9 percent of these inpatient costs. Conclusions While most of the excess postdischarge health care costs associated with MRSA HAIs occurred in the VA, non-VA costs make up an important subset of the overall burden.",
+      "authors": [
+        {
+          "name": "Nelson RE",
+          "orcid": "0000-0002-4441-7460"
+        },
+        {
+          "name": "Jones M",
+          "orcid": "0000-0001-5580-6739"
+        },
+        {
+          "name": "Liu CF",
+          "orcid": "0000-0002-6915-8194"
+        },
+        {
+          "name": "Samore MH",
+          "orcid": ""
+        },
+        {
+          "name": "Evans ME",
+          "orcid": ""
+        },
+        {
+          "name": "Stevens VW",
+          "orcid": ""
+        },
+        {
+          "name": "Reese T",
+          "orcid": "0000-0002-1081-1670"
+        },
+        {
+          "name": "Rubin MA",
+          "orcid": ""
+        }
+      ]
+    },
     "4e82df42250ac45bfdcc": {
       "authors": [
         {
@@ -273223,7 +273909,7 @@
         },
         {
           "name": "Tchounwou PB",
-          "orcid": "0000-0002-3407-6674"
+          "orcid": ""
         },
         {
           "name": "Miele L",
@@ -289498,43 +290184,6 @@
         }
       ]
     },
-    "d808507ceb9eddc0082b": {
-      "abstract": "Patient history of sexual trauma is of clinical relevance to healthcare providers as survivors face adverse health-related outcomes. This paper describes a method for identifying mentions of sexual trauma within the free text of electronic medical notes. A natural language processing pipeline for information extraction was developed and scaled to handle a large corpus of electronic medical notes used for this study from US Veterans Health Administration medical facilities. The tool was used to identify sexual trauma mentions and create snippets around every asserted mention based on a domain-specific lexicon developed for this purpose. All snippets were evaluated by trained human reviewers. An overall positive predictive value (PPV) of 0.90 for identifying sexual trauma mentions from the free text and a PPV of 0.71 at the patient level are reported. The metrics are superior for records from female patients.",
-      "authors": [
-        {
-          "name": "Guy Divita",
-          "orcid": ""
-        },
-        {
-          "name": "Emily Brignone",
-          "orcid": ""
-        },
-        {
-          "name": "Marjorie E Carter",
-          "orcid": ""
-        },
-        {
-          "name": "Ying Suo",
-          "orcid": ""
-        },
-        {
-          "name": "Rebecca K Blais",
-          "orcid": ""
-        },
-        {
-          "name": "Matthew H Samore",
-          "orcid": ""
-        },
-        {
-          "name": "Jamison D Fargo",
-          "orcid": ""
-        },
-        {
-          "name": "Adi V Gundlapalli",
-          "orcid": ""
-        }
-      ]
-    },
     "99f6b97c6d29374c7746": {
       "abstract": "Homeless women Veterans have a high prevalence of chronic mental and physical conditions that necessitate frequent healthcare visits, but travel burdens to specialty services may be overwhelming to navigate for this population, especially for those in rural settings. Access to specialty care is a key priority in the Veterans Health Administration (VHA) and understanding the geographic distribution and rural designation of this population in relation to medical centers (VAMC) can assist in care coordination. We identified 41,747 women Veterans age 18&ndash;44y with administrative evidence of homelessness in the VHA anytime during 2002&ndash;2015. We found 7% live in rural settings and 29% live &gt;40miles from a VAMC. The mean travel distance for homeless women Veterans with a rural designation to a VAMC specialty center was 107 miles. Developing interventions to overcome this travel burden and engage vulnerable Veterans in necessary care can improve overall health outcomes for this high-risk population.",
       "authors": [
@@ -296737,31 +297386,6 @@
         }
       ]
     },
-    "4fdb91d11249c8767556": {
-      "abstract": "In Ebola Virus Disease (EVD) outbreaks, it is widely recommended to wash living things (handwashing) with 0.05% (500 mg/L) chlorine solution and non-living things (surfaces, personal protective equipment, dead bodies) with 0.5% (5,000 mg/L) chlorine solution. Chlorine solutions used in EVD response are primarily made from powdered calcium hypochlorite (HTH), granular sodium dichloroisocyanurate (NaDCC), and liquid sodium hypochlorite (NaOCl), and have a pH range of 5-11. Chlorine solutions degrade following a reaction highly dependent on, and unusually sensitive to, pH, temperature, and concentration. We determined the shelf-life of 0.05% and 0.5% chlorine solutions used in EVD response, including HTH, NaDCC, stabilized NaOCl, generated NaOCl, and neutralized NaOCl solutions. Solutions were stored for 30 days at 25, 30, and 35°C, and tested daily for chlorine concentration and pH. Maximum shelf-life was defined as days until initial concentration fell to 30 days. Models were developed for solutions with maximum shelf-lives between 1-30 days. Extrapolating to 40°C, the maximum predicted shelf-life for 0.05% and 0.5% NaDCC solutions were 0.38 and 0.82 hours, respectively; predicted shelf-life for 0.05% and 0.5% generated NaOCl solutions were >30 and 5.4 days, respectively. Each chlorine solution type offers advantages and disadvantages to responders, as: NaDCC is an easy-to-import high-concentration effervescent powder; HTH is similar, but forms a precipitate that may clog pip…",
-      "authors": [
-        {
-          "name": "Iqbal Q",
-          "orcid": ""
-        },
-        {
-          "name": "Lubeck-Schricker M",
-          "orcid": "0000-0002-8659-5943"
-        },
-        {
-          "name": "Wells E",
-          "orcid": "0000-0002-3675-0407"
-        },
-        {
-          "name": "Wolfe MK",
-          "orcid": "0000-0002-6476-0450"
-        },
-        {
-          "name": "Lantagne D",
-          "orcid": ""
-        }
-      ]
-    },
     "265acab558cc899af2a6": {
       "authors": [
         {
@@ -302086,31 +302710,6 @@
         {
           "name": "Siedner MJ",
           "orcid": "0000-0003-3506-842X"
-        }
-      ]
-    },
-    "ebd62c88202a4482b42d": {
-      "abstract": "Background Clinical experts' cognitive mechanisms for managing complexity have implications for the design of future innovative healthcare systems. The purpose of the study is to examine the constituents of decision complexity and explore the cognitive strategies clinicians use to control and adapt to their information environment. Methods We used Cognitive Task Analysis (CTA) methods to interview 10 Infectious Disease (ID) experts at the University of Utah and Salt Lake City Veterans Administration Medical Center. Participants were asked to recall a complex, critical and vivid antibiotic-prescribing incident using the Critical Decision Method (CDM), a type of Cognitive Task Analysis (CTA). Using the four iterations of the Critical Decision Method, questions were posed to fully explore the incident, focusing in depth on the clinical components underlying the complexity. Probes were included to assess cognitive and decision strategies used by participants. Results The following three themes emerged as the constituents of decision complexity experienced by the Infectious Diseases experts: 1) the overall clinical picture does not match the pattern, 2) a lack of comprehension of the situation and 3) dealing with social and emotional pressures such as fear and anxiety. All these factors contribute to decision complexity. These factors almost always occurred together, creating unexpected events and uncertainty in clinical reasoning. Five themes emerged in the analyses of how exper…",
-      "authors": [
-        {
-          "name": "Islam R",
-          "orcid": ""
-        },
-        {
-          "name": "Weir CR",
-          "orcid": ""
-        },
-        {
-          "name": "Jones M",
-          "orcid": "0000-0001-5580-6739"
-        },
-        {
-          "name": "Del Fiol G",
-          "orcid": "0000-0001-9954-6799"
-        },
-        {
-          "name": "Samore MH",
-          "orcid": ""
         }
       ]
     },
@@ -307782,43 +308381,6 @@
         {
           "name": "Edwards JK",
           "orcid": "0000-0002-1741-335X"
-        }
-      ]
-    },
-    "3c6d438793355e522d79": {
-      "abstract": "Objective Healthcare-associated methicillin-resistant Staphylococcus aureus (MRSA) infections are a major cause of morbidity, mortality, and cost among hospitalized patients. Little is known about their impact on post-discharge resource utilization. The purpose of this study was to estimate post-discharge healthcare costs and utilization attributable to positive MRSA cultures during a hospitalization. Methods Our study cohort consisted of patients with an inpatient admission lasting longer than 48 hours within the US Department of Veterans Affairs (VA) system between October 1, 2007, and November 30, 2010. Of these patients, we identified those with a positive MRSA culture from microbiology reports in the VA electronic medical record. We used propensity score matching and multivariable regression models to assess the impact of positive culture on post-discharge outpatient, inpatient, and pharmacy costs and utilization in the 365 days following discharge. Results Our full cohort included 369,743 inpatients, of whom, 3,599 (1.0%) had positive MRSA cultures. Our final analysis sample included 3,592 matched patients with and without positive cultures. We found that, in the 12 months following hospital discharge, having a positive culture resulted in increases in post-discharge pharmacy costs ($776, P Conclusions The results of this study indicate that MRSA infections are associated with higher levels of post-discharge healthcare cost and utilization. These findings indicate that…",
-      "authors": [
-        {
-          "name": "Nelson RE",
-          "orcid": ""
-        },
-        {
-          "name": "Jones M",
-          "orcid": "0000-0001-5580-6739"
-        },
-        {
-          "name": "Liu CF",
-          "orcid": ""
-        },
-        {
-          "name": "Samore MH",
-          "orcid": ""
-        },
-        {
-          "name": "Evans ME",
-          "orcid": ""
-        },
-        {
-          "name": "Graves N",
-          "orcid": "0000-0002-5559-3267"
-        },
-        {
-          "name": "Lee B",
-          "orcid": ""
-        },
-        {
-          "name": "Rubin MA",
-          "orcid": ""
         }
       ]
     },
@@ -320954,6 +321516,27 @@
         }
       ]
     },
+    "ea535c8a12f09aa3def3": {
+      "abstract": "¿Tiene un impacto el rating televisivo sobre el volumen de actividad en Twitter? El surgimiento de medios sociales vía Internet está modificando las prácticas en la industria televisiva. En particular, los canales de televisión están integrando en sus programaciones de forma explícita la interacción con las audiencias vía medios sociales. Estos esfuerzos se están realizando motivados más por la intuición que por evidencia respecto a la eficacia de los mismos. Para contribuir a identificar el real impacto de los contenidos televisivos sobre la actividad en el medio social Twitter, este estudio propone el análisis estadístico de la relación entre rating televisivo y actividad en Twitter durante la transmisión de un mismo evento por todos los canales de televisión, la Teletón 2012. Los resultados sugieren la existencia de un impacto positivo y estadísticamente significativo que vincula el rating televisivo con la actividad en Twitter. Específicamente, durante el evento Teletón 2012, un aumento de un 1 punto del rating televisivo significó incrementos promedios de 1.5 tweets por minuto para el conjunto de la transmisión y de 6 tweets por minuto en horario prime.",
+      "authors": [
+        {
+          "name": "Universidad Adolfo Ibáñez (Chile)",
+          "orcid": ""
+        },
+        {
+          "name": "Jorge Fábrega",
+          "orcid": ""
+        },
+        {
+          "name": "George Vega",
+          "orcid": ""
+        },
+        {
+          "name": "NodosChile (Chile)",
+          "orcid": ""
+        }
+      ]
+    },
     "9bc5a1240c1600218f0c": {
       "authors": [
         {
@@ -322616,7 +323199,7 @@
         },
         {
           "name": "Ward M",
-          "orcid": "0000-0002-0658-855X"
+          "orcid": ""
         },
         {
           "name": "Bednarczyk RA",
