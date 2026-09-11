@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+title: "InsightNet Explorer"
+version: "1.1.2"
+authors:
+  - family-names: "Vega Yon"
+    given-names: "George G."
+    orcid: "https://orcid.org/0000-0002-3171-0844"
+abstract: "An AI-powered dashboard for exploring the InsightNet research community and its scientific activity."
+repository-code: "https://github.com/EpiForeSITE/insightnet-explorer"
+url: "https://epiforesite.github.io/insightnet-explorer/"
+keywords:
+  - "research discovery"
+  - "scientific activity"
+  - "dashboard"
