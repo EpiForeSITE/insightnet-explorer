@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-13T06:44:37.966907Z",
+  "generated_at": "2026-09-20T06:41:54.931928Z",
   "details": {
     "c2eb6d9d6bbafbc57f4b": {
       "abstract": "Semantic trajectories enrich spatiotemporal data with textual semantics such as trip purposes and activities at points of interest, enabling the discovery of outlier behaviors relevant to public health, social security, and urban planning. Existing detectors often depend on hand crafted rules and rarely fuse space, time, and text in a transferable way. We propose TOD4Traj , an unsupervised and transfer ready framework for human semantic trajectories that detects anomalies at both the individual and collective levels. TOD4Traj first unifies modalities through spatiotemporal to semantic contrastive alignment so heterogeneous signals share a common representation. It then learns regular mobility via temporal contrastive learning that aligns the same weekday and separates different weekdays. Deviations are scored by combining a consistency score against a user’s own history with a population score based on a small set of learned centroids that capture low rank mobility regularities. For group analysis, we introduce a population level contrastive objective and a collective outlier score that compare a date’s population embedding with historical weekday prototypes, revealing collective abnormality. Across simulated cities and a GeoLife derived dataset, TOD4Traj consistently outperforms strong baselines on both tasks and shows robust zero shot transfer across cities, demonstrating effectiveness, robustness, and adaptability for outlier detection in human semantic trajectories.",
@@ -39,39 +39,87 @@
         }
       ]
     },
-    "d3d95c17502dc42f2f08": {
-      "abstract": "Background Climate change is impacting the seasonal weather trends. Mozambique is one country that has been experiencing significant impacts of climate change. These impacts include changing weather patterns and more frequent and intense storms. Mozambique also has the 5th highest malaria prevalence globally. These storms have all impacted the efficiency of the Mozambique National Malaria Control Program to achieve their goals. The goal of our study was to determine the appropriate temporal lag between high precipitation events and malaria risk in Mozambique. This knowledge is imperative to understand when and how to best respond the impacts of these events. Methods Malaria monthly case count data at the district level were provided by the Mozambique National Malaria Control Program. Precipitation data were obtained from NASA GIS DISC Earth Data and were spatially aggregated to the district and temporally aggregated to the month to match the malaria surveillance data. We investigated the correlation between precipitation and malaria-related values at the district level each month accounting for spatio-temporal autocorrelation. We used Pearson correlation coefficients to quantify the correlations. We used Poisson generalized linear mixed models to determine the relative risk of malaria associated with precipitation nationally and for each of the three regions in Mozambique. Results We found evidence of strong spatial variation in malaria cases, malaria hospitalizations, and m…",
+    "9fad87d30df3af6359f7": {
+      "abstract": "Background Optimal dietary intake supports adequate hemoglobin (Hb) levels for blood donation. However, little is known about the dietary characteristics of prospective first-time voluntary blood donors (VBDs) in Ghana and their associations with Hb and anemia. We aimed to identify dietary characteristics associated with Hb concentration and anemia status among prospective first-time VBDs in Accra. Methods This cross-sectional study involved 223 participants who met all blood donation eligibility criteria, except the copper sulfate (CuSO 4 ) screening test. Participants were over-sampled for low Hb. We collected background and dietary data, including number of meals consumed the previous day, foods usually consumed, and average frequency of consumption (AFC) of iron-rich foods and iron-absorption inhibitors (tea/coffee) using a questionnaire. Hb was measured using an automated Hematology Analyzer. We summarized dietary variables descriptively and analyzed associations using bivariate and multivariate statistics. Results Mean age was 20 years. Most were females (63%) and students (98%). By participant report, 47% consumed ≤ 2 meals the previous day; 17% usually skipped breakfast; and 27% usually skipped lunch. Most reported high (weekly/daily) AFC of meat (78.9%), poultry (91.0%), fish (87.0%), fruits and vegetables (59.2%), legumes (72.6%), and tea/coffee (66.8%). Mean ± SD Hb was 12.4 ± 1.5 g/dL; anemia prevalence was 51.6% reflecting the deliberate oversampling for low Hb.…",
       "authors": [
         {
-          "name": "Zhu H",
+          "name": "Mehmood S",
           "orcid": ""
         },
         {
-          "name": "Zhang L",
+          "name": "Telke S",
           "orcid": ""
         },
         {
-          "name": "Khan E",
+          "name": "Olayemi E",
           "orcid": ""
         },
         {
-          "name": "Srivastava J",
+          "name": "Ward C",
           "orcid": ""
         },
         {
-          "name": "Croal M",
+          "name": "Asamoah-Akuoko L",
           "orcid": ""
         },
         {
-          "name": "Candrinho B",
+          "name": "Appiah B",
           "orcid": ""
         },
         {
-          "name": "da Silva M",
+          "name": "Yawson AE",
           "orcid": ""
         },
         {
-          "name": "Searle KM",
+          "name": "Tancred T",
+          "orcid": ""
+        },
+        {
+          "name": "Benneh-Akwasi Kuma AA",
+          "orcid": ""
+        },
+        {
+          "name": "Ametorwo R",
+          "orcid": ""
+        },
+        {
+          "name": "Ofori F",
+          "orcid": ""
+        },
+        {
+          "name": "Adongo PB",
+          "orcid": "0000-0002-0614-4756"
+        },
+        {
+          "name": "Daneku J",
+          "orcid": ""
+        },
+        {
+          "name": "Danso I",
+          "orcid": ""
+        },
+        {
+          "name": "Amegadoe ANA",
+          "orcid": ""
+        },
+        {
+          "name": "Segbefia C",
+          "orcid": ""
+        },
+        {
+          "name": "Reilly C",
+          "orcid": ""
+        },
+        {
+          "name": "Dei-Adomakoh Y",
+          "orcid": ""
+        },
+        {
+          "name": "Adu-Afarwuah S",
+          "orcid": ""
+        },
+        {
+          "name": "BLOODSAFE Ghana Investigators",
           "orcid": ""
         }
       ]
@@ -118,30 +166,31 @@
       ]
     },
     "9234b99a745d11db7b4e": {
+      "abstract": "Acquired hemophilia A (AHA) is a rare, autoimmune disease that leads to a severe bleeding diathesis. The efficacy of emicizumab use in the inpatient management of AHA has been recognized, but widespread inpatient use remains limited due to its high cost. To evaluate cost-effectiveness of up-front emicizumab use in the inpatient management of AHA in the United States, we built a Markov simulation to examine the cost-effectiveness of administering emicizumab with concurrent recombinant activated factor VII (rFVIIa) vs rFVIIa alone (standard of care [SOC]) in older individuals newly diagnosed with AHA and hospitalized for bleeding control. Model outcomes included direct costs (medication use and hospital stay) and utilities associated with bleeding and nonbleeding health states (measured using quality-adjusted life days [QALDs]). The analysis was conducted over a 20-day hospitalization horizon with a health system perspective. We conducted deterministic and probabilistic sensitivity analyses (PSA), capturing uncertainty across parameters over 10 000 Monte Carlo simulations. The addition of up-front emicizumab to SOC vs SOC alone yielded lower total direct cost ($248 934 vs $569 038) and more QALDs (15.92 vs 14.72). The addition of up-front emicizumab to SOC was the dominant strategy. The duration of daily rFVIIa use had the largest impact on the incremental net monetary benefit. In a PSA, emicizumab was cost-effective in 100% of simulations. The addition of up-front emicizumab…",
       "authors": [
         {
-          "name": "Ming Y. Lim",
+          "name": "Lim MY",
           "orcid": "0000-0001-5208-3387"
         },
         {
-          "name": "Satoko Ito",
-          "orcid": "0000-0003-4430-1860"
+          "name": "Ito S",
+          "orcid": ""
         },
         {
-          "name": "George Goshua",
-          "orcid": "0000-0002-1624-4427"
+          "name": "Goshua G",
+          "orcid": ""
         },
         {
-          "name": "Nathorn Chaiyakunapruk",
-          "orcid": "0000-0003-4572-8794"
+          "name": "Chaiyakunapruk N",
+          "orcid": ""
         },
         {
-          "name": "Minkyoung Yoo",
+          "name": "Yoo M",
           "orcid": "0000-0002-9765-1197"
         },
         {
-          "name": "Richard Nelson",
-          "orcid": "0000-0002-4441-7460"
+          "name": "Nelson R",
+          "orcid": ""
         }
       ]
     },
@@ -276,7 +325,35 @@
         },
         {
           "name": "De Floriani L",
+          "orcid": "0000-0002-1361-2888"
+        }
+      ]
+    },
+    "fdf31eb0e0e1e9f59b2b": {
+      "authors": [
+        {
+          "name": "Emily Rayens",
+          "orcid": "0000-0003-3369-3475"
+        },
+        {
+          "name": "Rong Wei",
           "orcid": ""
+        },
+        {
+          "name": "Yashan Wang",
+          "orcid": ""
+        },
+        {
+          "name": "Magdalena Pomichowski",
+          "orcid": "0009-0004-7280-9084"
+        },
+        {
+          "name": "Lance B. Price",
+          "orcid": "0000-0002-8746-5307"
+        },
+        {
+          "name": "Sara Y. Tartof",
+          "orcid": "0000-0003-2336-8476"
         }
       ]
     },
@@ -298,6 +375,581 @@
         {
           "name": "Paul Rosen",
           "orcid": "0000-0002-0873-9518"
+        }
+      ]
+    },
+    "5fbff9e36cd649c5cdda": {
+      "abstract": "Noroviruses are a leading cause of acute gastroenteritis worldwide, yet no licensed vaccines currently exist. Antibody-mediated immunity provides protection, but the relationship between norovirus exposure dose and antibody kinetics remains unclear. We analyzed longitudinal data on histo-blood group antigen (HBGA)-blocking, IgA, and IgG antibodies from a human norovirus infection trial and a candidate vaccine trial. We developed hierarchical nonlinear Bayesian models to characterize antibody kinetics following different amounts of virus or vaccine antigen exposure within infection and vaccination settings. We fit models with exponential and power-law decay terms and compared their performance. Across studies and antibody types, the amount of antigen individuals were exposed to influenced early antibody kinetics, including growth, peak, and decay, but effects differed between infection and vaccination. Doses that produced larger initial antibody boosts also decayed faster, resulting in little association with one-year antibody persistence. Our findings suggest that amount and type of antigen exposure shapes early antibody kinetics but not lasting durability. This reflects a trade-off between dose-induced initial immune boost and subsequent waning.",
+      "authors": [
+        {
+          "name": "John M",
+          "orcid": "0009-0009-9591-1117"
+        },
+        {
+          "name": "Ge Y",
+          "orcid": "0000-0001-5100-0703"
+        },
+        {
+          "name": "Billings WZ",
+          "orcid": "0000-0002-0184-6134"
+        },
+        {
+          "name": "Miller SL",
+          "orcid": "0000-0003-2231-3510"
+        },
+        {
+          "name": "Hirst C",
+          "orcid": "0009-0005-3078-8729"
+        },
+        {
+          "name": "Antia R",
+          "orcid": "0000-0001-7991-614X"
+        },
+        {
+          "name": "Koelle K",
+          "orcid": "0000-0002-0254-6141"
+        },
+        {
+          "name": "Shen Y",
+          "orcid": "0000-0002-6662-0048"
+        },
+        {
+          "name": "Lopman BA",
+          "orcid": "0000-0002-9238-0068"
+        },
+        {
+          "name": "Atmar RL",
+          "orcid": "0000-0001-9989-6772"
+        },
+        {
+          "name": "Handel A",
+          "orcid": "0000-0002-4622-1146"
+        }
+      ]
+    },
+    "a6bfe97c4796fe962b79": {
+      "authors": [
+        {
+          "name": "Kristen N. Cowan",
+          "orcid": ""
+        },
+        {
+          "name": "Sara N. Levintow",
+          "orcid": "0000-0001-5558-526X"
+        },
+        {
+          "name": "Lauren Brinkley-Rubinstein",
+          "orcid": "0000-0002-2191-6240"
+        },
+        {
+          "name": "Shabbar I. Ranapurwala",
+          "orcid": ""
+        },
+        {
+          "name": "Paul L. Delamater",
+          "orcid": "0000-0003-3627-9739"
+        },
+        {
+          "name": "Lawrence S. Engel",
+          "orcid": ""
+        }
+      ]
+    },
+    "2528fbb3b8c97798ac54": {
+      "abstract": "Human parvovirus B19 (B19) is a common infection that typically causes mild symptoms but can cause severe fetal complications among pregnant individuals. There are limited data to inform public health responses because B19 is not a reportable disease. We sought to estimate the burden of B19-related pregnancy complications and impact of increasing B19 detection in both Minnesota and the United States using electronic health record data and scenario modeling. To estimate the burden of B19-related complications for the United States (4 000 000 annual pregnancies), a spreadsheet-based model was developed. B19 outcomes were estimated under varying scenarios of population immunity (25%-75%) and probability of infection (1%-7.5%). To evaluate the impact of increased B19 detection in pregnancy, a decision tree model compared the status quo (5% detection of cases) to a strategy that increased detection (50%). Inputs for both models were derived from published literature or expert opinion and were varied in sensitivity analyses. Not applicable. Not applicable. Increasing detection of B19 infections during pregnancy. Main outcomes included number of stillbirths and intrauterine transfusions. For the United States nationally, the model estimated 750-2250 B19-related fetal complications annually under scenarios of 1% infection probability and 5625-16,875 with 7.5% infection probability, depending on proportion of pregnant individuals immune. Increasing the percent of maternal infections…",
+      "authors": [
+        {
+          "name": "Sivakumar R",
+          "orcid": "0009-0002-1936-0156"
+        },
+        {
+          "name": "Wheatley MM",
+          "orcid": "0000-0001-6981-2670"
+        },
+        {
+          "name": "Kaufmann MB",
+          "orcid": "0000-0002-9947-936"
+        },
+        {
+          "name": "Zang X",
+          "orcid": "0000-0002-5722-8255"
+        },
+        {
+          "name": "Erickson L",
+          "orcid": "0009-0004-1627-7837"
+        },
+        {
+          "name": "Dufort EM",
+          "orcid": ""
+        },
+        {
+          "name": "Lim S",
+          "orcid": "0000-0001-8897-3891"
+        },
+        {
+          "name": "Lynfield R",
+          "orcid": ""
+        },
+        {
+          "name": "Contag S",
+          "orcid": ""
+        },
+        {
+          "name": "Rai NK",
+          "orcid": "0000-0001-9614-8234"
+        },
+        {
+          "name": "Martins SL",
+          "orcid": "0000-0002-4288-0988"
+        },
+        {
+          "name": "Waring SC",
+          "orcid": "0000-0002-9674-0083"
+        },
+        {
+          "name": "Winkelman T",
+          "orcid": "0000-0002-9581-5223"
+        },
+        {
+          "name": "Drawz P",
+          "orcid": "0000-0001-7301-9253"
+        },
+        {
+          "name": "Sweet K",
+          "orcid": "0000-0002-2929-7157"
+        },
+        {
+          "name": "Enns EA",
+          "orcid": "0000-0003-0693-7358"
+        }
+      ]
+    },
+    "a88a7c57c43bbde2054c": {
+      "abstract": "Respiratory syncytial virus (RSV) protein subunit vaccines reduce the risk of severe outcomes such as hospitalization and emergency department (ED) visits for at least two RSV seasons following vaccination. No data have been published on real-world RSV vaccine effectiveness (VE) beyond the second season after vaccination. This study evaluates bivalent RSVpreF VE against RSV-related respiratory disease hospitalizations/ED visits throughout three seasons after vaccination. This retrospective test-negative case-control study evaluates bivalent RSVpreF VE among adults aged ≥60 years at Kaiser Permanente Southern California, USA, with lower respiratory tract disease (LRTD) or acute respiratory illness (ARI) over three RSV seasons (11/24/2023-4/18/2026). Cases were RSV-positive without coinfection. Controls were negative for RSV, hMPV, influenza, SARS-CoV-2, and positive for a non-vaccine preventable disease pathogen. Exposure was bivalent RSVpreF (Abrysvo) receipt ≥ 21 days before LRTD/ARI. Adjusted VE was estimated using odds ratios from multivariable logistic regression or generalized estimating equations. Overall adjusted VE against RSV-related LRTD hospitalization/ED visits was 80% (95% CI 68-87), 70% (95% CI 53-81), and 51% (95% CI -12-78) in the first, second, and third season after vaccination, respectively. Overall adjusted VE against RSV-related ARI hospitalization/ED visits was 81% (71-87), 64% (48-75), and 60% (15-81), respectively. Adjusted VE among non-immunocompromi…",
+      "authors": [
+        {
+          "name": "Tartof SY",
+          "orcid": "0000-0003-2336-8476"
+        },
+        {
+          "name": "Zasowski EJ",
+          "orcid": ""
+        },
+        {
+          "name": "Aliabadi N",
+          "orcid": ""
+        },
+        {
+          "name": "Goodwin G",
+          "orcid": ""
+        },
+        {
+          "name": "Slezak J",
+          "orcid": ""
+        },
+        {
+          "name": "Hong V",
+          "orcid": ""
+        },
+        {
+          "name": "Frankland TB",
+          "orcid": ""
+        },
+        {
+          "name": "Ackerson B",
+          "orcid": ""
+        },
+        {
+          "name": "Liu Q",
+          "orcid": ""
+        },
+        {
+          "name": "Shaw S",
+          "orcid": ""
+        },
+        {
+          "name": "Welsh S",
+          "orcid": ""
+        },
+        {
+          "name": "Kapadia B",
+          "orcid": ""
+        },
+        {
+          "name": "Spence BC",
+          "orcid": ""
+        },
+        {
+          "name": "Davis GS",
+          "orcid": ""
+        },
+        {
+          "name": "Lewnard JA",
+          "orcid": ""
+        },
+        {
+          "name": "Chowdhry H",
+          "orcid": ""
+        },
+        {
+          "name": "Dutro M",
+          "orcid": ""
+        },
+        {
+          "name": "Chilson E",
+          "orcid": ""
+        },
+        {
+          "name": "Cane A",
+          "orcid": ""
+        },
+        {
+          "name": "Hayford K",
+          "orcid": ""
+        },
+        {
+          "name": "Begier E",
+          "orcid": ""
+        }
+      ]
+    },
+    "ea2405f29ad9dbd9bf32": {
+      "authors": [
+        {
+          "name": "Arjun Mahajan",
+          "orcid": ""
+        },
+        {
+          "name": "Nigam H. Shah",
+          "orcid": "0000-0001-9385-7158"
+        },
+        {
+          "name": "Dylan Powell",
+          "orcid": "0000-0003-1233-5468"
+        }
+      ]
+    },
+    "b55cfa68272c6bff5cb9": {
+      "abstract": "A small fraction of users produces most of what circulates online, and the expectation that fallingpublication costs would flatten this gradient has not been borne out. Two questions about thatconcentration remain open. Published estimates of how concentrated sharing is vary by a factorof three at comparable thresholds, with no account of why, and the demographic composition ofheavy sharers has received little systematic attention outside the study of misinformation, whereexisting work does not separate the users who share the most from those whose shares reach themost people. Using 38 million news shares by 493,237 registered US voters matched to their Twit-ter accounts across 57 months, we address both. Observation-window length alone reproducesthe full factor-of-three range within a single dataset, holding population and content fixed. Thetop one percent accounts for 22 percent of shares at a one-week window and 52 percent at 57months. Two tests establish that the rise is compositional and not behavioral, since holding samplesize fixed does not flatten the curve and a cohort of the same users followed across all windowsstays near 21 percent throughout. Matching observation windows to prior studies that overlap ourown panel narrows the gap for comparable content almost entirely, while a residual gap againstmisinformation-specific estimates reflects a difference in content class rather than window choice.Ranking the same users by sharing volume and by audience reach identif…",
+      "authors": [
+        {
+          "name": "Burak Ozturan",
+          "orcid": "0009-0002-9587-2954"
+        },
+        {
+          "name": "David Lazer",
+          "orcid": "0000-0002-7991-9110"
+        }
+      ]
+    },
+    "284fac877dbe99eceaa0": {
+      "abstract": "How to best allocate resources to combat the threat of pathogen emergence remains an important open question. Using archetypes that characterize the link from genotype to fitness in both zoonotic reservoirs and humans, we show that, across a range of plausible conditions, emergences of pathogens with pandemic potential in humans are unlikely to be preceded by detectable, failed, attempts. Yet, the number of \"failed\" emergence events contains information about the emergence potential of zoonotic pathogens, and should modify our beliefs about the underlying fitness landscape. Our work suggests that the most important, modifiable, risk factors for emergence may be phenomena that alter fitness landscapes, such as viral ecology in bridge species and human immunological landscapes.",
+      "authors": [
+        {
+          "name": "Lessler J",
+          "orcid": "0000-0002-9741-8109"
+        },
+        {
+          "name": "Metcalf CJE",
+          "orcid": "0000-0003-3166-7521"
+        }
+      ]
+    },
+    "47a3929006c539c27214": {
+      "abstract": "Background During the COVID-19 pandemic, over 100 countries successfully deployed smartphone-based exposure notification (EN) apps alongside conventional contact tracing to mitigate the transmission of SARS-CoV-2. These systems enabled millions of COVID-19-positive individuals to anonymously alert community members of a potential exposure. Although evidence on EN program implementation is limited, leveraging expertise from public health professionals, academics, and global implementers from various disciplines can contribute to addressing this research gap. Objective This study aimed to explore barriers and facilitators to adoption, identify optimal use cases for these tools, and understand how advancements in technology and policy might maximize EN utility for mitigating other infectious outbreaks. Methods We used the Delphi method to develop a comprehensive online survey comprising closed-ended and open-ended questions. We considered consensus was reached when at least 75% of respondents selected \"agree\" or \"strongly agree\" for an item or statement. More than 30 global EN experts known to the investigators were invited to participate in the survey, and those who participated were asked to nominate or recruit others deemed eligible via a peer-to-peer method. We used descriptive and content analyses to summarize key findings from the survey. We invited the same experts to attend virtual focus groups to further probe their insights into the survey findings. Results Twenty-two…",
+      "authors": [
+        {
+          "name": "Malekinejad M",
+          "orcid": "0000-0002-5721-6764"
+        },
+        {
+          "name": "Mendez-Lizarraga CA",
+          "orcid": "0000-0001-5022-5089"
+        },
+        {
+          "name": "Skehan N",
+          "orcid": "0009-0000-3880-6139"
+        },
+        {
+          "name": "Bercasio A",
+          "orcid": "0000-0001-6957-0640"
+        },
+        {
+          "name": "Palekar R",
+          "orcid": "0000-0001-5216-3117"
+        },
+        {
+          "name": "Lober WB",
+          "orcid": "0000-0002-1053-7501"
+        }
+      ]
+    },
+    "33557d0bab8afc1913db": {
+      "abstract": "Concern about online echo chambers rests on the premise that the internet sorts peopleby politics. Research on online ideological segregation has accordingly measured partisanshipalmost to the exclusion of other social divides, and has measured it mostly within news, whichis a small share of online activity (Allen et al., 2020; Muise et al., 2022). Whether partisansegregation is distinctive has therefore rarely been tested against demographic segregation onequal terms. Using a 1.6-million-user Twitter/X panel linked to voter file records (July 2018 toMay 2023), we measure age, gender, partisanship and geography with a Theil index, and racemore briefly alongside them. First, partisanship is not the dominant division of online attention.When measured across Democrats, Republicans and Independents, partisan segregation overgeneral sharing behaviour is roughly a third of demographic segregation, and age separates usersmore sharply than party even within news, the content category where partisan segregation isstrongest and where the existing literature has looked almost exclusively. Second, segregation isbuilt at the article level rather than the outlet level. People who differ on any social divide wemeasure converge on the same outlets and diverge on which stories they select from them, whichplaces segregation downstream of the outlet choices that most audience-level research observes.Geography is the exception and segregates at the outlet level, as local news would predict. Thi…",
+      "authors": [
+        {
+          "name": "Burak Ozturan",
+          "orcid": "0009-0002-9587-2954"
+        },
+        {
+          "name": "David Lazer",
+          "orcid": "0000-0002-7991-9110"
+        }
+      ]
+    },
+    "4088866cb73c980057a9": {
+      "abstract": "Merbecoviruses, closely related to the Middle East respiratory syndrome coronavirus, circulate in hedgehogs throughout Europe and Asia, raising concerns about zoonotic transmission to humans and domestic animals. However, it is not clear how these viruses enter host cells. Here we tested three coronavirus receptors from European hedgehogs (Erinaceus europaeus) in cell-based assays and identified aminopeptidase N (APN) as a receptor for hedgehog merbecoviruses. We verified it by pseudotype experiments using an in vitro reporter system based on replication competent vesicular stomatitis virus and protein binding assays. Hedgehog coronavirus spike proteins showed enhanced infectivity when produced at 33 °C, approximating the physiological hedgehog body temperature, as compared with 37 °C. A screen of 30 mammalian APN orthologues showed restricted cross-species receptor use, including the inability to use human APN. Electron cryomicroscopy revealed a distinct glycoprotein-receptor interface unlike known coronavirus spike-APN interactions, clarifying species barriers. These findings broaden our understanding of receptor use across merbecoviruses and betacoronaviruses and inform risk assessments for viral emergence.",
+      "authors": [
+        {
+          "name": "Jin M",
+          "orcid": "0009-0009-1155-9890"
+        },
+        {
+          "name": "Jefferson VA",
+          "orcid": "0000-0003-3056-1813"
+        },
+        {
+          "name": "Zhao Z",
+          "orcid": "0000-0002-4119-0504"
+        },
+        {
+          "name": "Catanzaro NJ",
+          "orcid": "0000-0002-0210-8440"
+        },
+        {
+          "name": "De Sabato L",
+          "orcid": ""
+        },
+        {
+          "name": "Keeler EL",
+          "orcid": ""
+        },
+        {
+          "name": "Menasche BL",
+          "orcid": "0000-0003-3520-2422"
+        },
+        {
+          "name": "Hoffman C",
+          "orcid": ""
+        },
+        {
+          "name": "Yount BL",
+          "orcid": ""
+        },
+        {
+          "name": "Castelli A",
+          "orcid": "0000-0002-4451-7330"
+        },
+        {
+          "name": "Di Bartolo I",
+          "orcid": ""
+        },
+        {
+          "name": "Vaccari G",
+          "orcid": "0000-0003-0215-3521"
+        },
+        {
+          "name": "Starr TN",
+          "orcid": "0000-0001-6713-6904"
+        },
+        {
+          "name": "Seifert SN",
+          "orcid": "0000-0002-4397-6156"
+        },
+        {
+          "name": "Castellanos AA",
+          "orcid": ""
+        },
+        {
+          "name": "Han BA",
+          "orcid": "0000-0002-9948-3078"
+        },
+        {
+          "name": "Serebryannyy L",
+          "orcid": ""
+        },
+        {
+          "name": "Spaulding AB",
+          "orcid": "0000-0002-4687-3259"
+        },
+        {
+          "name": "Douek DC",
+          "orcid": "0000-0001-5575-8634"
+        },
+        {
+          "name": "Moreno A",
+          "orcid": ""
+        },
+        {
+          "name": "Baric RS",
+          "orcid": "0000-0001-6827-8701"
+        },
+        {
+          "name": "Wilen CB",
+          "orcid": "0000-0003-2495-9403"
+        },
+        {
+          "name": "Rini JM",
+          "orcid": "0000-0002-0952-2409"
+        },
+        {
+          "name": "Letko M",
+          "orcid": "0000-0002-7640-2861"
+        }
+      ]
+    },
+    "8a85d334054f139b5fd5": {
+      "abstract": "BACKGROUND: Stratification of well-appearing febrile infants into a low-risk category for invasive bacterial infections (IBI) is critical to optimizing patient care. Procalcitonin (PCT), a biomarker associated with bacterial infection, was included in the 2019 Pediatric Emergency Care Applied Research Network (PECARN) clinical prediction rule to identify febrile infants 60 days and younger at low risk for serious bacterial infection. That same year, we incorporated a modified PECARN febrile infant prediction rule into our existing febrile infant algorithm. The primary objective of the study was to evaluate the effect of the modified PECARN prediction rule on rate of lumbar puncture (LP), hospital admissions, and 30-day readmissions. METHODS: We identified febrile infants 3 to 90 days evaluated in our emergency department from November 2017 through April 2022. The pre-implementation period was from November 2017 to June 2019. The modified PECARN rule was incorporated into the clinical care process model between July 2019 and August 2019. The post-implementation period was September 2019 through April 2022. The primary outcomes were LP rate and hospital admissions. The primary process metric was PCT obtainment. The balancing metric was 30-day readmissions. Between group comparisons were performed with Chi square tests. RESULTS: A total of 1520 febrile infants were included in the analysis, 662 in the pre-implementation period, and 858 in the post-implementation period. Lumbar…",
+      "authors": [
+        {
+          "name": "Jared Olson",
+          "orcid": "0000-0002-3281-9614"
+        },
+        {
+          "name": "Frank Cipriano",
+          "orcid": ""
+        },
+        {
+          "name": "Amani Jridi",
+          "orcid": ""
+        },
+        {
+          "name": "Roni D Lane",
+          "orcid": ""
+        },
+        {
+          "name": "Per H Gesteland",
+          "orcid": ""
+        },
+        {
+          "name": "Adam L Hersh",
+          "orcid": ""
+        },
+        {
+          "name": "Carolyn Reynolds",
+          "orcid": ""
+        },
+        {
+          "name": "Marilyn Valentine",
+          "orcid": ""
+        },
+        {
+          "name": "R Neil Davis",
+          "orcid": ""
+        },
+        {
+          "name": "Jeff Schunk",
+          "orcid": ""
+        },
+        {
+          "name": "Emily A Thorell",
+          "orcid": ""
+        }
+      ]
+    },
+    "5eea754e172c4acdc4f1": {
+      "abstract": "Background: A large proportion of the world population lives in the Asia-Pacific region where uncontrolled hypertension impacts global trends. This study aimed to summarise age-adjusted prevalence estimates of hypertension in the region to project the future burden of the disease to 2030. Methods: A comprehensive literature search was conducted using PubMed®, Web of Science®, SCOPUS®, and Embase®, alongside manual reference reviews, to identify studies from 2001 to 2023 in the Asia-Pacific region. Inclusion criteria required standardised blood pressure measurement, population-based data, and definitions of hypertension as systolic and diastolic ≥140/90 mmHg, or antihypertensive use. The hypertension prevalence was determined based on the identified studies. Within countries, the linear regression of age-standardised prevalence estimates predicted trends in hypertension prevalence to 2030. Results: 285 population-based studies were included. Age-specific and crude hypertension prevalence estimates from 19 countries were used to estimate predicted values. The estimated age-standardised prevalence of hypertension in 2030 ranged from 11.0% to 46.2% and was projected to increase in most countries. The exceptions were Iran, Nepal, and Mongolia, which were estimated to achieve 30% reduction in hypertension relative to 2010. Six countries were estimated to have reductions in prevalence by 2030, but without achieving the WHO goal of 30% reduction relative to 2010. Conclusion: The hyp…",
+      "authors": [
+        {
+          "name": "Olson PS",
+          "orcid": "0000-0002-3618-3115"
+        },
+        {
+          "name": "Lee TA",
+          "orcid": "0000-0003-3619-5367"
+        },
+        {
+          "name": "Sarker J",
+          "orcid": "0000-0002-2528-5458"
+        },
+        {
+          "name": "Sawangjit R",
+          "orcid": "0000-0002-6868-4336"
+        },
+        {
+          "name": "Tan BK",
+          "orcid": "0000-0003-3380-3072"
+        },
+        {
+          "name": "Anusornsangiam W",
+          "orcid": "0009-0007-3547-3675"
+        },
+        {
+          "name": "Heru Setiawan C",
+          "orcid": "0000-0003-4860-1115"
+        },
+        {
+          "name": "Ayran CM",
+          "orcid": ""
+        },
+        {
+          "name": "Ploylearmsang C",
+          "orcid": "0000-0002-8158-0312"
+        },
+        {
+          "name": "Kifli N",
+          "orcid": "0000-0002-8817-7956"
+        },
+        {
+          "name": "Watcharadamrongkun S",
+          "orcid": "0000-0002-3955-4727"
+        },
+        {
+          "name": "Sookaneknun S",
+          "orcid": "0009-0005-1818-7883"
+        },
+        {
+          "name": "Van HN",
+          "orcid": ""
+        },
+        {
+          "name": "Sibounheuang P",
+          "orcid": "0009-0009-5462-5253"
+        },
+        {
+          "name": "Potisarach P",
+          "orcid": "0000-0003-4192-8414"
+        },
+        {
+          "name": "Fern LA",
+          "orcid": ""
+        },
+        {
+          "name": "Ngo TL",
+          "orcid": ""
+        },
+        {
+          "name": "Chaiyakunapruk N",
+          "orcid": "0000-0003-4572-8794"
+        },
+        {
+          "name": "Thundee C",
+          "orcid": ""
+        },
+        {
+          "name": "Leelathanalerk A",
+          "orcid": "0009-0008-6372-394X"
+        }
+      ]
+    },
+    "9143c6b9f3f72b0de12d": {
+      "abstract": "Background Waning vaccine protection and variable epidemic timing create a tradeoff between vaccinating before influenza circulation and preserving protection when disease burden is greatest. Existing guidance does not quantify the week that best balances this tradeoff. Objective To estimate the optimal week for influenza vaccination while accounting for uncertainty in epidemic timing and vaccine protection. Design Simulation-based probabilistic decision analysis. Setting United States outpatient influenza surveillance from the 50 states and District of Columbia during the 2010/11 through 2018/19 and 2023/24 through 2025/26 seasons. Participants People in the United States who would receive 1 influenza vaccine dose. Interventions Vaccination during Morbidity and Mortality Weekly Report (MMWR) weeks 36 through 12. Measurements We combined influenza-like illness (ILI) syndromic surveillance and influenza-specific data with uncertainty in epidemic timing, initial vaccine effectiveness, waning, and immune-response lag. For each candidate week, the model estimated direct protection against outpatient surveillance burden. Results The primary model identified the optimal time to vaccinate as week 47, with weeks 47–48 being of similar utility. Our influenza-weighted outpatient analysis (ILI+) selected week 48. Compared with week 44, near the end of the current September–October guidance window, week 48 reduced modeled influenza-weighted outpatient burden by 50 visit equivalents per…",
+      "authors": [
+        {
+          "name": "Meyer AG",
+          "orcid": ""
+        },
+        {
+          "name": "Rosales BN",
+          "orcid": ""
+        },
+        {
+          "name": "Yang S",
+          "orcid": ""
+        },
+        {
+          "name": "Santillana M",
+          "orcid": ""
         }
       ]
     },
@@ -400,7 +1052,7 @@
         },
         {
           "name": "Chan LYH",
-          "orcid": ""
+          "orcid": "0000-0002-4689-6995"
         },
         {
           "name": "Garg S",
@@ -1096,7 +1748,7 @@
       "authors": [
         {
           "name": "Davis JT",
-          "orcid": ""
+          "orcid": "0000-0003-0726-1855"
         },
         {
           "name": "Kaur G",
@@ -1112,7 +1764,7 @@
         },
         {
           "name": "Venkatramanan S",
-          "orcid": ""
+          "orcid": "0000-0002-0874-8692"
         },
         {
           "name": "Brooks L",
@@ -1212,7 +1864,7 @@
         },
         {
           "name": "Mallela A",
-          "orcid": ""
+          "orcid": "0000-0003-3588-5358"
         },
         {
           "name": "Lin YT",
@@ -1796,55 +2448,6 @@
         }
       ]
     },
-    "8a85d334054f139b5fd5": {
-      "abstract": "BACKGROUND: Stratification of well-appearing febrile infants into a low-risk category for invasive bacterial infections (IBI) is critical to optimizing patient care. Procalcitonin, a biomarker associated with bacterial infection, was included in the 2019 PECARN clinical prediction rule to identify febrile infants 60 days and younger at low risk for serious bacterial infection. That same year, we incorporated a modified PECARN febrile infant prediction rule into our existing febrile infant algorithm. The primary objective of the study was to evaluate the effect of the modified PECARN prediction rule on rate of lumbar puncture (LP), hospital admissions, and 30-day readmissions. METHODS: e identified febrile infants 3 to 90 days evaluated in our emergency department from November 2017 through April 2022. The pre-implementation period was from 11/2017 through 6/2019. The modified PECARN rule was incorporated into the clinical care process model between 7/2019 and 8/2019. The post-implementation period was 9/2019 through 4/2022. The primary outcomes were LP rate and hospital admissions. The primary process metric was procalcitonin obtainment. The balancing metric was 30-day readmissions. Between group comparisons were performed with Chi square tests. RESULTS: A total of 1520 febrile infants were included in the analysis, 662 in the pre-implementation period, and 858 in the post-implementation period. LP rate and hospital admissions decreased from 45.8% to 31.0% (p<0.001) and from…",
-      "authors": [
-        {
-          "name": "Jared Olson",
-          "orcid": "0000-0002-3281-9614"
-        },
-        {
-          "name": "Frank Cipriano",
-          "orcid": ""
-        },
-        {
-          "name": "Amani Jridi",
-          "orcid": ""
-        },
-        {
-          "name": "Roni D Lane",
-          "orcid": ""
-        },
-        {
-          "name": "Per H Gesteland",
-          "orcid": ""
-        },
-        {
-          "name": "Adam L Hersh",
-          "orcid": ""
-        },
-        {
-          "name": "Carolyn Reynolds",
-          "orcid": ""
-        },
-        {
-          "name": "Marilyn Valentine",
-          "orcid": ""
-        },
-        {
-          "name": "R Neil Davis",
-          "orcid": ""
-        },
-        {
-          "name": "Jeff Schunk",
-          "orcid": ""
-        },
-        {
-          "name": "Emily A Thorell",
-          "orcid": ""
-        }
-      ]
-    },
     "93bd6afb91cfc0ef699c": {
       "authors": [
         {
@@ -2352,7 +2955,7 @@
         },
         {
           "name": "Zissette S",
-          "orcid": ""
+          "orcid": "0000-0002-6502-2986"
         },
         {
           "name": "Van Meter C",
@@ -2368,7 +2971,7 @@
         },
         {
           "name": "Tippett A",
-          "orcid": ""
+          "orcid": "0000-0002-1791-2677"
         },
         {
           "name": "Kamidani S",
@@ -2376,7 +2979,7 @@
         },
         {
           "name": "Benkeser D",
-          "orcid": ""
+          "orcid": "0000-0002-1019-8343"
         },
         {
           "name": "McQuade ETR",
@@ -2659,6 +3262,27 @@
         }
       ]
     },
+    "7ec37dcc70de8141ecd9": {
+      "abstract": "Age is a primary determinant of symptom severity and transmission patterns for many infectious diseases, motivating the use of age-stratified models parameterized by contact matrices. In the United States, the absence of direct contact surveys has required estimating synthetic contact matrices from demographic data on household size, school attendance, and workforce participation. However, this likely underestimates contacts among children under age 5, who often attend group childcare missing from censuses. The goal of this study was to use nationally-representative data on childcare arrangements (the Early Childhood Program Participation Survey) to reconstruct daily contacts occurring in childcare settings, and augment existing all-age contact matrices. For infants under 1 year of age, we estimated 0.2 daily contacts with other infants, increasing to 0.7 daily contacts with same-age peers for 1- or 2-year-olds, 1.3 for 3-year-olds, and 3.5 for 4-year-olds. Including childcare settings increases estimated contacts among young children by up to six fold. Using simulations of measles outbreaks in inadequately vaccinated populations, we show that prior contact matrices significantly underestimated the outbreak frequency, size, and impact on preschool age groups. Our findings highlight the need for targeted data collection on childcare contacts to improve model-based evaluation of interventions particularly for young children.",
+      "authors": [
+        {
+          "name": "Loo SL",
+          "orcid": ""
+        },
+        {
+          "name": "Nande A",
+          "orcid": "0000-0003-1726-6633"
+        },
+        {
+          "name": "Truelove S",
+          "orcid": "0000-0003-0538-0607"
+        },
+        {
+          "name": "Hill AL",
+          "orcid": ""
+        }
+      ]
+    },
     "e4538aedd1a8a4d0932d": {
       "abstract": "Coccidioidomycosis (Valley fever) is a growing public health concern in the western U.S., with California reporting more than an eightfold rise in cases over the past two decades. As climate change, groundwater regulation, and prolonged drought drive major agricultural land-use shifts in the state, including widespread retirement of cultivated lands (i.e., fallowing), understanding their effects on this soil-borne fungal infection is critical. We linked 65,657 confirmed, geolocated cases (2008-2021) to high-resolution maps distinguishing natural vegetation, crop types, and fallowed fields to quantify how land use and land cover were associated with disease rates. Flexible statistical models showed that natural land covers, shrubland, barren ground, and grassland, were associated with higher incidence. Some agricultural uses (grain/hay, field crops, corn, and cotton) were associated with higher incidence, whereas others (orchards, rice, and truck crops/berries) were associated with lower incidence. Recently fallowed land (1 to 4 years) was linked to higher incidence, but the effect depended on prior cultivation. These findings indicate that land use changes may inadvertently impact coccidioidomycosis risk, underscoring the need for dust control and other measures to protect communities.",
       "authors": [
@@ -2729,11 +3353,11 @@
       "authors": [
         {
           "name": "Keegan LT",
-          "orcid": ""
+          "orcid": "0000-0002-8526-3007"
         },
         {
           "name": "Shoaf K",
-          "orcid": ""
+          "orcid": "0000-0001-6754-2216"
         }
       ]
     },
@@ -2787,7 +3411,7 @@
         },
         {
           "name": "Iyaniwura SA",
-          "orcid": ""
+          "orcid": "0000-0002-8854-2335"
         },
         {
           "name": "Ribeiro RM",
@@ -2954,31 +3578,6 @@
         }
       ]
     },
-    "8c2660112d766c26e9c8": {
-      "abstract": "Background/objectives Despite availability of safe and effective COVID-19 vaccines for children, uptake of this vaccine remains low in the United States. Caregiver attitudes and behaviors play a key role in child vaccine decisions, yet little is known about the reasons for vaccine refusal within families or the relationship between COVID-19 vaccine and routine childhood immunization refusal. This study examined 1) associations between caregiver and child COVID-19 vaccination status, 2) alignment of reasons for vaccine non-acceptance between the caregiver themselves and for their child, and 3) associations between COVID-19 vaccine non-acceptance and refusal or delay of routine childhood vaccinations. Methods We analyzed data from 6395 families in the NIH ECHO Cohort with self-reported caregiver and child COVID-19 vaccination status between December 2021 and August 2023. Generalized estimating equations were used to assess associations while accounting for cohort clustering. Results Of the 6395 families, 25% of caregivers had not accepted the COVID-19 vaccine for themselves, and 59% had not accepted the vaccine for any of their children. Children were more likely to be unvaccinated when their caregivers were unvaccinated (OR: 13.2, 95% CI: 10.3-16.9). Among unvaccinated caregiver-child pairs, reasons for vaccine refusal showed strong concordance. The predominant concern among vaccinated caregivers with unvaccinated children was a belief that the COVID-19 vaccine had not been w…",
-      "authors": [
-        {
-          "name": "Ricke IJ",
-          "orcid": ""
-        },
-        {
-          "name": "Ward C",
-          "orcid": ""
-        },
-        {
-          "name": "Spaulding AB",
-          "orcid": ""
-        },
-        {
-          "name": "Sherwood NE",
-          "orcid": ""
-        },
-        {
-          "name": "Nguyen RHN",
-          "orcid": ""
-        }
-      ]
-    },
     "f3cd33f368c67cd2fd52": {
       "abstract": "The reemergence of infectious diseases, such as measles, in the United States has placed significant strain on state, local, tribal, and territorial health departments to respond and contain the spread of disease. The actions by health departments have spanned a wide range of outbreak preparedness and response initiatives, with some health departments excelling in their approaches while others work to build capacity despite resource constraints. To strengthen outbreak preparedness and response, the Johns Hopkins Center for Outbreak Response Innovation convened a national Community of Practice series in 2025, bringing together 115 participants from 40 health departments. Presentations emphasized the importance of interdisciplinary collaboration, system adaptability, and continuous learning to enhance outbreak response capacity. This series underscored that sustainable improvements in public health practice rely on bridging academic research and operational realities through shared learning networks, ensuring that technical innovations translate into effective and scalable disease response strategies nationwide.",
       "authors": [
@@ -3120,31 +3719,6 @@
         {
           "name": "Parr JB",
           "orcid": "0000-0002-4465-9830"
-        }
-      ]
-    },
-    "7f1e162ffe79ccdc550c": {
-      "abstract": "Backfill is the process of revising case data, often by retrospectively assigning or reassigning newly reported cases to their associated earlier symptom onset dates. Time- and spatial-varying delays in backfill may compromise real-time surveillance and forecasting efforts by obscuring true underlying transmission patterns. Using Michigan COVID-19 case data, we developed a statistical mixture model to describe backfill and geographical and temporal variations. The model combined an exponential process (case reporting delay) and a gamma-distributed process (case reassignment to onset date). Parameters were estimated by regularized maximum likelihood, and the Akaike Information Criterion was used to determine the necessity of the reassignment component for each date. We estimated the exponential reporting speed over time and space and, if appropriate, the weight, transient peak, and time of case reassignment. We found that case reporting improved over the pandemic: reporting speed increased over time (with substantial day-to-day variation), and case reassignments were processed faster. We also identified potential regional disparities: regions with population densities below 50 people/km2 had slower backfill speeds. These findings provide critical insights about the evolution of case reporting and backfill dynamics that can be leveraged for \"nowcasting\" models to complete real-time surveillance data, ultimately improving outbreak preparedness and response.",
-      "authors": [
-        {
-          "name": "Niu Y",
-          "orcid": ""
-        },
-        {
-          "name": "Brouwer AF",
-          "orcid": "0000-0002-3779-5287"
-        },
-        {
-          "name": "Martin ET",
-          "orcid": "0000-0002-5771-8895"
-        },
-        {
-          "name": "Coyle JR",
-          "orcid": ""
-        },
-        {
-          "name": "Eisenberg MC",
-          "orcid": "0000-0003-4221-830X"
         }
       ]
     },
@@ -3456,7 +4030,7 @@
         },
         {
           "name": "Watkins A",
-          "orcid": ""
+          "orcid": "0009-0003-4753-2629"
         },
         {
           "name": "Welch JC",
@@ -3582,6 +4156,47 @@
         },
         {
           "name": "Rakai Health Sciences Program PANGEA-HIV consortium",
+          "orcid": ""
+        }
+      ]
+    },
+    "af62853a3f8e68ba3ef1": {
+      "abstract": "Objective To examine temporal trends in reasons for stopping preexposure prophylaxis (PrEP) among MSM from 2018 to 2024, including how reasons co-occur and vary by demographics. Design Pooled repeated cross-sectional analysis of seven annual waves of the American Men's Internet Survey (AMIS), a national behavioral survey of US cisgender MSM (N = 54 612). Methods Among 3074 noncurrent PrEP users who reported reasons for stopping, we collapsed checklist items into six thematic categories and estimated adjusted prevalence by survey year using multivariable logistic regression with g-computation. Latent class analysis (LCA) identified subgroups with distinct discontinuation profiles. Results The most common reason was Altered Sexual Activity (55%), followed by Side Effects (31.6%) and Financial/Access (29.4%). After demographic adjustment, Altered Sexual Activity rose from 46.2% in 2018 to 61.2% in 2024 [adjusted odds ratio (aOR) 1.93], and Privacy/Discrimination roughly doubled from 5.6 to 11.3%, the only reason with a significant linear trend (aOR 1.14 per year; P = 0.003). Financial/Access remained stable at approximately 29% across all 7 years. LCA identified three classes: Changed Circumstances (35.1%), Structural Barriers (23.8%), and Clinical/Multi-Barrier (41.1%). Being uninsured was the strongest predictor of financial discontinuation (aOR 4.31). Conclusions Over 7 years of PrEP scale-up, circumstance-driven discontinuation grew increasingly dominant while stigma-relate…",
+      "authors": [
+        {
+          "name": "Jenness SM",
+          "orcid": ""
+        },
+        {
+          "name": "Manuelpillai B",
+          "orcid": ""
+        },
+        {
+          "name": "Goodreau SM",
+          "orcid": ""
+        },
+        {
+          "name": "Marcus JL",
+          "orcid": ""
+        },
+        {
+          "name": "Enns EA",
+          "orcid": "0000-0003-0693-7358"
+        },
+        {
+          "name": "Lucas IL",
+          "orcid": ""
+        },
+        {
+          "name": "Martinez CA",
+          "orcid": ""
+        },
+        {
+          "name": "Siegler AJ",
+          "orcid": ""
+        },
+        {
+          "name": "Sanchez T",
           "orcid": ""
         }
       ]
@@ -4249,7 +4864,7 @@
       "authors": [
         {
           "name": "Callahan A",
-          "orcid": ""
+          "orcid": "0009-0003-1897-8840"
         },
         {
           "name": "Peterson K",
@@ -5406,11 +6021,11 @@
       "authors": [
         {
           "name": "Flannery B",
-          "orcid": ""
+          "orcid": "0000-0001-5041-308X"
         },
         {
           "name": "Chung JR",
-          "orcid": ""
+          "orcid": "0000-0001-5205-966X"
         },
         {
           "name": "Holiday C",
@@ -5479,6 +6094,43 @@
         {
           "name": "Levine MZ",
           "orcid": "0000-0002-3197-1649"
+        }
+      ]
+    },
+    "a0d224da27b1c73e0f4a": {
+      "abstract": "Aims The glucagon-like peptide-1 receptor agonists (GLP-1 RAs) semaglutide and liraglutide are approved for chronic weight management. Both drugs also have favourable effects on the risk of developing diabetes and cardiovascular disease (CVD) compared with placebo, but their comparative effectiveness for these outcomes is unclear. Methods We employed an active comparator, new user design to emulate a target trial using data from MarketScan claims databases. Enrolees free of diabetes and CVD prescribed semaglutide or liraglutide during 2021-2023 were matched 1:1. Primary endpoints included incident diabetes and CVD (myocardial infarction, heart failure or stroke). We used Cox regression adjusted for a propensity score reflective of comorbidities and medication use. Results We matched 57 456 GLP-1 RA users (mean age 45; 83% female). Over 1-year mean follow-up, we observed 1104 diabetes events and 57 CVD events. After regression adjustment, semaglutide users had 12% lower risk of diabetes (hazard ratio [HR]: 0.88; 95% CI: 0.78, 0.99). For this endpoint, the proportional hazards assumption was violated (p Conclusions In this real-world study, semaglutide users had lower risk of incident diabetes compared with liraglutide users. Additional research is needed to elucidate comparative effectiveness of these drugs for cardiovascular risk.",
+      "authors": [
+        {
+          "name": "Cannon EJ",
+          "orcid": "0009-0001-1715-9152"
+        },
+        {
+          "name": "Wang W",
+          "orcid": ""
+        },
+        {
+          "name": "Norby FL",
+          "orcid": "0000-0002-1975-0405"
+        },
+        {
+          "name": "Walker RF",
+          "orcid": ""
+        },
+        {
+          "name": "Kulasingam S",
+          "orcid": "0000-0002-0932-9166"
+        },
+        {
+          "name": "Chow LS",
+          "orcid": "0000-0002-6210-2307"
+        },
+        {
+          "name": "Farley JF",
+          "orcid": "0000-0002-5196-5238"
+        },
+        {
+          "name": "Lutsey PL",
+          "orcid": "0000-0002-1572-1340"
         }
       ]
     },
@@ -5691,47 +6343,47 @@
       "abstract": "Declining childhood vaccination rates have fueled a resurgence of measles in the United States. Surveillance systems may not accurately measure the true extent of outbreaks. As of May 2026, the largest ongoing measles outbreak in the United States originated along the Utah-Arizona border in a community with high vaccine exemption rates and limited engagement with healthcare systems, leading to incomplete testing and reporting. To quantify the true outbreak size, we used two independent approaches with complementary data sources: a phylodynamic analysis and an agent-based model. Both methods found significant underreporting, estimating the true outbreak size to be 3.1- to 4.8-fold larger than reported, with confirmed cases representing only 20.96%-32.5% total infections. These findings suggest that substantial underreporting of measles occurs, especially in tight knit communities. The use of complementary analytical approaches to evaluate completeness of reporting can reveal the extent of measles transmission and aid control efforts.",
       "authors": [
         {
-          "name": "Marye A",
+          "name": "Abbey Marye",
           "orcid": ""
         },
         {
-          "name": "Toth DJ",
+          "name": "Damon J A Toth",
           "orcid": ""
         },
         {
-          "name": "Yon GV",
+          "name": "George Vega Yon",
           "orcid": ""
         },
         {
-          "name": "Wagoner J",
+          "name": "Jake Wagoner",
           "orcid": ""
         },
         {
-          "name": "Lofgren ET",
+          "name": "Eric T Lofgren",
           "orcid": ""
         },
         {
-          "name": "Samore MH",
+          "name": "Matthew H Samore",
           "orcid": ""
         },
         {
-          "name": "Pavia AT",
+          "name": "Andrew T Pavia",
           "orcid": ""
         },
         {
-          "name": "Nolen LD",
+          "name": "Leisha D Nolen",
           "orcid": ""
         },
         {
-          "name": "Komatsu K",
+          "name": "Kenneth Komatsu",
           "orcid": ""
         },
         {
-          "name": "Oakeson K",
+          "name": "Kelly Oakeson",
           "orcid": ""
         },
         {
-          "name": "Keegan LT",
+          "name": "Lindsay T Keegan",
           "orcid": ""
         }
       ]
@@ -6283,7 +6935,7 @@
         },
         {
           "name": "Medina MG",
-          "orcid": ""
+          "orcid": "0009-0003-3779-2320"
         },
         {
           "name": "Zang X",
@@ -8631,6 +9283,31 @@
         }
       ]
     },
+    "8c2660112d766c26e9c8": {
+      "abstract": "Background/objectives Despite availability of safe and effective COVID-19 vaccines for children, uptake of this vaccine remains low in the United States. Caregiver attitudes and behaviors play a key role in child vaccine decisions, yet little is known about the reasons for vaccine refusal within families or the relationship between COVID-19 vaccine and routine childhood immunization refusal. This study examined 1) associations between caregiver and child COVID-19 vaccination status, 2) alignment of reasons for vaccine non-acceptance between the caregiver themselves and for their child, and 3) associations between COVID-19 vaccine non-acceptance and refusal or delay of routine childhood vaccinations. Methods We analyzed data from 6395 families in the NIH ECHO Cohort with self-reported caregiver and child COVID-19 vaccination status between December 2021 and August 2023. Generalized estimating equations were used to assess associations while accounting for cohort clustering. Results Of the 6395 families, 25% of caregivers had not accepted the COVID-19 vaccine for themselves, and 59% had not accepted the vaccine for any of their children. Children were more likely to be unvaccinated when their caregivers were unvaccinated (OR: 13.2, 95% CI: 10.3-16.9). Among unvaccinated caregiver-child pairs, reasons for vaccine refusal showed strong concordance. The predominant concern among vaccinated caregivers with unvaccinated children was a belief that the COVID-19 vaccine had not been w…",
+      "authors": [
+        {
+          "name": "Ricke IJ",
+          "orcid": ""
+        },
+        {
+          "name": "Ward C",
+          "orcid": "0000-0002-0806-0222"
+        },
+        {
+          "name": "Spaulding AB",
+          "orcid": ""
+        },
+        {
+          "name": "Sherwood NE",
+          "orcid": "0000-0002-3365-9018"
+        },
+        {
+          "name": "Nguyen RHN",
+          "orcid": "0000-0002-6598-8457"
+        }
+      ]
+    },
     "d399bfd711a21984d588": {
       "abstract": "Objective Use the electronic health record (EHR) to prospectively validate a risk prediction tool identifying patients at high-risk for carbapenem-resistant Enterobacterales (CRE). Design Prospective, cross-sectional analysis. Participants Adults admitted to two hospitals in Atlanta, Georgia. Methods An EHR report calculated a CRE risk score on all admissions from 6/2024-3/2025. The risk score was determined from a prior model incorporating data from current and prior hospitalizations. Stool or perianal samples were cultured from a convenience sample of patients with the highest risk scores. A receiver operating curve analysis calculated sensitivity, specificity, positive predictive value (PPV), and negative predictive values (NPV) of various risk scores that could be used as a \"threshold\" for CRE admission testing. Using the threshold with the greatest Youden's index, we estimated the cost of implementing a CRE screening program. Results Of the 853 patients approached, 342 (40%) consented. Eleven (3.2%) tested positive for CRE. Patients with CRE had a higher median CRE risk score (0.19% vs 0.04%) than those who tested negative. The AUC of the model was 0.66. Using a testing threshold of 0.16% yielded a 55% sensitivity, 84% specificity, 10% PPV, and 98% NPV. The number needed to screen to diagnose 1 patient with CRE was 12 patients, and the screening program approximately costs $8,015/month. Conclusions An EHR-based risk prediction tool can detect patients likely to be colon…",
       "authors": [
@@ -9143,6 +9820,43 @@
         }
       ]
     },
+    "d3d95c17502dc42f2f08": {
+      "abstract": "Background Climate change is impacting the seasonal weather trends. Mozambique is one country that has been experiencing significant impacts of climate change. These impacts include changing weather patterns and more frequent and intense storms. Mozambique also has the 5th highest malaria prevalence globally. These storms have all impacted the efficiency of the Mozambique National Malaria Control Program to achieve their goals. The goal of our study was to determine the appropriate temporal lag between high precipitation events and malaria risk in Mozambique. This knowledge is imperative to understand when and how to best respond the impacts of these events. Methods Malaria monthly case count data at the district level were provided by the Mozambique National Malaria Control Program. Precipitation data were obtained from NASA GIS DISC Earth Data and were spatially aggregated to the district and temporally aggregated to the month to match the malaria surveillance data. We investigated the correlation between precipitation and malaria-related values at the district level each month accounting for spatio-temporal autocorrelation. We used Pearson correlation coefficients to quantify the correlations. We used Poisson generalized linear mixed models to determine the relative risk of malaria associated with precipitation nationally and for each of the three regions in Mozambique. Results We found evidence of strong spatial variation in malaria cases, malaria hospitalizations, and m…",
+      "authors": [
+        {
+          "name": "Zhu H",
+          "orcid": ""
+        },
+        {
+          "name": "Zhang L",
+          "orcid": ""
+        },
+        {
+          "name": "Khan E",
+          "orcid": ""
+        },
+        {
+          "name": "Srivastava J",
+          "orcid": "0000-0001-9385-7545"
+        },
+        {
+          "name": "Croal M",
+          "orcid": ""
+        },
+        {
+          "name": "Candrinho B",
+          "orcid": ""
+        },
+        {
+          "name": "da Silva M",
+          "orcid": ""
+        },
+        {
+          "name": "Searle KM",
+          "orcid": "0000-0003-1316-9342"
+        }
+      ]
+    },
     "a098c308cea71908e8d3": {
       "abstract": "Abstract We present the first empirical evaluation of techniques for encoding distributions of quantitative edge values within adjacency matrices. In many real‐world networks, edges represent not a single value but a set of measurements. While adjacency matrices preserve structural clarity, their compact cells limit the simultaneous display of multiple values. To address this, we explore edge encodings that represent distributions by two values: a measure of central tendency (mean, median, mode) and a measure of dispersion (standard deviation, variance, IQR). We select four possible encodings for evaluation that prior work has suggested are suitable for the limited space available in matrices: a bivariate color palette, embedded bar charts, and two overlaid‐mark designs mapping the primary attribute to color and the secondary attribute to area or angle. In a preregistered crowdsourced study with 156 participants, we assessed performance of these encodings across eight analytical tasks and collected readability and aesthetic ratings. Results reveal clear performance regimes: area‐based overlaid marks and bar charts achieved the highest overall performance; angle‐based marks show moderate but less stable performance, and bivariate color consistently underperforms these alternatives. These findings clarify how visual channels behave under strict constraints and delineate the strengths and limitations of key design choices for multivariate edge visualization.",
       "authors": [
@@ -9190,7 +9904,7 @@
       "authors": [
         {
           "name": "Qasim R",
-          "orcid": ""
+          "orcid": "0009-0005-3409-6412"
         },
         {
           "name": "Bouchnita A",
@@ -10400,7 +11114,7 @@
         },
         {
           "name": "Yarbrough CR",
-          "orcid": ""
+          "orcid": "0000-0002-4216-931X"
         },
         {
           "name": "Corbin-Gutierrez EE",
@@ -11419,7 +12133,7 @@
         },
         {
           "name": "Eisenberg JNS",
-          "orcid": ""
+          "orcid": "0000-0001-8019-296X"
         }
       ]
     },
@@ -12691,143 +13405,6 @@
         }
       ]
     },
-    "9a04789e87733689939a": {
-      "abstract": "Hypertension is a modifiable risk factor for cardiovascular disease (CVD) and its prevalence is high in the United States and worldwide. Adequate characterization of blood pressure (BP) is essential for the diagnosis and management of hypertension. However, BP assessment can be challenging because of the unique influences across the lifespan, disease conditions, and physical environmental context. Moreover, complex uncertainties in BP assessment may contribute to underdiagnosis, undertreatment, and preventable morbidity and mortality. Recent advances in BP measurement devices have enabled comprehensive characterization of BP that could dramatically change how hypertension is managed to optimize CVD risk reduction, avoid complications of low BP, and improve hypertension control rates. To address the rapidly evolving landscape in BP assessment, the National Heart, Lung, and Blood Institute of the U.S. National Institutes of Health convened a 2-day workshop of clinicians and researchers in December 2024. The present report summarizes the topics presented and discussed during the meeting, which focused on the latest evidence on BP assessment as well as obstacles and knowledge gaps to be addressed to advance BP assessment in clinical practice and research.",
-      "authors": [
-        {
-          "name": "Abdalla M",
-          "orcid": "0000-0002-2725-505X"
-        },
-        {
-          "name": "Juraschek SP",
-          "orcid": ""
-        },
-        {
-          "name": "Biaggioni I",
-          "orcid": ""
-        },
-        {
-          "name": "Bowling CB",
-          "orcid": ""
-        },
-        {
-          "name": "Balijepalli RC",
-          "orcid": ""
-        },
-        {
-          "name": "Brady TM",
-          "orcid": ""
-        },
-        {
-          "name": "Bress AP",
-          "orcid": ""
-        },
-        {
-          "name": "Brook RD",
-          "orcid": ""
-        },
-        {
-          "name": "Cohen JB",
-          "orcid": "0000-0003-4649-079X"
-        },
-        {
-          "name": "Commodore-Mensah Y",
-          "orcid": "0000-0002-5054-3025"
-        },
-        {
-          "name": "Dart RA",
-          "orcid": ""
-        },
-        {
-          "name": "Desvigne-Nickens P",
-          "orcid": ""
-        },
-        {
-          "name": "Drawz P",
-          "orcid": ""
-        },
-        {
-          "name": "Ferdinand KC",
-          "orcid": ""
-        },
-        {
-          "name": "Flynn JT",
-          "orcid": ""
-        },
-        {
-          "name": "Foti K",
-          "orcid": ""
-        },
-        {
-          "name": "Green BB",
-          "orcid": ""
-        },
-        {
-          "name": "Hoppe KK",
-          "orcid": ""
-        },
-        {
-          "name": "Kirley K",
-          "orcid": "0000-0001-7454-5095"
-        },
-        {
-          "name": "Lipsitz L",
-          "orcid": ""
-        },
-        {
-          "name": "Oh YS",
-          "orcid": ""
-        },
-        {
-          "name": "Melgarejo JD",
-          "orcid": ""
-        },
-        {
-          "name": "Mukkamala R",
-          "orcid": ""
-        },
-        {
-          "name": "Muntner P",
-          "orcid": ""
-        },
-        {
-          "name": "Ravenell J",
-          "orcid": ""
-        },
-        {
-          "name": "Shimbo D",
-          "orcid": ""
-        },
-        {
-          "name": "South AM",
-          "orcid": ""
-        },
-        {
-          "name": "Townsend RR",
-          "orcid": ""
-        },
-        {
-          "name": "Varagic J",
-          "orcid": ""
-        },
-        {
-          "name": "Wall HK",
-          "orcid": ""
-        },
-        {
-          "name": "Wang P",
-          "orcid": ""
-        },
-        {
-          "name": "Einhorn P",
-          "orcid": ""
-        },
-        {
-          "name": "Wolz M",
-          "orcid": ""
-        }
-      ]
-    },
     "54a67ad3e24d309a6ded": {
       "abstract": "Background Malaria causes immune perturbations and has been shown to affect immunogenicity to vaccine-preventable diseases. It is unknown, however, how repeated malaria infections affect the duration of vaccine protection. This study assessed variability in tetanus antitoxin IgG antibody kinetics by factors including malaria exposure history at district and individual levels. Methods We analyzed longitudinal tetanus antitoxin IgG antibody concentrations in 3064 plasma samples from 597 children aged 6-months- to 10-years-old from 2011 to 2017 residing in Tororo (high malaria transmission) and Jinja (low transmission) districts in Uganda. Mixed effects models were used to estimate antibody half-lives, and hazard models to estimate risk of sero-reversion by district. Results Observed tetanus seroprevalence was 87.5% among 6-month- to 11-month-olds. On average, tetanus antitoxin IgG antibody concentrations were estimated to fall below protective levels by age 8.1 years [95% CI: 6.4 to 10.2]. Antibody half-lives were significantly longer in Jinja (15.8 years [95% CI: 8.8 to 28.5]) than in Tororo (2.8 years [95% CI: 2.6 to 3.1]). Hazard of sero-reversion was significantly higher (2.7-fold [95% CI: 1.7 to 4.1]) in Tororo than in Jinja. Conclusions Overall, tetanus antibodies waned rapidly. However, we found that children living in the district with high malaria transmission had faster waning and higher risk of sero-reversion compared to those in the district with low transmission.…",
       "authors": [
@@ -13778,6 +14355,143 @@
         {
           "name": "Han MK",
           "orcid": "0000-0002-9095-4419"
+        }
+      ]
+    },
+    "9a04789e87733689939a": {
+      "abstract": "Hypertension is a modifiable risk factor for cardiovascular disease (CVD) and its prevalence is high in the United States and worldwide. Adequate characterization of blood pressure (BP) is essential for the diagnosis and management of hypertension. However, BP assessment can be challenging because of the unique influences across the lifespan, disease conditions, and physical environmental context. Moreover, complex uncertainties in BP assessment may contribute to underdiagnosis, undertreatment, and preventable morbidity and mortality. Recent advances in BP measurement devices have enabled comprehensive characterization of BP that could dramatically change how hypertension is managed to optimize CVD risk reduction, avoid complications of low BP, and improve hypertension control rates. To address the rapidly evolving landscape in BP assessment, the National Heart, Lung, and Blood Institute of the U.S. National Institutes of Health convened a 2-day workshop of clinicians and researchers in December 2024. The present report summarizes the topics presented and discussed during the meeting, which focused on the latest evidence on BP assessment as well as obstacles and knowledge gaps to be addressed to advance BP assessment in clinical practice and research.",
+      "authors": [
+        {
+          "name": "Abdalla M",
+          "orcid": "0000-0002-2725-505X"
+        },
+        {
+          "name": "Juraschek SP",
+          "orcid": ""
+        },
+        {
+          "name": "Biaggioni I",
+          "orcid": ""
+        },
+        {
+          "name": "Bowling CB",
+          "orcid": ""
+        },
+        {
+          "name": "Balijepalli RC",
+          "orcid": ""
+        },
+        {
+          "name": "Brady TM",
+          "orcid": ""
+        },
+        {
+          "name": "Bress AP",
+          "orcid": ""
+        },
+        {
+          "name": "Brook RD",
+          "orcid": ""
+        },
+        {
+          "name": "Cohen JB",
+          "orcid": "0000-0003-4649-079X"
+        },
+        {
+          "name": "Commodore-Mensah Y",
+          "orcid": "0000-0002-5054-3025"
+        },
+        {
+          "name": "Dart RA",
+          "orcid": ""
+        },
+        {
+          "name": "Desvigne-Nickens P",
+          "orcid": ""
+        },
+        {
+          "name": "Drawz P",
+          "orcid": "0000-0001-7301-9253"
+        },
+        {
+          "name": "Ferdinand KC",
+          "orcid": ""
+        },
+        {
+          "name": "Flynn JT",
+          "orcid": ""
+        },
+        {
+          "name": "Foti K",
+          "orcid": ""
+        },
+        {
+          "name": "Green BB",
+          "orcid": ""
+        },
+        {
+          "name": "Hoppe KK",
+          "orcid": ""
+        },
+        {
+          "name": "Kirley K",
+          "orcid": "0000-0001-7454-5095"
+        },
+        {
+          "name": "Lipsitz L",
+          "orcid": ""
+        },
+        {
+          "name": "Oh YS",
+          "orcid": ""
+        },
+        {
+          "name": "Melgarejo JD",
+          "orcid": ""
+        },
+        {
+          "name": "Mukkamala R",
+          "orcid": ""
+        },
+        {
+          "name": "Muntner P",
+          "orcid": ""
+        },
+        {
+          "name": "Ravenell J",
+          "orcid": ""
+        },
+        {
+          "name": "Shimbo D",
+          "orcid": ""
+        },
+        {
+          "name": "South AM",
+          "orcid": ""
+        },
+        {
+          "name": "Townsend RR",
+          "orcid": ""
+        },
+        {
+          "name": "Varagic J",
+          "orcid": ""
+        },
+        {
+          "name": "Wall HK",
+          "orcid": ""
+        },
+        {
+          "name": "Wang P",
+          "orcid": ""
+        },
+        {
+          "name": "Einhorn P",
+          "orcid": ""
+        },
+        {
+          "name": "Wolz M",
+          "orcid": ""
         }
       ]
     },
@@ -15873,6 +16587,31 @@
         }
       ]
     },
+    "3f1f107fccdcc9740176": {
+      "abstract": "One-time sexual partnerships have the potential to generate densely connected sexual networks. The distribution of one-time partnerships among MSM is often right-skewed, wherein a small proportion of MSM have a high number of partners. Identifying a set of covariates to predict who these individuals are can aid in developing and deploying STI prevention interventions and contribute to our understanding of STI transmission dynamics. We fit several negative binomial models to estimate the count of one-time partnerships among US MSM using data from a web-based egocentric network survey. Penalized logistic models were fit to evaluate predictors of MSM with high partnership counts at different binary cut points. Several covariates were significant predictors of a high one-time partnership rate in every model, including the number of main (partner considered a boyfriend, significant other, or life partner) and casual (an ongoing relationship, but not a main partner) partners, engaging in exchange sex, mobile app or internet use to meet men, and non-injection drug use. In the negative binomial models, the rate of one-time partnership formation was lower for those having one main partner compared to none, and higher for those with > 1 main partner, or any casual partners. Logistic models for partnership rates with a cut point at 6 partners per year considered as a high count had the overall best predictive performance. Overall, risk factors for HIV tend to occur together. We identif…",
+      "authors": [
+        {
+          "name": "Anderson EJ",
+          "orcid": "0000-0001-5218-1390"
+        },
+        {
+          "name": "Gandhi NR",
+          "orcid": ""
+        },
+        {
+          "name": "Sanchez TH",
+          "orcid": ""
+        },
+        {
+          "name": "Enns EA",
+          "orcid": "0000-0003-0693-7358"
+        },
+        {
+          "name": "Jenness SM",
+          "orcid": ""
+        }
+      ]
+    },
     "07f0d1e6420266882905": {
       "abstract": "Background Several large multisite studies have been conducted to describe etiology-specific burden of diarrhea among children in low-resource settings. Here, we combined data across studies to describe geographic and temporal trends in incidence and attributable fractions (AFs) of etiology-specific moderate-to-severe diarrhea (MSD), and to evaluate etiology-specific case fatality ratios (CFRs). Methods We harmonized case definitions and analytic methods across the Global Enteric Multicenter Study (GEMS), Malnutrition and Enteric Disease (MAL-ED), Vaccine Impact on Diarrhea in Africa (VIDA), AntiBiotics for Children with severe Diarrhea (ABCD), and Enterics for Global Health (EFGH) studies. Cases were 6–35-month-olds with acute MSD. Incidence estimates for GEMS, VIDA, and EFGH were adjusted for enrollment, healthcare seeking, and diagnostic testing. AFs were calculated as the proportion of MSD cases attributed to each etiology, and CFRs were estimated within 14 and 90 days of an MSD episode. Findings Pre-rotavirus vaccine introduction, rotavirus had the highest incidence and was the leading etiology among 6–11-month-olds, accounting for approximately 22–28% of MSD; the proportion of diarrhea due to rotavirus declined following vaccine introduction, with average AF 10–11% in Africa and Asia. Shigella incidence was highest among 12-23-month-olds and was the dominant etiology among 12-23 and 24-35-month-olds, causing approximately one-third to one-half of MSD. Overall, 90-day m…",
       "authors": [
@@ -17140,7 +17879,7 @@
         },
         {
           "name": "Sellers SC",
-          "orcid": ""
+          "orcid": "0000-0002-9676-3197"
         },
         {
           "name": "Norman RS",
@@ -18109,7 +18848,7 @@
       "authors": [
         {
           "name": "Li H",
-          "orcid": ""
+          "orcid": "0000-0003-3921-085X"
         },
         {
           "name": "Zhu Q",
@@ -18274,7 +19013,7 @@
         },
         {
           "name": "Wendt GW",
-          "orcid": "0000-0002-9014-6120"
+          "orcid": ""
         },
         {
           "name": "Arab-Zozani M",
@@ -19194,43 +19933,6 @@
         }
       ]
     },
-    "9899ccb0ef1ea00548bb": {
-      "abstract": "Objective Chronic exposure to environmental stressors may result in dysregulation across the body's adaptive stress-response systems, which can be conceptualized as allostatic load (AL). We estimated the effect of reducing annual average ambient fine particulate matter (PM 2.5 ) on AL in children. Methods Cross-sectional data were collected from 279 participants, 1-12 years old. Recruitment occurred at the Benioff Children's Hospital in Oakland, California, during routine child wellness checks from March 2017-October 2018. Monthly ground-level ambient PM 2.5 concentrations were mapped to each participant's residential address and averaged over the year prior to biospecimen collection. Inflammatory, metabolic, neurological, and cardiovascular plasma biomarkers related to hypothalamic-pituitary-adrenal (HPA) axis activation were measured to operationalize AL. Targeted maximum likelihood estimation paired with the Super Learner machine learning algorithm were used to estimate the effect of hypothetically reducing the observed ambient PM 2.5 exposure distribution by 3, 4, 5, 6 and 7 μg/m 3 on average AL score. Results Observed average annual ambient PM 2.5 concentration was 10.93 μg/m 3 (SD: 1.86) and observed average AL score was 1.46 (SD: 1.24). Shifting the sample's exposure distribution down by 4 and 5 μg/m 3 resulted in an average exposure concentration of 7.94 (SD: 1.84) and 6.96 μg/m 3 (SD:1.80). These reductions in exposure were associated with a -0.41 (95 % CI: -0.71, -…",
-      "authors": [
-        {
-          "name": "Banuelos S",
-          "orcid": "0000-0002-2452-4648"
-        },
-        {
-          "name": "Schuler A",
-          "orcid": ""
-        },
-        {
-          "name": "Le AD",
-          "orcid": "0000-0003-0491-6529"
-        },
-        {
-          "name": "Ye M",
-          "orcid": ""
-        },
-        {
-          "name": "Nguyen A",
-          "orcid": "0000-0002-5585-9184"
-        },
-        {
-          "name": "Long D",
-          "orcid": ""
-        },
-        {
-          "name": "Thakur N",
-          "orcid": ""
-        },
-        {
-          "name": "de la Rosa R",
-          "orcid": "0000-0002-3624-8388"
-        }
-      ]
-    },
     "1c07915df8cbac94059d": {
       "abstract": "Background Timely and accurate short-term forecasting of Influenza-Like Illness (ILI) is crucial for guiding outbreak response, optimizing healthcare resource allocation, and informing public health interventions. The COVID-19 pandemic, which disrupted seasonal ILI dynamics due to widespread nonpharmaceutical interventions (NPI), underscored the urgent need for adaptive and reliable forecasting frameworks. Method In this study, we present a novel ensemble modeling approach that combines a mechanistic n-subepidemic model with a Monte Carlo Dropout Long Short-Term Memory (LSTM) neural network to improve age-specific ILI forecasting performance in South Korea. By capturing both the structured dynamics of disease spread and nonlinear temporal dependencies, our ensemble method adapts to pandemic-altered transmission patterns while offering robust uncertainty quantification. Age-stratified forecasting allows the framework to capture heterogeneity in vulnerability and transmission across demographic groups, providing more targeted insights for policy and planning. Result We evaluated forecasting performance across four epidemic waves using the Weighted Interval Score (WIS), Mean Absolute Error (MAE), consistently finding that the ensemble models outperformed individual approaches. Conclusion These findings underscore the power of hybrid forecasting approaches to improve epidemic preparedness and response, providing a flexible data-driven framework that can evolve with changing tran…",
       "authors": [
@@ -19974,7 +20676,7 @@
         },
         {
           "name": "Ovies C",
-          "orcid": ""
+          "orcid": "0000-0003-2269-7040"
         },
         {
           "name": "Ren Y",
@@ -20816,7 +21518,7 @@
         },
         {
           "name": "Kortsch D",
-          "orcid": ""
+          "orcid": "0000-0002-9564-2414"
         },
         {
           "name": "Barbarooah P",
@@ -22114,7 +22816,7 @@
         },
         {
           "name": "McDonald DJ",
-          "orcid": ""
+          "orcid": "0000-0002-0443-4282"
         }
       ]
     },
@@ -24970,6 +25672,43 @@
         }
       ]
     },
+    "9899ccb0ef1ea00548bb": {
+      "abstract": "Objective Chronic exposure to environmental stressors may result in dysregulation across the body's adaptive stress-response systems, which can be conceptualized as allostatic load (AL). We estimated the effect of reducing annual average ambient fine particulate matter (PM 2.5 ) on AL in children. Methods Cross-sectional data were collected from 279 participants, 1-12 years old. Recruitment occurred at the Benioff Children's Hospital in Oakland, California, during routine child wellness checks from March 2017-October 2018. Monthly ground-level ambient PM 2.5 concentrations were mapped to each participant's residential address and averaged over the year prior to biospecimen collection. Inflammatory, metabolic, neurological, and cardiovascular plasma biomarkers related to hypothalamic-pituitary-adrenal (HPA) axis activation were measured to operationalize AL. Targeted maximum likelihood estimation paired with the Super Learner machine learning algorithm were used to estimate the effect of hypothetically reducing the observed ambient PM 2.5 exposure distribution by 3, 4, 5, 6 and 7 μg/m 3 on average AL score. Results Observed average annual ambient PM 2.5 concentration was 10.93 μg/m 3 (SD: 1.86) and observed average AL score was 1.46 (SD: 1.24). Shifting the sample's exposure distribution down by 4 and 5 μg/m 3 resulted in an average exposure concentration of 7.94 (SD: 1.84) and 6.96 μg/m 3 (SD:1.80). These reductions in exposure were associated with a -0.41 (95 % CI: -0.71, -…",
+      "authors": [
+        {
+          "name": "Banuelos S",
+          "orcid": "0000-0002-2452-4648"
+        },
+        {
+          "name": "Schuler A",
+          "orcid": "0000-0003-4853-6130"
+        },
+        {
+          "name": "Le AD",
+          "orcid": "0000-0003-0491-6529"
+        },
+        {
+          "name": "Ye M",
+          "orcid": ""
+        },
+        {
+          "name": "Nguyen A",
+          "orcid": "0000-0002-5585-9184"
+        },
+        {
+          "name": "Long D",
+          "orcid": ""
+        },
+        {
+          "name": "Thakur N",
+          "orcid": ""
+        },
+        {
+          "name": "de la Rosa R",
+          "orcid": "0000-0002-3624-8388"
+        }
+      ]
+    },
     "7eb7b273e9122a45f8bd": {
       "abstract": "A ceftriaxone safety alert prompted a review of rapid response and cardiac arrest events in relation to the timing of intravenous cephalosporin administrations across a large health system. Despite high utilization, we found a low rate of significant ceftriaxone-related adverse events with a similar incidence as other intravenous cephalosporins.",
       "authors": [
@@ -25255,11 +25994,11 @@
       "authors": [
         {
           "name": "Hamid S",
-          "orcid": ""
+          "orcid": "0000-0001-8164-0656"
         },
         {
           "name": "Derado G",
-          "orcid": ""
+          "orcid": "0000-0002-3346-0770"
         },
         {
           "name": "Pham H",
@@ -25279,7 +26018,7 @@
         },
         {
           "name": "Kawasaki B",
-          "orcid": ""
+          "orcid": "0000-0002-7168-6965"
         },
         {
           "name": "Meek J",
@@ -27159,6 +27898,31 @@
         {
           "name": "Dittmer DP",
           "orcid": ""
+        }
+      ]
+    },
+    "7f1e162ffe79ccdc550c": {
+      "abstract": "Backfill is the process of revising case data, often by retrospectively assigning or reassigning newly reported cases to earlier symptom onset dates. Time- and spatial-varying delays in the backfill process may compromise real-time surveillance and forecasting efforts by obscuring the true underlying transmission patterns. Using Michigan COVID-19 case data, we developed a statistical mixture model to describe backfill and geographical and temporal variations. The model combined an exponential process (case reporting delay) and a gamma-distributed process (date reassignment). Parameters were estimated by maximum likelihood with lasso regularization, and the Akaike Information Criterion was used to determine the necessity of the reassignment component for each date. We estimated the exponential reporting speed over time and space and, if appropriate, the transient peak and time of case reassignment. We found that case reporting improved over the pandemic: reporting speed increased over time (with substantial day-to-day variation), and case reassignments were processed faster. We also identified potential regional disparities: rural regions with population densities below 50 people/km 2 had slower backfill speeds. These findings provide critical insights about the evolution of case reporting and backfill dynamics that can be leveraged for “nowcasting” models to complete real-time surveillance data, ultimately improving outbreak preparedness and response.",
+      "authors": [
+        {
+          "name": "Niu Y",
+          "orcid": ""
+        },
+        {
+          "name": "Brouwer AF",
+          "orcid": "0000-0002-3779-5287"
+        },
+        {
+          "name": "Martin ET",
+          "orcid": ""
+        },
+        {
+          "name": "Coyle JR",
+          "orcid": ""
+        },
+        {
+          "name": "Eisenberg MC",
+          "orcid": "0000-0003-4221-830X"
         }
       ]
     },
@@ -33663,7 +34427,7 @@
       "authors": [
         {
           "name": "Harris T",
-          "orcid": ""
+          "orcid": "0000-0003-0176-3862"
         },
         {
           "name": "Richter M",
@@ -34333,7 +35097,7 @@
         },
         {
           "name": "Kalubula P",
-          "orcid": ""
+          "orcid": "0009-0000-3020-3931"
         },
         {
           "name": "Caruso BA",
@@ -36578,7 +37342,7 @@
         },
         {
           "name": "Chongwe G",
-          "orcid": ""
+          "orcid": "0000-0003-3303-308X"
         },
         {
           "name": "Singh P",
@@ -37349,7 +38113,7 @@
         },
         {
           "name": "Mugo M",
-          "orcid": ""
+          "orcid": "0000-0003-1448-837X"
         },
         {
           "name": "Yakubu H",
@@ -38461,7 +39225,7 @@
         },
         {
           "name": "Mancl LA",
-          "orcid": ""
+          "orcid": "0000-0001-8566-8883"
         },
         {
           "name": "Carpiano RM",
@@ -38880,7 +39644,7 @@
         },
         {
           "name": "Stockwell MS",
-          "orcid": ""
+          "orcid": "0000-0002-2113-7247"
         },
         {
           "name": "Tartof SY",
@@ -45543,7 +46307,7 @@
         },
         {
           "name": "Chongwe G",
-          "orcid": ""
+          "orcid": "0000-0003-3303-308X"
         },
         {
           "name": "Chilumba I",
@@ -52782,7 +53546,7 @@
         },
         {
           "name": "Nowalk MP",
-          "orcid": ""
+          "orcid": "0000-0002-1702-2690"
         },
         {
           "name": "Gaglani M",
@@ -53392,7 +54156,7 @@
         },
         {
           "name": "Levy K",
-          "orcid": ""
+          "orcid": "0000-0002-0968-9401"
         },
         {
           "name": "Brouwer A",
@@ -63162,7 +63926,7 @@
         },
         {
           "name": "Ghimire M",
-          "orcid": ""
+          "orcid": "0009-0004-9384-9974"
         },
         {
           "name": "Morrison-Porter A",
@@ -65361,7 +66125,7 @@
         },
         {
           "name": "McDonald DJ",
-          "orcid": ""
+          "orcid": "0000-0002-0443-4282"
         }
       ]
     },
@@ -65739,7 +66503,7 @@
         },
         {
           "name": "Wager S",
-          "orcid": ""
+          "orcid": "0000-0002-7526-9077"
         }
       ]
     },
@@ -68083,7 +68847,7 @@
         },
         {
           "name": "Yoder J",
-          "orcid": ""
+          "orcid": "0000-0002-8401-8296"
         },
         {
           "name": "Boehm AB",
@@ -69891,7 +70655,7 @@
         },
         {
           "name": "Bhattacharya P",
-          "orcid": ""
+          "orcid": "0000-0003-3871-9400"
         },
         {
           "name": "John D",
@@ -70690,7 +71454,7 @@
         },
         {
           "name": "Zahid MH",
-          "orcid": ""
+          "orcid": "0000-0002-1832-8974"
         },
         {
           "name": "Eisenberg JNS",
@@ -70804,7 +71568,7 @@
         },
         {
           "name": "Kummari S",
-          "orcid": ""
+          "orcid": "0000-0002-8202-5214"
         },
         {
           "name": "Hall DA",
@@ -71727,7 +72491,7 @@
         },
         {
           "name": "Antkiewicz D",
-          "orcid": ""
+          "orcid": "0000-0003-1282-5483"
         },
         {
           "name": "Bradley I",
@@ -75375,7 +76139,7 @@
         },
         {
           "name": "Yadav R",
-          "orcid": ""
+          "orcid": "0000-0003-1764-4673"
         },
         {
           "name": "Noble EK",
@@ -78051,7 +78815,7 @@
         },
         {
           "name": "Suu-Ire R",
-          "orcid": ""
+          "orcid": "0000-0002-3671-4342"
         },
         {
           "name": "Ntiamoa-Baidu Y",
@@ -81863,7 +82627,7 @@
         },
         {
           "name": "Chongwe G",
-          "orcid": "0000-0003-3303-308X"
+          "orcid": ""
         },
         {
           "name": "Mwansa FD",
@@ -82912,7 +83676,7 @@
       "authors": [
         {
           "name": "Welsh EF",
-          "orcid": ""
+          "orcid": "0009-0002-7647-6200"
         },
         {
           "name": "Andrus EC",
@@ -88013,7 +88777,7 @@
       "authors": [
         {
           "name": "deKay JT",
-          "orcid": ""
+          "orcid": "0000-0001-7916-6641"
         },
         {
           "name": "Chepurko E",
@@ -94831,7 +95595,7 @@
         },
         {
           "name": "Antkiewicz D",
-          "orcid": ""
+          "orcid": "0000-0003-1282-5483"
         },
         {
           "name": "Turner H",
@@ -95071,7 +95835,7 @@
         },
         {
           "name": "Williamson E",
-          "orcid": ""
+          "orcid": "0000-0001-6905-876X"
         },
         {
           "name": "Mukherjee B",
@@ -95296,7 +96060,7 @@
         },
         {
           "name": "Braithwaite I",
-          "orcid": ""
+          "orcid": "0000-0001-5327-5612"
         },
         {
           "name": "Byrne TE",
@@ -97398,7 +98162,7 @@
         },
         {
           "name": "Levy K",
-          "orcid": ""
+          "orcid": "0000-0002-0968-9401"
         },
         {
           "name": "Freeman MC",
@@ -104763,7 +105527,7 @@
         },
         {
           "name": "Braithwaite I",
-          "orcid": ""
+          "orcid": "0000-0001-5327-5612"
         },
         {
           "name": "Aldridge RW",
@@ -105709,18 +106473,6 @@
         },
         {
           "name": "Lisa B. Hightow-Weidman",
-          "orcid": ""
-        }
-      ]
-    },
-    "61014193ec6dd4acf61f": {
-      "authors": [
-        {
-          "name": "Bruns R",
-          "orcid": ""
-        },
-        {
-          "name": "Adalja A",
           "orcid": ""
         }
       ]
@@ -108906,6 +109658,18 @@
         }
       ]
     },
+    "61014193ec6dd4acf61f": {
+      "authors": [
+        {
+          "name": "Bruns R",
+          "orcid": "0000-0002-2209-4242"
+        },
+        {
+          "name": "Adalja A",
+          "orcid": "0000-0003-2054-4075"
+        }
+      ]
+    },
     "b913f836c395f1438a37": {
       "abstract": "Investigating new avenues of mosquito control is an important area of entomological research. Examining the effects of various compounds on mosquito biology contributes to the foundation of knowledge from which novel control methods can be built. Caffeine, in particular, is a commonly consumed compound that has not been thoroughly studied for its potential in disrupting the natural life cycle of mosquitoes. In this exploratory study, we analyzed caffeine's effect on the blood-feeding behavior, survival, and fecundity of Aedes albopictus Skuse (Diptera: Culicidae) mosquitoes. Two outcomes, blood-feeding behavior and fecundity, were analyzed in the first experiment in which mosquitoes were exposed to caffeine doses ranging from 0.2 to 2.4 mg/ml. We found a negative linear relationship between dose and fecundity, but no significant impact on blood-feeding behavior. Adjustments were made to the experimental design in which mosquitoes were exposed to doses ranging from 2.5 to 20 mg/ml. From this experiment, we found that caffeine negatively affected blood-feeding behavior, survival, and fecundity especially at higher concentrations. These results suggest that caffeine could be a potential target for future mosquito control research.",
       "authors": [
@@ -109058,7 +109822,7 @@
         },
         {
           "name": "Dayton A",
-          "orcid": ""
+          "orcid": "0000-0002-0280-0840"
         }
       ]
     },
@@ -109206,7 +109970,7 @@
         },
         {
           "name": "Eaton AA",
-          "orcid": ""
+          "orcid": "0000-0001-5900-9745"
         },
         {
           "name": "Mason SM",
@@ -111382,7 +112146,7 @@
         },
         {
           "name": "Betke B",
-          "orcid": ""
+          "orcid": "0009-0008-8620-2186"
         },
         {
           "name": "Herrera-Diestra JL",
@@ -112717,7 +113481,7 @@
         },
         {
           "name": "Boulos JR",
-          "orcid": ""
+          "orcid": "0000-0003-3450-3266"
         },
         {
           "name": "Dover T",
@@ -113399,7 +114163,7 @@
         },
         {
           "name": "Yadav R",
-          "orcid": ""
+          "orcid": "0000-0003-1764-4673"
         },
         {
           "name": "Wernli KJ",
@@ -116921,31 +117685,6 @@
         }
       ]
     },
-    "d05d61deeb55273fdf70": {
-      "abstract": "Functional MRI (fMRI) data may be contaminated by artifacts arising from a myriad of sources, including subject head motion, respiration, heartbeat, scanner drift, and thermal noise. These artifacts cause deviations from common distributional assumptions, introduce spatial and temporal outliers, and reduce the signal-to-noise ratio of the data-all of which can have negative consequences for the accuracy and power of downstream statistical analysis. Scrubbing is a technique for excluding fMRI volumes thought to be contaminated by artifacts and generally comes in two flavors. Motion scrubbing based on subject head motion-derived measures is popular but suffers from a number of drawbacks, among them the need to choose a threshold, a lack of generalizability to multiband acquisitions, and high rates of censoring of individual volumes and entire subjects. Alternatively, data-driven scrubbing methods like DVARS are based on observed noise in the processed fMRI timeseries and may avoid some of these issues. Here we propose \"projection scrubbing\", a novel data-driven scrubbing method based on a statistical outlier detection framework and strategic dimension reduction, including independent component analysis (ICA), to isolate artifactual variation. We undertake a comprehensive comparison of motion scrubbing with data-driven projection scrubbing and DVARS. We argue that an appropriate metric for the success of scrubbing is maximal data retention subject to reasonable performance on t…",
-      "authors": [
-        {
-          "name": "Phạm DĐ",
-          "orcid": "0000-0001-7563-4727"
-        },
-        {
-          "name": "McDonald DJ",
-          "orcid": ""
-        },
-        {
-          "name": "Ding L",
-          "orcid": ""
-        },
-        {
-          "name": "Nebel MB",
-          "orcid": "0000-0003-0185-3382"
-        },
-        {
-          "name": "Mejia AF",
-          "orcid": "0000-0002-4312-8974"
-        }
-      ]
-    },
     "cf9e8aa84c59f4aa6d79": {
       "abstract": "OBJECTIVES: Age is important for prognosis in community-onset pneumonia, but how it influences admission decisions in the emergency department (ED) is not well characterized. Using clinical data from the electronic health record in a national cohort, we examined pneumonia hospitalization patterns, variation, and relationships with mortality among older versus younger Veterans. METHODS: In a retrospective cohort of patients ≥ 18 years presenting to EDs with a diagnosis of pneumonia at 118 VA Medical Centers January 1, 2006, to December 31, 2016, we compared observed, predicted, and residual hospitalization risk for Veterans 66% at the highest decile) that was similar but with higher risk for patients 70-79 years (54% vs. 82%) and ≥ 80 years (59% vs. 85%) and remained after accounting for patient factors, with no consistently positive or negative associations with facility-level 30-day mortality. CONCLUSIONS: Older Veterans with community-onset pneumonia experience high risk of hospitalization, with widespread facility variation that has no clear relationship to short-term mortality.",
       "authors": [
@@ -117750,7 +118489,7 @@
         },
         {
           "name": "Clipman SJ",
-          "orcid": ""
+          "orcid": "0000-0002-2366-8420"
         },
         {
           "name": "Coffin CS",
@@ -120847,6 +121586,31 @@
         }
       ]
     },
+    "d05d61deeb55273fdf70": {
+      "abstract": "Functional MRI (fMRI) data may be contaminated by artifacts arising from a myriad of sources, including subject head motion, respiration, heartbeat, scanner drift, and thermal noise. These artifacts cause deviations from common distributional assumptions, introduce spatial and temporal outliers, and reduce the signal-to-noise ratio of the data-all of which can have negative consequences for the accuracy and power of downstream statistical analysis. Scrubbing is a technique for excluding fMRI volumes thought to be contaminated by artifacts and generally comes in two flavors. Motion scrubbing based on subject head motion-derived measures is popular but suffers from a number of drawbacks, among them the need to choose a threshold, a lack of generalizability to multiband acquisitions, and high rates of censoring of individual volumes and entire subjects. Alternatively, data-driven scrubbing methods like DVARS are based on observed noise in the processed fMRI timeseries and may avoid some of these issues. Here we propose \"projection scrubbing\", a novel data-driven scrubbing method based on a statistical outlier detection framework and strategic dimension reduction, including independent component analysis (ICA), to isolate artifactual variation. We undertake a comprehensive comparison of motion scrubbing with data-driven projection scrubbing and DVARS. We argue that an appropriate metric for the success of scrubbing is maximal data retention subject to reasonable performance on t…",
+      "authors": [
+        {
+          "name": "Phạm DĐ",
+          "orcid": "0000-0001-7563-4727"
+        },
+        {
+          "name": "McDonald DJ",
+          "orcid": "0000-0002-0443-4282"
+        },
+        {
+          "name": "Ding L",
+          "orcid": ""
+        },
+        {
+          "name": "Nebel MB",
+          "orcid": "0000-0003-0185-3382"
+        },
+        {
+          "name": "Mejia AF",
+          "orcid": "0000-0002-4312-8974"
+        }
+      ]
+    },
     "93960b817862f0dd2e4e": {
       "abstract": "Background Declines in outpatient antibiotic prescribing were reported during the beginning of the coronavirus disease 2019 (COVID-19) pandemic in the United States; however, the overall impact of COVID-19 cases on antibiotic prescribing remains unclear. Methods This was an ecological study using random-effects panel regression of monthly reported COVID-19 county case and antibiotic prescription data, controlling for seasonality, urbanicity, health care access, nonpharmaceutical interventions (NPIs), and sociodemographic factors. Results Antibiotic prescribing fell 26.8% in 2020 compared with prior years. Each 1% increase in county-level monthly COVID-19 cases was associated with a 0.009% (95% CI, 0.007% to 0.012%; P P P Conclusions The positive association of COVID-19 cases with prescribing for all ages and the negative association for children indicate that increases in prescribing occurred primarily among adults. The rarity of bacterial coinfection in COVID-19 patients suggests that a fraction of these prescriptions may have been inappropriate. Facemasks and school closures were correlated with reductions in prescribing among children, possibly due to the prevention of other upper respiratory infections. The strongest predictors of prescribing were prior years' prescribing trends, suggesting the possibility that behavioral norms are an important driver of prescribing practices.",
       "authors": [
@@ -122787,7 +123551,7 @@
         },
         {
           "name": "Stockwell MS",
-          "orcid": ""
+          "orcid": "0000-0002-2113-7247"
         },
         {
           "name": "Ellingson KD",
@@ -126182,7 +126946,7 @@
         },
         {
           "name": "deKay JT",
-          "orcid": ""
+          "orcid": "0000-0001-7916-6641"
         },
         {
           "name": "May TL",
@@ -127410,7 +128174,7 @@
         },
         {
           "name": "Braithwaite I",
-          "orcid": ""
+          "orcid": "0000-0001-5327-5612"
         },
         {
           "name": "Byrne TE",
@@ -128861,6 +129625,39 @@
         }
       ]
     },
+    "4cbc4f93620e2b754d57": {
+      "abstract": "Randomized controlled trials (RCTs) evaluate hypotheses in specific contexts and are often considered the gold standard of evidence for infectious disease interventions, but their results cannot immediately generalize to other contexts (e.g., different populations, interventions, or disease burdens). Mechanistic models are one approach to generalizing findings between contexts, but infectious disease transmission models (IDTMs) are not immediately suited for analyzing RCTs, since they often rely on time-series surveillance data. We developed an IDTM framework to explain relative risk outcomes of an infectious disease RCT and applied it to a water, sanitation, and hygiene (WASH) RCT. This model can generalize the RCT results to other contexts and conditions. We developed this compartmental IDTM framework to account for key WASH RCT factors: i) transmission across multiple environmental pathways, ii) multiple interventions applied individually and in combination, iii) adherence to interventions or preexisting conditions, and iv) the impact of individuals not enrolled in the study. We employed a hybrid sampling and estimation framework to obtain posterior estimates of mechanistic parameter sets consistent with empirical outcomes. We illustrated our model using WASH Benefits Bangladesh RCT data (n = 17,187). Our model reproduced reported diarrheal prevalence in this RCT. The baseline estimate of the basic reproduction number [Formula: see text] for the control arm (1.10, 95% CrI…",
+      "authors": [
+        {
+          "name": "Brouwer AF",
+          "orcid": "0000-0002-3779-5287"
+        },
+        {
+          "name": "Eisenberg MC",
+          "orcid": "0000-0003-4221-830X"
+        },
+        {
+          "name": "Bakker KM",
+          "orcid": "0000-0002-7084-9291"
+        },
+        {
+          "name": "Boerger SN",
+          "orcid": "0000-0001-5428-6073"
+        },
+        {
+          "name": "Zahid MH",
+          "orcid": "0000-0002-1832-8974"
+        },
+        {
+          "name": "Freeman MC",
+          "orcid": "0000-0002-1517-2572"
+        },
+        {
+          "name": "Eisenberg JNS",
+          "orcid": "0000-0001-8019-296X"
+        }
+      ]
+    },
     "da880f9246ee7d4a695a": {
       "abstract": "Background Deltoid tensioning secondary to humeral lengthening after reverse shoulder arthroplasty (RSA) is commonly theorized to be crucial to improving range of motion (ROM) but may predispose patients to acromial/scapular spine fractures and neurologic injury. Clinical evidence linking patient outcomes to humeral lengthening is limited. This study assesses the relationship between humeral lengthening and clinical outcomes after RSA. Methods A single institution review of 284 RSAs performed in 265 patients was performed. Humeral lengthening was defined as the difference in the subacromial height preoperatively to postoperatively as measured on Grashey radiographs. The subacromial height was measured as the vertical difference between the most inferolateral aspect of the acromion and the most superior aspect of the greater tuberosity. The relationship between humeral lengthening and clinical outcomes was assessed on a continuous basis. Secondarily, clinical outcomes were assessed using a dichotomous definition of humeral lengthening (≤25 vs. >25mm) based on prior clinical and biomechanical work purporting a correlation with clinical outcomes. Improvement exceeding the minimal clinically important difference (MCID) and substantial clinical benefit (SCB) for ROM and outcome scores after RSA were also compared. Results Humeral lengthening demonstrated a nonlinear relationship with postoperative ROM, clinical outcome scores, and shoulder strength and their improvement preoperat…",
       "authors": [
@@ -129030,7 +129827,7 @@
         },
         {
           "name": "Goss CH",
-          "orcid": ""
+          "orcid": "0000-0001-8602-0309"
         },
         {
           "name": "Ramos KJ",
@@ -130138,7 +130935,7 @@
         },
         {
           "name": "Zheng L",
-          "orcid": ""
+          "orcid": "0000-0003-4344-3664"
         },
         {
           "name": "Pan PP",
@@ -130999,7 +131796,7 @@
         },
         {
           "name": "Stockwell MS",
-          "orcid": ""
+          "orcid": "0000-0002-2113-7247"
         },
         {
           "name": "Duque J",
@@ -132186,7 +132983,7 @@
         },
         {
           "name": "Saggurti N",
-          "orcid": ""
+          "orcid": "0000-0002-5267-8425"
         },
         {
           "name": "Silverman J",
@@ -136060,7 +136857,7 @@
         },
         {
           "name": "Braithwaite I",
-          "orcid": ""
+          "orcid": "0000-0001-5327-5612"
         },
         {
           "name": "Johnson AM",
@@ -137344,7 +138141,7 @@
         },
         {
           "name": "Brennhofer S",
-          "orcid": ""
+          "orcid": "0000-0002-9914-4471"
         },
         {
           "name": "Islam O",
@@ -138462,7 +139259,7 @@
         },
         {
           "name": "Mendel J",
-          "orcid": ""
+          "orcid": "0000-0001-6361-0461"
         },
         {
           "name": "Rudolf I",
@@ -140824,7 +141621,7 @@
         },
         {
           "name": "Braithwaite I",
-          "orcid": ""
+          "orcid": "0000-0001-5327-5612"
         },
         {
           "name": "Byrne T",
@@ -140881,7 +141678,7 @@
         },
         {
           "name": "Braithwaite I",
-          "orcid": ""
+          "orcid": "0000-0001-5327-5612"
         },
         {
           "name": "Beale S",
@@ -141999,11 +142796,11 @@
         },
         {
           "name": "Dehingia N",
-          "orcid": ""
+          "orcid": "0000-0003-1787-9050"
         },
         {
           "name": "Joshi M",
-          "orcid": ""
+          "orcid": "0000-0002-9304-1463"
         },
         {
           "name": "Singh D",
@@ -142011,11 +142808,11 @@
         },
         {
           "name": "Chakraborty S",
-          "orcid": ""
+          "orcid": "0000-0001-6457-5071"
         },
         {
           "name": "Raj A",
-          "orcid": ""
+          "orcid": "0000-0002-8127-5123"
         }
       ]
     },
@@ -142531,7 +143328,7 @@
         },
         {
           "name": "Luzuriaga K",
-          "orcid": ""
+          "orcid": "0000-0002-5561-1787"
         },
         {
           "name": "Eaton RB",
@@ -145834,7 +146631,7 @@
         },
         {
           "name": "Belda-Ferre P",
-          "orcid": ""
+          "orcid": "0000-0001-6532-1161"
         },
         {
           "name": "Chacón M",
@@ -146855,7 +147652,7 @@
       "authors": [
         {
           "name": "Tartof SY",
-          "orcid": ""
+          "orcid": "0000-0003-2336-8476"
         },
         {
           "name": "Slezak JM",
@@ -148702,7 +149499,7 @@
         },
         {
           "name": "Nowalk MP",
-          "orcid": ""
+          "orcid": "0000-0002-1702-2690"
         },
         {
           "name": "Zimmerman RK",
@@ -154348,39 +155145,6 @@
         }
       ]
     },
-    "4cbc4f93620e2b754d57": {
-      "abstract": "Randomized controlled trials (RCTs), which evaluate hypotheses in specific contexts, are often considered the gold standard of evidence for infectious disease interventions, but their results cannot immediately generalize to other contexts. Mechanistic models are one approach to generalizing findings between contexts, but infectious disease transmission models are not immediately suited for analyzing RCTs, since they often rely on time-series surveillance data that is rarely collected by RCTs. We developed a modeling framework to explain the main outcome of an infectious disease RCT—relative risk—and applied it to a water, sanitation, and hygiene (WASH) RCT. This model can generalize the RCT results to other contexts and conditions. We developed this compartmental modeling framework to account for key WASH RCT factors: i) transmission across multiple environmental pathways, ii) multiple interventions applied individually and in combination, iii) adherence to interventions or preexisting conditions, and iv) the impact of individuals not enrolled in the study. We employed a hybrid sampling-importance resampling and estimation framework to obtain posterior estimates of mechanistic parameters and their uncertainties and illustrated our model using WASH Benefits Bangladesh RCT data (n=17,187). Our model reproduced reported diarrheal prevalence in this RCT. The baseline estimate of the basic reproduction number ℛ 0 for the control arm (1.15, 95% CI: 1.09, 1.27) corresponded to an…",
-      "authors": [
-        {
-          "name": "Brouwer AF",
-          "orcid": "0000-0002-3779-5287"
-        },
-        {
-          "name": "Eisenberg MC",
-          "orcid": ""
-        },
-        {
-          "name": "Bakker KM",
-          "orcid": "0000-0002-7084-9291"
-        },
-        {
-          "name": "Boerger SN",
-          "orcid": ""
-        },
-        {
-          "name": "Zahid MH",
-          "orcid": ""
-        },
-        {
-          "name": "Freeman MC",
-          "orcid": "0000-0002-1517-2572"
-        },
-        {
-          "name": "Eisenberg JN",
-          "orcid": ""
-        }
-      ]
-    },
     "057c4b210d2afaf8f205": {
       "abstract": "Introduction Increases in global childhood vaccine delivery have led to decreases in morbidity from vaccine-preventable diseases. However, these improvements in vaccination have been heterogeneous, with some countries demonstrating greater levels of change and sustainability. Understanding what these high-performing countries have done differently and how their decision-making processes will support targeted improvements in childhood vaccine delivery. Methods and analysis We studied three countries-Nepal, Senegal, Zambia-with exemplary improvements in coverage between 2000 and 2018 as part of the Exemplars in Global Health Programme. We apply established implementation science frameworks to understand the 'how' and 'why' underlying improvements in vaccine delivery and coverage. Through mixed-methods research, we will identify drivers of catalytic change in vaccine coverage and the decision-making process supporting these interventions and activities. Methods include quantitative analysis of available datasets and in-depth interviews and focus groups with key stakeholders in the global, national and subnational government and non-governmental organisation space, as well as community members and local health delivery system personnel. Ethics and dissemination Working as a multinational and multidisciplinary team, and under oversight from all partner and national-level (where applicable) institutional review boards, we collect data from participants who provided informed consen…",
       "authors": [
@@ -154840,7 +155604,7 @@
         },
         {
           "name": "Saggurti N",
-          "orcid": ""
+          "orcid": "0000-0002-5267-8425"
         },
         {
           "name": "Silverman J",
@@ -157372,11 +158136,11 @@
       "authors": [
         {
           "name": "Malden DE",
-          "orcid": ""
+          "orcid": "0000-0003-0567-8294"
         },
         {
           "name": "Tartof SY",
-          "orcid": ""
+          "orcid": "0000-0003-2336-8476"
         },
         {
           "name": "Ackerson BK",
@@ -161737,7 +162501,7 @@
         },
         {
           "name": "Saggurti N",
-          "orcid": ""
+          "orcid": "0000-0002-5267-8425"
         },
         {
           "name": "Silverman JG",
@@ -163003,7 +163767,7 @@
         },
         {
           "name": "Miller A",
-          "orcid": ""
+          "orcid": "0000-0002-2252-6973"
         },
         {
           "name": "Wilson C",
@@ -163289,7 +164053,7 @@
         },
         {
           "name": "Ammerman M",
-          "orcid": ""
+          "orcid": "0000-0002-4272-5822"
         },
         {
           "name": "Mortenson L",
@@ -164504,7 +165268,7 @@
         },
         {
           "name": "Braithwaite I",
-          "orcid": ""
+          "orcid": "0000-0001-5327-5612"
         },
         {
           "name": "Patel P",
@@ -165970,7 +166734,7 @@
         },
         {
           "name": "Zheng L",
-          "orcid": ""
+          "orcid": "0000-0003-4344-3664"
         },
         {
           "name": "Jin S",
@@ -171525,7 +172289,7 @@
         },
         {
           "name": "Braithwaite I",
-          "orcid": ""
+          "orcid": "0000-0001-5327-5612"
         },
         {
           "name": "Patni N",
@@ -174613,7 +175377,7 @@
         },
         {
           "name": "Nowalk MP",
-          "orcid": ""
+          "orcid": "0000-0002-1702-2690"
         },
         {
           "name": "Jackson ML",
@@ -177294,7 +178058,7 @@
         },
         {
           "name": "Ammerman M",
-          "orcid": ""
+          "orcid": "0000-0002-4272-5822"
         },
         {
           "name": "Wigginton KR",
@@ -177870,7 +178634,7 @@
       ]
     },
     "28a97672c5d67db050b6": {
-      "abstract": "Abstract. Landfast sea ice (fast ice) is an important though poorly understood component of the cryosphere on the Antarctic continental shelf, where it plays a key role in atmosphere–ocean–ice-sheet interaction and coupled ecological and biogeochemical processes. Here, we present a first in-depth baseline analysis of variability and change in circum-Antarctic fast-ice distribution (including its relationship to bathymetry), based on a new high-resolution satellite-derived time series for the period 2000 to 2018. This reveals (a) an overall trend of -882±824 km2 yr−1 (-0.19±0.18 % yr−1) and (b) eight distinct regions in terms of fast-ice coverage and modes of formation. Of these, four exhibit positive trends over the 18-year period and four negative. Positive trends are seen in East Antarctica and in the Bellingshausen Sea, with this region claiming the largest positive trend of +1198±359 km2 yr−1 (+1.10±0.35 % yr−1). The four negative trends predominantly occur in West Antarctica, with the largest negative trend of -1206±277 km2 yr−1 (-1.78±0.41 % yr−1) occurring in the Victoria and Oates Land region in the western Ross Sea. All trends are significant. This new baseline analysis represents a significant advance in our knowledge of the current state of both the global cryosphere and the complex Antarctic coastal system, which are vulnerable to climate variability and change. It will also inform a wide range of other studies.",
+      "abstract": "Landfast sea ice (fast ice) is an important though poorly understood component of the cryosphere on the Antarctic continental shelf, where it plays a key role in atmosphere–ocean–ice-sheet interaction and coupled ecological and biogeochemical processes. Here, we present a first in-depth baseline analysis of variability and change in circum-Antarctic fast-ice distribution (including its relationship to bathymetry), based on a new high-resolution satellite-derived time series for the period 2000 to 2018. This reveals (a) an overall trend of -882±824 km 2 yr −1 (-0.19±0.18 % yr −1 ) and (b) eight distinct regions in terms of fast-ice coverage and modes of formation. Of these, four exhibit positive trends over the 18-year period and four negative. Positive trends are seen in East Antarctica and in the Bellingshausen Sea, with this region claiming the largest positive trend of +1198±359 km 2 yr −1 (+1.10±0.35 % yr −1 ). The four negative trends predominantly occur in West Antarctica, with the largest negative trend of -1206±277 km 2 yr −1 (-1.78±0.41 % yr −1 ) occurring in the Victoria and Oates Land region in the western Ross Sea. All trends are significant. This new baseline analysis represents a significant advance in our knowledge of the current state of both the global cryosphere and the complex Antarctic coastal system, which are vulnerable to climate variability and change. It will also inform a wide range of other studies.",
       "authors": [
         {
           "name": "Alexander D. Fraser",
@@ -178416,7 +179180,7 @@
         },
         {
           "name": "Nowalk MP",
-          "orcid": ""
+          "orcid": "0000-0002-1702-2690"
         },
         {
           "name": "Zimmerman RK",
@@ -180062,7 +180826,7 @@
         },
         {
           "name": "Tseng KK",
-          "orcid": ""
+          "orcid": "0000-0003-3254-7791"
         },
         {
           "name": "Gatalo O",
@@ -181231,7 +181995,7 @@
         },
         {
           "name": "Braithwaite I",
-          "orcid": ""
+          "orcid": "0000-0001-5327-5612"
         },
         {
           "name": "Fong WLE",
@@ -185700,7 +186464,7 @@
         },
         {
           "name": "Nowalk MP",
-          "orcid": ""
+          "orcid": "0000-0002-1702-2690"
         },
         {
           "name": "Levine MZ",
@@ -189960,7 +190724,7 @@
         },
         {
           "name": "Nowalk MP",
-          "orcid": ""
+          "orcid": "0000-0002-1702-2690"
         },
         {
           "name": "Zimmerman RK",
@@ -190223,39 +190987,6 @@
         {
           "name": "Fokunang Charles Ntungwen",
           "orcid": ""
-        }
-      ]
-    },
-    "5c71dead64b7e8cc9277": {
-      "abstract": "Background Pharmacists play a significant role in the multidisciplinary care of people living with human immunodeficiency virus (HIV)/acquired immunodeficiency syndrome (AIDS) (PLWHA). However, there is less evidence to clarify the impact of pharmacist as an individual team member on HIV care. Objective This study aims to determine the effects of pharmacist intervention on improving adherence to antiretroviral therapy (ART), viral load (VL) suppression, and change in CD4-T lymphocytes in PLWHA. Methods We identified relevant records from six databases (Pubmed, EMBASE, ProQuest, Scopus, Cochrane, and EBSCOhost) from inception till June 2020. We included studies that evaluated the impact of pharmacist care activities on clinical outcomes in PLWHA. A random-effect model was used to estimate the overall effect [odds ratio (OR) for dichotomous and mean difference (MD) for continuous data] with 95% confidence intervals (CIs). The Grading of Recommendations Assessment, Development, and Evaluation (GRADE) system was used to evaluate the quality of evidence. The review protocol was published on PROSPERO (CRD42020167994). Results Twenty-five studies involving 3206 PLWHA in which pharmacist-provided intervention either in the form of education with or without pharmaceutical-care either alone or as an interdisciplinary team member were included. Eight studies were randomized controlled trials (RCTs), while 17 studies were non-RCTs. Pooled-analyses showed a significant impact of pharmaci…",
-      "authors": [
-        {
-          "name": "Ahmed A",
-          "orcid": "0000-0002-8964-1853"
-        },
-        {
-          "name": "Abdulelah Dujaili J",
-          "orcid": ""
-        },
-        {
-          "name": "Rehman IU",
-          "orcid": "0000-0002-8657-9791"
-        },
-        {
-          "name": "Chuah LH",
-          "orcid": ""
-        },
-        {
-          "name": "Hashmi FK",
-          "orcid": ""
-        },
-        {
-          "name": "Awaisu A",
-          "orcid": "0000-0002-9029-8925"
-        },
-        {
-          "name": "Chaiyakunapruk N",
-          "orcid": "0000-0003-4572-8794"
         }
       ]
     },
@@ -192729,7 +193460,7 @@
         },
         {
           "name": "Subbarao K",
-          "orcid": ""
+          "orcid": "0000-0003-1713-3056"
         },
         {
           "name": "Turner M",
@@ -193946,7 +194677,7 @@
         },
         {
           "name": "Saggurti N",
-          "orcid": ""
+          "orcid": "0000-0002-5267-8425"
         },
         {
           "name": "Silverman JG",
@@ -195222,7 +195953,7 @@
         },
         {
           "name": "Braithwaite I",
-          "orcid": ""
+          "orcid": "0000-0001-5327-5612"
         },
         {
           "name": "Navaratnam AMD",
@@ -195585,94 +196316,94 @@
       ]
     },
     "48de76cefac294a4c7b8": {
-      "abstract": "Non-pharmaceutical interventions (NPIs) remain the only widely available tool for controlling the ongoing SARS-CoV-2 pandemic. We estimated weekly values of the effective basic reproductive number (R",
+      "abstract": "Non-pharmaceutical interventions (NPIs) remain the only widely available tool for controlling the ongoing SARS-CoV-2 pandemic. We estimated weekly values of the effective basic reproductive number (R eff ) using a mechanistic metapopulation model and associated these with county-level characteristics and NPIs in the United States (US). Interventions that included school and leisure activities closure and nursing home visiting bans were all associated with a median R eff below 1 when combined with either stay at home orders (median R eff 0.97, 95% confidence interval (CI) 0.58-1.39) or face masks (median R eff 0.97, 95% CI 0.58-1.39). While direct causal effects of interventions remain unclear, our results suggest that relaxation of some NPIs will need to be counterbalanced by continuation and/or implementation of others.",
       "authors": [
         {
-          "name": "Bingyi Yang",
+          "name": "Yang B",
           "orcid": "0000-0002-0811-8332"
         },
         {
-          "name": "Angkana T Huang",
+          "name": "Huang AT",
           "orcid": "0000-0002-9857-3506"
         },
         {
-          "name": "Bernardo Garcia-Carreras",
+          "name": "Garcia-Carreras B",
           "orcid": ""
         },
         {
-          "name": "William E Hart",
+          "name": "Hart WE",
           "orcid": ""
         },
         {
-          "name": "Andrea Staid",
+          "name": "Staid A",
           "orcid": ""
         },
         {
-          "name": "Matt D T Hitchings",
+          "name": "Hitchings MDT",
+          "orcid": "0000-0003-2327-3557"
+        },
+        {
+          "name": "Lee EC",
+          "orcid": "0000-0002-4156-9637"
+        },
+        {
+          "name": "Howe CJ",
           "orcid": ""
         },
         {
-          "name": "Elizabeth C Lee",
+          "name": "Grantz KH",
           "orcid": ""
         },
         {
-          "name": "Chanelle J Howe",
-          "orcid": ""
-        },
-        {
-          "name": "Kyra H Grantz",
-          "orcid": ""
-        },
-        {
-          "name": "Amy Wesolowksi",
+          "name": "Wesolowksi A",
           "orcid": "0000-0001-6320-3575"
         },
         {
-          "name": "Joseph Chadi Lemaitre",
+          "name": "Lemaitre JC",
           "orcid": "0000-0002-2677-6574"
         },
         {
-          "name": "Susan Rattigan",
+          "name": "Rattigan S",
+          "orcid": "0009-0006-0499-7401"
+        },
+        {
+          "name": "Moreno C",
           "orcid": ""
         },
         {
-          "name": "Carlos Moreno",
-          "orcid": ""
-        },
-        {
-          "name": "Brooke A Borgert",
+          "name": "Borgert BA",
           "orcid": "0000-0002-1429-7365"
         },
         {
-          "name": "Celeste Dale",
+          "name": "Dale C",
           "orcid": ""
         },
         {
-          "name": "Nicole Quigley",
+          "name": "Quigley N",
           "orcid": ""
         },
         {
-          "name": "Andrew Cummings",
+          "name": "Cummings A",
           "orcid": ""
         },
         {
-          "name": "Alizée McLorg",
+          "name": "McLorg A",
           "orcid": ""
         },
         {
-          "name": "Kaelene LoMonaco",
+          "name": "LoMonaco K",
           "orcid": ""
         },
         {
-          "name": "Sarah Schlossberg",
+          "name": "Schlossberg S",
           "orcid": ""
         },
         {
-          "name": "Drew Barron-Kraus",
+          "name": "Barron-Kraus D",
           "orcid": ""
         },
         {
-          "name": "Harrison Shrock",
+          "name": "Shrock H",
           "orcid": ""
         },
         {
@@ -195680,15 +196411,15 @@
           "orcid": ""
         },
         {
-          "name": "Justin Lessler",
+          "name": "Lessler J",
           "orcid": "0000-0002-9741-8109"
         },
         {
-          "name": "Carl D Laird",
+          "name": "Laird CD",
           "orcid": ""
         },
         {
-          "name": "Derek A T Cummings",
+          "name": "Cummings DAT",
           "orcid": "0000-0002-9437-1907"
         }
       ]
@@ -198467,7 +199198,7 @@
         },
         {
           "name": "Nowalk MP",
-          "orcid": ""
+          "orcid": "0000-0002-1702-2690"
         },
         {
           "name": "Zimmerman RK",
@@ -202231,7 +202962,7 @@
         },
         {
           "name": "Pavlicova M",
-          "orcid": ""
+          "orcid": "0000-0003-4400-4102"
         },
         {
           "name": "Levin FR",
@@ -204934,7 +205665,7 @@
         },
         {
           "name": "Belda-Ferre P",
-          "orcid": ""
+          "orcid": "0000-0001-6532-1161"
         },
         {
           "name": "Humphrey G",
@@ -208333,7 +209064,7 @@
         },
         {
           "name": "Nowalk MP",
-          "orcid": ""
+          "orcid": "0000-0002-1702-2690"
         },
         {
           "name": "Zimmerman R",
@@ -208366,7 +209097,7 @@
         },
         {
           "name": "McDonald DJ",
-          "orcid": ""
+          "orcid": "0000-0002-0443-4282"
         },
         {
           "name": "Brendel VP",
@@ -217938,67 +218669,6 @@
         }
       ]
     },
-    "20af934b20ce9c3c99d0": {
-      "abstract": "We compared symptoms and characteristics of 4961 ambulatory patients with and without laboratory-confirmed severe acute respiratory syndrome coronavirus 2 infection. Findings indicate that clinical symptoms alone would be insufficient to distinguish between coronavirus disease 2019 and other respiratory infections (eg, influenza) and/or to evaluate the effects of preventive interventions (eg, vaccinations).",
-      "authors": [
-        {
-          "name": "Chung JR",
-          "orcid": ""
-        },
-        {
-          "name": "Kim SS",
-          "orcid": "0000-0002-1056-9896"
-        },
-        {
-          "name": "Jackson ML",
-          "orcid": ""
-        },
-        {
-          "name": "Jackson LA",
-          "orcid": ""
-        },
-        {
-          "name": "Belongia EA",
-          "orcid": ""
-        },
-        {
-          "name": "King JP",
-          "orcid": ""
-        },
-        {
-          "name": "Zimmerman RK",
-          "orcid": ""
-        },
-        {
-          "name": "Nowalk MP",
-          "orcid": ""
-        },
-        {
-          "name": "Martin ET",
-          "orcid": ""
-        },
-        {
-          "name": "Monto AS",
-          "orcid": ""
-        },
-        {
-          "name": "Gaglani M",
-          "orcid": "0000-0002-3952-9230"
-        },
-        {
-          "name": "Smith ME",
-          "orcid": ""
-        },
-        {
-          "name": "Patel M",
-          "orcid": ""
-        },
-        {
-          "name": "Flannery B",
-          "orcid": ""
-        }
-      ]
-    },
     "af6da27b59beea7aabe7": {
       "abstract": "Summary The explosion of IoT devices and sensors in recent years has led to a demand for efficiently storing, processing and analyzing time‐series data. Geoscience researchers use time‐series data stores such as Hydroserver, Virtual Observatory and Ecological Informatics System (VOEIS), and Cloud‐Hosted Real‐time Data Service (CHORDS). Many of these tools require a great deal of infrastructure to deploy and expertise to manage and scale. The Tapis framework, an NSF funded project, provides science as a service APIs to allow researchers to achieve faster scientific results, by eliminating the need to set up a complex infrastructure stack. The University of Hawai'i (UH) and Texas Advanced Computing Center (TACC) have collaborated to develop an open source Tapis Streams API that builds on the concepts of the CHORDS time series data service to support research. This new hosted service allows storing, processing, annotating, archiving, and querying time‐series data in the Tapis multi‐user and multi‐tenant collaborative platform. The Streams API provides a hosted production level middleware service that enables new data‐driven event workflows capabilities that may be leveraged by researchers and Tapis powered science gateways for handling spatially indexed time‐series datasets.",
       "authors": [
@@ -218703,7 +219373,7 @@
         },
         {
           "name": "Chinnakotla S",
-          "orcid": ""
+          "orcid": "0000-0002-5443-1258"
         },
         {
           "name": "Wong LL",
@@ -222042,6 +222712,67 @@
         },
         {
           "name": "Cooper GF",
+          "orcid": ""
+        }
+      ]
+    },
+    "20af934b20ce9c3c99d0": {
+      "abstract": "We compared symptoms and characteristics of 4961 ambulatory patients with and without laboratory-confirmed SARS-CoV-2 infection. Findings indicate that clinical symptoms alone would be insufficient to distinguish between COVID-19 and other respiratory infections (e.g., influenza) and/or to evaluate the effects of preventive interventions (e.g., vaccinations).",
+      "authors": [
+        {
+          "name": "Chung JR",
+          "orcid": ""
+        },
+        {
+          "name": "Kim SS",
+          "orcid": "0000-0002-1056-9896"
+        },
+        {
+          "name": "Jackson ML",
+          "orcid": ""
+        },
+        {
+          "name": "Jackson LA",
+          "orcid": ""
+        },
+        {
+          "name": "Belongia EA",
+          "orcid": ""
+        },
+        {
+          "name": "King JP",
+          "orcid": ""
+        },
+        {
+          "name": "Zimmerman RK",
+          "orcid": ""
+        },
+        {
+          "name": "Nowalk MP",
+          "orcid": "0000-0002-1702-2690"
+        },
+        {
+          "name": "Martin ET",
+          "orcid": ""
+        },
+        {
+          "name": "Monto AS",
+          "orcid": ""
+        },
+        {
+          "name": "Gaglani M",
+          "orcid": ""
+        },
+        {
+          "name": "Smith ME",
+          "orcid": ""
+        },
+        {
+          "name": "Patel M",
+          "orcid": ""
+        },
+        {
+          "name": "Flannery B",
           "orcid": ""
         }
       ]
@@ -225603,7 +226334,7 @@
         },
         {
           "name": "Tseng K",
-          "orcid": ""
+          "orcid": "0000-0003-3254-7791"
         },
         {
           "name": "Hamilton A",
@@ -226039,7 +226770,7 @@
         },
         {
           "name": "Levy K",
-          "orcid": ""
+          "orcid": "0000-0002-0968-9401"
         },
         {
           "name": "Luby SP",
@@ -232042,7 +232773,7 @@
       ]
     },
     "e860a2b30c110f58ae19": {
-      "abstract": "Abstract. The total Antarctic sea ice extent (SIE) experiences a distinct annual cycle, peaking in September and reaching its minimum in February. In this paper we propose a mathematical and statistical decomposition of this temporal variation in SIE. Each component is interpretable and, when combined, gives a complete picture of the variation in the sea ice. We consider timescales varying from the instantaneous and not previously defined to the multi-decadal curvilinear trend, the longest. Because our representation is daily, these timescales of variability give precise information about the timing and rates of advance and retreat of the ice and may be used to diagnose physical contributors to variability in the sea ice. We define a number of annual cycles each capturing different components of variation, especially the yearly amplitude and phase that are major contributors to SIE variation. Using daily sea ice concentration data, we show that our proposed invariant annual cycle explains 29 % more of the variation in daily SIE than the traditional method. The proposed annual cycle that incorporates amplitude and phase variation explains 77 % more variation than the traditional method. The variation in phase explains more of the variability in SIE than the amplitude. Using our methodology, we show that the anomalous decay of sea ice in 2016 was associated largely with a change of phase rather than amplitude. We show that the long term trend in Antarctic sea ice extent is str…",
+      "abstract": "The total Antarctic sea ice extent (SIE) experiences a distinct annual cycle, peaking in September and reaching its minimum in February. In this paper we propose a mathematical and statistical decomposition of this temporal variation in SIE. Each component is interpretable and, when combined, gives a complete picture of the variation in the sea ice. We consider timescales varying from the instantaneous and not previously defined to the multi-decadal curvilinear trend, the longest. Because our representation is daily, these timescales of variability give precise information about the timing and rates of advance and retreat of the ice and may be used to diagnose physical contributors to variability in the sea ice. We define a number of annual cycles each capturing different components of variation, especially the yearly amplitude and phase that are major contributors to SIE variation. Using daily sea ice concentration data, we show that our proposed invariant annual cycle explains 29 % more of the variation in daily SIE than the traditional method. The proposed annual cycle that incorporates amplitude and phase variation explains 77 % more variation than the traditional method. The variation in phase explains more of the variability in SIE than the amplitude. Using our methodology, we show that the anomalous decay of sea ice in 2016 was associated largely with a change of phase rather than amplitude. We show that the long term trend in Antarctic sea ice extent is strongly curv…",
       "authors": [
         {
           "name": "Mark S. Handcock",
@@ -235030,7 +235761,7 @@
         },
         {
           "name": "Tseng KK",
-          "orcid": ""
+          "orcid": "0000-0003-3254-7791"
         },
         {
           "name": "Morgan DJ",
@@ -235100,7 +235831,7 @@
         },
         {
           "name": "Mendel J",
-          "orcid": ""
+          "orcid": "0000-0001-6361-0461"
         },
         {
           "name": "Straková P",
@@ -245151,7 +245882,7 @@
         },
         {
           "name": "Subbarao K",
-          "orcid": ""
+          "orcid": "0000-0003-1713-3056"
         },
         {
           "name": "Turner M",
@@ -245280,7 +246011,7 @@
         },
         {
           "name": "Tseng KK",
-          "orcid": ""
+          "orcid": "0000-0003-3254-7791"
         },
         {
           "name": "Hinson J",
@@ -245550,7 +246281,7 @@
         },
         {
           "name": "Tran TM",
-          "orcid": "0000-0002-1928-861X"
+          "orcid": ""
         }
       ]
     },
@@ -247686,7 +248417,7 @@
         },
         {
           "name": "Nowalk MP",
-          "orcid": ""
+          "orcid": "0000-0002-1702-2690"
         },
         {
           "name": "Jackson ML",
@@ -248012,7 +248743,7 @@
         },
         {
           "name": "Nowalk MP",
-          "orcid": ""
+          "orcid": "0000-0002-1702-2690"
         },
         {
           "name": "King JP",
@@ -248260,7 +248991,7 @@
         },
         {
           "name": "Chapman BE",
-          "orcid": ""
+          "orcid": "0000-0003-0815-5448"
         },
         {
           "name": "Rutter J",
@@ -261536,7 +262267,7 @@
         },
         {
           "name": "Robciuc M",
-          "orcid": ""
+          "orcid": "0000-0003-1197-9173"
         },
         {
           "name": "Izumiya Y",
@@ -263363,7 +264094,7 @@
         },
         {
           "name": "Nowalk MP",
-          "orcid": ""
+          "orcid": "0000-0002-1702-2690"
         },
         {
           "name": "Jackson ML",
@@ -264695,7 +265426,7 @@
         },
         {
           "name": "Theis F",
-          "orcid": ""
+          "orcid": "0000-0002-2419-1943"
         },
         {
           "name": "Ganusov VV",
@@ -265543,7 +266274,7 @@
         },
         {
           "name": "Tseng KK",
-          "orcid": ""
+          "orcid": "0000-0003-3254-7791"
         },
         {
           "name": "McNeill R",
@@ -267397,7 +268128,7 @@
         },
         {
           "name": "Tseng KK",
-          "orcid": ""
+          "orcid": "0000-0003-3254-7791"
         },
         {
           "name": "Levin SA",
@@ -273067,7 +273798,7 @@
         },
         {
           "name": "Tseng K",
-          "orcid": ""
+          "orcid": "0000-0003-3254-7791"
         },
         {
           "name": "Morgan DJ",
@@ -281622,7 +282353,7 @@
         },
         {
           "name": "Patrick SW",
-          "orcid": ""
+          "orcid": "0000-0001-6958-0371"
         },
         {
           "name": "Levy R",
@@ -285961,42 +286692,42 @@
       ]
     },
     "df34f01dc08323c4fe22": {
-      "abstract": "BACKGROUND: Veterans experiencing homelessness frequently use emergency and urgent care (ED). OBJECTIVE: To examine the effect of a Patient-aligned Care Team (PACT) model tailored to the unique needs of Veterans experiencing homelessness (H-PACT) on frequency and type of ED visits in Veterans Health Administration (VHA) medical facilities. RESEARCH DESIGN: During a 12-month period, ED visits for 3981 homeless Veterans enrolled in (1) H-PACT at 20 VHA medical centers (enrolled) were compared with those of (2) 24,363 homeless Veterans not enrolled in H-PACT at the same sites (nonenrolled), and (3) 23,542 homeless Veterans at 12 non-H-PACT sites (usual care) using a difference-in-differences approach. MEASURE(S): The primary outcome was ED and other health care utilization and the secondary outcome was emergent (not preventable/avoidable) ED visits. RESULTS: H-PACT enrollees were predominantly white males with a higher baseline Charlson comorbidity index. In comparing H-PACT enrollees with usual care, there was a significant decrease in ED usage among the highest ED utilizers (difference-in-differences, -4.43; P<0.001). The decrease in ED visits were significant though less intense for H-PACT enrollees versus nonenrolled (-0.29, P<0.001). H-PACT enrollees demonstrated a significant increase in the proportion of ED care visits that were not preventable/avoidable in the 6 months after enrollment, but had stable rates of primary care, mental health, social work, and substance abus…",
+      "abstract": "Background Veterans experiencing homelessness frequently use emergency and urgent care (ED). Objective To examine the effect of a Patient-aligned Care Team (PACT) model tailored to the unique needs of Veterans experiencing homelessness (H-PACT) on frequency and type of ED visits in Veterans Health Administration (VHA) medical facilities. Research design During a 12-month period, ED visits for 3981 homeless Veterans enrolled in (1) H-PACT at 20 VHA medical centers (enrolled) were compared with those of (2) 24,363 homeless Veterans not enrolled in H-PACT at the same sites (nonenrolled), and (3) 23,542 homeless Veterans at 12 non-H-PACT sites (usual care) using a difference-in-differences approach. Measure(s) The primary outcome was ED and other health care utilization and the secondary outcome was emergent (not preventable/avoidable) ED visits. Results H-PACT enrollees were predominantly white males with a higher baseline Charlson comorbidity index. In comparing H-PACT enrollees with usual care, there was a significant decrease in ED usage among the highest ED utilizers (difference-in-differences, -4.43; P Conclusions Primary care treatment engagement can reduce ED visits and increase appropriate use of ED services in VHA for Veterans experiencing homelessness, especially in the highest ED utilizers.",
       "authors": [
         {
-          "name": "Adi V Gundlapalli",
+          "name": "Gundlapalli AV",
           "orcid": ""
         },
         {
-          "name": "Andrew Redd",
+          "name": "Redd A",
+          "orcid": "0000-0002-6149-2438"
+        },
+        {
+          "name": "Bolton D",
+          "orcid": "0000-0003-0759-692X"
+        },
+        {
+          "name": "Vanneman ME",
           "orcid": ""
         },
         {
-          "name": "Daniel Bolton",
+          "name": "Carter ME",
           "orcid": ""
         },
         {
-          "name": "Megan E Vanneman",
+          "name": "Johnson E",
           "orcid": ""
         },
         {
-          "name": "Marjorie E Carter",
+          "name": "Samore MH",
           "orcid": ""
         },
         {
-          "name": "Erin Johnson",
+          "name": "Fargo JD",
           "orcid": ""
         },
         {
-          "name": "Matthew H Samore",
-          "orcid": ""
-        },
-        {
-          "name": "Jamison D Fargo",
-          "orcid": ""
-        },
-        {
-          "name": "Thomas P O'Toole",
+          "name": "O'Toole TP",
           "orcid": ""
         }
       ]
@@ -305364,7 +306095,7 @@
         },
         {
           "name": "Levy K",
-          "orcid": ""
+          "orcid": "0000-0002-0968-9401"
         },
         {
           "name": "Moe C",
@@ -305809,75 +306540,6 @@
         {
           "name": "Weybright EH",
           "orcid": "0000-0002-3995-7067"
-        }
-      ]
-    },
-    "13aa06843361f7fe9ef4": {
-      "abstract": "The association between apparent treatment resistant hypertension (ATRH) and clinical outcomes is not well studied in chronic kidney disease. We analyzed data on 3367 hypertensive participants in the Chronic Renal Insufficiency Cohort (CRIC) to determine prevalence, associations, and clinical outcomes of ATRH in nondialysis chronic kidney disease patients. ATRH was defined as blood pressure ≥140/90 mm Hg on ≥3 antihypertensives, or use of ≥4 antihypertensives with blood pressure at goal at baseline visit. Prevalence of ATRH was 40.4%. Older age, male sex, black race, diabetes mellitus, and higher body mass index were independently associated with higher odds of having ATRH. Participants with ATRH had a higher risk of clinical events than participants without ATRH-composite of myocardial infarction, stroke, peripheral arterial disease, congestive heart failure (CHF), and all-cause mortality (hazard ratio [95% confidence interval], 1.38 [1.22-1.56]); renal events (1.28 [1.11-1.46]); CHF (1.66 [1.38-2.00]); and all-cause mortality (1.24 [1.06-1.45]). The subset of participants with ATRH and blood pressure at goal on ≥4 medications also had higher risk for composite of myocardial infarction, stroke, peripheral arterial disease, CHF, and all-cause mortality (hazard ratio [95% confidence interval], (1.30 [1.12-1.51]) and CHF (1.59 [1.28-1.99]) than those without ATRH. ATRH was associated with significantly higher risk for CHF and renal events only among those with estimated glomer…",
-      "authors": [
-        {
-          "name": "Thomas G",
-          "orcid": ""
-        },
-        {
-          "name": "Xie D",
-          "orcid": ""
-        },
-        {
-          "name": "Chen HY",
-          "orcid": ""
-        },
-        {
-          "name": "Anderson AH",
-          "orcid": ""
-        },
-        {
-          "name": "Appel LJ",
-          "orcid": ""
-        },
-        {
-          "name": "Bodana S",
-          "orcid": ""
-        },
-        {
-          "name": "Brecklin CS",
-          "orcid": ""
-        },
-        {
-          "name": "Drawz P",
-          "orcid": "0000-0001-7301-9253"
-        },
-        {
-          "name": "Flack JM",
-          "orcid": ""
-        },
-        {
-          "name": "Miller ER 3rd",
-          "orcid": ""
-        },
-        {
-          "name": "Steigerwalt SP",
-          "orcid": ""
-        },
-        {
-          "name": "Townsend RR",
-          "orcid": ""
-        },
-        {
-          "name": "Weir MR",
-          "orcid": ""
-        },
-        {
-          "name": "Wright JT Jr",
-          "orcid": ""
-        },
-        {
-          "name": "Rahman M",
-          "orcid": ""
-        },
-        {
-          "name": "CRIC Study Investigators",
-          "orcid": ""
         }
       ]
     },
@@ -306717,7 +307379,7 @@
         },
         {
           "name": "Raymond HF",
-          "orcid": "0000-0001-8621-2749"
+          "orcid": ""
         }
       ]
     },
@@ -315336,23 +315998,6 @@
         }
       ]
     },
-    "af699f85643b5773fdf1": {
-      "abstract": "The World Health Organisation's definition of public health refers to all organized measures to prevent disease, promote health, and prolong life among the population as a whole (World Health Organization, 2014). Mathematical modelling plays an increasingly important role in helping to guide the most high impact and cost-effective means of achieving these goals. Public health programmes are usually implemented over a long period of time with broad benefits to many in the community. Clinical trials are seldom large enough to capture these effects. Observational data may be used to evaluate a programme after it is underway, but have limited value in helping to predict the future impact of a proposed policy. Furthermore, public health practitioners are often required to respond to new threats, for which there is little or no previous data on which to assess the threat. Computational and mathematical models can help to assess potential threats and impacts early in the process, and later aid in interpreting data from complex and multifactorial systems. As such, these models can be critical tools in guiding public health action. However, there are a number of challenges in achieving a successful interface between modelling and public health. Here, we discuss some of these challenges.",
-      "authors": [
-        {
-          "name": "Metcalf CJ",
-          "orcid": "0000-0003-3166-7521"
-        },
-        {
-          "name": "Edmunds WJ",
-          "orcid": ""
-        },
-        {
-          "name": "Lessler J",
-          "orcid": "0000-0002-9741-8109"
-        }
-      ]
-    },
     "85e5ec5f1c31e3011063": {
       "abstract": "Objectives To assess rates of starting or stopping antibiotics across different hospitals. Methods We used barcode medication administration data to measure antibiotic use on acute-care wards in 128 Veterans Affairs medical centres (VAMCs) in 2010. A treatment day (TD) was defined as the administration of any antibiotic on a given day. A treatment period (TP) was defined as an interval of inpatient antimicrobial therapy with gaps of ≤1 day in TDs. The rate of starting antibiotics was calculated for inpatients who had not yet started antibiotics, as the number of start events divided by the 'person-time at risk'. The rate of stopping antibiotics was calculated analogously for inpatients that were on antibiotics. Once individuals had stopped antibiotics they were removed from further analysis. Per-day start and stop rates were also calculated for each day of hospitalization. Results The hospital mean rate of starting the first TP was 18.1 start events/100 days at risk (range 8.4-25.6/100 days at risk). The mean hospital stopping rate was 21.1 stop events/100 days at risk (range 13.3-29.5/100 days at risk). The ratio of a facility's starting and stopping rates was highly correlated with overall antibiotic use in TDs/1000 patient-days (rs=0.92, P Conclusions VAMCs with similar antibiotic use showed marked differences in their starting and stopping rates of antibiotics. It may be useful to target empirical therapy when starting rates are high and definitive therapy when stopping…",
       "authors": [
@@ -315765,7 +316410,7 @@
         },
         {
           "name": "Schlesinger D",
-          "orcid": ""
+          "orcid": "0009-0005-8569-7613"
         },
         {
           "name": "Kranz C",
@@ -318241,7 +318886,7 @@
         },
         {
           "name": "Donahue KE",
-          "orcid": ""
+          "orcid": "0000-0003-4075-2875"
         },
         {
           "name": "Pignone MP",
@@ -318501,7 +319146,7 @@
         },
         {
           "name": "Brega AG",
-          "orcid": ""
+          "orcid": "0000-0002-7319-4892"
         },
         {
           "name": "Crutchfield TM",
@@ -321406,7 +322051,7 @@
         },
         {
           "name": "Kapahi P",
-          "orcid": ""
+          "orcid": "0000-0002-5629-4947"
         }
       ]
     },
@@ -322022,7 +322667,7 @@
         },
         {
           "name": "Donahue KE",
-          "orcid": ""
+          "orcid": "0000-0003-4075-2875"
         },
         {
           "name": "Evenson K",
@@ -326025,7 +326670,7 @@
         },
         {
           "name": "Arrossi S",
-          "orcid": ""
+          "orcid": "0000-0002-5071-0938"
         },
         {
           "name": "Austoker J",
@@ -328698,39 +329343,6 @@
         }
       ]
     },
-    "c7e27a4d286577919bab": {
-      "abstract": "The past two decades have seen an increasing number of virulent infectious diseases in natural populations and managed landscapes. In both animals and plants, an unprecedented number of fungal and fungal-like diseases have recently caused some of the most severe die-offs and extinctions ever witnessed in wild species, and are jeopardizing food security. Human activity is intensifying fungal disease dispersal by modifying natural environments and thus creating new opportunities for evolution. We argue that nascent fungal infections will cause increasing attrition of biodiversity, with wider implications for human and ecosystem health, unless steps are taken to tighten biosecurity worldwide.",
-      "authors": [
-        {
-          "name": "Fisher MC",
-          "orcid": "0000-0002-1862-6402"
-        },
-        {
-          "name": "Henk DA",
-          "orcid": "0000-0002-1142-3143"
-        },
-        {
-          "name": "Briggs CJ",
-          "orcid": ""
-        },
-        {
-          "name": "Brownstein JS",
-          "orcid": "0000-0001-8568-5317"
-        },
-        {
-          "name": "Madoff LC",
-          "orcid": "0000-0003-2589-7777"
-        },
-        {
-          "name": "McCraw SL",
-          "orcid": ""
-        },
-        {
-          "name": "Gurr SJ",
-          "orcid": ""
-        }
-      ]
-    },
     "f39cffb7209ea6d11aec": {
       "abstract": "Background and aim Cardiorespiratory fitness (CRF) and diet have been involved as significant factors towards the prevention of cardio-metabolic diseases. This study aimed to assess the impact of the combined associations of CRF and adherence to the Southern European Atlantic Diet (SEADiet) on the clustering of metabolic risk factors in adolescents. Methods and results A cross-sectional school-based study was conducted on 468 adolescents aged 15-18, from the Azorean Islands, Portugal. We measured fasting glucose, insulin, total cholesterol (TC), HDL-cholesterol, triglycerides, systolic blood pressure, waits circumference and height. HOMA, TC/HDL-C ratio and waist-to-height ratio were calculated. For each of these variables, a Z-score was computed by age and sex. A metabolic risk score (MRS) was constructed by summing the Z scores of all individual risk factors. High risk was considered when the individual had ≥ 1 SD of this score. CRF was measured with the 20 m-Shuttle-Run-Test. Adherence to SEADiet was assessed with a semi-quantitative food frequency questionnaire. Logistic regression showed that, after adjusting for potential confounders, unfit adolescents with low adherence to SEADiet had the highest odds of having MRS (OR = 9.4; 95%CI:2.6-33.3) followed by the unfit ones with high adherence to the SEADiet (OR = 6.6; 95% CI: 1.9-22.5) when compared to those who were fit and had higher adherence to SEADiet. Conclusions Unfit adolescents showed higher odds of having high MR…",
       "authors": [
@@ -328913,6 +329525,39 @@
         },
         {
           "name": "Didier Dreau",
+          "orcid": ""
+        }
+      ]
+    },
+    "c7e27a4d286577919bab": {
+      "abstract": "The past two decades have seen an increasing number of virulent infectious diseases in natural populations and managed landscapes. In both animals and plants, an unprecedented number of fungal and fungal-like diseases have recently caused some of the most severe die-offs and extinctions ever witnessed in wild species, and are jeopardizing food security. Human activity is intensifying fungal disease dispersal by modifying natural environments and thus creating new opportunities for evolution. We argue that nascent fungal infections will cause increasing attrition of biodiversity, with wider implications for human and ecosystem health, unless steps are taken to tighten biosecurity worldwide.",
+      "authors": [
+        {
+          "name": "Fisher MC",
+          "orcid": "0000-0002-1862-6402"
+        },
+        {
+          "name": "Henk DA",
+          "orcid": "0000-0002-1142-3143"
+        },
+        {
+          "name": "Briggs CJ",
+          "orcid": ""
+        },
+        {
+          "name": "Brownstein JS",
+          "orcid": "0000-0001-8568-5317"
+        },
+        {
+          "name": "Madoff LC",
+          "orcid": "0000-0003-2589-7777"
+        },
+        {
+          "name": "McCraw SL",
+          "orcid": ""
+        },
+        {
+          "name": "Gurr SJ",
           "orcid": ""
         }
       ]

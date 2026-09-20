@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T06:53:29Z",
+  "generated_at": "2026-09-20T06:50:08Z",
   "model": "gemini-embedding-001",
   "dims": 256,
   "quant": "int8-l2",
   "scale": 127,
-  "chunks": 8207,
-  "vectors": 8207,
+  "chunks": 8226,
+  "vectors": 8226,
   "kinds": {
     "organization": 13,
     "researcher": 472,
     "tool": 71,
-    "work": 7651
+    "work": 7670
   },
   "sources": {
-    "profiles_generated_at": "2026-09-12T08:30:48.126063Z",
-    "works_generated_at": "2026-09-13T06:44:37.966907Z"
+    "profiles_generated_at": "2026-09-19T08:31:41.541742Z",
+    "works_generated_at": "2026-09-20T06:41:54.931928Z"
   }
 }
