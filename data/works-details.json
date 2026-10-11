@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-04T08:26:47.995132Z",
+  "generated_at": "2026-10-11T06:48:52.508126Z",
   "details": {
     "c2eb6d9d6bbafbc57f4b": {
       "abstract": "Semantic trajectories enrich spatiotemporal data with textual semantics such as trip purposes and activities at points of interest, enabling the discovery of outlier behaviors relevant to public health, social security, and urban planning. Existing detectors often depend on hand crafted rules and rarely fuse space, time, and text in a transferable way. We propose TOD4Traj , an unsupervised and transfer ready framework for human semantic trajectories that detects anomalies at both the individual and collective levels. TOD4Traj first unifies modalities through spatiotemporal to semantic contrastive alignment so heterogeneous signals share a common representation. It then learns regular mobility via temporal contrastive learning that aligns the same weekday and separates different weekdays. Deviations are scored by combining a consistency score against a user’s own history with a population score based on a small set of learned centroids that capture low rank mobility regularities. For group analysis, we introduce a population level contrastive objective and a collective outlier score that compare a date’s population embedding with historical weekday prototypes, revealing collective abnormality. Across simulated cities and a GeoLife derived dataset, TOD4Traj consistently outperforms strong baselines on both tasks and shows robust zero shot transfer across cities, demonstrating effectiveness, robustness, and adaptability for outlier detection in human semantic trajectories.",
@@ -36,6 +36,23 @@
         {
           "name": "Andreas Züfle",
           "orcid": "0000-0001-7001-4123"
+        }
+      ]
+    },
+    "dc1ec89865c5c02db0c3": {
+      "abstract": "Accurate parameter estimation in biological models-from optimizing drug dosing schedules to forecasting disease outbreaks-requires that model parameters be uniquely identifiable from available data. When parameters are not uniquely identifiable, estimation yields non-unique solutions, leading to unreliable predictions and misallocated resources. Existing approaches to resolving identifiability problems often involve re-parameterizing models, but this can reduce the biological interpretability of parameters. We present a mathematical framework demonstrating that time-varying parameters, driven by environmental or behavioral data-such as temperature patterns, treatment schedules, or contact rates-can resolve parameter identifiability issues without re-parameterization. We prove that incorporating such forcing functions into model parameters cannot worsen structural identifiability, and establish conditions under which they provably improve it. Our results illustrate how forcing functions can be used to break parameter entanglements, with a single forcing function sometimes resolving multiple identifiability issues simultaneously. We validate this framework with two worked examples, from pharmacokinetics (drug tissue-blood exchange rates) and disease transmission (seasonally varying contact rates), demonstrating that readily available time-varying data can resolve identifiability while preserving parameter interpretability. By connecting rigorous mathematical proofs to practica…",
+      "authors": [
+        {
+          "name": "Conrad JR",
+          "orcid": ""
+        },
+        {
+          "name": "Hyman JM",
+          "orcid": ""
+        },
+        {
+          "name": "Eisenberg MC",
+          "orcid": ""
         }
       ]
     },
@@ -194,6 +211,896 @@
         }
       ]
     },
+    "00e597cdaa25ed5b9ca9": {
+      "abstract": "Acute diarrheal disease is a leading cause of death in children under age 5, disproportionately impacting children in low-resource settings. Although many cases could respond to antibiotic treatment, the benefits of widely prescribing antibiotics must be weighed against the risks of antimicrobial resistance. These challenges motivate development of individualized treatment guidelines for diarrheal disease. In this study, we utilize a framework for creation and evaluation of individualized treatment rules that leverage diagnostic and clinical information to make treatment recommendations. In contrast to many applications of pipelines for creating and evaluating treatment rules, we (i) explicitly create rules that limit the proportion of children treated based on expected clinical benefit, to limit risks for overtreatment and the emergence of antimicrobial resistance, and (ii) propose methods to compare rules based on different sets of input covariates, allowing for quantification of the impact of measuring additional biomarkers in clinical settings. We use a nested cross-validation procedure with ensemble machine learning and doubly-robust estimation to derive, evaluate, and compare rules. We demonstrate that our proposed method yields appropriate inference in a realistic simulation study and apply our method to data from the AntiBiotics for Children with severe Diarrhea (ABCD) trial.",
+      "authors": [
+        {
+          "name": "Allison Codi",
+          "orcid": "0000-0001-6562-607X"
+        },
+        {
+          "name": "Sara Kim",
+          "orcid": ""
+        },
+        {
+          "name": "Elizabeth Rogawski McQuade",
+          "orcid": ""
+        },
+        {
+          "name": "David Benkeser",
+          "orcid": "0000-0002-1019-8343"
+        },
+        {
+          "name": "AntiBiotics for Children with severe Diarrhea (ABCD) Study Group",
+          "orcid": ""
+        }
+      ]
+    },
+    "ffb9cacbd7905ee518bd": {
+      "authors": [
+        {
+          "name": "Max S Y Lau",
+          "orcid": "0000-0001-6590-0294"
+        },
+        {
+          "name": "Matthew J Ferrari",
+          "orcid": ""
+        },
+        {
+          "name": "Wei Jin",
+          "orcid": ""
+        }
+      ]
+    },
+    "ff5d7a70cd031c61156c": {
+      "abstract": "In northeastern Argentina, wild canids such as the pampas fox (Lycalopex gymnocercus) and the crab-eating fox (Cerdocyon thous) coexist with domestic dogs (Canis lupus familiaris) across rural and peri-urban landscapes, creating opportunities for tick and pathogen exchange. Characterizing tick assemblages and associated pathogens in these hosts is essential to assess potential public health risks at the wildlife-domestic interface. Ticks were collected opportunistically from domestic dogs and road-killed foxes near two protected areas in Corrientes Province. Specimens were identified using morphological and molecular approaches and screened for Rickettsia spp. by PCR. A total of 30 adult ticks were obtained from 12 dogs and 8 foxes, representing four species: Amblyomma tigrinum, A. ovale, A. dubitatum and Rhipicephalus sanguineus. Amblyomma tigrinum was the most frequent species (50%). Seven individual ticks were confirmed as Candidatus Rickettsia andeanae in A. tigrinum, while one pooled sample was positive by screening only and was not confirmed. These findings expand the known geographic distribution of Ca. R. andeanae and provide molecular evidence of its circulation in ticks collected from both wild and domestic canids in northeastern Argentina. Our results highlight the importance of these hosts as sentinels for tick-borne pathogens and underscore the need for integrated One Health surveillance to better anticipate emerging potential risks in interface areas.",
+      "authors": [
+        {
+          "name": "María Belén Natalini",
+          "orcid": "0000-0002-9041-4228"
+        },
+        {
+          "name": "Vincent Ciavatta",
+          "orcid": "0000-0002-1615-0826"
+        },
+        {
+          "name": "Stephanie Bellman",
+          "orcid": "0000-0002-5805-498X"
+        },
+        {
+          "name": "Sophia Di Cataldo",
+          "orcid": "0000-0001-5917-7175"
+        },
+        {
+          "name": "Francisco Sanchez Gavier",
+          "orcid": "0009-0005-2240-4182"
+        },
+        {
+          "name": "Gonzalo Vazquez Prokopec",
+          "orcid": "0000-0002-0710-270X"
+        },
+        {
+          "name": "Martín Kowalewski",
+          "orcid": "0000-0002-6737-3771"
+        }
+      ]
+    },
+    "8c037d2935f8165bfa01": {
+      "abstract": "BACKGROUND: Artificial intelligence (AI)-enabled wearable monitoring can detect individualized physiological deviations preceding heart failure (HF) decompensation, but whether these signals can be translated into improved outcomes remains uncertain. OBJECTIVES: This study aims to evaluate the feasibility of integrating AI-generated notifications with a structured clinician response algorithm into postdischarge HF care and to explore their association with HF events following hospitalization. METHODS: LINK-HF2 (Detection of Physiological Anomaly Using Artificial Intelligence and Prevention of Heart Failure Hospitalization) was a prospective, randomized, open-label, blinded-endpoint study conducted at 5 Veterans Affairs medical centers. Adults hospitalized for acute HF were enrolled at discharge and assigned to AI-guided monitoring with clinician notification or to standard care. All participants wore a continuous multisensor patch for up to 90 days. A personalized similarity-based model detected deviations in cardiorespiratory and activity signals and generated notifications. Implementation outcomes included feasibility, acceptability, and usability. The main exploratory clinical endpoint was HF rehospitalization. Secondary exploratory clinical endpoints included the composite outcome of all-cause unplanned rehospitalizations, emergency department visits, and all-cause mortality. All clinical endpoints were compared through Cox proportional hazards models over the follow-up…",
+      "authors": [
+        {
+          "name": "Konstantinos Sideris",
+          "orcid": ""
+        },
+        {
+          "name": "Carsten Schmalfuss",
+          "orcid": ""
+        },
+        {
+          "name": "Neil Lewis",
+          "orcid": ""
+        },
+        {
+          "name": "Karim Sallam",
+          "orcid": ""
+        },
+        {
+          "name": "Biykem Bozkurt",
+          "orcid": ""
+        },
+        {
+          "name": "Thomas C Hanff",
+          "orcid": ""
+        },
+        {
+          "name": "Michael T Young",
+          "orcid": ""
+        },
+        {
+          "name": "Richard Schofield",
+          "orcid": ""
+        },
+        {
+          "name": "Christos P Kyriakopoulos",
+          "orcid": ""
+        },
+        {
+          "name": "Heather Hanson",
+          "orcid": ""
+        },
+        {
+          "name": "Lina Brinker",
+          "orcid": ""
+        },
+        {
+          "name": "Peter Wohlfahrt",
+          "orcid": ""
+        },
+        {
+          "name": "Mandeep R Mehra",
+          "orcid": ""
+        },
+        {
+          "name": "Tempa Curry",
+          "orcid": ""
+        },
+        {
+          "name": "Cheri Knecht",
+          "orcid": ""
+        },
+        {
+          "name": "Stephanie Tuckett",
+          "orcid": ""
+        },
+        {
+          "name": "Richard E Nelson",
+          "orcid": ""
+        },
+        {
+          "name": "Susan L Zickmund",
+          "orcid": ""
+        },
+        {
+          "name": "Jorie M Butler",
+          "orcid": ""
+        },
+        {
+          "name": "Jay M Edelberg",
+          "orcid": ""
+        },
+        {
+          "name": "Gregory H Kurio",
+          "orcid": ""
+        },
+        {
+          "name": "Stephan Wegerich",
+          "orcid": ""
+        },
+        {
+          "name": "Stylianos Serghiou",
+          "orcid": ""
+        },
+        {
+          "name": "Matt Pipke",
+          "orcid": ""
+        },
+        {
+          "name": "Josef Stehlik",
+          "orcid": ""
+        }
+      ]
+    },
+    "4fd4eecf309bbf7fa27e": {
+      "abstract": "The mammary gland produces nutrient-rich human milk (HM), yet how mammary functional state shapes HM composition and infant outcomes remains poorly understood. We used HM multi-omics - metabolomics, proteomics, micronutrients, macronutrients, and HM oligosaccharides - across 1,543 samples from three cohorts, including two randomized trials, as a noninvasive readout of mammary functional state. Trajectory modeling and multi-omic integration showed that maternal supplementation improved recovery from early growth faltering and revealed a shared HM compositional axis linking maternal nutrition to infant growth. Machine learning, with Human Protein Atlas-informed proteomics, identified seven HM biomarkers reflecting variation across key mammary domains, indexing milk synthesis, barrier integrity, and immune/repair activity. Elevated valerylcarnitine and low pantothenic acid emerged as metabolic signals linking mammary functional state to infant growth.",
+      "authors": [
+        {
+          "name": "April Jauhal",
+          "orcid": "0000-0003-3636-4765"
+        },
+        {
+          "name": "Bianca Cordazzo-Vargas",
+          "orcid": "0009-0001-9562-593X"
+        },
+        {
+          "name": "Daniel Sunko",
+          "orcid": ""
+        },
+        {
+          "name": "Pratima Niroula",
+          "orcid": "0009-0004-0714-1698"
+        },
+        {
+          "name": "Lishi Deng",
+          "orcid": "0000-0001-9802-5078"
+        },
+        {
+          "name": "Laeticia Celine Toe",
+          "orcid": "0000-0002-4615-5388"
+        },
+        {
+          "name": "Ameer Muhammad",
+          "orcid": "0000-0001-8485-641X"
+        },
+        {
+          "name": "Aneela Pasha",
+          "orcid": "0000-0001-5866-8239"
+        },
+        {
+          "name": "Yasir Shafiq",
+          "orcid": ""
+        },
+        {
+          "name": "Naveed Iqbal",
+          "orcid": "0000-0001-8631-9191"
+        },
+        {
+          "name": "Waqasuddin Khan",
+          "orcid": "0000-0001-7995-8163"
+        },
+        {
+          "name": "Andrew Mertens",
+          "orcid": "0000-0002-1050-6721"
+        },
+        {
+          "name": "Kelsey Fehr",
+          "orcid": "0000-0003-3551-8144"
+        },
+        {
+          "name": "Joann M McDermid",
+          "orcid": "0000-0002-5829-1897"
+        },
+        {
+          "name": "Melissa B Manus",
+          "orcid": "0000-0003-3640-1781"
+        },
+        {
+          "name": "Chi-Hung Shu",
+          "orcid": "0009-0009-3486-8856"
+        },
+        {
+          "name": "Daniela Hampel",
+          "orcid": "0000-0003-0288-7680"
+        },
+        {
+          "name": "Setareh Shahab-Ferdows",
+          "orcid": ""
+        },
+        {
+          "name": "Megan R Beggs",
+          "orcid": "0000-0002-2690-1785"
+        },
+        {
+          "name": "Kim A Lagerborg",
+          "orcid": "0000-0003-2490-2191"
+        },
+        {
+          "name": "Mohit Jain",
+          "orcid": "0009-0003-8718-4374"
+        },
+        {
+          "name": "Carl Lachat",
+          "orcid": "0000-0002-1389-8855"
+        },
+        {
+          "name": "Mark D DeBoer",
+          "orcid": "0000-0003-1462-591X"
+        },
+        {
+          "name": "Jennifer Van Eyk",
+          "orcid": "0000-0001-9050-148X"
+        },
+        {
+          "name": "Natalie Rodriguez",
+          "orcid": ""
+        },
+        {
+          "name": "Theo J Moraes",
+          "orcid": "0000-0001-9968-6601"
+        },
+        {
+          "name": "Padmaja Subbarao",
+          "orcid": "0000-0003-0394-1933"
+        },
+        {
+          "name": "Alan Hubbard",
+          "orcid": "0000-0002-3769-0127"
+        },
+        {
+          "name": "Muhammad Imran Nisar",
+          "orcid": "0000-0002-2378-4720"
+        },
+        {
+          "name": "Lars Bode",
+          "orcid": ""
+        },
+        {
+          "name": "Lindsay Allen",
+          "orcid": "0000-0002-8729-5213"
+        },
+        {
+          "name": "Donna Geddes",
+          "orcid": "0000-0002-0431-7078"
+        },
+        {
+          "name": "Michelle Kay McGuire",
+          "orcid": "0000-0001-8214-2229"
+        },
+        {
+          "name": "Nima Aghaeepour",
+          "orcid": "0000-0002-6117-8764"
+        },
+        {
+          "name": "Trenton Dailey-Chwalibóg",
+          "orcid": "0000-0002-8204-4925"
+        },
+        {
+          "name": "Fyezah Jehan",
+          "orcid": "0000-0002-5874-4358"
+        },
+        {
+          "name": "Meghan B Azad",
+          "orcid": "0000-0002-5942-4444"
+        },
+        {
+          "name": "Liat Shenhav",
+          "orcid": "0000-0003-1708-6050"
+        }
+      ]
+    },
+    "8bb208f3ac25266ae672": {
+      "abstract": "Human milk (HM) composition is variable to support changing infant needs and is influenced by maternal diet and health. We harmonized HM data from three randomized trials in Burkina Faso (MISAME-III), Pakistan (Mumta-LW), and Tanzania (ELICIT) within the International Milk Composition (IMiC) Consortium to test how maternal nutrition affects HM composition. Balanced energy-protein (BEP) supplements or nicotinamide given to lactating mothers increased milk B-vitamins, while macronutrients, oligosaccharides, bioactive proteins, and microbiome composition were physiologically buffered. Metabolomic and proteomic analyses revealed shifts in vitamin-related metabolites, triglyceride profiles, and intracellular protein representation. In a MISAME-III subset, maternal and infant blood showed concordant changes. Postnatal BEP improved infant growth only in the more undernourished cohort. Improved milk micronutrient quality across settings supports extending maternal supplementation into lactation.",
+      "authors": [
+        {
+          "name": "Trenton Dailey-Chwalibóg",
+          "orcid": ""
+        },
+        {
+          "name": "Andrew Mertens",
+          "orcid": ""
+        },
+        {
+          "name": "Kelsey Fehr",
+          "orcid": ""
+        },
+        {
+          "name": "Chi-Hung Shu",
+          "orcid": ""
+        },
+        {
+          "name": "April Jauhal",
+          "orcid": ""
+        },
+        {
+          "name": "Melissa B. Manus",
+          "orcid": ""
+        },
+        {
+          "name": "Lishi Deng",
+          "orcid": ""
+        },
+        {
+          "name": "Laeticia Celine Toe",
+          "orcid": ""
+        },
+        {
+          "name": "Ameer Muhammed",
+          "orcid": ""
+        },
+        {
+          "name": "Aneela Pasha",
+          "orcid": ""
+        },
+        {
+          "name": "Yasir Shafiq",
+          "orcid": ""
+        },
+        {
+          "name": "Naveed Iqbal",
+          "orcid": ""
+        },
+        {
+          "name": "Waqasuddin Khan",
+          "orcid": ""
+        },
+        {
+          "name": "Muhammad Imran Nisar",
+          "orcid": ""
+        },
+        {
+          "name": "Jo-Anna B. Baxter",
+          "orcid": ""
+        },
+        {
+          "name": "Megan R. Beggs",
+          "orcid": ""
+        },
+        {
+          "name": "Niveda Sundararaman",
+          "orcid": ""
+        },
+        {
+          "name": "Jennifer E. Van Eyk",
+          "orcid": ""
+        },
+        {
+          "name": "Lars Bode",
+          "orcid": ""
+        },
+        {
+          "name": "Alan Hubbard",
+          "orcid": ""
+        },
+        {
+          "name": "Kim A. Lagerborg",
+          "orcid": ""
+        },
+        {
+          "name": "Mohit Jain",
+          "orcid": ""
+        },
+        {
+          "name": "Daniela Hampel",
+          "orcid": ""
+        },
+        {
+          "name": "Setareh Shahab-Ferdows",
+          "orcid": ""
+        },
+        {
+          "name": "Lindsay H. Allen",
+          "orcid": ""
+        },
+        {
+          "name": "Carl Lachat",
+          "orcid": ""
+        },
+        {
+          "name": "Mark D. DeBoer",
+          "orcid": ""
+        },
+        {
+          "name": "Fyezah Jehan",
+          "orcid": ""
+        },
+        {
+          "name": "Nima Aghaeepour",
+          "orcid": ""
+        },
+        {
+          "name": "Liat Shenhav",
+          "orcid": ""
+        },
+        {
+          "name": "Joann M. McDermid",
+          "orcid": ""
+        },
+        {
+          "name": "Meghan B. Azad",
+          "orcid": ""
+        }
+      ]
+    },
+    "4727833440c575e07647": {
+      "abstract": "Importance Oral nicotine pouches (ONPs) are tobacco-leaf-free nicotine products that have experienced a substantial increase in sales in recent years. Objective To determine how ONP experimentation, initiation, and cessation rates differ by other tobacco product use and sociodemographic characteristics. Design Nationally representative longitudinal cohort study; data from Waves 7 and 8 (2022–2024) of the Population Assessment of Tobacco and Health (PATH) Study. Setting US civilian, non-institutionalized population. Participants Adults in Waves 7 and 8 of PATH. Of 27,800 eligible participants, 24,640 with complete information on the exposure and outcome were included. Exposures Other tobacco product use (cigarette-only, electronic nicotine delivery system [ENDS]-only, smokeless tobacco [SLT]-only, and multiproduct use) and sociodemographic characteristics (sex, race and ethnicity, age, and educational attainment). Main Outcomes Hazard rates and ratios of transitioning between never, current, and non-current ONP use, defined by ever and past-30-day use, overall and by exposure group. Rates are estimated in univariable weighted multistate transition models. Results Among 24,640 participants, 23,555 (96.7%) never used, 802 (2.5%) non-currently used, and 283 (0.8%) currently used ONPs in 2022. From 2022–24, ONP initiation was higher among those using cigarettes only (HR 3.34, 95% CI 1.59–7.02), ENDS only (HR 9.68, 95% CI 2.89–32.5), SLT only (42.4, 95% CI 22.3–80.7), or multiple…",
+      "authors": [
+        {
+          "name": "Roberts OK",
+          "orcid": ""
+        },
+        {
+          "name": "Sánchez-Romero LM",
+          "orcid": ""
+        },
+        {
+          "name": "Jimenez-Mendoza E",
+          "orcid": ""
+        },
+        {
+          "name": "Jeon J",
+          "orcid": ""
+        },
+        {
+          "name": "Travis N",
+          "orcid": ""
+        },
+        {
+          "name": "Mistry R",
+          "orcid": ""
+        },
+        {
+          "name": "Meza R",
+          "orcid": ""
+        },
+        {
+          "name": "Levy DT",
+          "orcid": ""
+        },
+        {
+          "name": "Brouwer AF",
+          "orcid": ""
+        }
+      ]
+    },
+    "4e146b5fbd221be34d45": {
+      "abstract": "Human mobility plays a crucial role in the spread of human diseases but is rarely quantified in plant disease epidemics. To address this gap, we integrate a unique, high-resolution network of human movements in New Zealand with a metapopulation model to mechanistically simulate pathogen transmission. We calibrate the model on the nationwide 2010 kiwifruit vine disease (Psa-V) outbreak and show that it reproduces the observed spatio-temporal spread, confirming that the human mobility network is a strong foundation for modelling human-mediated transmission dynamics. By analysing spatial infection trends, we find that most dispersal occurs locally, as often illustrated in the plant-outbreak literature. However, sporadic long-range connections are necessary to model a nationwide outbreak. Using the model as an in silico laboratory, we demonstrate that the severity of human-mediated pathogen transmission is highly sensitive to the timing and location of initial importation. We observe a potential causal link between seasonal labour patterns and epidemic risk in high-traffic seasons. This study showcases a novel data-driven framework for modelling the spatio-temporal spread of agricultural pathogens when human-mediated dispersal is epidemiologically relevant, underscoring the importance of leveraging human mobility networks for building better biosecurity systems.",
+      "authors": [
+        {
+          "name": "Varun K Rao",
+          "orcid": ""
+        },
+        {
+          "name": "Ryan Higgs",
+          "orcid": ""
+        },
+        {
+          "name": "Hautahi Kingi",
+          "orcid": ""
+        },
+        {
+          "name": "Filippo Radicchi",
+          "orcid": "0000-0002-8352-1287"
+        },
+        {
+          "name": "Santo Fortunato",
+          "orcid": "0000-0002-9039-4730"
+        },
+        {
+          "name": "Maria Litvinova",
+          "orcid": "0000-0001-6393-1943"
+        }
+      ]
+    },
+    "4aefdc4c58f975bb106b": {
+      "authors": [
+        {
+          "name": "Rui Yang",
+          "orcid": "0009-0006-0597-7197"
+        },
+        {
+          "name": "Weihao Xuan",
+          "orcid": ""
+        },
+        {
+          "name": "Tianyu Liu",
+          "orcid": "0000-0002-9412-6573"
+        },
+        {
+          "name": "Danielle S Bitterman",
+          "orcid": ""
+        },
+        {
+          "name": "Gary S Collins",
+          "orcid": "0000-0002-2772-2316"
+        },
+        {
+          "name": "Karthik Adapa",
+          "orcid": "0000-0002-3970-588X"
+        },
+        {
+          "name": "Kwesi Nyan Amissah-Arthur",
+          "orcid": "0000-0003-2018-2043"
+        },
+        {
+          "name": "Tianxi Cai",
+          "orcid": "0000-0002-5379-2502"
+        },
+        {
+          "name": "Simão Campos",
+          "orcid": ""
+        },
+        {
+          "name": "Hanqun Cao",
+          "orcid": ""
+        },
+        {
+          "name": "Josip Car",
+          "orcid": "0000-0001-8969-371X"
+        },
+        {
+          "name": "Carol Y Cheung",
+          "orcid": "0000-0002-9672-1819"
+        },
+        {
+          "name": "Mona Diab",
+          "orcid": ""
+        },
+        {
+          "name": "Chido Dzinotyiwei",
+          "orcid": ""
+        },
+        {
+          "name": "Siqi Ge",
+          "orcid": ""
+        },
+        {
+          "name": "Marzyeh Ghassemi",
+          "orcid": ""
+        },
+        {
+          "name": "Ethan Goh",
+          "orcid": "0009-0001-7491-4257"
+        },
+        {
+          "name": "Benjamin Alan Goldstein",
+          "orcid": ""
+        },
+        {
+          "name": "Mary-Anne Hartley",
+          "orcid": ""
+        },
+        {
+          "name": "Yulan He",
+          "orcid": ""
+        },
+        {
+          "name": "Pheng Ann Heng",
+          "orcid": "0000-0003-3055-5034"
+        },
+        {
+          "name": "Chuan Hong",
+          "orcid": ""
+        },
+        {
+          "name": "Michelle María Jiménez de Tavárez",
+          "orcid": "0000-0002-3553-4438"
+        },
+        {
+          "name": "Yuhe Ke",
+          "orcid": ""
+        },
+        {
+          "name": "Pearse A Keane",
+          "orcid": "0000-0002-9239-745X"
+        },
+        {
+          "name": "Eva C Keller",
+          "orcid": ""
+        },
+        {
+          "name": "Rubayat Khan",
+          "orcid": ""
+        },
+        {
+          "name": "Phuoc V Le",
+          "orcid": ""
+        },
+        {
+          "name": "Marc Lecoultre",
+          "orcid": "0009-0006-5583-3378"
+        },
+        {
+          "name": "Jisan Lee",
+          "orcid": "0000-0002-9039-7448"
+        },
+        {
+          "name": "Huitao Li",
+          "orcid": ""
+        },
+        {
+          "name": "Yuan Luo",
+          "orcid": "0000-0003-0195-7456"
+        },
+        {
+          "name": "Vukosi Marivate",
+          "orcid": "0000-0002-6731-6267"
+        },
+        {
+          "name": "Bilal A Mateen",
+          "orcid": "0000-0003-4423-6472"
+        },
+        {
+          "name": "Melissa D McCradden",
+          "orcid": "0000-0002-6476-2165"
+        },
+        {
+          "name": "Maryam Mustafa",
+          "orcid": ""
+        },
+        {
+          "name": "Joyce Nakatumba-Nabende",
+          "orcid": ""
+        },
+        {
+          "name": "Yilin Ning",
+          "orcid": "0000-0002-6758-4472"
+        },
+        {
+          "name": "Jasmine Chiat Ling Ong",
+          "orcid": "0000-0001-6916-5960"
+        },
+        {
+          "name": "Yifan Peng",
+          "orcid": "0000-0001-9309-8331"
+        },
+        {
+          "name": "Sameer Pujari",
+          "orcid": ""
+        },
+        {
+          "name": "Ihsan Ayyub Qazi",
+          "orcid": "0000-0002-2262-0353"
+        },
+        {
+          "name": "Dino Rech",
+          "orcid": ""
+        },
+        {
+          "name": "Iain Beehuat Tan",
+          "orcid": "0000-0003-4951-0354"
+        },
+        {
+          "name": "Patrick Tan",
+          "orcid": "0000-0002-0179-8048"
+        },
+        {
+          "name": "Douglas Teodoro",
+          "orcid": ""
+        },
+        {
+          "name": "Yih Chung Tham",
+          "orcid": "0000-0002-6752-797X"
+        },
+        {
+          "name": "Arun James Thirunavukarasu",
+          "orcid": "0000-0001-8968-4768"
+        },
+        {
+          "name": "Daniel Shu Wei Ting",
+          "orcid": "0000-0003-2264-7174"
+        },
+        {
+          "name": "Lorainne Tudor Car",
+          "orcid": ""
+        },
+        {
+          "name": "Joao Ricardo Nickenig Vissoci",
+          "orcid": ""
+        },
+        {
+          "name": "Chunhua Weng",
+          "orcid": "0000-0002-9624-0214"
+        },
+        {
+          "name": "Matthew Yu Heng Wong",
+          "orcid": ""
+        },
+        {
+          "name": "Yunze Xiao",
+          "orcid": ""
+        },
+        {
+          "name": "Xuhai Xu",
+          "orcid": "0000-0001-5930-3899"
+        },
+        {
+          "name": "Carl Yang",
+          "orcid": "0000-0001-9145-4531"
+        },
+        {
+          "name": "Naoto Yokoya",
+          "orcid": ""
+        },
+        {
+          "name": "Kunyu Yu",
+          "orcid": ""
+        },
+        {
+          "name": "Chaofan Zhang",
+          "orcid": ""
+        },
+        {
+          "name": "Rui Zhang",
+          "orcid": ""
+        },
+        {
+          "name": "James Zou",
+          "orcid": "0000-0001-8880-4764"
+        },
+        {
+          "name": "Karel G M Moons",
+          "orcid": "0000-0003-2118-004X"
+        },
+        {
+          "name": "Nigam H Shah",
+          "orcid": "0000-0001-9385-7158"
+        },
+        {
+          "name": "Tien Yin Wong",
+          "orcid": "0000-0002-8448-1264"
+        },
+        {
+          "name": "Eric J Topol",
+          "orcid": "0000-0002-1478-4729"
+        },
+        {
+          "name": "Nan Liu",
+          "orcid": "0000-0003-3610-4883"
+        }
+      ]
+    },
+    "d43caa777d39a247d2ca": {
+      "abstract": "Networks are often a useful way to represent complex social and economic systems. Stochastic models for such networks should parsimoniously reflect the complexity while being both interpretable and tractable. The class of Exponential-family Random Graph Models (ERGMs) is very expressive and flexible in its representation of complex phenomena. However, the estimation and fitting of realistic ERGMs are hampered by the computational challenges of likelihood-based inference. Recently, a deterministic method based on a variational mean-field approximation was proposed that is much less expensive to compute than the standard simulation-based method. In this work, we show that the proposed method performs poorly for realistic models. We show that established alternatives, including MCMC-MLE, MPLE, sampled MPLE, and tapered ERGM-based inference, achieve superior accuracy and computational performance in the situations that the mean-field approximation was designed for.",
+      "authors": [
+        {
+          "name": "Joseph Resch",
+          "orcid": "0000-0002-3881-2886"
+        },
+        {
+          "name": "Mark S Handcock",
+          "orcid": "0000-0002-9985-2785"
+        }
+      ]
+    },
+    "c167d45e73af93ad8ffa": {
+      "abstract": "Prior work has shown that school-age children’s influenza activity precedes that of adults by one to two weeks. Whether this is robust across outcomes or constant across a season’s course is unexamined. Using electronic health record data from two health systems in South Carolina (2016–2026) on individuals with an influenza diagnosis or positive test, we tested age-group lead-lag relationships across six measures using differenced cross-correlation and Granger causality, with significance confirmed via heteroskedasticity-robust block permutation. We tested whether relationships differed between a season’s growth and decline phases. Children 5–17 years led every other age group by approximately one week in four out of six outcomes and were the only group showing any nonzero-lag relationship across 60 pairwise combinations. A screen of 150 source-target combinations identified 26 permutation-confirmed instances of children’s lower-acuity activity preceding elevated emergency department or inpatient burden in other age groups. The same-outcome lead was concentrated during a season’s growth phase, while the cross-severity lead was robust throughout both a season’s growth and decline. School-age children’s influenza activity is a robust, multi-outcome leading indicator with distinct transmission-timing and severity-progression signals in different phases of seasonal epidemics, supporting incorporation of age-stratified, phase-aware indicators into influenza forecasting.",
+      "authors": [
+        {
+          "name": "Serman EA",
+          "orcid": ""
+        },
+        {
+          "name": "Bleichrodt A",
+          "orcid": ""
+        },
+        {
+          "name": "Jayawardena I",
+          "orcid": ""
+        },
+        {
+          "name": "Liskey C",
+          "orcid": ""
+        },
+        {
+          "name": "Rennert L",
+          "orcid": ""
+        }
+      ]
+    },
+    "f70416ad6944984e5511": {
+      "abstract": "Medication treatment for moderate to severe alcohol withdrawal syndrome (AWS) is evolving, particularly with renewed phenobarbital use. However, little research has examined how hospitalists manage AWS. We conducted a multiple-methods study involving hospitalists from a national US Hospital Medicine research network. Thirty-three hospitalists from 27 tertiary hospitals completed surveys and participated in seven focus groups on August 8, 2025. Benzodiazepines remained the most common treatment, but phenobarbital use was reported in 67% of emergency departments and 44% of inpatient medical units. Four themes emerged: hospitalists are adaptable in responding to changing practices and drug shortages; a lack of consensus on AWS treatment practices leads to a \"wild west approach\" to therapy selection; hospitalists prioritize care-delivery outcomes when selecting medications; and patients are minimally involved in shared decision-making. Participants strongly supported additional research to guide evidence-based AWS care. These findings highlight uncertainty and the need for standardized, patient-centered approaches to AWS management.",
+      "authors": [
+        {
+          "name": "James C Willey",
+          "orcid": "0000-0002-9470-8506"
+        },
+        {
+          "name": "Julia E Szymczak",
+          "orcid": "0000-0002-3230-8670"
+        },
+        {
+          "name": "Andrew D Auerbach",
+          "orcid": "0000-0001-8440-0527"
+        },
+        {
+          "name": "Jeffrey L Schnipper",
+          "orcid": "0000-0001-7072-0781"
+        },
+        {
+          "name": "Sunil Kripalani",
+          "orcid": "0000-0002-4214-7129"
+        },
+        {
+          "name": "Troy E Madsen",
+          "orcid": ""
+        },
+        {
+          "name": "Evan Done",
+          "orcid": ""
+        },
+        {
+          "name": "Michael A Incze",
+          "orcid": "0000-0002-1468-930X"
+        },
+        {
+          "name": "Valerie M Vaughn",
+          "orcid": "0000-0003-4362-7842"
+        },
+        {
+          "name": "James D Harrison",
+          "orcid": "0000-0002-7761-7039"
+        }
+      ]
+    },
     "a28990a770478b447820": {
       "abstract": "Background Public injecting increases the risk of adverse drug-related outcomes. Supervised consumption services (SCS) have been associated with improvements in individual and public health outcomes. However, evidence of their impact on public injecting within current risk environments remains limited. Methods We analyzed cross-sectional survey data from people who inject drugs in Toronto, Canada, between 2018 and 2020. We used modified Poisson regression with robust standard errors to estimate the associations between recent (past 6-month) SCS use and high-frequency public injecting, defined as usually/always versus sometimes/occasionally/never injecting in public, overall and stratified by housing instability. Results Among 700 participants, 15% (n = 108) reported high-frequency public injecting. In descriptive analyses, compared with infrequent or no public injecting, high-frequency public injecting was associated with younger age (median 36 vs. 40 years), lower educational attainment, housing instability, and needle/syringe sharing; all with 95% CIs excluding the null. Recent SCS use was reported by 87% (n = 608) of participants and was associated with a 51% lower prevalence of high-frequency public injecting (adjusted prevalence ratio (aPR) = 0.49; 95% CI: 0.32-0.77). In analyses stratified by housing instability, this association was observed among participants experiencing mostly unstable housing (aPR = 0.47; 95% CI: 0.29-0.75); among those with some or no unstable ho…",
       "authors": [
@@ -285,7 +1192,7 @@
       ]
     },
     "6742b14f277c7855f74c": {
-      "abstract": "Infectious disease forecasting supports public health preparedness and response by informing resource allocation, intervention planning, and situational awareness. Infectious disease forecasting capabilities in the United States have grown over the past decade yet whether forecast quality has improved over this time remains unclear. Current evaluation metrics describe relative performance for a common set of forecast targets but cannot evaluate performance across different outcomes, seasons, and pathogens. We addressed this challenge by developing a novel skill score metric to assess forecasts based on performance relative to two benchmark models: a hindcast as an idealized upper bound of performance and a baseline model as a minimal performance standard. To study the impact of the baseline choice, we considered three types of baseline models with varying levels of complexity. Using this skill score framework, we retrospectively evaluated short-term influenza (influenza-like illness and hospitalization) and COVID-19 (case, death, and hospitalization) forecasts, focusing on how the performance of team and multi-model ensemble forecasts changed over time. The ensemble outperformed 99% of forecasts from a simplistic, naive baseline, and 84-91% of forecasts from more complex baseline models that incorporate recent data. We found consistent improvements in ensemble and team forecast skill over time for both influenza forecast targets, with 4-week horizon forecasts in the most rec…",
+      "abstract": "Infectious disease forecasting supports public health preparedness and response by informing resource allocation, intervention planning, and situational awareness. Infectious disease forecasting capabilities in the United States have grown over the past decade yet whether forecast quality has improved over this time remains unclear. Current evaluation metrics describe relative performance for a common set of forecast targets but cannot evaluate performance across different outcomes, seasons, and pathogens. We addressed this challenge by developing a novel skill score metric to assess forecasts based on performance relative to two benchmark models: a hindcast as an idealized upper bound of performance and a baseline model as a minimal performance standard. To study the impact of the baseline choice, we considered three types of baseline models with varying levels of complexity. Using this skill score framework, we retrospectively evaluated short-term influenza (influenza-like illness and hospitalization) and COVID-19 (case, death, and hospitalization) forecasts, focusing on how the performance of team and multi-model ensemble forecasts changed over time. The ensemble outperformed 99% of forecasts from a simplistic, naïve baseline, and 84-91% of forecasts from more complex baseline models that incorporate recent data. We found consistent improvements in ensemble and team forecast skill over time for both influenza forecast targets, with 4-week horizon forecasts in the most rec…",
       "authors": [
         {
           "name": "Bay C",
@@ -300,7 +1207,7 @@
           "orcid": ""
         },
         {
-          "name": "Borchering R",
+          "name": "Borchering RK",
           "orcid": ""
         },
         {
@@ -314,6 +1221,51 @@
         {
           "name": "Johansson MA",
           "orcid": ""
+        }
+      ]
+    },
+    "7899464f2989f5733dee": {
+      "abstract": "BACKGROUND HIV pre-exposure prophylaxis (PrEP) is highly effective in preventing HIV infection when taken as prescribed, but individual and structural barriers persist and limit access to and uptake of this effective preventive medicine. Following the launch of the End the HIV Epidemic (EHE) initiative in the US in 2019, a variety of HIV prevention programs have been implemented, ranging from telemedicine PrEP prescribing to messaging campaigns to facilitate PrEP use. However, limited information exists regarding the types and characteristics of the programs implemented. OBJECTIVE Describe (1) HIV prevention efforts, with a focus on PrEP promotion programs, that were implemented by health departments between 2016-2025 in the US, (2) the distribution and characteristics of funding sources by program types, and (3) program-specific characteristics. METHODS We developed a survey to assess PrEP promotion programs. The survey was refined based on feedback from an advisory board comprising volunteers from 14 health jurisdictions. We identified eight PrEP promotion programs implemented between 2016-2025 - (1) PrEP Navigation, (2) PrEP Outreach and Education, (3) Messaging Campaigns, (4) Training for Clinicians and Clinical Staff, (5) Telemedicine PrEP, (6) PrEP Assistance Program, (7) Safety-Net Clinics, and (8) Optimization of Electronic Medical Record (EMR)/Electronic Health Record (EHR). Survey questions included whether a jurisdiction had such a program in place, program start…",
+      "authors": [
+        {
+          "name": "Shi Hao Ernest Koh",
+          "orcid": "0009-0004-3151-2321"
+        },
+        {
+          "name": "Edwin Emilio Corbin-Gutierrez",
+          "orcid": "0009-0007-8688-7704"
+        },
+        {
+          "name": "Nicole Elinoff",
+          "orcid": ""
+        },
+        {
+          "name": "Wenting Huang",
+          "orcid": "0000-0003-0032-6986"
+        },
+        {
+          "name": "Eric William Hall",
+          "orcid": "0000-0003-0244-7458"
+        },
+        {
+          "name": "Jeb Jones",
+          "orcid": "0000-0001-9165-1658"
+        },
+        {
+          "name": "Courtney R Yarbrough",
+          "orcid": "0000-0002-4216-931X"
+        },
+        {
+          "name": "Xiao Zang",
+          "orcid": "0000-0002-5722-8255"
+        },
+        {
+          "name": "Patrick Sean Sullivan",
+          "orcid": "0000-0002-7728-0587"
+        },
+        {
+          "name": "Aaron Julius Siegler",
+          "orcid": "0000-0001-5553-7540"
         }
       ]
     },
@@ -346,6 +1298,91 @@
         {
           "name": "Chaiyakunapruk N",
           "orcid": "0000-0003-4572-8794"
+        }
+      ]
+    },
+    "57c96e6dc172c59be06d": {
+      "abstract": "Background: In response to ongoing mpox outbreaks, Gavi, The Vaccine Alliance (Gavi) was considering funding the establishment of a mpox vaccine stockpile. To support their decision-making, Gavi commissioned the Johns Hopkins University Center for Outbreak Response Innovation to estimate the optimal size, impact, health benefits, and monetized net benefits of different mpox vaccine stockpile sizes for an effective global stockpile for Gavi-eligible countries to support outbreak containment and prevention of widespread mpox transmission.<br><br>Methods: A deterministic compartmental model of mpox transmission with vaccine interventions was developed, including intervening at 20 or 100 cases reported. The findings from this model were incorporated into a Monte-Carlo cost-benefit analysis.<br><br>Findings: Rapid response using a single-dose vaccination strategy provided the greatest cost benefits compared to a two-dose strategy. Using a one-dose strategy, expected net benefits are estimated to be over $80 million higher when responding to outbreaks rapidly (after 20 cases) than when responding after 100 cases. Total cost per DALY averted for one-dose vaccine strategy ranges from roughly 18% to 53% lower than the two-dose strategy. A stockpile of 1,000,000 doses had the highest ratio of benefits to costs.<br><br>Interpretation: At a large enough size, a stockpile can be effective in controlling outbreaks and reducing overall negative health impacts. The cost-effectiveness of mpo…",
+      "authors": [
+        {
+          "name": "Dionne Mitcham",
+          "orcid": "0000-0003-2937-8739"
+        },
+        {
+          "name": "Richard Bruns",
+          "orcid": ""
+        },
+        {
+          "name": "Hannah Goodtree",
+          "orcid": "0009-0006-9187-7597"
+        },
+        {
+          "name": "Elizabeth Campbell",
+          "orcid": "0000-0003-0390-9546"
+        },
+        {
+          "name": "Alison Kelly",
+          "orcid": ""
+        },
+        {
+          "name": "Oluremilekun Oyefolu",
+          "orcid": ""
+        },
+        {
+          "name": "Haley Farrie",
+          "orcid": ""
+        },
+        {
+          "name": "Fatima Ameaka",
+          "orcid": "0009-0006-8060-274X"
+        },
+        {
+          "name": "Sarah Gillani",
+          "orcid": "0009-0004-0880-6081"
+        },
+        {
+          "name": "Sarah Schneider-Firestone",
+          "orcid": ""
+        },
+        {
+          "name": "Amanda Hart",
+          "orcid": ""
+        },
+        {
+          "name": "Caitlin Rivers",
+          "orcid": "0000-0001-8265-0629"
+        },
+        {
+          "name": "Nivedita Saksena",
+          "orcid": ""
+        },
+        {
+          "name": "Ignacio Esteban",
+          "orcid": ""
+        },
+        {
+          "name": "Lassané Kaboré",
+          "orcid": ""
+        },
+        {
+          "name": "Simon Allan",
+          "orcid": ""
+        },
+        {
+          "name": "Allyson L. Russell",
+          "orcid": ""
+        },
+        {
+          "name": "Francisco J. Luquero",
+          "orcid": ""
+        },
+        {
+          "name": "Neil J. Saad Duque",
+          "orcid": ""
+        },
+        {
+          "name": "Crystal R. Watson",
+          "orcid": "0000-0002-3808-986X"
         }
       ]
     },
@@ -783,7 +1820,7 @@
       ]
     },
     "26e61353a7c749c5cdd7": {
-      "abstract": "Background: Pertussis has resurged in the post-COVID-19 era, yet diagnostic delay remains a barrier to timely treatment and transmission interruption, particularly among adults. Methods: Retrospective observational cohort study of 787 patients with confirmed pertussis from January 2016 through March 2026 across two South Carolina health systems. Electronic health record data from the 60 days preceding confirmation were used to characterize diagnostic timing (same-day vs. delayed), delay duration, and respiratory pathogen testing patterns including pertussis test modality. Results: Adults accounted for 48.4% of cases (median age 16 years [IQR 4-52]; 61.6% female). Same-day diagnosis was highest among children aged 1-4 years (75.4%) and lowest among adults aged 50 and older (approximately 50%). Among the 305 patients (38.8%) with delayed diagnosis, median delay ranged from 7-12 days in children to 22.5-26.5 days in adults aged 50 and older. Delay did not vary significantly by COVID-19 period, race, ethnicity, or insurance type. Testing breadth was greater in inpatient and emergency settings than outpatient. Pertussis testing was predominantly PCR-based in children but serologic in adults, potentially reflecting later clinical presentation relative to illness onset; however, the near-absence of PCR testing in older adults may contribute to missed diagnoses during the early illness window when PCR sensitivity is highest. Conclusions: Older adults experienced markedly delayed per…",
+      "abstract": "Background Pertussis has resurged in the post-COVID-19 era, yet diagnostic delay remains a barrier to timely treatment and transmission interruption, particularly among adults. Methods Retrospective observational cohort study of 787 patients with confirmed pertussis from January 2016 through March 2026 across two South Carolina health systems. Electronic health record data from the 60 days preceding confirmation were used to characterize diagnostic timing (same-day vs. delayed), delay duration, and respiratory pathogen testing patterns including pertussis test modality. Results Adults accounted for 48.4% of cases (median age 16 years [IQR 4–52]; 61.6% female). Same-day diagnosis was highest among children aged 1–4 years (75.4%) and lowest among adults aged 50 and older (approximately 50%). Among the 305 patients (38.8%) with delayed diagnosis, median delay ranged from 7–12 days in children to 22.5–26.5 days in adults aged 50 and older. Delay did not vary significantly by COVID-19 period, race, ethnicity, or insurance type. Testing breadth was greater in inpatient and emergency settings than outpatient. Pertussis testing was predominantly PCR-based in children but serologic in adults, potentially reflecting later clinical presentation relative to illness onset; however, the near-absence of PCR testing in older adults may contribute to missed diagnoses during the early illness window when PCR sensitivity is highest. Conclusions Older adults experienced markedly delayed pertuss…",
       "authors": [
         {
           "name": "Serman EA",
@@ -798,7 +1835,7 @@
           "orcid": ""
         },
         {
-          "name": "LaCroix R",
+          "name": "Lacroix R",
           "orcid": ""
         },
         {
@@ -884,6 +1921,31 @@
         }
       ]
     },
+    "2cd33a9de83384f1ff78": {
+      "abstract": "STUDY DESIGN: Retrospective cohort. OBJECTIVE: To analyze costs (reimbursements herein \"cost\") of transforaminal lumbar interbody fusions (TLIF) over a 10-year period at a single academic center. SUMMARY OF BACKGROUND DATA: Lumbar fusions are responsible for some of the highest charges billed to payers. METHODS: Three hundred seventy-six patients who underwent single-level TLIF between 2014 and 2024 were reviewed. Costs were obtained from the Value Driven Outcomes framework and stratified by category, including implants. Multivariable fixed-effects regression was used to identify independent predictors of total and implant costs, controlling for patient and procedural factors. RESULTS: Implants accounted for the largest share of total TLIF cost, comprising 51% on average. Within implant costs, bone graft expenses were stable over time, with implant hardware accounting for most of the variability in cost. Expandable cages were associated with a 25% higher total cost (P=0.023) and a 42% higher implant cost (P=0.031) compared with static cages. CONCLUSIONS: The primary driver of total cost for single-level TLIF was implant type, with expandable cages costing significantly more than static. Given this finding, the choice of implant may be a viable target for price reduction and optimizing value. Further studies are warranted to determine the impact of cage type on other outcomes. LEVEL OF EVIDENCE: Level III.",
+      "authors": [
+        {
+          "name": "Heili Truumees",
+          "orcid": "0009-0006-0522-0186"
+        },
+        {
+          "name": "Minkyoung Yoo",
+          "orcid": ""
+        },
+        {
+          "name": "Richard E Nelson",
+          "orcid": ""
+        },
+        {
+          "name": "Emma Baker",
+          "orcid": ""
+        },
+        {
+          "name": "Brian A Karamian",
+          "orcid": "0000-0003-0512-6019"
+        }
+      ]
+    },
     "fa7e83eefa1eb3c8826c": {
       "abstract": "Forecasting infectious disease incidence can provide important information to guide public health planning, yet it is difficult because epidemic dynamics are complex. Current mechanistic and statistical approaches often struggle to capture multimodal uncertainty or emergent trends. Influpaint adapts denoising diffusion probabilistic models to epidemic forecasting. By encoding influenza seasons as spatiotemporal images in which pixel intensity represents incidence, Influpaint learns a rich distribution of disease dynamics from a hybrid dataset of surveillance and simulated trajectories. Forecasting is formulated as a conditional generation (inpainting) task from partial observations. We show that Influpaint generates realistic, diverse epidemic trajectories and achieves forecast accuracy that is competitive with leading ensemble methods in retrospective evaluation. In real-time evaluation during the 2022-2025 U.S. CDC FluSight challenges, performance improved substantially across seasons, with highly accurate but somewhat overconfident projections in 2024-2025. The best performance was achieved with a training dataset containing 30% surveillance and 70% simulated trajectories. These results show that diffusion models can capture important spatiotemporal structure in influenza dynamics and provide a flexible framework for probabilistic infectious disease forecasting.",
       "authors": [
@@ -919,35 +1981,35 @@
       ]
     },
     "b0031086ed694b22c190": {
-      "abstract": "Abstract Introduction Monitoring transitions in cigarette and electronic nicotine vapor product (ENVP) use is important for understanding how marketplace and regulatory changes have affected product use patterns, but information from national surveys is often delayed by several years. Methods The Rutgers Omnibus Study is a quarterly serial, rapid-response, web-based convenience survey. Using a Markov multistate transition model, we estimated transition rates and one-year transition probabilities between never, non-current, ENVP-only, cigarette-only, and dual use among 5,292 adults aged 18–45 who participated in at least two of Waves 1–16 (February 2022–February 2026), as well as overall transition hazard ratios by sex, age group, and race & ethnicity in a multivariable model. Results About 40% of individuals using cigarettes (39.5%; 95% CI: 36.9–42.0) or ENVP (40.1%; 95% CI: 36.4–43.7), and 60% of those using both products (60.8%; 95% CI: 58.3–63.2) were predicted to remain in those states after one year. Female participants began using cigarettes from never use (adjusted hazard ratio [aHR] 0.44; 95% CI: 0.29–0.66) or non-current use (aHR 0.65; 95% CI: 0.48–0.88) at lower rates than male participants. Participants aged 35–45 years initiated ENVP-only use from non-current use (aHR 0.34; 95% CI: 0.23–0.51) at a lower rate than those aged 18–34 years. Compared to non-Hispanic White participants, non-Hispanic Black participants initiated ENVP-only use from never use at a higher…",
+      "abstract": "Introduction Monitoring transitions in cigarette and electronic nicotine vapor product (ENVP) use is important for understanding how marketplace and regulatory changes have affected product use patterns, but information from national surveys is often delayed by several years. Methods The Rutgers Omnibus Study is a quarterly serial, rapid-response, web-based convenience survey. Using a Markov multistate transition model, we estimated transition rates and one-year transition probabilities between never, non-current, ENVP-only, cigarette-only, and dual use among 5,292 adults aged 18–45 who participated in at least two of Waves 1–16 (February 2022–February 2026), as well as overall transition hazard ratios by sex, age group, and race & ethnicity in a multivariable model. Results About 40% of individuals using cigarettes (39.5%; 95% CI: 36.9–42.0) or ENVP (40.1%; 95% CI: 36.4–43.7), and 60% of those using both products (60.8%; 95% CI: 58.3–63.2) were predicted to remain in those states after one year. Female participants began using cigarettes from never use (adjusted hazard ratio [aHR] 0.44; 95% CI: 0.29–0.66) or non-current use (aHR 0.65; 95% CI: 0.48–0.88) at lower rates than male participants. Participants aged 35–45 years initiated ENVP-only use from non-current use (aHR 0.34; 95% CI: 0.23–0.51) at a lower rate than those aged 18–34 years. Compared to non-Hispanic White participants, non-Hispanic Black participants initiated ENVP-only use from never use at a higher rate (aHR…",
       "authors": [
         {
-          "name": "Olivia K. Roberts",
-          "orcid": "0009-0009-1582-2174"
+          "name": "Roberts OK",
+          "orcid": ""
         },
         {
-          "name": "Michelle T. Bover Manderski",
-          "orcid": "0000-0003-0000-221X"
+          "name": "Bover Manderski MT",
+          "orcid": ""
         },
         {
-          "name": "Nishi J. Gonsalves",
-          "orcid": "0000-0001-5998-4903"
+          "name": "Gonsalves NJ",
+          "orcid": ""
         },
         {
-          "name": "Jihyoun Jeon",
-          "orcid": "0000-0001-7003-3412"
+          "name": "Jeon J",
+          "orcid": ""
         },
         {
-          "name": "Rafael Meza",
-          "orcid": "0000-0002-1076-5037"
+          "name": "Meza R",
+          "orcid": ""
         },
         {
-          "name": "Cristine D. Delnevo",
-          "orcid": "0000-0001-9597-4307"
+          "name": "Delnevo CD",
+          "orcid": ""
         },
         {
-          "name": "Andrew F. Brouwer",
-          "orcid": "0000-0002-3779-5287"
+          "name": "Brouwer AF",
+          "orcid": ""
         }
       ]
     },
@@ -1357,7 +2419,7 @@
           "orcid": "0000-0001-6268-8785"
         },
         {
-          "name": "Jake Lehle",
+          "name": "Jake D Lehle",
           "orcid": "0000-0002-0833-7068"
         },
         {
@@ -4339,23 +5401,6 @@
         }
       ]
     },
-    "dc1ec89865c5c02db0c3": {
-      "abstract": "Accurate parameter estimation in biological models-from optimizing drug dosing schedules to forecasting disease outbreaks-requires that model parameters be uniquely identifiable from available data. When parameters are not uniquely identifiable, estimation yields non-unique solutions, leading to unreliable predictions and misallocated resources. Existing approaches to resolving identifiability problems often involve re-parameterizing models, but this can reduce the biological interpretability of parameters. We present a mathematical framework demonstrating that time-varying parameters, driven by environmental or behavioral data-such as temperature patterns, treatment schedules, or contact rates-can resolve parameter identifiability issues without re-parameterization. We prove that incorporating such forcing functions into model parameters cannot worsen structural identifiability, and establish conditions under which they provably improve it. Our results illustrate how forcing functions can be used to break parameter entanglements, with a single forcing function sometimes resolving multiple identifiability issues simultaneously. We validate this framework with two worked examples, from pharmacokinetics (drug tissue-blood exchange rates) and disease transmission (seasonally varying contact rates), demonstrating that readily available time-varying data can resolve identifiability while preserving parameter interpretability. By connecting rigorous mathematical proofs to practica…",
-      "authors": [
-        {
-          "name": "Conrad JR",
-          "orcid": ""
-        },
-        {
-          "name": "Hyman JM",
-          "orcid": ""
-        },
-        {
-          "name": "Eisenberg MC",
-          "orcid": ""
-        }
-      ]
-    },
     "b3ebe3c8a5a559dd7c15": {
       "abstract": "Introduction Since 2013, global HIV treatment guidelines have included recommendations for medication adherence support and monitoring for people on antiretroviral therapy (ART). We examined the implementation of recommended strategies for adherence support and monitoring for adults with HIV through serial cross-sectional structured surveys conducted by the International epidemiology Databases to Evaluate AIDS (IeDEA). Methods We used data from surveys completed by HIV clinics across 43 countries in 2017 (n = 206), 2020 (n = 200) and 2023 (n = 214); 131 clinics completed all three surveys. We used descriptive statistics to examine clinic resources and routine adherence support and monitoring at each time point, stratified by country income level (i.e. low/middle-income vs. high-income countries [LMICs/HICs]), and trends among clinics completing all three surveys. We created composite measures of the level or intensity of routine provision of adherence aids/reminders, adherence support and adherence monitoring, ranging from \"none\" to \"enhanced\" levels. Among clinics participating in the 2023 survey, we also examined adherence aids and support routinely provided to clients eligible for intensified support versus all clients. Results At each time point, surveyed clinics were predominantly in LMICs (68.4%-74.3%) and urban settings (65.0%-65.5%), situated within health centres (60.2%-64.0%) or regional/provincial or university hospitals (28.0%-33.5%). Among 131 clinics participat…",
       "authors": [
@@ -5785,6 +6830,99 @@
         {
           "name": "Jin W",
           "orcid": ""
+        }
+      ]
+    },
+    "ec8b15c0be836926ba7a": {
+      "abstract": "IMPORTANCE: The immune mechanisms driving vascular disease remain incompletely understood. People with HIV (PWH), even during effective antiretroviral therapy (ART), exhibit persistent immune activation and inflammation, which may contribute to higher rates of vascular disease and mortality compared with people without HIV (PWoH). Leveraging a cohort of U.S. military personnel followed from HIV diagnosis through long-term ART suppression, we sought to identify immunologic pathways underlying increased vascular risk. OBJECTIVE: To identify plasma biomarkers reflecting distinct immune mechanisms that predict incident vascular outcomes in ART-suppressed PWH. DESIGN: Case-cohort study within the U.S. Military HIV Natural History Study. SETTING: Longitudinal, multicenter observational cohort. PARTICIPANTS: A total of 1,002 ART-suppressed PWH (HIV RNA <50 copies/mL) were included, with N=135 vascular event (VE) cases and N=702 controls. Cases encompassed atherosclerotic cardiovascular disease (ASCVD) - coronary artery disease (CAD), myocardial infarction (MI), stroke (CVA), peripheral artery disease (PAD) - and venous thrombotic events (VTE) - deep vein thrombosis (DVT) and pulmonary embolism (PE). EXPOSURES: Thirty-three soluble plasma analytes quantified using a high-sensitivity multiplex assay from samples collected ≥1 year after ART suppression. MAIN OUTCOMES AND MEASURES: The primary outcome was incident ASCVD. Associations between cytokine concentrations (individual and clus…",
+      "authors": [
+        {
+          "name": "Alton S Barbehenn",
+          "orcid": "0009-0000-3364-7204"
+        },
+        {
+          "name": "Caroline H Sheikhzadeh",
+          "orcid": "0009-0000-2631-9827"
+        },
+        {
+          "name": "Sonia Savur",
+          "orcid": "0009-0008-0418-6144"
+        },
+        {
+          "name": "Erik Lundgren",
+          "orcid": ""
+        },
+        {
+          "name": "Sannidhi Sarvadhavabhatla",
+          "orcid": ""
+        },
+        {
+          "name": "Vivian Pae",
+          "orcid": "0009-0008-2415-6647"
+        },
+        {
+          "name": "Maria Sophia Donaire",
+          "orcid": ""
+        },
+        {
+          "name": "Alejandro Schuler",
+          "orcid": "0000-0003-4853-6130"
+        },
+        {
+          "name": "Xiuping Chu",
+          "orcid": ""
+        },
+        {
+          "name": "Colin T Maguire",
+          "orcid": ""
+        },
+        {
+          "name": "Senay Topal",
+          "orcid": ""
+        },
+        {
+          "name": "Anuradha Ganesan",
+          "orcid": ""
+        },
+        {
+          "name": "Joseph M Yabes",
+          "orcid": "0000-0002-8119-5510"
+        },
+        {
+          "name": "Derek T Larson",
+          "orcid": "0000-0002-6147-7182"
+        },
+        {
+          "name": "Tahaniyat Lalani",
+          "orcid": "0000-0002-9361-2991"
+        },
+        {
+          "name": "Evan C Ewers",
+          "orcid": "0000-0002-1384-9973"
+        },
+        {
+          "name": "Rhonda E Colombo",
+          "orcid": ""
+        },
+        {
+          "name": "Jeffrey A Tomalka",
+          "orcid": ""
+        },
+        {
+          "name": "Priscilla Y Hsue",
+          "orcid": ""
+        },
+        {
+          "name": "Rafick P Sekaly",
+          "orcid": "0000-0002-7816-4828"
+        },
+        {
+          "name": "Brian K Agan",
+          "orcid": "0000-0002-5114-1669"
+        },
+        {
+          "name": "Sulggi A Lee",
+          "orcid": "0000-0003-1560-2250"
         }
       ]
     },
@@ -12562,7 +13700,7 @@
       ]
     },
     "917804c0dcf06293aaaa": {
-      "abstract": "Small mammals are the principal hosts of arenaviruses and hantaviruses, yet the determinants of host status remain contested because global surveillance is non-random. We harmonised 729 studies comprising 695,000 diagnostic assays across 637 species and asked whether host status is predictable once surveillance effort is accounted for. Surveillance intensity was predicted by night-time light intensity and accessibility, but not local host richness, and sampling effort was phylogenetically clustered (Pagel's λ = 0.43). Forty-six percent of rodent genera have never been sampled. In Bayesian phylogenetic mixed models of 43,677 host-virus pairs, faster-lived species tended to be detected as hosts more often, though the credible interval included zero (posterior mean = -0.125, 95% CrI [-0.29, 0.04], pd = 93.2%); the estimate was comparable when restricted to active infection. Synanthropy was independently associated with host status, obligate commensals showing approximately twice the odds. Predictions discriminated hosts from non-hosts in withheld continents (AUC 0.81-0.88), scored at observed sampling effort. Host and virus phylogenies were congruent in both families, though most associations departed from strict co-divergence, indicating host-switching alongside co-evolutionary history. Host phylogenetic diversity accumulated without saturating, and arenavirus hosts were discovered in a more phylogenetically clustered order than expected by chance, consistent with surveillance…",
+      "abstract": "Small mammals are the principal hosts of arenaviruses and hantaviruses, yet the determinants of host status remain contested because global surveillance is non-random. We harmonised 729 studies comprising 695,000 diagnostic assays across 637 species and asked whether host status is predictable once surveillance effort is accounted for. Surveillance intensity was predicted by night-time light intensity and accessibility, but not local host richness, and sampling effort was phylogenetically clustered (Pagel’s λ = 0.43). Forty-six percent of rodent genera have never been sampled. In Bayesian phylogenetic mixed models of 43,677 host-virus pairs, faster-lived species tended to be detected as hosts more often, though the credible interval included zero (posterior mean = −0.125, 95% CrI [−0.29, 0.04], pd = 93.2%); the estimate was comparable when restricted to active infection. Synanthropy was independently associated with host status, obligate commensals showing approximately twice the odds. Predictions discriminated hosts from non-hosts in withheld continents (AUC 0.81–0.88), scored at observed sampling effort. Host and virus phylogenies were congruent in both families, though most associations departed from strict co-divergence, indicating host-switching alongside co-evolutionary history. Host phylogenetic diversity accumulated without saturating, and arenavirus hosts were discovered in a more phylogenetically clustered order than expected by chance, consistent with surveillance…",
       "authors": [
         {
           "name": "Simons D",
@@ -12690,6 +13828,43 @@
         {
           "name": "Rubyan MA",
           "orcid": "0000-0002-5549-4488"
+        }
+      ]
+    },
+    "146e65d64f680d906628": {
+      "abstract": "Objectives: Large international events draw visitors worldwide, but how much do they add to infectious disease importation risk beyond everyday travel? We developed a schedule-driven, uncertainty-aware framework to estimate this added risk and applied it to the 2026 FIFA World Cup as a case study. Methods: Three nested Poisson models represent baseline travel, event-related growth, and schedule-driven allocation of additional visitors by venue and date, with Monte Carlo simulation propagating uncertainty in disease under-reporting and travel-while-infected probability. We applied the approach to five diseases across 11 US host cities during the June 2026 World Cup group stage using only publicly available data, evaluated against independently reported dengue case counts, with measles as an additional qualitative check. Results: Relative to 2026 travel without the tournament, the World Cup added 1.0-6.5% to expected importations under schedule-driven routing, versus 2.9-8.5% under routing that ignores the match schedule. Dengue, malaria, and pertussis had the highest modeled importation levels, and the probability of at least one infected dengue or pertussis arrival exceeded 0.99 at 10 of 11 cities. Comparison with 2024 dengue and 2022 measles surveillance data showed a significant rank correlation between modeled and reported dengue cases (Spearman rho= 0.83). Conclusions: This approach provides an empirically grounded way to assess importation risk during large internationa…",
+      "authors": [
+        {
+          "name": "Herrera-Diestra JL",
+          "orcid": ""
+        },
+        {
+          "name": "Jamieson N",
+          "orcid": ""
+        },
+        {
+          "name": "Harris M",
+          "orcid": ""
+        },
+        {
+          "name": "Bi K",
+          "orcid": ""
+        },
+        {
+          "name": "Ndeffo-Mbah ML",
+          "orcid": ""
+        },
+        {
+          "name": "Ertem Z",
+          "orcid": ""
+        },
+        {
+          "name": "Al-amery A",
+          "orcid": ""
+        },
+        {
+          "name": "Meyers LA",
+          "orcid": ""
         }
       ]
     },
@@ -26857,91 +28032,6 @@
         }
       ]
     },
-    "57c96e6dc172c59be06d": {
-      "abstract": "Background: In response to ongoing mpox outbreaks, Gavi, The Vaccine Alliance (Gavi) was considering funding the establishment of a mpox vaccine stockpile. To support their decision-making, Gavi commissioned the Johns Hopkins University Center for Outbreak Response Innovation to estimate the optimal size, impact, health benefits, and monetized net benefits of different mpox vaccine stockpile sizes for an effective global stockpile for Gavi-eligible countries to support outbreak containment and prevention of widespread mpox transmission.<br><br>Methods: A deterministic compartmental model of mpox transmission with vaccine interventions was developed, including intervening at 20 or 100 cases reported. The findings from this model were incorporated into a Monte-Carlo cost-benefit analysis.<br><br>Findings: Rapid response using a single-dose vaccination strategy provided the greatest cost benefits compared to a two-dose strategy. Using a one-dose strategy, expected net benefits are estimated to be over $80 million higher when responding to outbreaks rapidly (after 20 cases) than when responding after 100 cases. Total cost per DALY averted for one-dose vaccine strategy ranges from roughly 18% to 53% lower than the two-dose strategy. A stockpile of 1,000,000 doses had the highest ratio of benefits to costs.<br><br>Interpretation: At a large enough size, a stockpile can be effective in controlling outbreaks and reducing overall negative health impacts. The cost-effectiveness of mpo…",
-      "authors": [
-        {
-          "name": "Dionne Mitcham",
-          "orcid": "0000-0003-2937-8739"
-        },
-        {
-          "name": "Richard Bruns",
-          "orcid": ""
-        },
-        {
-          "name": "Hannah Goodtree",
-          "orcid": "0009-0006-9187-7597"
-        },
-        {
-          "name": "Elizabeth Campbell",
-          "orcid": "0000-0003-0390-9546"
-        },
-        {
-          "name": "Alison Kelly",
-          "orcid": ""
-        },
-        {
-          "name": "Oluremilekun Oyefolu",
-          "orcid": ""
-        },
-        {
-          "name": "Haley Farrie",
-          "orcid": ""
-        },
-        {
-          "name": "Fatima Ameaka",
-          "orcid": "0009-0006-8060-274X"
-        },
-        {
-          "name": "Sarah Gillani",
-          "orcid": "0009-0004-0880-6081"
-        },
-        {
-          "name": "Sarah Schneider-Firestone",
-          "orcid": ""
-        },
-        {
-          "name": "Amanda Hart",
-          "orcid": ""
-        },
-        {
-          "name": "Caitlin Rivers",
-          "orcid": "0000-0001-8265-0629"
-        },
-        {
-          "name": "Nivedita Saksena",
-          "orcid": ""
-        },
-        {
-          "name": "Ignacio Esteban",
-          "orcid": ""
-        },
-        {
-          "name": "Lassané Kaboré",
-          "orcid": ""
-        },
-        {
-          "name": "Simon Allan",
-          "orcid": ""
-        },
-        {
-          "name": "Allyson L. Russell",
-          "orcid": ""
-        },
-        {
-          "name": "Francisco J. Luquero",
-          "orcid": ""
-        },
-        {
-          "name": "Neil J. Saad Duque",
-          "orcid": ""
-        },
-        {
-          "name": "Crystal R. Watson",
-          "orcid": "0000-0002-3808-986X"
-        }
-      ]
-    },
     "a82eed2161c3b8d09d06": {
       "abstract": "Unstructured meshes present challenges in scientific data analysis due to irregular distribution and complex connectivity. Computing and storing connectivity information is a major bottleneck for visualization algorithms, affecting both time and memory performance. Recent task-parallel data structures address this by precomputing connectivity information at runtime while the analysis algorithm executes, effectively hiding computation costs and improving performance. However, existing approaches are CPU-bound, forcing the data structure and analysis algorithm to compete for the same computational resources, limiting potential speedups. To overcome this limitation, we introduce a novel task-parallel approach optimized for heterogeneous CPU-GPU systems. Specifically, we offload the computation of mesh connectivity information to GPU threads, enabling CPU threads to focus on executing the visualization algorithm. Following this paradigm, we propose GPU-Aided Localized data structurE (GALE), the first open-source CUDA-based data structure designed for heterogeneous task parallelism. Experiments on two 20-core CPUs and an NVIDIA V100 GPU show that GALE achieves up to $2.7\\times$ speedup over state-of-the-art localized data structures while maintaining memory efficiency.",
       "authors": [
@@ -27012,6 +28102,23 @@
         {
           "name": "Andreas Züfle",
           "orcid": "0000-0001-7001-4123"
+        }
+      ]
+    },
+    "9f78e6a0a5e262021d61": {
+      "abstract": "Background: India has one of the world’s largest prediabetes populations. Tirzepatide and semaglutide reduce progression to type 2 diabetes, but their cost-effectiveness for diabetes prevention has not been evaluated in India. We aimed to assess their cost-effectiveness and estimate the threshold prices at which each would be cost-effective.<br><br>Methods: In this modelling study, we simulated 60,000 Indian adults with obesity and impaired glucose tolerance over a lifetime, comparing standard care alone or with metformin, semaglutide, or tirzepatide, using Indian epidemiological and cost data. The primary outcome was each agent’s threshold price versus metformin at India’s opportunity-cost threshold (INR 48,761 per quality-adjusted life-year [QALY]).<br><br>Findings: Per 100,000 adults treated, tirzepatide prevented 38,100 diabetes cases, semaglutide 19,900, and metformin 6200. In a cardiovascular extension, tirzepatide prevented 165 myocardial infarctions or strokes per 100,000, semaglutide 98, and metformin 53. Modelled mean one-year weight loss was 9·1% with tirzepatide, 6·3% with semaglutide, and 1·8% with metformin. QALYs gained per person versus standard care were 0·800 with tirzepatide, 0·459 with semaglutide, and 0·174 with metformin. Relative to metformin, tirzepatide cost INR 426,651 per QALY gained, and semaglutide was extendedly dominated. Threshold prices were 23·9% (95% uncertainty interval 12·4–52·3) of the current price for semaglutide and 30·7% (14·5–71·7)…",
+      "authors": [
+        {
+          "name": "Idris Dawaiwala",
+          "orcid": "0000-0002-1769-2758"
+        },
+        {
+          "name": "Shabbir Nagpurwala",
+          "orcid": "0009-0006-5088-4176"
+        },
+        {
+          "name": "Muhammed Rashid",
+          "orcid": "0000-0002-6390-7764"
         }
       ]
     },
@@ -59568,31 +60675,6 @@
         },
         {
           "name": "Moschella P",
-          "orcid": ""
-        }
-      ]
-    },
-    "00e597cdaa25ed5b9ca9": {
-      "abstract": "Acute diarrheal disease is one of the leading causes of death in children under age 5, disproportionately impacting children in low-resource settings. Many of these cases are caused by bacteria and therefore could respond to antibiotic treatment; however, the benefits of widely prescribing antibiotics must be weighed against the risks for the emergence of microbial resistance. These challenges present the opportunity for developing individualized treatment guidelines for diarrheal disease. In this study, we utilize a framework for the creation and evaluation of individualized treatment rules that leverage diagnostic and other clinical information to recommend antibiotic treatment to children with watery diarrhea. In contrast to many applications of pipelines for creating and evaluating treatment rules, we (i) explicitly consider creating rules that limit the proportion of children treated under a rule, to limit risks for overtreatment and the emergence of microbial resistance and (ii) propose methods to compare the performance of rules based on different sets of input covariates, which allows for quantification of the impact of measuring additional diagnostic biomarkers in clinical settings. We use a nested cross validation procedure that makes use of ensemble machine learning and doubly-robust estimation approach to derive, evaluate, and compare rules. We demonstrate that our proposed method yields appropriate inference in a realistic simulation study and apply our method t…",
-      "authors": [
-        {
-          "name": "Allison Codi",
-          "orcid": "0000-0001-6562-607X"
-        },
-        {
-          "name": "Sara Kim",
-          "orcid": ""
-        },
-        {
-          "name": "Elizabeth Rogawski McQuade",
-          "orcid": ""
-        },
-        {
-          "name": "David Benkeser",
-          "orcid": "0000-0002-1019-8343"
-        },
-        {
-          "name": "AntiBiotics for Children with severe Diarrhea (ABCD) Study Group",
           "orcid": ""
         }
       ]
@@ -94343,6 +95425,27 @@
         {
           "name": "Prescott HC",
           "orcid": "0000-0002-8442-6724"
+        }
+      ]
+    },
+    "717653d435bc5c2921b3": {
+      "abstract": "Trend filtering is a modern approach to nonparametric regression that is more adaptive to local smoothness than splines or similar basis procedures. Existing analyses of trend filtering focus on estimating a function corrupted by homoskedastic Gaussian noise, but our work extends this technique to general exponential family distributions. This extension is motivated by the need to study massive, gridded climate data derived from polar-orbiting satellites. We present algorithms tailored to large problems, theoretical results for general exponential family likelihoods, and principled methods for tuning parameter selection without excess computation.",
+      "authors": [
+        {
+          "name": "Veeranjaneyulu Sadhanala",
+          "orcid": "0000-0001-7224-7705"
+        },
+        {
+          "name": "Robert Bassett",
+          "orcid": "0000-0002-8056-4417"
+        },
+        {
+          "name": "James Sharpnack",
+          "orcid": "0000-0002-7193-0972"
+        },
+        {
+          "name": "Daniel J. McDonald",
+          "orcid": "0000-0002-0443-4282"
         }
       ]
     },
@@ -131442,6 +132545,39 @@
         }
       ]
     },
+    "4cbc4f93620e2b754d57": {
+      "abstract": "Randomized controlled trials (RCTs) evaluate hypotheses in specific contexts and are often considered the gold standard of evidence for infectious disease interventions, but their results cannot immediately generalize to other contexts (e.g., different populations, interventions, or disease burdens). Mechanistic models are one approach to generalizing findings between contexts, but infectious disease transmission models (IDTMs) are not immediately suited for analyzing RCTs, since they often rely on time-series surveillance data. We developed an IDTM framework to explain relative risk outcomes of an infectious disease RCT and applied it to a water, sanitation, and hygiene (WASH) RCT. This model can generalize the RCT results to other contexts and conditions. We developed this compartmental IDTM framework to account for key WASH RCT factors: i) transmission across multiple environmental pathways, ii) multiple interventions applied individually and in combination, iii) adherence to interventions or preexisting conditions, and iv) the impact of individuals not enrolled in the study. We employed a hybrid sampling and estimation framework to obtain posterior estimates of mechanistic parameter sets consistent with empirical outcomes. We illustrated our model using WASH Benefits Bangladesh RCT data (n = 17,187). Our model reproduced reported diarrheal prevalence in this RCT. The baseline estimate of the basic reproduction number [Formula: see text] for the control arm (1.10, 95% CrI…",
+      "authors": [
+        {
+          "name": "Brouwer AF",
+          "orcid": "0000-0002-3779-5287"
+        },
+        {
+          "name": "Eisenberg MC",
+          "orcid": "0000-0003-4221-830X"
+        },
+        {
+          "name": "Bakker KM",
+          "orcid": "0000-0002-7084-9291"
+        },
+        {
+          "name": "Boerger SN",
+          "orcid": "0000-0001-5428-6073"
+        },
+        {
+          "name": "Zahid MH",
+          "orcid": "0000-0002-1832-8974"
+        },
+        {
+          "name": "Freeman MC",
+          "orcid": "0000-0002-1517-2572"
+        },
+        {
+          "name": "Eisenberg JNS",
+          "orcid": "0000-0001-8019-296X"
+        }
+      ]
+    },
     "da880f9246ee7d4a695a": {
       "abstract": "Background Deltoid tensioning secondary to humeral lengthening after reverse shoulder arthroplasty (RSA) is commonly theorized to be crucial to improving range of motion (ROM) but may predispose patients to acromial/scapular spine fractures and neurologic injury. Clinical evidence linking patient outcomes to humeral lengthening is limited. This study assesses the relationship between humeral lengthening and clinical outcomes after RSA. Methods A single institution review of 284 RSAs performed in 265 patients was performed. Humeral lengthening was defined as the difference in the subacromial height preoperatively to postoperatively as measured on Grashey radiographs. The subacromial height was measured as the vertical difference between the most inferolateral aspect of the acromion and the most superior aspect of the greater tuberosity. The relationship between humeral lengthening and clinical outcomes was assessed on a continuous basis. Secondarily, clinical outcomes were assessed using a dichotomous definition of humeral lengthening (≤25 vs. >25mm) based on prior clinical and biomechanical work purporting a correlation with clinical outcomes. Improvement exceeding the minimal clinically important difference (MCID) and substantial clinical benefit (SCB) for ROM and outcome scores after RSA were also compared. Results Humeral lengthening demonstrated a nonlinear relationship with postoperative ROM, clinical outcome scores, and shoulder strength and their improvement preoperat…",
       "authors": [
@@ -156926,39 +158062,6 @@
         {
           "name": "Sawyer DB",
           "orcid": "0009-0006-7584-0700"
-        }
-      ]
-    },
-    "4cbc4f93620e2b754d57": {
-      "abstract": "Randomized controlled trials (RCTs), which evaluate hypotheses in specific contexts, are often considered the gold standard of evidence for infectious disease interventions, but their results cannot immediately generalize to other contexts. Mechanistic models are one approach to generalizing findings between contexts, but infectious disease transmission models are not immediately suited for analyzing RCTs, since they often rely on time-series surveillance data that is rarely collected by RCTs. We developed a modeling framework to explain the main outcome of an infectious disease RCT—relative risk—and applied it to a water, sanitation, and hygiene (WASH) RCT. This model can generalize the RCT results to other contexts and conditions. We developed this compartmental modeling framework to account for key WASH RCT factors: i) transmission across multiple environmental pathways, ii) multiple interventions applied individually and in combination, iii) adherence to interventions or preexisting conditions, and iv) the impact of individuals not enrolled in the study. We employed a hybrid sampling-importance resampling and estimation framework to obtain posterior estimates of mechanistic parameters and their uncertainties and illustrated our model using WASH Benefits Bangladesh RCT data (n=17,187). Our model reproduced reported diarrheal prevalence in this RCT. The baseline estimate of the basic reproduction number ℛ 0 for the control arm (1.15, 95% CI: 1.09, 1.27) corresponded to an…",
-      "authors": [
-        {
-          "name": "Brouwer AF",
-          "orcid": "0000-0002-3779-5287"
-        },
-        {
-          "name": "Eisenberg MC",
-          "orcid": ""
-        },
-        {
-          "name": "Bakker KM",
-          "orcid": "0000-0002-7084-9291"
-        },
-        {
-          "name": "Boerger SN",
-          "orcid": ""
-        },
-        {
-          "name": "Zahid MH",
-          "orcid": "0000-0002-1832-8974"
-        },
-        {
-          "name": "Freeman MC",
-          "orcid": "0000-0002-1517-2572"
-        },
-        {
-          "name": "Eisenberg JN",
-          "orcid": ""
         }
       ]
     },
@@ -242833,63 +243936,6 @@
         }
       ]
     },
-    "10fb34d3127b2c0fee1f": {
-      "abstract": "BACKGROUND: Multidrug-resistant (MDR) bacteria that are commonly associated with health care cause a substantial health burden. Updated national estimates for this group of pathogens are needed to inform public health action. METHODS: Using data from patients hospitalized in a cohort of 890 U.S. hospitals during the period 2012-2017, we generated national case counts for both hospital-onset and community-onset infections caused by methicillin-resistant RESULTS: The hospital cohort in the study accounted for 41.6 million hospitalizations (>20% of U.S. hospitalizations annually). The overall rate of clinical cultures was 292 cultures per 1000 patient-days and was stable throughout the time period. In 2017, these pathogens caused an estimated 622,390 infections (95% confidence interval [CI], 579,125 to 665,655) among hospitalized patients. Of these infections, 517,818 (83%) had their onset in the community, and 104,572 (17%) had their onset in the hospital. MRSA and ESBL infections accounted for the majority of the infections (52% and 32%, respectively). Between 2012 and 2017, the incidence decreased for MRSA infection (from 114.18 to 93.68 cases per 10,000 hospitalizations), VRE infection (from 24.15 to 15.76 per 10,000), carbapenem-resistant acinetobacter species infection (from 3.33 to 2.47 per 10,000), and MDR CONCLUSIONS: Health care-associated antimicrobial resistance places a substantial burden on patients in the United States. Further work is needed to identify improved…",
-      "authors": [
-        {
-          "name": "John A Jernigan",
-          "orcid": ""
-        },
-        {
-          "name": "Kelly M Hatfield",
-          "orcid": ""
-        },
-        {
-          "name": "Hannah Wolford",
-          "orcid": ""
-        },
-        {
-          "name": "Richard E Nelson",
-          "orcid": ""
-        },
-        {
-          "name": "Babatunde Olubajo",
-          "orcid": ""
-        },
-        {
-          "name": "Sujan C Reddy",
-          "orcid": ""
-        },
-        {
-          "name": "Natalie McCarthy",
-          "orcid": ""
-        },
-        {
-          "name": "Prabasaj Paul",
-          "orcid": ""
-        },
-        {
-          "name": "L Clifford McDonald",
-          "orcid": ""
-        },
-        {
-          "name": "Alex Kallen",
-          "orcid": ""
-        },
-        {
-          "name": "Anthony Fiore",
-          "orcid": ""
-        },
-        {
-          "name": "Michael Craig",
-          "orcid": ""
-        },
-        {
-          "name": "James Baggs",
-          "orcid": ""
-        }
-      ]
-    },
     "513e6a0a63f79fe94884": {
       "abstract": "Background Electronic medical record (EMR) systems capture large amounts of data per patient and present that data to physicians with little prioritization. Without prioritization, physicians must mentally identify and collate relevant data, an activity that can lead to cognitive overload. To mitigate cognitive overload, a Learning EMR (LEMR) system prioritizes the display of relevant medical record data. Relevant data are those that are pertinent to a context-defined as the combination of the user, clinical task, and patient case. To determine which data are relevant in a specific context, a LEMR system uses supervised machine learning models of physician information-seeking behavior. Since obtaining information-seeking behavior data via manual annotation is slow and expensive, automatic methods for capturing such data are needed. Objective The goal of the research was to propose and evaluate eye tracking as a high-throughput method to automatically acquire physician information-seeking behavior useful for training models for a LEMR system. Methods Critical care medicine physicians reviewed intensive care unit patient cases in an EMR interface developed for the study. Participants manually identified patient data that were relevant in the context of a clinical task: preparing a patient summary to present at morning rounds. We used eye tracking to capture each physician's gaze dwell time on each data item (eg, blood glucose measurements). Manual annotations and gaze dwell ti…",
       "authors": [
@@ -246282,6 +247328,7 @@
       ]
     },
     "810f34c827a41e538a10": {
+      "abstract": "This paper focuses on spatial and temporal modeling of point processes on linear networks. Point processes on linear networks can simply be defined as point events occurring on or near line segment network structures embedded in a certain space. A separable modeling framework is introduced that posits separate formation and dissolution models of point processes on linear networks over time. While the model was inspired by spider web building activity in brick mortar lines, the focus is on modeling wildfire ignition origins near road networks over a span of 14 years. As most wildfires in California have human-related origins, modeling the origin locations with respect to the road network provides insight into how human, vehicular and structural densities affect ignition occurrence. Model results show that roads that traverse different types of regions such as residential, interface and wildland regions have higher ignition intensities compared to roads that only exist in each of the mentioned region types.",
       "authors": [
         {
           "name": "Medha Uppala",
@@ -296788,6 +297835,35 @@
         }
       ]
     },
+    "cd0ebb4ea764cb37833f": {
+      "abstract": "To prevent disease transmission, 0.05% chlorine solution is commonly recommended for handwashing in Ebola Treatment Units. In the 2014 West Africa outbreak this recommendation was widely extended to community settings, although many organizations recommend soap and hand sanitizer over chlorine. To evaluate skin irritation caused by frequent handwashing that may increase transmission risk in Ebola-affected communities, we conducted a randomized trial with 91 subjects who washed their hands 10 times a day for 28 days. Subjects used soap and water, sanitizer, or one of four chlorine solutions used by Ebola responders (calcium hypochlorite (HTH), sodium dichloroisocyanurate (NaDCC), and generated or pH-stabilized sodium hypochlorite (NaOCl)). Outcomes were self-reported hand feel, irritation as measured by the Hand Eczema Score Index (HECSI) (range 0-360), signs of transmission risk (e.g., cracking), and dermatitis diagnosis. All groups experienced statistically significant increases in HECSI score. Subjects using sanitizer had the smallest increases, followed by higher pH chlorine solutions (HTH and stabilized NaOCl), and soap and water. The greatest increases were among neutral pH chlorine solutions (NaDCC and generated NaOCl). Signs of irritation related to higher transmission risk were observed most frequently in subjects using soap and least frequently by those using sanitizer or HTH. Despite these irritation increases, all methods represented minor changes in HECSI score.…",
+      "authors": [
+        {
+          "name": "Wolfe MK",
+          "orcid": "0000-0002-6476-0450"
+        },
+        {
+          "name": "Wells E",
+          "orcid": "0000-0002-3675-0407"
+        },
+        {
+          "name": "Mitro B",
+          "orcid": ""
+        },
+        {
+          "name": "Desmarais AM",
+          "orcid": ""
+        },
+        {
+          "name": "Scheinman P",
+          "orcid": ""
+        },
+        {
+          "name": "Lantagne D",
+          "orcid": ""
+        }
+      ]
+    },
     "424648527ea7a51afebf": {
       "abstract": "BACKGROUND: Data on oseltamivir treatment among hospitalized community-acquired pneumonia (CAP) patients are limited. METHODS: Patients hospitalized with CAP at 6 hospitals during the 2010-2012 influenza seasons were included. We assessed factors associated with oseltamivir treatment using logistic regression. RESULTS: Oseltamivir treatment was provided to 89 of 1627 (5%) children (<18 years) and 143 of 1051 (14%) adults. Among those with positive clinician-ordered influenza tests, 39 of 61 (64%) children and 37 of 48 (77%) adults received oseltamivir. Among children, oseltamivir treatment was associated with hospital A (adjusted odds ratio [aOR], 2.76; 95% confidence interval [CI], 1.36-4.88), clinician-ordered testing performed (aOR, 2.44; 95% CI, 1.47-5.19), intensive care unit (ICU) admission (aOR, 2.09; 95% CI, 1.27-3.45), and age ≥2 years (aOR, 1.43; 95% CI, 1.16-1.76). Among adults, oseltamivir treatment was associated with clinician-ordered testing performed (aOR, 8.38; 95% CI, 4.64-15.12), hospitals D and E (aOR, 3.46-5.11; 95% CI, 1.75-11.01), Hispanic ethnicity (aOR, 2.06; 95% CI, 1.18-3.59), and ICU admission (aOR, 2.05; 95% CI, 1.34-3.13). CONCLUSIONS: Among patients hospitalized with CAP during influenza season, oseltamivir treatment was moderate overall and associated with clinician-ordered testing, severe illness, and specific hospitals. Increased clinician education is needed to include influenza in the differential diagnosis for hospitalized CAP patients an…",
       "authors": [
@@ -297896,6 +298972,7 @@
       ]
     },
     "668a916f2397b96214ed": {
+      "abstract": "Network-based models for sexually transmitted disease transmission rely on initial partnership networks incorporating structures that may be related to risk of infection. In particular, initial networks should reflect the level of concurrency and attribute-based selective mixing observed in the population of interest. We consider momentary degree distributions as measures of concurrency and propensities for people of certain types to form partnerships with each other as a measure of attribute-based selective mixing. Estimation of momentary degree distributions and mixing patterns typically relies on cross-sectional survey data, and, in the context of heterosexual networks, we describe how this results in two sets of reports that need not be consistent with each other. The reported momentary degree distributions and mixing totals are related through a series of constraints, however. We provide a method to incorporate those in jointly estimating momentary degree distributions and mixing totals. We develop a method to simulate heterosexual networks consistent with these momentary degree distributions and mixing totals, applying it to data obtained from the National Longitudinal Study of Adolescent Health. We first use the momentary degree distributions and mixing totals as mean value parameters to estimate the natural parameters for an exponential-family random graph model and then use a Markov chain Monte Carlo algorithm to simulate person-level heterosexual partnership networ…",
       "authors": [
         {
           "name": "Ryan Admiraal",
@@ -309372,47 +310449,6 @@
         },
         {
           "name": "Torres HA",
-          "orcid": ""
-        }
-      ]
-    },
-    "d0cea6f9dcb6f9cd0dbc": {
-      "abstract": "Despite the high prevalence of HIV among men who have sex with men in South Africa, very little is known about their lived realities, including their social and sexual networks. Given the influence of social network structure on sexual risk behaviours, a better understanding of the social contexts of men who have sex with men is essential for informing the design of HIV programming and messaging. This study explored social network connectivity, an understudied network attribute, examining self-reported connectivity between friends, family and sex partners. Data were collected in Cape Town and Port Elizabeth, South Africa, from 78 men who have sex with men who participated in in-depth interviews that included a social network mapping component. Five social network types emerged from the content analysis of these social network maps based on the level of connectivity between family, friends and sex partners, and ranged from disconnected to densely connected networks. The ways in which participants reported sexual risk-taking differed across the five network types, revealing diversity in social network profiles. HIV programming and messaging for this population can greatly benefit from recognising the diversity in lived realities and social connections between men who have sex with men.",
-      "authors": [
-        {
-          "name": "de Voux A",
-          "orcid": ""
-        },
-        {
-          "name": "Baral SD",
-          "orcid": "0000-0002-5482-2419"
-        },
-        {
-          "name": "Bekker LG",
-          "orcid": "0000-0002-0755-4386"
-        },
-        {
-          "name": "Beyrer C",
-          "orcid": ""
-        },
-        {
-          "name": "Phaswana-Mafuya N",
-          "orcid": "0000-0001-9387-0432"
-        },
-        {
-          "name": "Siegler AJ",
-          "orcid": "0000-0001-5553-7540"
-        },
-        {
-          "name": "Sullivan PS",
-          "orcid": ""
-        },
-        {
-          "name": "Winskell K",
-          "orcid": ""
-        },
-        {
-          "name": "Stephenson R",
           "orcid": ""
         }
       ]
@@ -323641,35 +324677,6 @@
         }
       ]
     },
-    "2891be3395779efe1fc5": {
-      "abstract": "Objective Little data exist regarding clinicians' role in the rising annual incidence rate of cesarean delivery in the US. We aimed to examine if clinicians' practice environment is associated with recommending cesarean deliveries. Study design This is a survey study of clinicians who practice obstetrics in the US. This survey included eight clinical vignettes and 27 questions regarding clinicians' practice environment. Chi-square test and multivariable logistic regression were used for statistical comparison. Results Of 27 675 survey links sent, 3646 clinicians received and opened the survey electronically, and 1555 (43%) participated and 1486 (94%) completed the survey. Clinicians were categorized into three groups based on eight common obstetric vignettes as: more likely (n = 215), average likelihood (n = 1099), and less likely (n = 168) to recommend cesarean. Clinician environment factors associated with a higher likelihood of recommending cesarean included Laborists/Hospitalists practice model (p Conclusion We identified factors in clinicians' environment associated with their likelihood of recommending cesarean delivery. The decision to recommend cesarean delivery is a complicated one and is likely not solely based on patient factors.",
-      "authors": [
-        {
-          "name": "Cheng YW",
-          "orcid": ""
-        },
-        {
-          "name": "Snowden JM",
-          "orcid": "0000-0002-9566-3047"
-        },
-        {
-          "name": "Handler S",
-          "orcid": ""
-        },
-        {
-          "name": "Tager IB",
-          "orcid": ""
-        },
-        {
-          "name": "Hubbard A",
-          "orcid": "0000-0002-3769-0127"
-        },
-        {
-          "name": "Caughey AB",
-          "orcid": ""
-        }
-      ]
-    },
     "6447a6206aadc4b8416e": {
       "abstract": "Objective Fecal microbiota transplantation (FMT) has been suggested as a new treatment to manage Clostridium difficile infection (CDI). With use of a mathematical model of C. difficile within an intensive care unit (ICU), we examined the potential impact of routine FMT. Design, setting, and patients A mathematical model of C. difficile transmission, supplemented with prospective cohort, surveillance, and billing data from hospitals in the southeastern United States. Methods Cohort, surveillance, and billing data as well as data from the literature were used to construct a compartmental model of CDI within an ICU. Patients were defined as being in 1 of 6 potential health states: uncolonized and at low risk; uncolonized and at high risk; colonized and at low risk; colonized and at high risk; having CDI; or treated with FMT. Results The use of FMT to treat patients after CDI was associated with a statistically significant reduction in recurrence but not with a reduction in incident cases. Treatment after administration of high-risk medications, such as antibiotics, did not result in a decrease in recurrence but did result in a statistically significant difference in incident cases across treatment groups, although whether this difference was clinically relevant was questionable. Conclusions Our study is a novel mathematical model that examines the effect of FMT on the prevention of recurrent and incident CDI. The routine use of FMT represents a promising approach to reduce comp…",
       "authors": [
@@ -325052,103 +326059,6 @@
         {
           "name": "Hallal PC",
           "orcid": "0000-0003-1470-6461"
-        }
-      ]
-    },
-    "272528983b6f2d238920": {
-      "abstract": "Introduction Enteric infections are common during the first years of life in low-income countries and contribute to growth faltering with long-term impairment of health and development. Water quality, sanitation, handwashing and nutritional interventions can independently reduce enteric infections and growth faltering. There is little evidence that directly compares the effects of these individual and combined interventions on diarrhoea and growth when delivered to infants and young children. The objective of the WASH Benefits study is to help fill this knowledge gap. Methods and analysis WASH Benefits includes two cluster-randomised trials to assess improvements in water quality, sanitation, handwashing and child nutrition-alone and in combination-to rural households with pregnant women in Kenya and Bangladesh. Geographically matched clusters (groups of household compounds in Bangladesh and villages in Kenya) will be randomised to one of six intervention arms or control. Intervention arms include water quality, sanitation, handwashing, nutrition, combined water+sanitation+handwashing (WSH) and WSH+nutrition. The studies will enrol newborn children (N=5760 in Bangladesh and N=8000 in Kenya) and measure outcomes at 12 and 24 months after intervention delivery. Primary outcomes include child length-for-age Z-scores and caregiver-reported diarrhoea. Secondary outcomes include stunting prevalence, markers of environmental enteropathy and child development scores (verbal, motor a…",
-      "authors": [
-        {
-          "name": "Arnold BF",
-          "orcid": "0000-0001-6105-7295"
-        },
-        {
-          "name": "Null C",
-          "orcid": "0000-0003-0819-536X"
-        },
-        {
-          "name": "Luby SP",
-          "orcid": "0000-0001-5385-899X"
-        },
-        {
-          "name": "Unicomb L",
-          "orcid": ""
-        },
-        {
-          "name": "Stewart CP",
-          "orcid": ""
-        },
-        {
-          "name": "Dewey KG",
-          "orcid": ""
-        },
-        {
-          "name": "Ahmed T",
-          "orcid": ""
-        },
-        {
-          "name": "Ashraf S",
-          "orcid": "0000-0001-7305-8922"
-        },
-        {
-          "name": "Christensen G",
-          "orcid": "0000-0003-2558-1609"
-        },
-        {
-          "name": "Clasen T",
-          "orcid": ""
-        },
-        {
-          "name": "Dentz HN",
-          "orcid": ""
-        },
-        {
-          "name": "Fernald LC",
-          "orcid": "0000-0003-1555-4607"
-        },
-        {
-          "name": "Haque R",
-          "orcid": ""
-        },
-        {
-          "name": "Hubbard AE",
-          "orcid": "0000-0002-3769-0127"
-        },
-        {
-          "name": "Kariger P",
-          "orcid": ""
-        },
-        {
-          "name": "Leontsini E",
-          "orcid": "0000-0001-7895-8065"
-        },
-        {
-          "name": "Lin A",
-          "orcid": "0000-0002-3877-3469"
-        },
-        {
-          "name": "Njenga SM",
-          "orcid": "0000-0001-6309-476X"
-        },
-        {
-          "name": "Pickering AJ",
-          "orcid": ""
-        },
-        {
-          "name": "Ram PK",
-          "orcid": ""
-        },
-        {
-          "name": "Tofail F",
-          "orcid": ""
-        },
-        {
-          "name": "Winch PJ",
-          "orcid": ""
-        },
-        {
-          "name": "Colford JM Jr",
-          "orcid": ""
         }
       ]
     },
@@ -328068,39 +328978,6 @@
         {
           "name": "Goodwin RL",
           "orcid": ""
-        }
-      ]
-    },
-    "e75c8960090ed88ba694": {
-      "abstract": "Vaccination has proven effective in controlling many infectious diseases. However, differential effectiveness with regard to pathogen genotype is a frequent reason for failures in vaccine development. Often, insufficient immune response is induced to prevent infection by the diversity of existing serotypes present in pathogenic populations of bacteria. These vaccines that target a too narrow spectrum of serotypes do not offer sufficient prevention of infections, and can also lead to undesirable strain replacements. Here, we examine a novel idea to specifically exploit the narrow spectrum coverage of some vaccines to combat specific, emerging multi- and pan-resistant strains of pathogens. Application of a narrow-spectrum vaccine could serve to prevent infections by some strains that are hard to treat, rather than offer the vaccinated individual protection against infections by the pathogenic species as such. We suggest that vaccines targeted to resistant serotypes have the potential to become important public health tools, and would represent a new approach toward reducing the burden of particular multi-resistant strains occurring in hospitals. Vaccines targeting drug-resistant serotypes would also be the first clinical intervention with the potential to drive the evolution of pathogenic populations toward drug-sensitivity. We illustrate the feasibility of this approach by modeling a hypothetical vaccine that targets a subset of methicillin-resistant Staphylococcus aureus (MR…",
-      "authors": [
-        {
-          "name": "Tekle YI",
-          "orcid": ""
-        },
-        {
-          "name": "Nielsen KM",
-          "orcid": "0000-0002-7217-2114"
-        },
-        {
-          "name": "Liu J",
-          "orcid": ""
-        },
-        {
-          "name": "Pettigrew MM",
-          "orcid": "0000-0001-8145-7536"
-        },
-        {
-          "name": "Meyers LA",
-          "orcid": "0000-0002-5828-8874"
-        },
-        {
-          "name": "Galvani AP",
-          "orcid": ""
-        },
-        {
-          "name": "Townsend JP",
-          "orcid": "0000-0002-9890-3907"
         }
       ]
     },
