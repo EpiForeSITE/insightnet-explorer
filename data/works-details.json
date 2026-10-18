@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-11T06:48:52.508126Z",
+  "generated_at": "2026-10-18T06:42:59.345237Z",
   "details": {
     "c2eb6d9d6bbafbc57f4b": {
       "abstract": "Semantic trajectories enrich spatiotemporal data with textual semantics such as trip purposes and activities at points of interest, enabling the discovery of outlier behaviors relevant to public health, social security, and urban planning. Existing detectors often depend on hand crafted rules and rarely fuse space, time, and text in a transferable way. We propose TOD4Traj , an unsupervised and transfer ready framework for human semantic trajectories that detects anomalies at both the individual and collective levels. TOD4Traj first unifies modalities through spatiotemporal to semantic contrastive alignment so heterogeneous signals share a common representation. It then learns regular mobility via temporal contrastive learning that aligns the same weekday and separates different weekdays. Deviations are scored by combining a consistency score against a user’s own history with a population score based on a small set of learned centroids that capture low rank mobility regularities. For group analysis, we introduce a population level contrastive objective and a collective outlier score that compare a date’s population embedding with historical weekday prototypes, revealing collective abnormality. Across simulated cities and a GeoLife derived dataset, TOD4Traj consistently outperforms strong baselines on both tasks and shows robust zero shot transfer across cities, demonstrating effectiveness, robustness, and adaptability for outlier detection in human semantic trajectories.",
@@ -211,23 +211,403 @@
         }
       ]
     },
+    "76636a3fadb773853d10": {
+      "abstract": "Health systems increasingly record ICD-10 Z59 social-needs codes for housing, food, transportation, and related hardship to trigger referrals, report quality, and adjust risk. However code documentation occurs at varying rates and no study has separated what the code says about a patient's hardship from what it says about being documented at all. Using a linked electronic health record and claims corpus covering 4.95 million patients in 21 identifiable health systems, we matched 26,153 adults with a first outpatient Z59 code to similar uncoded patients and, as a negative control, repeated the entire design around an administrative code. Coding ranged from 1 percent to 24 percent of patients across systems and remained highly variable after adjustment for patient mix. A hardship code was associated with 67% (95% CI=1.61, 1.74) more emergency department (ED) visits and 43% ( 95% CI=1.38, 1.49) more hospital admissions in the next year (62 versus 49 of every 100 patients with any acute event). The administrative-code reproduced 46 percent of the Z59 association for ED visits and 70 percent for admissions. In the five systems with the most complete stay dates, no hardship-specific admission excess was detectable. Homelessness codes forecast two and a half times the ED visit rate. At national planning prices, excess emergency and preventable hospital care totaled roughly $2,000 to $2,500 per coded patient-year ($2,516 base scenario; about $1,100 under an exploratory assumed-disco…",
+      "authors": [
+        {
+          "name": "Lobelo F",
+          "orcid": ""
+        },
+        {
+          "name": "Durieux J",
+          "orcid": ""
+        },
+        {
+          "name": "Ashoo S",
+          "orcid": ""
+        },
+        {
+          "name": "Colovos C",
+          "orcid": ""
+        }
+      ]
+    },
+    "dd6bb3939023ede60e61": {
+      "abstract": "Objective: To estimate how often remission of type 2 diabetes is recorded in routine care, how long it lasts, and what ends it, separating a return of hyperglycemia from a restart of treatment. Research design and methods: We studied 136,781 adults aged 18 years or older with laboratory confirmed type 2 diabetes in the Protege linked electronic health record (EHR) and claims database. The 96,817 adults with glucose-lowering treatment recorded at or before cohort entry formed the primary (previously treated) cohort; 39,964 adults with no treatment recorded at entry were analyzed in parallel. Remission required two HbA1c values Results: Remission was documented in 4.33% of previously treated adults cohort and 15.57% in the cohort of untreated adults at entry. Five-year cumulative incidence (Aalen Johansen) was 3.82% (95% CI 3.69 ;3.93) and 13.27% (12.90;13.59) in each cohort, respectively. Remission was less common with greater baseline treatment burden: exploratory adjusted 5-year incidence was 4.65% in adults with 1 glucose-lowering class with a treatment episode recorded at or before entry, 3.62% with two, 2.69% with three, and 2.02% with four or more such drugs.. The Median Kaplan Meier duration of first remission was 226 days (IQR 93 to 855) in previously treated adults and 371 days (166 to 1,027) in adults untreated at entry; 37.9% (treated cohort) and 23.1% (untreated cohort) of episodes had ended by 152 days. Among remission episodes that had ended, median duration was…",
+      "authors": [
+        {
+          "name": "Lobelo F",
+          "orcid": ""
+        },
+        {
+          "name": "Durieux J",
+          "orcid": ""
+        },
+        {
+          "name": "Kim DS",
+          "orcid": ""
+        },
+        {
+          "name": "Colovos C",
+          "orcid": ""
+        }
+      ]
+    },
+    "854228f749fa9edb6bec": {
+      "abstract": "The efficacy of current antiretroviral interventions for prevention of vertical HIV transmission is both a triumph and a challenge for future efficacy studies of novel agents, including long-acting antiretroviral agents. Given the effectiveness of current antiretroviral interventions, standard randomized controlled trials to assess novel interventions targeted towards further reducing vertical HIV transmission may be infeasible due to required sample sizes. To address this study design challenge, we propose a novel augmented clinical trial design, where a randomized trial with an active comparator is augmented with a concurrent observational cohort to supplement the standard-of-care arm. The proposed design and analysis can overcome sampling biases, and an associated diagnostic can evaluate potential biases from unmeasured covariates. The proposed trial design is illustrated with an example and studied further using a simulation study. In the illustrative example, an augmented trial with a 3:1 allocation ratio in the trial component yielded an unbiased treatment effect estimate, as compared to the trial component alone, and the standard error was reduced substantially. Although the total sample size of the augmented trial was larger than a similarly powered 1:1 standard trial, the sample size of the augmented trial's trial component was half the size of the standard trial and within the range of historically similar trials, thereby providing both feasibility and potential co…",
+      "authors": [
+        {
+          "name": "Dwight Edward Yin",
+          "orcid": "0000-0002-8599-1004"
+        },
+        {
+          "name": "Paul N Zivich",
+          "orcid": "0000-0002-9932-1095"
+        },
+        {
+          "name": "Mark J Giganti",
+          "orcid": "0000-0003-2255-9756"
+        },
+        {
+          "name": "Danni Wu",
+          "orcid": "0000-0002-6989-735X"
+        },
+        {
+          "name": "Jessie K Edwards",
+          "orcid": "0000-0002-1741-335X"
+        },
+        {
+          "name": "Stephen R Cole",
+          "orcid": ""
+        }
+      ]
+    },
+    "40610fa28ca310a5d92d": {
+      "abstract": "BACKGROUND: Shiga toxin-producing Escherichia coli (STEC) infections can cause significant long-term renal sequelae. Intermediate-term outcomes for patients who do not develop hemolytic uremic syndrome (HUS) remain unclear. We evaluated clinical and laboratory outcomes in children with laboratory-confirmed STEC O157 infection in a large childcare outbreak. METHODS: This prospective longitudinal cohort study enrolled children aged 9 months to <6 years attending childcare centers in Calgary, Alberta, Canada during an STEC outbreak in September 2023. Among cases, clinical presentation was categorized as: asymptomatic, mild-moderate (diarrhea, no HUS), and severe (HUS). Cases were STEC-infected children confirmed by stool molecular testing; controls were exposed children whose stool tested negative by the same method. Outcome measures assessed at 6-, 12-, and 24-months post-exposure included: general assessments, inflammatory markers, hematologic parameters, renal function, gastrointestinal outcomes, and cardiometabolic markers. RESULTS: Of 932 eligible children, 145 (16%) participated: 72 cases (4 asymptomatic, 59 mild-moderate infection, 9 HUS) and 73 controls. Median age was 3.3 (IQR: 2.3, 4.2) years. After adjustment for multiple comparisons, no laboratory parameters or clinical outcomes differed between groups at any timepoint. Functional gastrointestinal disorders occurred at similar rates across groups, except functional dyspepsia was more common among STEC-infected child…",
+      "authors": [
+        {
+          "name": "Stephen B Freedman",
+          "orcid": "0000-0003-2319-6192"
+        },
+        {
+          "name": "Kathleen Winston",
+          "orcid": ""
+        },
+        {
+          "name": "Jina Seok Mkin",
+          "orcid": ""
+        },
+        {
+          "name": "Oluwatimilehin O Ajayi",
+          "orcid": ""
+        },
+        {
+          "name": "Jianling Xie",
+          "orcid": ""
+        },
+        {
+          "name": "Silviu Grisaru",
+          "orcid": ""
+        },
+        {
+          "name": "David Schnadower",
+          "orcid": "0000-0001-7379-7012"
+        },
+        {
+          "name": "Andrew T Pavia",
+          "orcid": "0000-0002-3066-580X"
+        },
+        {
+          "name": "Stuart L Goldstein",
+          "orcid": ""
+        },
+        {
+          "name": "Mohamed Eltorki",
+          "orcid": ""
+        },
+        {
+          "name": "Dorota Biggs",
+          "orcid": ""
+        },
+        {
+          "name": "Phillip I Tarr",
+          "orcid": ""
+        }
+      ]
+    },
+    "4abf7745da9d899c1554": {
+      "authors": [
+        {
+          "name": "Stephen R Cole",
+          "orcid": ""
+        },
+        {
+          "name": "Ashley I Naimi",
+          "orcid": "0000-0002-1510-8175"
+        },
+        {
+          "name": "Paul N Zivich",
+          "orcid": ""
+        },
+        {
+          "name": "Jess K Edwards",
+          "orcid": "0000-0002-1741-335X"
+        }
+      ]
+    },
+    "ac532a4f0ec010e6bf7c": {
+      "authors": [
+        {
+          "name": "Adoma Manful",
+          "orcid": ""
+        },
+        {
+          "name": "Melinda C Aldrich",
+          "orcid": ""
+        },
+        {
+          "name": "Brian Mitzman",
+          "orcid": ""
+        },
+        {
+          "name": "Nathorn Chaiyakunapruk",
+          "orcid": ""
+        },
+        {
+          "name": "Richard E Nelson",
+          "orcid": ""
+        },
+        {
+          "name": "Jennifer Richmond",
+          "orcid": ""
+        },
+        {
+          "name": "Meng-Yun Lin",
+          "orcid": ""
+        }
+      ]
+    },
+    "2d8b7987881d5fd28a29": {
+      "authors": [
+        {
+          "name": "B. K. M. Case",
+          "orcid": "0000-0002-5666-1161"
+        },
+        {
+          "name": "Mariah Victoria Salcedo",
+          "orcid": ""
+        },
+        {
+          "name": "Spencer J. Fox",
+          "orcid": "0000-0003-1969-3778"
+        }
+      ]
+    },
+    "aabe0a647373de491862": {
+      "abstract": "The 2026 multinational Andes virus (ANDV) outbreak linked to cruise-ship travel from Argentina triggered extensive contact tracing and quarantine. Whether intervention on this scale was necessary or sufficient depends on the risk of onward transmission, which can be difficult to estimate early in an outbreak. Using transmission-pair data from the 2018--2019 outbreak in Epuyen, Argentina, and a mechanistic model linking viral growth, symptom onset, and transmission, we estimated that 42.4% (95% CrI: 18.2-69.7\\%) of transmission occurs before symptom onset and that the median incubation period is 18.5 days (95% CrI: 16.5-19.5). We simulated outbreaks under an Epuyen-calibrated estimate (R = 2.12, k = 0.316) and a pooled estimate from 15 prior ANDV investigations (R = 0.24, k = 0.39), with intervention beginning after two generations, as in the cruise-associated event. Under the higher-transmission scenario, missing 10% of exposed individuals or downstream contacts resulted in a 29.9% probability of continued spread and a 20.6% probability that at least 5,000 ultimately uninfected people would be quarantined. Under lower transmission, continued spread stayed below 8%. However, the risk of onward transmission could not be estimated precisely from the first several detected cases. These findings therefore support rapid, comprehensive contact tracing and quarantine after large international exposure events despite substantial costs.",
+      "authors": [
+        {
+          "name": "Jamieson N",
+          "orcid": ""
+        },
+        {
+          "name": "Pasco R",
+          "orcid": ""
+        },
+        {
+          "name": "Abbott S",
+          "orcid": ""
+        },
+        {
+          "name": "Lessler J",
+          "orcid": ""
+        },
+        {
+          "name": "Meyers LA",
+          "orcid": ""
+        }
+      ]
+    },
+    "b35332b3efd575d00e1e": {
+      "abstract": "Women faculty experience academia differently from men in many ways, which can lead them to consider leaving their positions. Using a large-scale survey of both current and former tenure-line faculty across nearly all US PhD-granting institutions and 29 disciplines, we investigate which aspects of the academic workplace are (i) most gendered and (ii) most relevant to faculty retention patterns among respondents. Analyzing 6,615 free-text responses reveals that feeling devalued at work, both in formal evaluations and informal interactions, is the topic where women and men's reported experiences diverge the most when given the opportunity to discuss anything that needed to be different about their jobs-a pattern that holds for nearly 300 institutions and across both STEM and non-STEM fields, and was particularly strong for women of color and tenured women in our sample. This is in contrast to most existing gender-based interventions in academia that target work-life balance. Further, devaluation is the topic most strongly associated with gendered departures among respondents, accounting for the majority of the gender gap in both considering leaving (current faculty) and leaving (former faculty). Finally, illustrative quotations contextualize gender-based devaluation in academia. These results provide new evidence for the long-known gender gap in faculty retention, illuminating how gendered dynamics in the workplace cross disciplines and institutions and relate to gendered deci…",
+      "authors": [
+        {
+          "name": "Katie Spoon",
+          "orcid": "0000-0002-5467-9341"
+        },
+        {
+          "name": "Joanna Mendy",
+          "orcid": "0009-0006-6428-2125"
+        },
+        {
+          "name": "Maria Martinez",
+          "orcid": ""
+        },
+        {
+          "name": "Mirta Galesic",
+          "orcid": "0000-0002-1712-9455"
+        },
+        {
+          "name": "Daniel B Larremore",
+          "orcid": "0000-0001-5273-5234"
+        },
+        {
+          "name": "Aaron Clauset",
+          "orcid": "0000-0002-3529-8746"
+        },
+        {
+          "name": "Lauren A Rivera",
+          "orcid": "0000-0003-2733-3641"
+        }
+      ]
+    },
+    "79a89c4fbf6e53feef84": {
+      "abstract": "BACKGROUND: Social support is an important psychosocial determinant of health, but its association with clinical outcomes among older adults with non-dialysis-dependent CKD remains incompletely characterized. We examined associations between social support and clinical outcomes among older adults with CKD and evaluated whether these associations differed by sex. METHODS: We analyzed data from the Chronic Renal Insufficiency Cohort Study among participants aged 65 years and older who completed the Lubben Social Network Scale-6 between 2013 and 2018. Low social support was defined as a score <12. Participants were followed until death, withdrawal, or October 2024. Multivariable-adjusted negative binomial regression and Cox proportional hazards models were used to examine associations between social support and hospitalization, all-cause mortality, and CKD progression (≥50% decline in estimated glomerular filtration rate or kidney failure). Effect modification by sex, age, and race and ethnicity was evaluated. RESULTS: Among 2,616 participants (mean age, 71±5 years; 43% women), 23% had low social support. Higher social support was associated with lower mortality risk (hazard ratio, 0.83; 95% confidence interval (CI), 0.71-0.98). This association was significant among women, Hispanic participants, and adults aged ≥70 years. Higher social support was not associated with hospitalization risk in the overall cohort (incidence rate ratio, 0.92; 95% CI, 0.82-1.03) but was associated w…",
+      "authors": [
+        {
+          "name": "Flor Alvarado",
+          "orcid": "0000-0001-5380-1440"
+        },
+        {
+          "name": "Siyi Geng",
+          "orcid": "0000-0001-9199-4538"
+        },
+        {
+          "name": "Eleanor Rivera",
+          "orcid": "0000-0002-3111-0611"
+        },
+        {
+          "name": "Robert S Hoover",
+          "orcid": "0009-0006-0008-1826"
+        },
+        {
+          "name": "Hua He",
+          "orcid": "0000-0001-8989-0297"
+        },
+        {
+          "name": "Jing Chen",
+          "orcid": "0000-0002-9035-9126"
+        },
+        {
+          "name": "Milda R Saunders",
+          "orcid": "0000-0002-9276-2066"
+        },
+        {
+          "name": "Vallabh O Shah",
+          "orcid": "0000-0002-3584-4057"
+        },
+        {
+          "name": "Bernard G Jaar",
+          "orcid": "0000-0003-1210-7115"
+        },
+        {
+          "name": "Ana C Ricardo",
+          "orcid": "0000-0001-8670-3644"
+        },
+        {
+          "name": "Mark L Unruh",
+          "orcid": "0000-0001-7103-656"
+        },
+        {
+          "name": "James Lash",
+          "orcid": "0000-0002-6580-4080"
+        },
+        {
+          "name": "Hernan Rincon-Choles",
+          "orcid": "0000-0003-3559-4374"
+        },
+        {
+          "name": "James H Sondheimer",
+          "orcid": "0000-0002-9538-9682"
+        },
+        {
+          "name": "Paul E Drawz",
+          "orcid": "0000-0001-7301-9253"
+        },
+        {
+          "name": "Amanda H Anderson",
+          "orcid": "0000-0002-1454-4282"
+        },
+        {
+          "name": "Deidra C Crews",
+          "orcid": "0000-0003-3425-5776"
+        },
+        {
+          "name": "Jiang He",
+          "orcid": "0000-0002-8286-9652"
+        },
+        {
+          "name": "Katherine T Mills",
+          "orcid": "0000-0002-4278-5788"
+        },
+        {
+          "name": "CRIC Study Investigators",
+          "orcid": ""
+        }
+      ]
+    },
+    "906a175c5137ee31e9f2": {
+      "abstract": "BACKGROUND: The increasing prevalence of CKD necessitates standardized assessment of kidney function across various healthcare sites.1 Patients at risk, particularly those with diabetes, hypertension, or cancer, frequently do not receive recommended laboratory monitoring.2,3 This study assesses guideline recommended testing among various medical centers using the Observational Medical Outcomes Partnership (OMOP) common data model (CDM). The objectives are to report methodologies for extracting relevant measurements within OMOP and assess the frequency of specific biomarker evaluations and diagnosis codes in select cohorts. METHODS: Retrospective cohort study of adult patients at 6 medical centers throughout the U.S. with a healthcare encounter to determine the frequency of diagnosis codes and biomarker measurements [eGFR, urine albumin-creatinine ratio (UACR), cystatin C, and aldosterone levels] among patients with relevant risk factors and probable CKD (sustained eGFR 60 ml/min/1.73m2, and albuminuria. CONCLUSIONS: This study demonstrates low frequency of guideline-recommended kidney health assessments and CKD diagnosis across multiple U.S. medical centers, including albuminuria, cystatin C, and aldosterone testing.",
+      "authors": [
+        {
+          "name": "Susan Ziolkowski",
+          "orcid": "0000-0002-0785-598"
+        },
+        {
+          "name": "Sam Patnoe",
+          "orcid": "0009-0008-2876-1561"
+        },
+        {
+          "name": "Hannah Morgan-Cooper",
+          "orcid": ""
+        },
+        {
+          "name": "Anna Ostropolets",
+          "orcid": "0000-0002-0847-6682"
+        },
+        {
+          "name": "Thomas Falconer",
+          "orcid": "0000-0001-6904-1394"
+        },
+        {
+          "name": "James M Luther",
+          "orcid": "0000-0001-7225-2897"
+        },
+        {
+          "name": "Jiang Bian",
+          "orcid": "0000-0002-2238-5429"
+        },
+        {
+          "name": "Hao Dai",
+          "orcid": "0000-0001-7950-3759"
+        },
+        {
+          "name": "Sharon M Moe",
+          "orcid": ""
+        },
+        {
+          "name": "Paul Drawz",
+          "orcid": "0000-0001-7301-9253"
+        }
+      ]
+    },
     "00e597cdaa25ed5b9ca9": {
       "abstract": "Acute diarrheal disease is a leading cause of death in children under age 5, disproportionately impacting children in low-resource settings. Although many cases could respond to antibiotic treatment, the benefits of widely prescribing antibiotics must be weighed against the risks of antimicrobial resistance. These challenges motivate development of individualized treatment guidelines for diarrheal disease. In this study, we utilize a framework for creation and evaluation of individualized treatment rules that leverage diagnostic and clinical information to make treatment recommendations. In contrast to many applications of pipelines for creating and evaluating treatment rules, we (i) explicitly create rules that limit the proportion of children treated based on expected clinical benefit, to limit risks for overtreatment and the emergence of antimicrobial resistance, and (ii) propose methods to compare rules based on different sets of input covariates, allowing for quantification of the impact of measuring additional biomarkers in clinical settings. We use a nested cross-validation procedure with ensemble machine learning and doubly-robust estimation to derive, evaluate, and compare rules. We demonstrate that our proposed method yields appropriate inference in a realistic simulation study and apply our method to data from the AntiBiotics for Children with severe Diarrhea (ABCD) trial.",
       "authors": [
         {
-          "name": "Allison Codi",
+          "name": "Codi A",
           "orcid": "0000-0001-6562-607X"
         },
         {
-          "name": "Sara Kim",
+          "name": "Kim S",
           "orcid": ""
         },
         {
-          "name": "Elizabeth Rogawski McQuade",
+          "name": "Rogawski McQuade E",
           "orcid": ""
         },
         {
-          "name": "David Benkeser",
+          "name": "Benkeser D",
           "orcid": "0000-0002-1019-8343"
         },
         {
@@ -239,15 +619,15 @@
     "ffb9cacbd7905ee518bd": {
       "authors": [
         {
-          "name": "Max S Y Lau",
+          "name": "Lau MSY",
           "orcid": "0000-0001-6590-0294"
         },
         {
-          "name": "Matthew J Ferrari",
+          "name": "Ferrari MJ",
           "orcid": ""
         },
         {
-          "name": "Wei Jin",
+          "name": "Jin W",
           "orcid": ""
         }
       ]
@@ -256,31 +636,31 @@
       "abstract": "In northeastern Argentina, wild canids such as the pampas fox (Lycalopex gymnocercus) and the crab-eating fox (Cerdocyon thous) coexist with domestic dogs (Canis lupus familiaris) across rural and peri-urban landscapes, creating opportunities for tick and pathogen exchange. Characterizing tick assemblages and associated pathogens in these hosts is essential to assess potential public health risks at the wildlife-domestic interface. Ticks were collected opportunistically from domestic dogs and road-killed foxes near two protected areas in Corrientes Province. Specimens were identified using morphological and molecular approaches and screened for Rickettsia spp. by PCR. A total of 30 adult ticks were obtained from 12 dogs and 8 foxes, representing four species: Amblyomma tigrinum, A. ovale, A. dubitatum and Rhipicephalus sanguineus. Amblyomma tigrinum was the most frequent species (50%). Seven individual ticks were confirmed as Candidatus Rickettsia andeanae in A. tigrinum, while one pooled sample was positive by screening only and was not confirmed. These findings expand the known geographic distribution of Ca. R. andeanae and provide molecular evidence of its circulation in ticks collected from both wild and domestic canids in northeastern Argentina. Our results highlight the importance of these hosts as sentinels for tick-borne pathogens and underscore the need for integrated One Health surveillance to better anticipate emerging potential risks in interface areas.",
       "authors": [
         {
-          "name": "María Belén Natalini",
+          "name": "Natalini MB",
           "orcid": "0000-0002-9041-4228"
         },
         {
-          "name": "Vincent Ciavatta",
+          "name": "Ciavatta V",
           "orcid": "0000-0002-1615-0826"
         },
         {
-          "name": "Stephanie Bellman",
+          "name": "Bellman S",
           "orcid": "0000-0002-5805-498X"
         },
         {
-          "name": "Sophia Di Cataldo",
+          "name": "Di Cataldo S",
           "orcid": "0000-0001-5917-7175"
         },
         {
-          "name": "Francisco Sanchez Gavier",
+          "name": "Sanchez Gavier F",
           "orcid": "0009-0005-2240-4182"
         },
         {
-          "name": "Gonzalo Vazquez Prokopec",
+          "name": "Vazquez Prokopec G",
           "orcid": "0000-0002-0710-270X"
         },
         {
-          "name": "Martín Kowalewski",
+          "name": "Kowalewski M",
           "orcid": "0000-0002-6737-3771"
         }
       ]
@@ -394,155 +774,155 @@
       "abstract": "The mammary gland produces nutrient-rich human milk (HM), yet how mammary functional state shapes HM composition and infant outcomes remains poorly understood. We used HM multi-omics - metabolomics, proteomics, micronutrients, macronutrients, and HM oligosaccharides - across 1,543 samples from three cohorts, including two randomized trials, as a noninvasive readout of mammary functional state. Trajectory modeling and multi-omic integration showed that maternal supplementation improved recovery from early growth faltering and revealed a shared HM compositional axis linking maternal nutrition to infant growth. Machine learning, with Human Protein Atlas-informed proteomics, identified seven HM biomarkers reflecting variation across key mammary domains, indexing milk synthesis, barrier integrity, and immune/repair activity. Elevated valerylcarnitine and low pantothenic acid emerged as metabolic signals linking mammary functional state to infant growth.",
       "authors": [
         {
-          "name": "April Jauhal",
+          "name": "Jauhal A",
           "orcid": "0000-0003-3636-4765"
         },
         {
-          "name": "Bianca Cordazzo-Vargas",
+          "name": "Cordazzo-Vargas B",
           "orcid": "0009-0001-9562-593X"
         },
         {
-          "name": "Daniel Sunko",
+          "name": "Sunko D",
           "orcid": ""
         },
         {
-          "name": "Pratima Niroula",
+          "name": "Niroula P",
           "orcid": "0009-0004-0714-1698"
         },
         {
-          "name": "Lishi Deng",
+          "name": "Deng L",
           "orcid": "0000-0001-9802-5078"
         },
         {
-          "name": "Laeticia Celine Toe",
+          "name": "Toe LC",
           "orcid": "0000-0002-4615-5388"
         },
         {
-          "name": "Ameer Muhammad",
+          "name": "Muhammad A",
           "orcid": "0000-0001-8485-641X"
         },
         {
-          "name": "Aneela Pasha",
+          "name": "Pasha A",
           "orcid": "0000-0001-5866-8239"
         },
         {
-          "name": "Yasir Shafiq",
+          "name": "Shafiq Y",
           "orcid": ""
         },
         {
-          "name": "Naveed Iqbal",
+          "name": "Iqbal N",
           "orcid": "0000-0001-8631-9191"
         },
         {
-          "name": "Waqasuddin Khan",
+          "name": "Khan W",
           "orcid": "0000-0001-7995-8163"
         },
         {
-          "name": "Andrew Mertens",
+          "name": "Mertens A",
           "orcid": "0000-0002-1050-6721"
         },
         {
-          "name": "Kelsey Fehr",
+          "name": "Fehr K",
           "orcid": "0000-0003-3551-8144"
         },
         {
-          "name": "Joann M McDermid",
+          "name": "McDermid JM",
           "orcid": "0000-0002-5829-1897"
         },
         {
-          "name": "Melissa B Manus",
+          "name": "Manus MB",
           "orcid": "0000-0003-3640-1781"
         },
         {
-          "name": "Chi-Hung Shu",
+          "name": "Shu CH",
           "orcid": "0009-0009-3486-8856"
         },
         {
-          "name": "Daniela Hampel",
+          "name": "Hampel D",
           "orcid": "0000-0003-0288-7680"
         },
         {
-          "name": "Setareh Shahab-Ferdows",
+          "name": "Shahab-Ferdows S",
           "orcid": ""
         },
         {
-          "name": "Megan R Beggs",
+          "name": "Beggs MR",
           "orcid": "0000-0002-2690-1785"
         },
         {
-          "name": "Kim A Lagerborg",
+          "name": "Lagerborg KA",
           "orcid": "0000-0003-2490-2191"
         },
         {
-          "name": "Mohit Jain",
+          "name": "Jain M",
           "orcid": "0009-0003-8718-4374"
         },
         {
-          "name": "Carl Lachat",
+          "name": "Lachat C",
           "orcid": "0000-0002-1389-8855"
         },
         {
-          "name": "Mark D DeBoer",
+          "name": "DeBoer MD",
           "orcid": "0000-0003-1462-591X"
         },
         {
-          "name": "Jennifer Van Eyk",
+          "name": "Van Eyk J",
           "orcid": "0000-0001-9050-148X"
         },
         {
-          "name": "Natalie Rodriguez",
+          "name": "Rodriguez N",
           "orcid": ""
         },
         {
-          "name": "Theo J Moraes",
+          "name": "Moraes TJ",
           "orcid": "0000-0001-9968-6601"
         },
         {
-          "name": "Padmaja Subbarao",
+          "name": "Subbarao P",
           "orcid": "0000-0003-0394-1933"
         },
         {
-          "name": "Alan Hubbard",
+          "name": "Hubbard A",
           "orcid": "0000-0002-3769-0127"
         },
         {
-          "name": "Muhammad Imran Nisar",
+          "name": "Nisar MI",
           "orcid": "0000-0002-2378-4720"
         },
         {
-          "name": "Lars Bode",
+          "name": "Bode L",
           "orcid": ""
         },
         {
-          "name": "Lindsay Allen",
+          "name": "Allen L",
           "orcid": "0000-0002-8729-5213"
         },
         {
-          "name": "Donna Geddes",
+          "name": "Geddes D",
           "orcid": "0000-0002-0431-7078"
         },
         {
-          "name": "Michelle Kay McGuire",
+          "name": "McGuire MK",
           "orcid": "0000-0001-8214-2229"
         },
         {
-          "name": "Nima Aghaeepour",
+          "name": "Aghaeepour N",
           "orcid": "0000-0002-6117-8764"
         },
         {
-          "name": "Trenton Dailey-Chwalibóg",
+          "name": "Dailey-Chwalibóg T",
           "orcid": "0000-0002-8204-4925"
         },
         {
-          "name": "Fyezah Jehan",
+          "name": "Jehan F",
           "orcid": "0000-0002-5874-4358"
         },
         {
-          "name": "Meghan B Azad",
+          "name": "Azad MB",
           "orcid": "0000-0002-5942-4444"
         },
         {
-          "name": "Liat Shenhav",
+          "name": "Shenhav L",
           "orcid": "0000-0003-1708-6050"
         }
       ]
@@ -551,131 +931,131 @@
       "abstract": "Human milk (HM) composition is variable to support changing infant needs and is influenced by maternal diet and health. We harmonized HM data from three randomized trials in Burkina Faso (MISAME-III), Pakistan (Mumta-LW), and Tanzania (ELICIT) within the International Milk Composition (IMiC) Consortium to test how maternal nutrition affects HM composition. Balanced energy-protein (BEP) supplements or nicotinamide given to lactating mothers increased milk B-vitamins, while macronutrients, oligosaccharides, bioactive proteins, and microbiome composition were physiologically buffered. Metabolomic and proteomic analyses revealed shifts in vitamin-related metabolites, triglyceride profiles, and intracellular protein representation. In a MISAME-III subset, maternal and infant blood showed concordant changes. Postnatal BEP improved infant growth only in the more undernourished cohort. Improved milk micronutrient quality across settings supports extending maternal supplementation into lactation.",
       "authors": [
         {
-          "name": "Trenton Dailey-Chwalibóg",
+          "name": "Dailey-Chwalibóg T",
           "orcid": ""
         },
         {
-          "name": "Andrew Mertens",
+          "name": "Mertens A",
           "orcid": ""
         },
         {
-          "name": "Kelsey Fehr",
+          "name": "Fehr K",
           "orcid": ""
         },
         {
-          "name": "Chi-Hung Shu",
+          "name": "Shu CH",
           "orcid": ""
         },
         {
-          "name": "April Jauhal",
+          "name": "Jauhal A",
           "orcid": ""
         },
         {
-          "name": "Melissa B. Manus",
+          "name": "Manus MB",
           "orcid": ""
         },
         {
-          "name": "Lishi Deng",
+          "name": "Deng L",
           "orcid": ""
         },
         {
-          "name": "Laeticia Celine Toe",
+          "name": "Toe LC",
           "orcid": ""
         },
         {
-          "name": "Ameer Muhammed",
+          "name": "Muhammed A",
           "orcid": ""
         },
         {
-          "name": "Aneela Pasha",
+          "name": "Pasha A",
           "orcid": ""
         },
         {
-          "name": "Yasir Shafiq",
+          "name": "Shafiq Y",
           "orcid": ""
         },
         {
-          "name": "Naveed Iqbal",
+          "name": "Iqbal N",
           "orcid": ""
         },
         {
-          "name": "Waqasuddin Khan",
+          "name": "Khan W",
           "orcid": ""
         },
         {
-          "name": "Muhammad Imran Nisar",
+          "name": "Nisar MI",
           "orcid": ""
         },
         {
-          "name": "Jo-Anna B. Baxter",
+          "name": "Baxter JB",
           "orcid": ""
         },
         {
-          "name": "Megan R. Beggs",
+          "name": "Beggs MR",
           "orcid": ""
         },
         {
-          "name": "Niveda Sundararaman",
+          "name": "Sundararaman N",
           "orcid": ""
         },
         {
-          "name": "Jennifer E. Van Eyk",
+          "name": "Van Eyk JE",
           "orcid": ""
         },
         {
-          "name": "Lars Bode",
+          "name": "Bode L",
           "orcid": ""
         },
         {
-          "name": "Alan Hubbard",
+          "name": "Hubbard A",
           "orcid": ""
         },
         {
-          "name": "Kim A. Lagerborg",
+          "name": "Lagerborg KA",
           "orcid": ""
         },
         {
-          "name": "Mohit Jain",
+          "name": "Jain M",
           "orcid": ""
         },
         {
-          "name": "Daniela Hampel",
+          "name": "Hampel D",
           "orcid": ""
         },
         {
-          "name": "Setareh Shahab-Ferdows",
+          "name": "Shahab-Ferdows S",
           "orcid": ""
         },
         {
-          "name": "Lindsay H. Allen",
+          "name": "Allen LH",
           "orcid": ""
         },
         {
-          "name": "Carl Lachat",
+          "name": "Lachat C",
           "orcid": ""
         },
         {
-          "name": "Mark D. DeBoer",
+          "name": "DeBoer MD",
           "orcid": ""
         },
         {
-          "name": "Fyezah Jehan",
+          "name": "Jehan F",
           "orcid": ""
         },
         {
-          "name": "Nima Aghaeepour",
+          "name": "Aghaeepour N",
           "orcid": ""
         },
         {
-          "name": "Liat Shenhav",
+          "name": "Shenhav L",
           "orcid": ""
         },
         {
-          "name": "Joann M. McDermid",
+          "name": "McDermid JM",
           "orcid": ""
         },
         {
-          "name": "Meghan B. Azad",
+          "name": "Azad MB",
           "orcid": ""
         }
       ]
@@ -721,299 +1101,270 @@
         }
       ]
     },
-    "4e146b5fbd221be34d45": {
-      "abstract": "Human mobility plays a crucial role in the spread of human diseases but is rarely quantified in plant disease epidemics. To address this gap, we integrate a unique, high-resolution network of human movements in New Zealand with a metapopulation model to mechanistically simulate pathogen transmission. We calibrate the model on the nationwide 2010 kiwifruit vine disease (Psa-V) outbreak and show that it reproduces the observed spatio-temporal spread, confirming that the human mobility network is a strong foundation for modelling human-mediated transmission dynamics. By analysing spatial infection trends, we find that most dispersal occurs locally, as often illustrated in the plant-outbreak literature. However, sporadic long-range connections are necessary to model a nationwide outbreak. Using the model as an in silico laboratory, we demonstrate that the severity of human-mediated pathogen transmission is highly sensitive to the timing and location of initial importation. We observe a potential causal link between seasonal labour patterns and epidemic risk in high-traffic seasons. This study showcases a novel data-driven framework for modelling the spatio-temporal spread of agricultural pathogens when human-mediated dispersal is epidemiologically relevant, underscoring the importance of leveraging human mobility networks for building better biosecurity systems.",
-      "authors": [
-        {
-          "name": "Varun K Rao",
-          "orcid": ""
-        },
-        {
-          "name": "Ryan Higgs",
-          "orcid": ""
-        },
-        {
-          "name": "Hautahi Kingi",
-          "orcid": ""
-        },
-        {
-          "name": "Filippo Radicchi",
-          "orcid": "0000-0002-8352-1287"
-        },
-        {
-          "name": "Santo Fortunato",
-          "orcid": "0000-0002-9039-4730"
-        },
-        {
-          "name": "Maria Litvinova",
-          "orcid": "0000-0001-6393-1943"
-        }
-      ]
-    },
     "4aefdc4c58f975bb106b": {
       "authors": [
         {
-          "name": "Rui Yang",
+          "name": "Yang R",
           "orcid": "0009-0006-0597-7197"
         },
         {
-          "name": "Weihao Xuan",
+          "name": "Xuan W",
           "orcid": ""
         },
         {
-          "name": "Tianyu Liu",
+          "name": "Liu T",
           "orcid": "0000-0002-9412-6573"
         },
         {
-          "name": "Danielle S Bitterman",
+          "name": "Bitterman DS",
           "orcid": ""
         },
         {
-          "name": "Gary S Collins",
+          "name": "Collins GS",
           "orcid": "0000-0002-2772-2316"
         },
         {
-          "name": "Karthik Adapa",
+          "name": "Adapa K",
           "orcid": "0000-0002-3970-588X"
         },
         {
-          "name": "Kwesi Nyan Amissah-Arthur",
+          "name": "Amissah-Arthur KN",
           "orcid": "0000-0003-2018-2043"
         },
         {
-          "name": "Tianxi Cai",
+          "name": "Cai T",
           "orcid": "0000-0002-5379-2502"
         },
         {
-          "name": "Simão Campos",
+          "name": "Campos S",
           "orcid": ""
         },
         {
-          "name": "Hanqun Cao",
+          "name": "Cao H",
           "orcid": ""
         },
         {
-          "name": "Josip Car",
+          "name": "Car J",
           "orcid": "0000-0001-8969-371X"
         },
         {
-          "name": "Carol Y Cheung",
+          "name": "Cheung CY",
           "orcid": "0000-0002-9672-1819"
         },
         {
-          "name": "Mona Diab",
+          "name": "Diab M",
           "orcid": ""
         },
         {
-          "name": "Chido Dzinotyiwei",
+          "name": "Dzinotyiwei C",
           "orcid": ""
         },
         {
-          "name": "Siqi Ge",
+          "name": "Ge S",
           "orcid": ""
         },
         {
-          "name": "Marzyeh Ghassemi",
+          "name": "Ghassemi M",
           "orcid": ""
         },
         {
-          "name": "Ethan Goh",
+          "name": "Goh E",
           "orcid": "0009-0001-7491-4257"
         },
         {
-          "name": "Benjamin Alan Goldstein",
+          "name": "Goldstein BA",
           "orcid": ""
         },
         {
-          "name": "Mary-Anne Hartley",
+          "name": "Hartley MA",
           "orcid": ""
         },
         {
-          "name": "Yulan He",
+          "name": "He Y",
           "orcid": ""
         },
         {
-          "name": "Pheng Ann Heng",
+          "name": "Heng PA",
           "orcid": "0000-0003-3055-5034"
         },
         {
-          "name": "Chuan Hong",
+          "name": "Hong C",
           "orcid": ""
         },
         {
-          "name": "Michelle María Jiménez de Tavárez",
+          "name": "Jiménez de Tavárez MM",
           "orcid": "0000-0002-3553-4438"
         },
         {
-          "name": "Yuhe Ke",
+          "name": "Ke Y",
           "orcid": ""
         },
         {
-          "name": "Pearse A Keane",
+          "name": "Keane PA",
           "orcid": "0000-0002-9239-745X"
         },
         {
-          "name": "Eva C Keller",
+          "name": "Keller EC",
           "orcid": ""
         },
         {
-          "name": "Rubayat Khan",
+          "name": "Khan R",
           "orcid": ""
         },
         {
-          "name": "Phuoc V Le",
+          "name": "Le PV",
           "orcid": ""
         },
         {
-          "name": "Marc Lecoultre",
+          "name": "Lecoultre M",
           "orcid": "0009-0006-5583-3378"
         },
         {
-          "name": "Jisan Lee",
+          "name": "Lee J",
           "orcid": "0000-0002-9039-7448"
         },
         {
-          "name": "Huitao Li",
+          "name": "Li H",
           "orcid": ""
         },
         {
-          "name": "Yuan Luo",
+          "name": "Luo Y",
           "orcid": "0000-0003-0195-7456"
         },
         {
-          "name": "Vukosi Marivate",
+          "name": "Marivate V",
           "orcid": "0000-0002-6731-6267"
         },
         {
-          "name": "Bilal A Mateen",
+          "name": "Mateen BA",
           "orcid": "0000-0003-4423-6472"
         },
         {
-          "name": "Melissa D McCradden",
+          "name": "McCradden MD",
           "orcid": "0000-0002-6476-2165"
         },
         {
-          "name": "Maryam Mustafa",
+          "name": "Mustafa M",
           "orcid": ""
         },
         {
-          "name": "Joyce Nakatumba-Nabende",
+          "name": "Nakatumba-Nabende J",
           "orcid": ""
         },
         {
-          "name": "Yilin Ning",
+          "name": "Ning Y",
           "orcid": "0000-0002-6758-4472"
         },
         {
-          "name": "Jasmine Chiat Ling Ong",
+          "name": "Ong JCL",
           "orcid": "0000-0001-6916-5960"
         },
         {
-          "name": "Yifan Peng",
+          "name": "Peng Y",
           "orcid": "0000-0001-9309-8331"
         },
         {
-          "name": "Sameer Pujari",
+          "name": "Pujari S",
           "orcid": ""
         },
         {
-          "name": "Ihsan Ayyub Qazi",
+          "name": "Qazi IA",
           "orcid": "0000-0002-2262-0353"
         },
         {
-          "name": "Dino Rech",
+          "name": "Rech D",
           "orcid": ""
         },
         {
-          "name": "Iain Beehuat Tan",
+          "name": "Tan IB",
           "orcid": "0000-0003-4951-0354"
         },
         {
-          "name": "Patrick Tan",
+          "name": "Tan P",
           "orcid": "0000-0002-0179-8048"
         },
         {
-          "name": "Douglas Teodoro",
+          "name": "Teodoro D",
           "orcid": ""
         },
         {
-          "name": "Yih Chung Tham",
+          "name": "Tham YC",
           "orcid": "0000-0002-6752-797X"
         },
         {
-          "name": "Arun James Thirunavukarasu",
+          "name": "Thirunavukarasu AJ",
           "orcid": "0000-0001-8968-4768"
         },
         {
-          "name": "Daniel Shu Wei Ting",
+          "name": "Ting DSW",
           "orcid": "0000-0003-2264-7174"
         },
         {
-          "name": "Lorainne Tudor Car",
+          "name": "Tudor Car L",
           "orcid": ""
         },
         {
-          "name": "Joao Ricardo Nickenig Vissoci",
+          "name": "Vissoci JRN",
           "orcid": ""
         },
         {
-          "name": "Chunhua Weng",
+          "name": "Weng C",
           "orcid": "0000-0002-9624-0214"
         },
         {
-          "name": "Matthew Yu Heng Wong",
+          "name": "Wong MYH",
           "orcid": ""
         },
         {
-          "name": "Yunze Xiao",
+          "name": "Xiao Y",
           "orcid": ""
         },
         {
-          "name": "Xuhai Xu",
+          "name": "Xu X",
           "orcid": "0000-0001-5930-3899"
         },
         {
-          "name": "Carl Yang",
+          "name": "Yang C",
           "orcid": "0000-0001-9145-4531"
         },
         {
-          "name": "Naoto Yokoya",
+          "name": "Yokoya N",
           "orcid": ""
         },
         {
-          "name": "Kunyu Yu",
+          "name": "Yu K",
           "orcid": ""
         },
         {
-          "name": "Chaofan Zhang",
+          "name": "Zhang C",
           "orcid": ""
         },
         {
-          "name": "Rui Zhang",
+          "name": "Zhang R",
           "orcid": ""
         },
         {
-          "name": "James Zou",
+          "name": "Zou J",
           "orcid": "0000-0001-8880-4764"
         },
         {
-          "name": "Karel G M Moons",
+          "name": "Moons KGM",
           "orcid": "0000-0003-2118-004X"
         },
         {
-          "name": "Nigam H Shah",
+          "name": "Shah NH",
           "orcid": "0000-0001-9385-7158"
         },
         {
-          "name": "Tien Yin Wong",
+          "name": "Wong TY",
           "orcid": "0000-0002-8448-1264"
         },
         {
-          "name": "Eric J Topol",
+          "name": "Topol EJ",
           "orcid": "0000-0002-1478-4729"
         },
         {
-          "name": "Nan Liu",
+          "name": "Liu N",
           "orcid": "0000-0003-3610-4883"
         }
       ]
@@ -1022,12 +1373,77 @@
       "abstract": "Networks are often a useful way to represent complex social and economic systems. Stochastic models for such networks should parsimoniously reflect the complexity while being both interpretable and tractable. The class of Exponential-family Random Graph Models (ERGMs) is very expressive and flexible in its representation of complex phenomena. However, the estimation and fitting of realistic ERGMs are hampered by the computational challenges of likelihood-based inference. Recently, a deterministic method based on a variational mean-field approximation was proposed that is much less expensive to compute than the standard simulation-based method. In this work, we show that the proposed method performs poorly for realistic models. We show that established alternatives, including MCMC-MLE, MPLE, sampled MPLE, and tapered ERGM-based inference, achieve superior accuracy and computational performance in the situations that the mean-field approximation was designed for.",
       "authors": [
         {
-          "name": "Joseph Resch",
+          "name": "Resch J",
           "orcid": "0000-0002-3881-2886"
         },
         {
-          "name": "Mark S Handcock",
+          "name": "Handcock MS",
           "orcid": "0000-0002-9985-2785"
+        }
+      ]
+    },
+    "c183db92c4ed72ccc304": {
+      "abstract": "Infectious gastroenteritis (IGE) is a major cause of pediatric morbidity globally, with viral pathogens accounting for a substantial proportion of cases. While seasonal patterns of viral IGE are well recognized, the association between specific environmental exposures, such as ambient temperature, and viral IGE has not been fully quantified. First, we performed a secondary analysis of data from a prospective, multisite study of children presenting to emergency departments at 5 medical centers across the continental United States, linking individual-level laboratory data to environmental exposures, including temperature, humidity, and air pollutants, measured during the 14 days preceding symptom onset. Mixed-effects logistic regression was applied to evaluate the association between viral IGE and environmental exposures, adjusting for site-level clustering and patient age. Among 868 children with IGE, higher ambient temperature was inversely associated with viral etiology (OR, 0.50; 95% CI, .36-.68;",
+      "authors": [
+        {
+          "name": "Natalya Alekhina",
+          "orcid": "0000-0001-6181-2975"
+        },
+        {
+          "name": "Paola Fonseca-Romero",
+          "orcid": "0000-0002-4757-3506"
+        },
+        {
+          "name": "Per H Gesteland",
+          "orcid": "0000-0002-9869-8122"
+        },
+        {
+          "name": "Ben J Brintz",
+          "orcid": "0000-0003-4695-0290"
+        },
+        {
+          "name": "Amy L Leber",
+          "orcid": "0000-0002-3075-3586"
+        },
+        {
+          "name": "Jami T Jackson",
+          "orcid": "0009-0005-4488-1174"
+        },
+        {
+          "name": "Jennifer Dien Bard",
+          "orcid": "0000-0003-0524-9473"
+        },
+        {
+          "name": "Neena Kanwar",
+          "orcid": "0000-0002-3923-2453"
+        },
+        {
+          "name": "Ara Festekjian",
+          "orcid": "0000-0002-8244-4785"
+        },
+        {
+          "name": "Chari Larsen",
+          "orcid": "0009-0006-5648-0041"
+        },
+        {
+          "name": "Kimberle C Chapin",
+          "orcid": ""
+        },
+        {
+          "name": "Rangaraj Selvarangan",
+          "orcid": "0000-0003-3275-6657"
+        },
+        {
+          "name": "Sean Soisson",
+          "orcid": "0000-0003-1720-5136"
+        },
+        {
+          "name": "Andrew T Pavia",
+          "orcid": "0000-0002-3066-580X"
+        },
+        {
+          "name": "Daniel T Leung",
+          "orcid": "0000-0001-8401-0801"
         }
       ]
     },
@@ -1101,6 +1517,47 @@
         }
       ]
     },
+    "77ba145ae9b7b38c1e5f": {
+      "abstract": "Background More than one-in-five older adults live in the rural U.S. Adults living in rural U.S. experience significantly higher hypertension prevalence and cardiovascular disease-related mortality compared to their urban counterparts. To extend the literature and provide real-world evidence, the primary objective of this study was to estimate the prevalence of uncontrolled hypertension and to identify factors associated with it among Medicare beneficiaries receiving care in rural South Carolina. Methods Data were used from the annual review of Abbeville County Medicare patients diagnosed with hypertension between July 2024 and January 2025. Uncontrolled hypertension was defined as blood pressure ≥130/80 mmHg with or without antihypertensive medications. Generalized linear models with a binomial distribution and logit link were used to examine individual, behavioral, clinical, and area-level contextual factors associated with uncontrolled hypertension. Results Responses from 813 Medicare beneficiaries with diagnosed hypertension were analyzed: 55.6% females with a mean age (standard deviation) of 73.2 ± 8.48 years. Overall, the prevalence (95% CI) of uncontrolled hypertension was 76.3% (95% CI: 73.2, 79.1). Compared with a healthy weight, being overweight (aOR = 2.0; 95% CI: 1.2, 3.3; p = .005) or obese (aOR = 2.1; 95% CI: 1.1, 2.8; p = .010) was associated with higher odds of uncontrolled hypertension. Contrary to previous findings, \"most of the time\" PA (aOR = 1.57; 95% CI…",
+      "authors": [
+        {
+          "name": "Lartey ST",
+          "orcid": "0000-0001-9519-7886"
+        },
+        {
+          "name": "Moore DB 3rd",
+          "orcid": ""
+        },
+        {
+          "name": "Witrick BA",
+          "orcid": "0000-0002-3800-8695"
+        },
+        {
+          "name": "Naples B",
+          "orcid": ""
+        },
+        {
+          "name": "Raines Morgan A",
+          "orcid": ""
+        },
+        {
+          "name": "Ofori MA",
+          "orcid": ""
+        },
+        {
+          "name": "Williams J",
+          "orcid": ""
+        },
+        {
+          "name": "Mayo RM",
+          "orcid": ""
+        },
+        {
+          "name": "Heo M",
+          "orcid": ""
+        }
+      ]
+    },
     "a28990a770478b447820": {
       "abstract": "Background Public injecting increases the risk of adverse drug-related outcomes. Supervised consumption services (SCS) have been associated with improvements in individual and public health outcomes. However, evidence of their impact on public injecting within current risk environments remains limited. Methods We analyzed cross-sectional survey data from people who inject drugs in Toronto, Canada, between 2018 and 2020. We used modified Poisson regression with robust standard errors to estimate the associations between recent (past 6-month) SCS use and high-frequency public injecting, defined as usually/always versus sometimes/occasionally/never injecting in public, overall and stratified by housing instability. Results Among 700 participants, 15% (n = 108) reported high-frequency public injecting. In descriptive analyses, compared with infrequent or no public injecting, high-frequency public injecting was associated with younger age (median 36 vs. 40 years), lower educational attainment, housing instability, and needle/syringe sharing; all with 95% CIs excluding the null. Recent SCS use was reported by 87% (n = 608) of participants and was associated with a 51% lower prevalence of high-frequency public injecting (adjusted prevalence ratio (aPR) = 0.49; 95% CI: 0.32-0.77). In analyses stratified by housing instability, this association was observed among participants experiencing mostly unstable housing (aPR = 0.47; 95% CI: 0.29-0.75); among those with some or no unstable ho…",
       "authors": [
@@ -1135,6 +1592,18 @@
         {
           "name": "Werb D",
           "orcid": ""
+        }
+      ]
+    },
+    "e15155aaed9a5cae9223": {
+      "authors": [
+        {
+          "name": "Babin SM",
+          "orcid": ""
+        },
+        {
+          "name": "Mullany LC",
+          "orcid": "0000-0003-4668-9803"
         }
       ]
     },
@@ -1224,6 +1693,171 @@
         }
       ]
     },
+    "3e996d9f8f22ee5cdf63": {
+      "authors": [
+        {
+          "name": "Nathan Mesfin",
+          "orcid": "0000-0001-8419-0339"
+        },
+        {
+          "name": "Casey Eddington",
+          "orcid": ""
+        },
+        {
+          "name": "Benjamin Langworthy",
+          "orcid": ""
+        },
+        {
+          "name": "Joshua Trujeque",
+          "orcid": ""
+        },
+        {
+          "name": "Nicholas E. Ingraham",
+          "orcid": ""
+        },
+        {
+          "name": "R. Adams Dudley",
+          "orcid": "0000-0002-8532-8552"
+        }
+      ]
+    },
+    "affc3c792cbe1479212e": {
+      "abstract": "Background Influenza predisposes individuals to bacterial co-infections, which can result in disseminated infection and bacteremia. We describe the epidemiology and outcomes of blood culture co-detections among those hospitalized with influenza over 2 influenza seasons. Methods We sampled individuals of all ages from FluSurv-NET, a US population-based surveillance network of persons hospitalized with laboratory-confirmed influenza, during the 2022-2023 and 2023-2024 seasons. Surveillance staff collected information on bacterial blood cultures within 3 days before or 3 days following admission. We described patient characteristics and in-hospital outcomes, stratified by culture positivity, number of positive cultures, and type of co-detection, using unweighted counts and weighted percentages to account for the complex survey design. Results Overall, 14 316 patients were included, with a median (interquartile range) age of 57 (14-74) years, 53.6% female, 52.0% non-Hispanic White, and 25.6% with ≥4 categories of underlying medical conditions. Of these, 50.8% had ≥1 blood cultures obtained and 5.2% overall had ≥1 bacterial co-detections. Intensive care unit admission occurred for 9.6%, 19.2%, 31.2%, and 47.9% among patients with no blood cultures, negative cultures, 1 co-detection, and >1 co-detection documented, respectively; in-hospital mortality occurred in 1.5%, 3.3%, 9.4%, and 14.5%, respectively. Among patients with positive cultures, 22.1% had Staphylococcus aureus and 7.…",
+      "authors": [
+        {
+          "name": "Tenforde MW",
+          "orcid": "0000-0002-8702-8393"
+        },
+        {
+          "name": "Ujamaa D",
+          "orcid": ""
+        },
+        {
+          "name": "Talbot HK",
+          "orcid": "0000-0003-0141-1760"
+        },
+        {
+          "name": "O'Halloran AC",
+          "orcid": ""
+        },
+        {
+          "name": "Chai SJ",
+          "orcid": "0000-0003-2048-2871"
+        },
+        {
+          "name": "Sachdev D",
+          "orcid": "0000-0002-7309-8091"
+        },
+        {
+          "name": "Armistead I",
+          "orcid": ""
+        },
+        {
+          "name": "Alden NB",
+          "orcid": "0000-0002-8128-7714"
+        },
+        {
+          "name": "Meek J",
+          "orcid": ""
+        },
+        {
+          "name": "Yousey-Hindes K",
+          "orcid": "0000-0002-9418-575X"
+        },
+        {
+          "name": "Witt LS",
+          "orcid": "0000-0003-1475-6952"
+        },
+        {
+          "name": "Openo KP",
+          "orcid": "0009-0005-8431-6508"
+        },
+        {
+          "name": "Ryan PA",
+          "orcid": ""
+        },
+        {
+          "name": "Monroe ML",
+          "orcid": ""
+        },
+        {
+          "name": "Kim S",
+          "orcid": ""
+        },
+        {
+          "name": "Nunez VT",
+          "orcid": "0009-0008-6875-5529"
+        },
+        {
+          "name": "Lynfield R",
+          "orcid": ""
+        },
+        {
+          "name": "McMahon M",
+          "orcid": ""
+        },
+        {
+          "name": "McCahon C",
+          "orcid": ""
+        },
+        {
+          "name": "Bleecker M",
+          "orcid": "0009-0007-3933-3645"
+        },
+        {
+          "name": "Barney G",
+          "orcid": ""
+        },
+        {
+          "name": "Mahoney K",
+          "orcid": ""
+        },
+        {
+          "name": "Tesini BL",
+          "orcid": "0000-0001-6051-0027"
+        },
+        {
+          "name": "Gaitan MA",
+          "orcid": ""
+        },
+        {
+          "name": "Ingabire-Smith D",
+          "orcid": ""
+        },
+        {
+          "name": "Moran NE",
+          "orcid": ""
+        },
+        {
+          "name": "Sutton M",
+          "orcid": ""
+        },
+        {
+          "name": "Hendrick MA",
+          "orcid": ""
+        },
+        {
+          "name": "Schaffner W",
+          "orcid": "0000-0002-1375-8078"
+        },
+        {
+          "name": "Chatelain R",
+          "orcid": ""
+        },
+        {
+          "name": "Swain A",
+          "orcid": ""
+        },
+        {
+          "name": "Garg S",
+          "orcid": "0000-0002-9345-6669"
+        },
+        {
+          "name": "Bozio CH",
+          "orcid": "0000-0001-6566-7138"
+        }
+      ]
+    },
     "7899464f2989f5733dee": {
       "abstract": "BACKGROUND HIV pre-exposure prophylaxis (PrEP) is highly effective in preventing HIV infection when taken as prescribed, but individual and structural barriers persist and limit access to and uptake of this effective preventive medicine. Following the launch of the End the HIV Epidemic (EHE) initiative in the US in 2019, a variety of HIV prevention programs have been implemented, ranging from telemedicine PrEP prescribing to messaging campaigns to facilitate PrEP use. However, limited information exists regarding the types and characteristics of the programs implemented. OBJECTIVE Describe (1) HIV prevention efforts, with a focus on PrEP promotion programs, that were implemented by health departments between 2016-2025 in the US, (2) the distribution and characteristics of funding sources by program types, and (3) program-specific characteristics. METHODS We developed a survey to assess PrEP promotion programs. The survey was refined based on feedback from an advisory board comprising volunteers from 14 health jurisdictions. We identified eight PrEP promotion programs implemented between 2016-2025 - (1) PrEP Navigation, (2) PrEP Outreach and Education, (3) Messaging Campaigns, (4) Training for Clinicians and Clinical Staff, (5) Telemedicine PrEP, (6) PrEP Assistance Program, (7) Safety-Net Clinics, and (8) Optimization of Electronic Medical Record (EMR)/Electronic Health Record (EHR). Survey questions included whether a jurisdiction had such a program in place, program start…",
       "authors": [
@@ -1266,6 +1900,51 @@
         {
           "name": "Aaron Julius Siegler",
           "orcid": "0000-0001-5553-7540"
+        }
+      ]
+    },
+    "9c5cb1bce39ab8cf1544": {
+      "authors": [
+        {
+          "name": "Seulkee Heo",
+          "orcid": "0000-0002-0786-5002"
+        },
+        {
+          "name": "Jesse D. Berman",
+          "orcid": "0000-0003-3037-556X"
+        },
+        {
+          "name": "Michelle L. Bell",
+          "orcid": "0000-0002-3965-1359"
+        }
+      ]
+    },
+    "4e146b5fbd221be34d45": {
+      "abstract": "Human mobility plays a crucial role in the spread of human diseases but is rarely quantified in plant disease epidemics. To address this gap, we integrate a unique, high-resolution network of human movements in New Zealand with a metapopulation model to mechanistically simulate pathogen transmission. We calibrate the model on the nationwide 2010 kiwifruit vine disease (Psa-V) outbreak and show that it reproduces the observed spatio-temporal spread, confirming that the human mobility network is a strong foundation for modelling human-mediated transmission dynamics. By analysing spatial infection trends, we find that most dispersal occurs locally, as often illustrated in the plant-outbreak literature. However, sporadic long-range connections are necessary to model a nationwide outbreak. Using the model as an in silico laboratory, we demonstrate that the severity of human-mediated pathogen transmission is highly sensitive to the timing and location of initial importation. We observe a potential causal link between seasonal labour patterns and epidemic risk in high-traffic seasons. This study showcases a novel data-driven framework for modelling the spatio-temporal spread of agricultural pathogens when human-mediated dispersal is epidemiologically relevant, underscoring the importance of leveraging human mobility networks for building better biosecurity systems.",
+      "authors": [
+        {
+          "name": "Rao VK",
+          "orcid": ""
+        },
+        {
+          "name": "Higgs R",
+          "orcid": ""
+        },
+        {
+          "name": "Kingi H",
+          "orcid": ""
+        },
+        {
+          "name": "Radicchi F",
+          "orcid": "0000-0002-8352-1287"
+        },
+        {
+          "name": "Fortunato S",
+          "orcid": "0000-0002-9039-4730"
+        },
+        {
+          "name": "Litvinova M",
+          "orcid": "0000-0001-6393-1943"
         }
       ]
     },
@@ -1743,6 +2422,68 @@
         }
       ]
     },
+    "160e02f00edec78f6de9": {
+      "abstract": "Background Fecal microbiota transplantation (FMT) is the cost-effective strategy for managing recurrent Clostridioides difficile infection (rCDI). Prior costing models assumed FMT administration via colonoscopy. With the commercialization of microbiota therapeutics for rCDI, this study sought to determine the impact of commercial, Food and Drug Administration (FDA) approved microbiota-based therapeutics relative to traditional FMT on the cost-effectiveness for rCDI. Methods We used a Markov model to simulate a cohort of patients with rCDI to evaluate the cost-effectiveness of varied methods of FMT administration for rCDI. The model includes estimates of cure, recurrence, and mortality. Data sources were taken from national guidelines and published literature on treatment outcomes. Outcome measures were quality-adjusted life-years (QALYs) and incremental cost-effectiveness ratios (ICERs). Results FMT by colonoscopy is the cost-effective strategy for preventing second or subsequent rCDI with an incremental cost-effectiveness ratio (ICER) of $44 158. Assuming a willingness-to-pay threshold of $100 000 per quality adjusted life years (QALY) gained, FMT by colonoscopy was optimal in the majority (70%) of simulations. At a willingness-to-pay threshold of $100 000 per quality adjusted life year (QALY), commercial, FDA approved microbiota therapeutics were not cost effective under any circumstance when donor-derived FMT products are available. Conclusions Traditional FMT administere…",
+      "authors": [
+        {
+          "name": "Hirsch W",
+          "orcid": "0000-0003-2849-659X"
+        },
+        {
+          "name": "Enns EA",
+          "orcid": "0000-0003-0693-7358"
+        },
+        {
+          "name": "Khoruts A",
+          "orcid": "0000-0002-3205-3188"
+        },
+        {
+          "name": "Rajasingham R",
+          "orcid": "0000-0001-5531-0231"
+        },
+        {
+          "name": "Vaughn BP",
+          "orcid": "0000-0001-5081-3761"
+        }
+      ]
+    },
+    "1681bc4349915c9b73d0": {
+      "abstract": "Background Rapid diagnostics such as the BIOFIRE® FILMARRAY® Pneumonia (PN) Panel may enhance antibiotic optimization, yet real-world evidence remains limited, and few studies have assessed how differences in institutional antimicrobial stewardship (ASP) capacity influence clinical outcomes. Methods We conducted a national, multicenter retrospective study of ICU patients with pneumonia admitted to Veterans Health Administration hospitals. Hospitals that implemented the PN Panel for ≥6 months served as intervention sites, while matched facilities without implementation served as controls. Outcomes were assessed using a difference-in-differences framework with inverse probability weighting to account for baseline imbalances and secular trends, including those related to the COVID-19 pandemic. Co-primary outcomes, assessed following index culture collection, were early antimicrobial de-escalation (24-48 hours) and early appropriate therapy (0-24 hours); secondary outcomes were 30-day and ICU mortality. Results The study included 11 746 patients, including 4523 from hospitals that implemented the BIOFIRE® PN Panel and 7223 from matched control hospitals. Overall, PN implementation was associated with early antimicrobial de-escalation (adjusted RR [aRR], 1.14; 95% CI, 1.04-1.26). Among culture-positive patients, PN Panel implementation was significantly associated with early antimicrobial de-escalation (aRR, 1.23; 95% CI, 1.02-1.50) and early appropriate therapy (aRR, 1.11; 95% C…",
+      "authors": [
+        {
+          "name": "Britt NS",
+          "orcid": ""
+        },
+        {
+          "name": "Khader K",
+          "orcid": "0000-0002-7206-8077"
+        },
+        {
+          "name": "He T",
+          "orcid": ""
+        },
+        {
+          "name": "Prinzi AM",
+          "orcid": "0000-0003-2949-5484"
+        },
+        {
+          "name": "Hommel B",
+          "orcid": "0000-0003-0971-1696"
+        },
+        {
+          "name": "Timbrook TT",
+          "orcid": "0000-0002-4542-6203"
+        },
+        {
+          "name": "Potter EM",
+          "orcid": ""
+        },
+        {
+          "name": "Lodise TP",
+          "orcid": "0000-0002-4730-0655"
+        }
+      ]
+    },
     "fdf31eb0e0e1e9f59b2b": {
       "authors": [
         {
@@ -1820,39 +2561,39 @@
       ]
     },
     "26e61353a7c749c5cdd7": {
-      "abstract": "Background Pertussis has resurged in the post-COVID-19 era, yet diagnostic delay remains a barrier to timely treatment and transmission interruption, particularly among adults. Methods Retrospective observational cohort study of 787 patients with confirmed pertussis from January 2016 through March 2026 across two South Carolina health systems. Electronic health record data from the 60 days preceding confirmation were used to characterize diagnostic timing (same-day vs. delayed), delay duration, and respiratory pathogen testing patterns including pertussis test modality. Results Adults accounted for 48.4% of cases (median age 16 years [IQR 4–52]; 61.6% female). Same-day diagnosis was highest among children aged 1–4 years (75.4%) and lowest among adults aged 50 and older (approximately 50%). Among the 305 patients (38.8%) with delayed diagnosis, median delay ranged from 7–12 days in children to 22.5–26.5 days in adults aged 50 and older. Delay did not vary significantly by COVID-19 period, race, ethnicity, or insurance type. Testing breadth was greater in inpatient and emergency settings than outpatient. Pertussis testing was predominantly PCR-based in children but serologic in adults, potentially reflecting later clinical presentation relative to illness onset; however, the near-absence of PCR testing in older adults may contribute to missed diagnoses during the early illness window when PCR sensitivity is highest. Conclusions Older adults experienced markedly delayed pertuss…",
+      "abstract": "BACKGROUND: Pertussis has resurged in the post-COVID-19 era, yet diagnostic delay remains a barrier to timely treatment and transmission interruption, particularly among adults. METHODS: Retrospective observational cohort study of 787 patients with confirmed pertussis from January 2016 through March 2026 across two South Carolina health systems. Electronic health record data from the 60 days preceding confirmation were used to characterize diagnostic timing (same-day vs. delayed), delay duration, and respiratory pathogen testing patterns including pertussis test modality. RESULTS: Adults accounted for 48.4% of cases (median age 16 years [IQR 4-52]; 61.6% female). Same-day diagnosis was highest among children aged 1-4 years (75.4%) and lowest among adults aged 50 and older (approximately 50%). Among the 305 patients (38.8%) with delayed diagnosis, median delay ranged from 7-12 days in children to 22.5-26.5 days in adults aged 50 and older. Delay did not vary significantly by COVID-19 period, race, ethnicity, or insurance type. Testing breadth was greater in inpatient and emergency settings than outpatient. Pertussis testing was predominantly PCR-based in children but serologic in adults, potentially reflecting later clinical presentation relative to illness onset; however, the near-absence of PCR testing in older adults may contribute to missed diagnoses during the early illness window when PCR sensitivity is highest. CONCLUSIONS: Older adults experienced markedly delayed per…",
       "authors": [
         {
-          "name": "Serman EA",
+          "name": "Emily A Serman",
+          "orcid": "0000-0002-1128-0154"
+        },
+        {
+          "name": "Iromi Jayawardena",
           "orcid": ""
         },
         {
-          "name": "Jayawardena I",
+          "name": "Carolina Liskey",
           "orcid": ""
         },
         {
-          "name": "Liskey C",
+          "name": "Robin Lacroix",
           "orcid": ""
         },
         {
-          "name": "Lacroix R",
+          "name": "Alain H Litwin",
           "orcid": ""
         },
         {
-          "name": "Litwin AH",
+          "name": "Jihad S Obeid",
           "orcid": ""
         },
         {
-          "name": "Obeid JS",
+          "name": "Scott R Curry",
           "orcid": ""
         },
         {
-          "name": "Curry SR",
-          "orcid": ""
-        },
-        {
-          "name": "Rennert L",
-          "orcid": ""
+          "name": "Lior Rennert",
+          "orcid": "0000-0001-5275-7273"
         }
       ]
     },
@@ -1981,35 +2722,35 @@
       ]
     },
     "b0031086ed694b22c190": {
-      "abstract": "Introduction Monitoring transitions in cigarette and electronic nicotine vapor product (ENVP) use is important for understanding how marketplace and regulatory changes have affected product use patterns, but information from national surveys is often delayed by several years. Methods The Rutgers Omnibus Study is a quarterly serial, rapid-response, web-based convenience survey. Using a Markov multistate transition model, we estimated transition rates and one-year transition probabilities between never, non-current, ENVP-only, cigarette-only, and dual use among 5,292 adults aged 18–45 who participated in at least two of Waves 1–16 (February 2022–February 2026), as well as overall transition hazard ratios by sex, age group, and race & ethnicity in a multivariable model. Results About 40% of individuals using cigarettes (39.5%; 95% CI: 36.9–42.0) or ENVP (40.1%; 95% CI: 36.4–43.7), and 60% of those using both products (60.8%; 95% CI: 58.3–63.2) were predicted to remain in those states after one year. Female participants began using cigarettes from never use (adjusted hazard ratio [aHR] 0.44; 95% CI: 0.29–0.66) or non-current use (aHR 0.65; 95% CI: 0.48–0.88) at lower rates than male participants. Participants aged 35–45 years initiated ENVP-only use from non-current use (aHR 0.34; 95% CI: 0.23–0.51) at a lower rate than those aged 18–34 years. Compared to non-Hispanic White participants, non-Hispanic Black participants initiated ENVP-only use from never use at a higher rate (aHR…",
+      "abstract": "INTRODUCTION: Monitoring transitions in cigarette and electronic nicotine vapor product (ENVP) use is important for understanding how marketplace and regulatory changes have affected product use patterns, but information from national surveys is often delayed by several years. METHODS: The Rutgers Omnibus Study is a quarterly serial, rapid-response, web-based convenience survey. Using a Markov multistate transition model, we estimated transition rates and one-year transition probabilities between never, non-current, ENVP-only, cigarette-only, and dual use among 5,292 adults aged 18-45 who participated in at least two of Waves 1-16 (February 2022-February 2026), as well as overall transition hazard ratios by sex, age group, and race & ethnicity in a multivariable model. RESULTS: About 40% of individuals using cigarettes (39.5%; 95% CI: 36.9-42.0) or ENVP (40.1%; 95% CI: 36.4-43.7), and 60% of those using both products (60.8%; 95% CI: 58.3-63.2) were predicted to remain in those states after one year. Female participants began using cigarettes from never use (adjusted hazard ratio [aHR] 0.44; 95% CI: 0.29-0.66) or non-current use (aHR 0.65; 95% CI: 0.48-0.88) at lower rates than male participants. Participants aged 35-45 years initiated ENVP-only use from non-current use (aHR 0.34; 95% CI: 0.23-0.51) at a lower rate than those aged 18-34 years. Compared to non-Hispanic White participants, non-Hispanic Black participants initiated ENVP-only use from never use at a higher rate (…",
       "authors": [
         {
-          "name": "Roberts OK",
-          "orcid": ""
+          "name": "Olivia K Roberts",
+          "orcid": "0009-0009-1582-2174"
         },
         {
-          "name": "Bover Manderski MT",
-          "orcid": ""
+          "name": "Michelle T Bover Manderski",
+          "orcid": "0000-0003-0000-221X"
         },
         {
-          "name": "Gonsalves NJ",
-          "orcid": ""
+          "name": "Nishi J Gonsalves",
+          "orcid": "0000-0001-5998-4903"
         },
         {
-          "name": "Jeon J",
-          "orcid": ""
+          "name": "Jihyoun Jeon",
+          "orcid": "0000-0001-7003-3412"
         },
         {
-          "name": "Meza R",
-          "orcid": ""
+          "name": "Rafael Meza",
+          "orcid": "0000-0002-1076-5037"
         },
         {
-          "name": "Delnevo CD",
-          "orcid": ""
+          "name": "Cristine D Delnevo",
+          "orcid": "0000-0001-9597-4307"
         },
         {
-          "name": "Brouwer AF",
-          "orcid": ""
+          "name": "Andrew F Brouwer",
+          "orcid": "0000-0002-3779-5287"
         }
       ]
     },
@@ -4066,47 +4807,6 @@
         }
       ]
     },
-    "77ba145ae9b7b38c1e5f": {
-      "abstract": "Background More than one-in-five older adults live in the rural U.S. Adults living in rural U.S. experience significantly higher hypertension prevalence and cardiovascular disease-related mortality compared to their urban counterparts. To extend the literature and provide real-world evidence, the primary objective of this study was to estimate the prevalence of uncontrolled hypertension and to identify factors associated with it among Medicare beneficiaries receiving care in rural South Carolina. Methods Data were used from the annual review of Abbeville County Medicare patients diagnosed with hypertension between July 2024 and January 2025. Uncontrolled hypertension was defined as blood pressure ≥130/80 mmHg with or without antihypertensive medications. Generalized linear models with a binomial distribution and logit link were used to examine individual, behavioral, clinical, and area-level contextual factors associated with uncontrolled hypertension. Results Responses from 813 Medicare beneficiaries with diagnosed hypertension were analyzed: 55.6% females with a mean age (standard deviation) of 73.2±8.48 years. Overall, the prevalence (95% CI) of uncontrolled hypertension was 76.3% (95% CI: 73.2, 79.1). Compared with a healthy weight, being overweight (aOR=2.0; 95% CI: 1.2, 3.3; p = 0.005) or obese (aOR=2.1; 95% CI: 1.1, 2.8; p = 0.010) was associated with higher odds of uncontrolled hypertension. Contrary to previous findings, \"most of the time\" PA (aOR=1.57; 95% CI: 1.05…",
-      "authors": [
-        {
-          "name": "Lartey ST",
-          "orcid": ""
-        },
-        {
-          "name": "Moore DB Ill",
-          "orcid": ""
-        },
-        {
-          "name": "Witrick BA",
-          "orcid": "0000-0002-3800-8695"
-        },
-        {
-          "name": "Naples B",
-          "orcid": ""
-        },
-        {
-          "name": "Raines Morgan A",
-          "orcid": ""
-        },
-        {
-          "name": "Ofori MA",
-          "orcid": ""
-        },
-        {
-          "name": "Williams J",
-          "orcid": ""
-        },
-        {
-          "name": "Mayo RM",
-          "orcid": ""
-        },
-        {
-          "name": "Heo M",
-          "orcid": ""
-        }
-      ]
-    },
     "5e5af72189ee638894db": {
       "abstract": "Background Overdose and suicide due to nonprescribed fentanyl use have increased significantly, yet health care systems lack reliable methods to identify patients who use nonprescribed fentanyl. International Classification of Diseases codes are inconsistent and do not specify nonprescribed fentanyl use. Objective This study aimed to develop natural language processing approaches to identifying nonprescribed fentanyl use in electronic health record (EHR) documentation. Methods This retrospective study included Veterans Health Administration patients seen between April 5, 2023, and December 23, 2024. A term list was developed to identify fentanyl-related mentions in clinical text, and 250-character snippets surrounding identified mentions were extracted. Veterans (n=3878) were randomly sampled from 5 predefined groups based on the presence of 1 of 4 terms (\"fent,\" \"blues,\" \"M30s,\" and \"tranq\") in their EHR documentation. Physician annotators classified snippets into \"nonprescribed fentanyl use,\" \"prescribed fentanyl use,\" or \"other,\" with interannotator agreement evaluated using the mean pairwise Cohen κ. Cross-validation folds were constructed at the patient level between training and test sets. Penalized logistic regression, Bio-ClinicalBERT, Llama 3-8B, and Mistral-7B were trained on labeled data and compared. Model performance was evaluated using precision, recall, and F 1 -scores for each class, with a focus on the nonprescribed fentanyl use class as the primary label of…",
       "authors": [
@@ -4187,6 +4887,83 @@
         {
           "name": "Brouwer AF",
           "orcid": "0000-0002-3779-5287"
+        }
+      ]
+    },
+    "411a028be0af4459709f": {
+      "abstract": "BACKGROUND: The COVID-19 pandemic disproportionately affected marginalized populations in the United States. We characterize statewide COVID-19 health outcomes by race and ethnicity. METHODS: We conducted a retrospective analysis of individuals alive on January 1, 2020 with known sex, race, and ethnicity data utilizing the Utah Population Database. COVID-19 health outcomes were identified by diagnostic codes. Ethnically diverse individuals were matched to non-Hispanic White (NHW) individuals by age and sex. Demographic characteristics were compared using Chi-square test. Conditional logistic regression models were used to estimate odds ratios (OR) for COVID-19 related outcomes with adjustment for potential confounders. RESULTS: Among 1, 230, 862 individuals, 50% were NHW, 37% Hispanic/Latino, 2.6% Asian, 1.9% Black/ African American, 1.1% Native Hawaiian/ Pacific Islander (NHPI), 0.85% America Indian/ Alaskan Native (AIAN), and 6.6% multiracial. NHPI were the youngest, median age of 26. NHPIs had over a 4-fold increase in hospitalization and 11.28-fold higher odds of COVID-19-specific death compared to NHW. AIAN had more than 2-fold higher odds of hospitalization, ICU admission, death due to COVID-19 compared to NHW. CONCLUSIONS: Significant racioethnic disparities in COVID-19 health outcomes were observed in NHPI and AIAN populations and underscore the need for targeted public health strategies to mitigate disparities.",
+      "authors": [
+        {
+          "name": "Natalia Arizmendez",
+          "orcid": ""
+        },
+        {
+          "name": "Megan A Cahn",
+          "orcid": ""
+        },
+        {
+          "name": "Samuel Yousefzai",
+          "orcid": ""
+        },
+        {
+          "name": "Zhe David Yu",
+          "orcid": ""
+        },
+        {
+          "name": "Kimberley Shoaf",
+          "orcid": ""
+        },
+        {
+          "name": "Sharon L Talboys",
+          "orcid": ""
+        },
+        {
+          "name": "Daniel B Knox",
+          "orcid": ""
+        },
+        {
+          "name": "Chun-Pin Esther Chang",
+          "orcid": ""
+        },
+        {
+          "name": "Mia Hashibe",
+          "orcid": ""
+        }
+      ]
+    },
+    "6a8502872962614a74eb": {
+      "authors": [
+        {
+          "name": "Ava J Fascetti",
+          "orcid": "0009-0002-2610-7546"
+        },
+        {
+          "name": "Mustafa H Naguib",
+          "orcid": "0009-0002-1857-5585"
+        },
+        {
+          "name": "Elsie G Ross",
+          "orcid": "0000-0002-9366-0109"
+        },
+        {
+          "name": "Chris Longhurst",
+          "orcid": ""
+        },
+        {
+          "name": "Pam R Taub",
+          "orcid": "0000-0002-0684-0655"
+        },
+        {
+          "name": "Shamim Nemati",
+          "orcid": "0000-0002-0520-4948"
+        },
+        {
+          "name": "Edward J Wang",
+          "orcid": "0000-0003-0030-6870"
+        },
+        {
+          "name": "Mattheus Ramsis",
+          "orcid": "0000-0002-0666-8461"
         }
       ]
     },
@@ -9867,6 +10644,87 @@
         }
       ]
     },
+    "c4d2088734aea310efc2": {
+      "abstract": "Our systematic review, based on PRISMA guidelines (PROSPERO CRD42023393345), characterised the epidemiology, outbreaks, and mathematical models of Nipah virus, an important public health threat in south and southeast Asia. We searched PubMed and Web of Science from database inception to March 14, 2025, and extracted 243 parameters, 89 risk factors, 39 models, and 23 distinct outbreaks from 119 papers. IgG seroprevalence estimates in the general population ranged from 0% to 12·5%. Nipah virus causes severe disease, with pooled case-fatality ratio estimates ranging widely from 9·1% (95% CI 0·2-41·3) in Singapore to 81·9% (95% CI 71·9-88·9) in Bangladesh. The infection timeline and clinical course of Nipah virus remain poorly characterised; we estimated a median incubation period of 8·77 days (165, 95% CI 7·53-10·02) from eight estimates in seven articles with sufficient information. Transmission parameter estimates were scarce, and all but one of five central estimates of the basic reproduction number were less than one. Nipah virus mathematical models (39) were rarely fitted to data (eight). All extracted information is accessible via our R package, epireview.",
+      "authors": [
+        {
+          "name": "Naidoo T",
+          "orcid": ""
+        },
+        {
+          "name": "Morgenstern C",
+          "orcid": ""
+        },
+        {
+          "name": "Doohan P",
+          "orcid": ""
+        },
+        {
+          "name": "Earl R",
+          "orcid": ""
+        },
+        {
+          "name": "Rawson T",
+          "orcid": ""
+        },
+        {
+          "name": "Sheppard RJ",
+          "orcid": ""
+        },
+        {
+          "name": "Hicks JT",
+          "orcid": ""
+        },
+        {
+          "name": "Radhakrishnan S",
+          "orcid": ""
+        },
+        {
+          "name": "Johnson R",
+          "orcid": ""
+        },
+        {
+          "name": "Hartner AM",
+          "orcid": ""
+        },
+        {
+          "name": "Cattarino L",
+          "orcid": ""
+        },
+        {
+          "name": "McCain K",
+          "orcid": ""
+        },
+        {
+          "name": "Vicco A",
+          "orcid": ""
+        },
+        {
+          "name": "Imai-Eaton N",
+          "orcid": ""
+        },
+        {
+          "name": "Elsland SV",
+          "orcid": ""
+        },
+        {
+          "name": "Cori A",
+          "orcid": ""
+        },
+        {
+          "name": "McCabe R",
+          "orcid": ""
+        },
+        {
+          "name": "Bhatia S",
+          "orcid": ""
+        },
+        {
+          "name": "Pathogen Epidemiology Review Group",
+          "orcid": ""
+        }
+      ]
+    },
     "2718981947bc1fb486af": {
       "abstract": "Background Heart failure is a leading cardiovascular condition associated with substantial healthcare utilization and economic burden in the United States. However, less is known about regional and temporal variation in heart failure-related healthcare utilization and expenditures within nationally representative populations. Objectives To examine regional and temporal variation in healthcare utilization and expenditures associated with heart failure in the United States from 2013 to 2022. Methods Using inflation-adjusted data from the Medical Expenditure Panel Survey (2013-2022), we estimated incremental healthcare expenditures and utilization associated with heart failure. A two-part model was used to estimate total and service-specific expenditures, and a hurdle model was used to assess healthcare utilization. Models adjusted for sociodemographic and clinical characteristics. Results Individuals with heart failure had significantly higher annual healthcare expenditures compared with those without heart failure ($5,765 per person; 95% CI: $4,015-$7,615), corresponding to approximately $6.53 billion in national incremental costs. Adjusted per-person expenditures were highest in the Northeast ($6,120) and lowest in the South ($5,419), although the South contributed the greatest overall burden ($2.68 billion annually). Healthcare expenditures increased over time, particularly for outpatient and office-based services. Individuals with heart failure also had greater utilization…",
       "authors": [
@@ -11895,18 +12753,6 @@
         }
       ]
     },
-    "e15155aaed9a5cae9223": {
-      "authors": [
-        {
-          "name": "Babin SM",
-          "orcid": ""
-        },
-        {
-          "name": "Mullany LC",
-          "orcid": "0000-0003-4668-9803"
-        }
-      ]
-    },
     "e60a8f98c8123b1d9574": {
       "abstract": "Background Treatment for latent tuberculosis infection (LTBI) is important for preventing tuberculosis disease, but many patients with LTBI do not complete treatment. Patients report barriers to treatment including poor knowledge of LTBI and insufficient treatment support. Methods We conducted a randomized trial of a 3-minute educational video for patients prescribed LTBI treatment. Adults at Kaiser Permanente Southern California prescribed LTBI treatment were randomized to receive messages with the video link (intervention) or no intervention (control). Patients were followed for up to 12 months to assess treatment initiation and completion. We also conducted a brief survey among patients who watched the video and convened a focus group among those who did not. Results During 06/2022-12/2023, we enrolled 496 patients in the control group and 1398 patients in the intervention group, of whom 17.0% watched the video. Patient characteristics were balanced between groups. Most were prescribed rifampin (64.8%) and isoniazid (23.4%). In intention-to-treat analyses, 82.9% and 78.8% of patients in control and intervention groups, respectively, initiated treatment (relative risk (RR) 0.95 [95% confidence interval: 0.90-1.00]) and 41.5% and 40.1% completed treatment (RR 0.97 [0.85-1.09]). In per-protocol analyses, 83.1% and 86.5% initiated treatment (aRR 1.03 [0.96-1.11]) and 41.4% and 45.1% completed treatment (aRR 1.06 [0.88-1.27]). Patients reported high acceptability and few chall…",
       "authors": [
@@ -13004,43 +13850,6 @@
         }
       ]
     },
-    "1681bc4349915c9b73d0": {
-      "abstract": "Background Rapid diagnostics such as the BIOFIRE® FILMARRAY® Pneumonia (PN) Panel may enhance antibiotic optimization, yet real-world evidence remains limited, and few studies have assessed how differences in institutional antimicrobial stewardship (ASP) capacity influence clinical outcomes. Methods We conducted a national, multicenter retrospective study of ICU patients with pneumonia admitted to Veterans Health Administration hospitals. Hospitals that implemented the PN Panel for ≥6 months served as intervention sites, while matched facilities without implementation served as controls. Outcomes were assessed using a difference-in-differences framework with inverse probability weighting to account for baseline imbalances and secular trends, including those related to the COVID-19 pandemic. Co-primary outcomes, assessed following index culture collection, were early antimicrobial de-escalation (24-48 hours) and early appropriate therapy (0-24 hours); secondary outcomes were 30-day and ICU mortality. Results The study included 11 746 patients, including 4523 from hospitals that implemented the BIOFIRE® PN Panel and 7223 from matched control hospitals. Overall, PN implementation was associated with early antimicrobial de-escalation (adjusted RR [aRR], 1.14; 95% CI, 1.04-1.26). Among culture-positive patients, PN Panel implementation was significantly associated with early antimicrobial de-escalation (aRR, 1.23; 95% CI, 1.02-1.50) and early appropriate therapy (aRR, 1.11; 95% C…",
-      "authors": [
-        {
-          "name": "Britt NS",
-          "orcid": ""
-        },
-        {
-          "name": "Khader K",
-          "orcid": "0000-0002-7206-8077"
-        },
-        {
-          "name": "He T",
-          "orcid": ""
-        },
-        {
-          "name": "Prinzi AM",
-          "orcid": "0000-0003-2949-5484"
-        },
-        {
-          "name": "Hommel B",
-          "orcid": "0000-0003-0971-1696"
-        },
-        {
-          "name": "Timbrook TT",
-          "orcid": "0000-0002-4542-6203"
-        },
-        {
-          "name": "Potter EM",
-          "orcid": ""
-        },
-        {
-          "name": "Lodise TP",
-          "orcid": "0000-0002-4730-0655"
-        }
-      ]
-    },
     "ff957c9525356805886f": {
       "abstract": "Human immunodeficiency virus 1 (HIV-1) is a retrovirus which has infected 90 million people and resulted in over 40 million deaths. Despite advances in diagnostics, treatment, and prophylaxis, HIV-1 continues to spread due to undiagnosed and untreated infections. Traditional monitoring methods are ineffective when access to testing is limited or people do not seek care, particularly given the long period between infection and symptom onset, allowing undetected transmission to continue. Here, we use a hybrid-capture sequencing approach to track HIV-1 signal in municipal wastewater in 15 different cities over nearly 3 years. We obtain near-complete genomic coverage of HIV-1, enabling detailed genomic analysis. Surprisingly, there are a substantial number of research-associated retroviral vector sequences recovered. Using computational competitive mapping, we identify specific genomic regions that differentiate authentic HIV-1 from vector-derived inputs. In an exploratory analysis of sites with available clinical data, wastewater-derived circulating HIV-1 reads show a positive correlation with community-level HIV diagnosed prevalence that was robust to exclusion of individual high-prevalence sites. This study identifies lentiviral vector contamination as a confounding factor in wastewater HIV-1 detection, recovers authentic circulating HIV-1 signal through an original classification framework, and provides initial evidence that the resulting signal tracks community HIV burden.",
       "authors": [
@@ -13177,31 +13986,6 @@
         {
           "name": "T. He",
           "orcid": "0000-0002-9670-5587"
-        }
-      ]
-    },
-    "160e02f00edec78f6de9": {
-      "abstract": "Background Fecal microbiota transplantation (FMT) is the cost-effective strategy for managing recurrent Clostridioides difficile infection (rCDI). Prior costing models assumed FMT administration via colonoscopy. With the commercialization of microbiota therapeutics for rCDI, this study sought to determine the impact of commercial, Food and Drug Administration (FDA) approved microbiota-based therapeutics relative to traditional FMT on the cost-effectiveness for rCDI. Methods We used a Markov model to simulate a cohort of patients with rCDI to evaluate the cost-effectiveness of varied methods of FMT administration for rCDI. The model includes estimates of cure, recurrence, and mortality. Data sources were taken from national guidelines and published literature on treatment outcomes. Outcome measures were quality-adjusted life-years (QALYs) and incremental cost-effectiveness ratios (ICERs). Results FMT by colonoscopy is the cost-effective strategy for preventing second or subsequent rCDI with an incremental cost-effectiveness ratio (ICER) of $44 158. Assuming a willingness-to-pay threshold of $100 000 per quality adjusted life years (QALY) gained, FMT by colonoscopy was optimal in the majority (70%) of simulations. At a willingness-to-pay threshold of $100 000 per quality adjusted life year (QALY), commercial, FDA approved microbiota therapeutics were not cost effective under any circumstance when donor-derived FMT products are available. Conclusions Traditional FMT administere…",
-      "authors": [
-        {
-          "name": "Hirsch W",
-          "orcid": "0000-0003-2849-659X"
-        },
-        {
-          "name": "Enns EA",
-          "orcid": "0000-0003-0693-7358"
-        },
-        {
-          "name": "Khoruts A",
-          "orcid": "0000-0002-3205-3188"
-        },
-        {
-          "name": "Rajasingham R",
-          "orcid": "0000-0001-5531-0231"
-        },
-        {
-          "name": "Vaughn BP",
-          "orcid": "0000-0001-5081-3761"
         }
       ]
     },
@@ -13832,7 +14616,7 @@
       ]
     },
     "146e65d64f680d906628": {
-      "abstract": "Objectives: Large international events draw visitors worldwide, but how much do they add to infectious disease importation risk beyond everyday travel? We developed a schedule-driven, uncertainty-aware framework to estimate this added risk and applied it to the 2026 FIFA World Cup as a case study. Methods: Three nested Poisson models represent baseline travel, event-related growth, and schedule-driven allocation of additional visitors by venue and date, with Monte Carlo simulation propagating uncertainty in disease under-reporting and travel-while-infected probability. We applied the approach to five diseases across 11 US host cities during the June 2026 World Cup group stage using only publicly available data, evaluated against independently reported dengue case counts, with measles as an additional qualitative check. Results: Relative to 2026 travel without the tournament, the World Cup added 1.0-6.5% to expected importations under schedule-driven routing, versus 2.9-8.5% under routing that ignores the match schedule. Dengue, malaria, and pertussis had the highest modeled importation levels, and the probability of at least one infected dengue or pertussis arrival exceeded 0.99 at 10 of 11 cities. Comparison with 2024 dengue and 2022 measles surveillance data showed a significant rank correlation between modeled and reported dengue cases (Spearman rho= 0.83). Conclusions: This approach provides an empirically grounded way to assess importation risk during large internationa…",
+      "abstract": "Objectives Large international events draw visitors worldwide, but how much do they add to infectious disease importation risk beyond everyday travel? We developed a schedule-driven, uncertainty-aware framework to estimate this added risk and applied it to the 2026 FIFA World Cup as a case study. Methods Three nested Poisson models represent baseline travel, event-related growth, and schedule-driven allocation of additional visitors by venue and date, with Monte Carlo simulation propagating uncertainty in disease under-reporting and travel-while-infected probability. We applied the approach to five diseases across 11 US host cities during the June 2026 World Cup group stage using only publicly available data, evaluated against independently reported dengue case counts, with measles as an additional qualitative check. Results Relative to 2026 travel without the tournament, the World Cup added 1.0–6.5% to expected importations under schedule-driven routing, versus 2.9–8.5% under routing that ignores the match schedule. Dengue, malaria, and pertussis had the highest modeled importation levels, and the probability of at least one infected dengue or pertussis arrival exceeded 0.99 at 10 of 11 cities. Comparison with 2024 dengue and 2022 measles surveillance data showed a significant rank correlation between modeled and reported dengue cases (Spearman ρ = 0.83). Conclusions This approach provides an empirically grounded way to assess importation risk during large international eve…",
       "authors": [
         {
           "name": "Herrera-Diestra JL",
@@ -13843,7 +14627,7 @@
           "orcid": ""
         },
         {
-          "name": "Harris M",
+          "name": "Harris MJ",
           "orcid": ""
         },
         {
@@ -13855,11 +14639,11 @@
           "orcid": ""
         },
         {
-          "name": "Ertem Z",
+          "name": "Ertem MZ",
           "orcid": ""
         },
         {
-          "name": "Al-amery A",
+          "name": "Al-Amery A",
           "orcid": ""
         },
         {
@@ -15768,143 +16552,6 @@
         {
           "name": "David Lazer",
           "orcid": "0000-0002-7991-9110"
-        }
-      ]
-    },
-    "affc3c792cbe1479212e": {
-      "abstract": "Background Influenza predisposes individuals to bacterial co-infections, which can result in disseminated infection and bacteremia. We describe the epidemiology and outcomes of blood culture co-detections among persons hospitalized with influenza over two influenza seasons. Methods We sampled individuals of all ages from FluSurv-NET, a U.S. population-based surveillance network of persons hospitalized with laboratory-confirmed influenza, during the 2022-2023 and 2023-2024 seasons. Surveillance staff collected information on bacterial blood cultures within 3 days before or 3 days following admission. We described patient characteristics and in-hospital outcomes, stratified by culture positivity, number of positive cultures, and type of co-detection, using unweighted counts and weighted percentages to account for the complex survey design. Results Overall, 14,316 patients were included, with a median (interquartile range) age of 57 (14-74) years, 53.6% female, 52.0% non-Hispanic white, and 25.6% with ≥4 categories of underlying medical conditions. Of these, 50.8% had ≥1 blood cultures obtained and 5.2% overall had ≥1 bacterial co-detections. Intensive care unit admission occurred for 9.6%, 19.2%, 31.2%, and 47.9% among patients with no blood cultures, negative cultures, 1 co-detection, and >1 co-detection documented, respectively; in-hospital mortality occurred in 1.5%, 3.3%, 9.4%, and 14.5%, respectively. Among patients with positive cultures, 22.1% had Staphylococcus aureus…",
-      "authors": [
-        {
-          "name": "Tenforde MW",
-          "orcid": "0000-0002-8702-8393"
-        },
-        {
-          "name": "Ujamaa D",
-          "orcid": ""
-        },
-        {
-          "name": "Talbot HK",
-          "orcid": "0000-0003-0141-1760"
-        },
-        {
-          "name": "O'Halloran AC",
-          "orcid": ""
-        },
-        {
-          "name": "Chai SJ",
-          "orcid": "0000-0003-2048-2871"
-        },
-        {
-          "name": "Sachdev D",
-          "orcid": "0000-0002-7309-8091"
-        },
-        {
-          "name": "Armistead I",
-          "orcid": ""
-        },
-        {
-          "name": "Alden NB",
-          "orcid": "0000-0002-8128-7714"
-        },
-        {
-          "name": "Meek J",
-          "orcid": ""
-        },
-        {
-          "name": "Yousey-Hindes K",
-          "orcid": "0000-0002-9418-575X"
-        },
-        {
-          "name": "Witt LS",
-          "orcid": "0000-0003-1475-6952"
-        },
-        {
-          "name": "Openo KP",
-          "orcid": "0009-0005-8431-6508"
-        },
-        {
-          "name": "Ryan PA",
-          "orcid": ""
-        },
-        {
-          "name": "Monroe ML",
-          "orcid": ""
-        },
-        {
-          "name": "Kim S",
-          "orcid": ""
-        },
-        {
-          "name": "Nunez VT",
-          "orcid": "0009-0008-6875-5529"
-        },
-        {
-          "name": "Lynfield R",
-          "orcid": ""
-        },
-        {
-          "name": "McMahon M",
-          "orcid": ""
-        },
-        {
-          "name": "McCahon C",
-          "orcid": ""
-        },
-        {
-          "name": "Bleecker M",
-          "orcid": "0009-0007-3933-3645"
-        },
-        {
-          "name": "Barney G",
-          "orcid": ""
-        },
-        {
-          "name": "Mahoney K",
-          "orcid": ""
-        },
-        {
-          "name": "Tesini BL",
-          "orcid": "0000-0001-6051-0027"
-        },
-        {
-          "name": "Gaitan MA",
-          "orcid": ""
-        },
-        {
-          "name": "Ingabire-Smith D",
-          "orcid": ""
-        },
-        {
-          "name": "Moran NE",
-          "orcid": ""
-        },
-        {
-          "name": "Sutton M",
-          "orcid": ""
-        },
-        {
-          "name": "Hendrick A",
-          "orcid": ""
-        },
-        {
-          "name": "Schaffner W",
-          "orcid": "0000-0002-1375-8078"
-        },
-        {
-          "name": "Chatelain R",
-          "orcid": ""
-        },
-        {
-          "name": "Swain A",
-          "orcid": ""
-        },
-        {
-          "name": "Garg S",
-          "orcid": "0009-0004-3493-2989"
-        },
-        {
-          "name": "Bozio CH",
-          "orcid": "0000-0001-6566-7138"
         }
       ]
     },
@@ -17912,71 +18559,6 @@
         {
           "name": "Yoonyoung Choi",
           "orcid": ""
-        }
-      ]
-    },
-    "c183db92c4ed72ccc304": {
-      "abstract": "Infectious gastroenteritis (IGE) is a major cause of pediatric morbidity globally, with viral pathogens accounting for a substantial proportion of cases. While seasonal patterns of viral IGE are well recognized, the association between specific environmental exposures, such as ambient temperature, and viral IGE has not been fully quantified. First, we performed a secondary analysis of data from a prospective, multisite study of children presenting to emergency departments at five medical centers across the continental United States, linking individual level laboratory data to environmental exposures, including temperature, humidity, and air pollutants, measured during the 14 days preceding symptom onset. Mixed-effects logistic regression was applied to evaluate the association between viral IGE and environmental exposures, adjusting for site-level clustering and patient age. Among 868 children with IGE, higher ambient temperature was inversely associated with viral etiology (OR 0.50, 95% CI 0.36-0.68, p < 0.001). We did not find statistically significant associations between other environmental variables and viral IGE. Then, to contextualize these individual-level findings in children, we examined all-ages population-level surveillance data from GermWatch, a regional laboratory testing-based infectious disease surveillance system, which demonstrated concordant declines in viral pathogen detection with increasing temperature. These findings support the association of weather…",
-      "authors": [
-        {
-          "name": "Natalya Alekhina",
-          "orcid": "0000-0001-6181-2975"
-        },
-        {
-          "name": "Paola Fonseca-Romero",
-          "orcid": "0000-0002-4757-3506"
-        },
-        {
-          "name": "Per H Gesteland",
-          "orcid": "0000-0002-9869-8122"
-        },
-        {
-          "name": "Ben J Brintz",
-          "orcid": "0000-0003-4695-0290"
-        },
-        {
-          "name": "Amy L Leber",
-          "orcid": "0000-0002-3075-3586"
-        },
-        {
-          "name": "Jami T Jackson",
-          "orcid": "0000-0002-6685-1110"
-        },
-        {
-          "name": "Jennifer Dien Bard",
-          "orcid": "0000-0003-0524-9473"
-        },
-        {
-          "name": "Neena Kanwar",
-          "orcid": "0000-0002-3923-2453"
-        },
-        {
-          "name": "Ara Festekjian",
-          "orcid": "0000-0002-8244-4785"
-        },
-        {
-          "name": "Chari Larsen",
-          "orcid": ""
-        },
-        {
-          "name": "Kimberle C Chapin",
-          "orcid": "0009-0003-2790-3111"
-        },
-        {
-          "name": "Rangaraj Selvarangan",
-          "orcid": "0000-0003-3275-6657"
-        },
-        {
-          "name": "Sean Soisson",
-          "orcid": "0000-0003-1720-5136"
-        },
-        {
-          "name": "Andrew T Pavia",
-          "orcid": ""
-        },
-        {
-          "name": "Daniel T Leung",
-          "orcid": "0000-0001-8401-0801"
         }
       ]
     },
@@ -23381,6 +23963,127 @@
         }
       ]
     },
+    "eb9b13787c9720e9d1e7": {
+      "abstract": "Zika virus (ZIKV), classified as a priority pathogen by the World Health Organization, is an Aedes -borne arbovirus that can cause neurological complications and birth defects in newborns of mothers infected during pregnancy. We conducted a systematic review of peer-reviewed studies reporting ZIKV epidemiological parameters, transmission models and outbreaks (PROSPERO CRD42023393345) to characterize its transmissibility, seroprevalence, risk factors, disease sequelae and natural history. We performed meta-analyses of the proportions of congenital Zika syndrome, pregnancy loss among ZIKV-infected mothers and symptomatic cases. We extracted information from 574 studies. Across 418 included studies assigned a high-quality score, we extracted 969 parameters, 127 outbreak records and 154 models. Using random-effects models, we estimated proportions of congenital Zika syndrome (4.65%, 95% confidence interval (CI): 3.38-6.67%), pregnancy loss (2.48%, 95% CI: 1.62-3.78%) and symptomatic cases (51.20%, 95% CI: 38.00-64.23%). Seroprevalence estimates ( n = 354) were retrieved beyond South America and French Polynesia. Basic reproduction number estimates ( n = 77) ranged between 1.12 and 7.4. We found 66 human epidemiological delay estimates, including the intrinsic incubation period ( n = 11, range: 4-12.1 days), infectious period ( n = 15, range: 3-50 days), extrinsic incubation period ( n = 22, range: 5.1-24.2 days) and serial interval ( n = 27, range: 7.4-32.9 days). These data are…",
+      "authors": [
+        {
+          "name": "McCain K",
+          "orcid": "0000-0003-2393-2217"
+        },
+        {
+          "name": "Vicco A",
+          "orcid": "0000-0002-6555-3090"
+        },
+        {
+          "name": "Morgenstern C",
+          "orcid": "0000-0003-3735-1130"
+        },
+        {
+          "name": "Rawson T",
+          "orcid": ""
+        },
+        {
+          "name": "Naidoo TM",
+          "orcid": ""
+        },
+        {
+          "name": "Bhatia S",
+          "orcid": ""
+        },
+        {
+          "name": "Dee DP",
+          "orcid": "0000-0002-0087-3851"
+        },
+        {
+          "name": "Doohan P",
+          "orcid": "0000-0001-8076-1106"
+        },
+        {
+          "name": "Fraser K",
+          "orcid": ""
+        },
+        {
+          "name": "Hartner AM",
+          "orcid": ""
+        },
+        {
+          "name": "Leuba SI",
+          "orcid": ""
+        },
+        {
+          "name": "Ruybal-Pesántez S",
+          "orcid": "0000-0002-0495-179X"
+        },
+        {
+          "name": "Sheppard RJ",
+          "orcid": ""
+        },
+        {
+          "name": "Unwin HJT",
+          "orcid": "0000-0002-9120-4003"
+        },
+        {
+          "name": "Charniga K",
+          "orcid": ""
+        },
+        {
+          "name": "Cucunubá ZM",
+          "orcid": ""
+        },
+        {
+          "name": "Cuomo-Dannenburg G",
+          "orcid": ""
+        },
+        {
+          "name": "Imai-Eaton N",
+          "orcid": "0000-0002-4218-9716"
+        },
+        {
+          "name": "Knock ES",
+          "orcid": ""
+        },
+        {
+          "name": "Kucharski A",
+          "orcid": ""
+        },
+        {
+          "name": "Kusumgar M",
+          "orcid": ""
+        },
+        {
+          "name": "Liétar P",
+          "orcid": ""
+        },
+        {
+          "name": "Nash RK",
+          "orcid": ""
+        },
+        {
+          "name": "van Elsland S",
+          "orcid": "0000-0003-0775-7463"
+        },
+        {
+          "name": "Pathogen Epidemiology Review Group",
+          "orcid": ""
+        },
+        {
+          "name": "Faria NR",
+          "orcid": "0000-0001-8839-2798"
+        },
+        {
+          "name": "Cori A",
+          "orcid": ""
+        },
+        {
+          "name": "McCabe R",
+          "orcid": ""
+        },
+        {
+          "name": "Dorigatti I",
+          "orcid": "0000-0001-9959-0706"
+        }
+      ]
+    },
     "0245f58aabd6ddc89e4f": {
       "abstract": "BACKGROUND: Health care-associated infections are a major cause of morbidity and mortality among hospitalized patients. Our Copper for Reducing Environmental Healthcare-Associated Infections (CuRE HAI) study evaluated the effectiveness of introducing a novel copper-oxide infused polymer resin surface in the immediate environment surrounding a hospitalized patient. METHODS: The study was conducted between January 2014 and December 2023. Several high-touch surfaces were replaced with 16-20% copper-oxide-infused surfaces. All hospital admissions each month were monitored for onset of HAIs using predefined criteria. A Bayesian hierarchical Poisson model was used to estimate the effect of the intervention on monthly HAI rates. RESULTS: There were 543 HAIs and 231,752 bed days of care (BDOC) in the 120-month study period, a mean of 27.6 HAIs per 10,000 BDOC and 20.8 HAIs per 10,000 BDOC in the pre- and post-copper installation periods, respectively. The estimated incidence rate ratio for copper across all infections was 0.51 (0.25, 0.95). CONCLUSIONS: The CuRE HAI study suggests that implementation of novel copper components in a patient care environment may prevent HAIs. The continuous antimicrobial and antisporicidal activity provided by the copper surfaces likely explains at least some of the observed decline in HAI rates.",
       "authors": [
@@ -26286,6 +26989,47 @@
         }
       ]
     },
+    "02fb944050e9424bd87b": {
+      "abstract": "Understanding how cells interact to coordinate tissue function and respond to disease remains a central challenge in biology. Recently developed multiplex bioimaging technologies [multiplex immunofluorescence (MxIF)] can quantify multiple protein markers at a single-cell resolution in spatially preserved tissue, offering the opportunity to understand how cellular organization relates to disease mechanisms and treatment response. Spatial generalized linear mixed models for cell co-localization offer a flexible framework for these analyses, accommodating cell-, image-, or subject-level predictors while accounting for correlation arising from repeated cells per image, repeated images per subject, and spatial dependence among nearby cells. However, as MxIF data typically have hundreds of thousands to millions of cells per study, fitting the full spatial model is computationally infeasible due to the large, dense, spatial covariance matrix. We present a scalable inference strategy that uses parallelizable eigen-decomposition of an empirically estimated spatial correlation matrix to approximate the full spatial model. This approach enables fast estimation of fixed effects of interest without requiring formal estimation of spatial parameters or surface prediction. In simulations, our proposed method could be fitted to large datasets ($ \\sim $ 285,000 observations) in under a minute, with runtime linearly increasing by only $ \\sim $ 7 s per 50,000 additional observations. This scala…",
+      "authors": [
+        {
+          "name": "Caitlin Ward",
+          "orcid": "0000-0002-0806-0222"
+        },
+        {
+          "name": "Brenna C Novotny",
+          "orcid": "0000-0003-4732-1736"
+        },
+        {
+          "name": "Raymond M Moore",
+          "orcid": "0000-0003-4196-1804"
+        },
+        {
+          "name": "Ruifeng Guo",
+          "orcid": "0000-0003-3345-0502"
+        },
+        {
+          "name": "Alexey Leontovich",
+          "orcid": ""
+        },
+        {
+          "name": "Wendy K Nevala",
+          "orcid": ""
+        },
+        {
+          "name": "Zachary Fogarty",
+          "orcid": "0000-0001-5588-3216"
+        },
+        {
+          "name": "Svetomir N Markovic",
+          "orcid": "0000-0002-9238-4325"
+        },
+        {
+          "name": "Chen Wang",
+          "orcid": "0000-0003-2638-3081"
+        }
+      ]
+    },
     "e446d20233227bf57b3e": {
       "abstract": "Mortality risk estimated from studies that ascertain date of death through linkage to vital statistics registries may be subject to outcome measurement error. As a result, some deaths among study participants may not be captured, some study participants who are alive may be falsely categorized as deceased, and some deaths may be recorded at incorrect times, leading to bias in estimates of mortality risk and survival. Here, we illustrate an extension of the Rogan-Gladen estimator to account for outcome measurement error in risk and survival functions in settings with right censoring. As a motivating application, we consider and account for outcome measurement error that could be induced by incomplete and/or incorrect linkage to death registries when estimating mortality risk among people entering care for HIV in the University of North Carolina Center for AIDS Research HIV Clinical Cohort between 2001 and 2022. A series of simulation studies demonstrates that the approach performed well even when participants selected into the validation study were at higher mortality risk than the main study. The proposed approach may be parameterized using internal or external validation data or used as a form of quantitative bias analysis.",
       "authors": [
@@ -27716,6 +28460,31 @@
         {
           "name": "Thomas Byrne",
           "orcid": ""
+        }
+      ]
+    },
+    "ecada3a05aae4610fa9f": {
+      "abstract": "Importance Many acceptable-quality deceased donor kidneys go unused every year. Older transplant candidates are more vulnerable to rapid health decline. Objective To assess the cost-effectiveness of increasing the kidney transplantation rate among older patients with end-stage kidney disease by using acceptable-quality deceased donor kidneys. Design, setting, and participants This economic evaluation with cost-effectiveness analysis uses a microsimulation model of the kidney transplantation process for a synthetic cohort of adult candidates aged 65 years or older on the transplant waiting list between 2010 and 2019 over their remaining lifetimes. Statistical analysis was performed from January 2023 to December 2025. Intervention Increasing the transplantation rate in 5% increments higher than the status quo rate from 5% to 25% using acceptable-quality deceased donor kidneys, with a corresponding shift in the distribution of kidney quality to reflect the use of donor kidneys of lower quality than the status quo. Main outcomes and measures The primary outcomes were the number of key waiting list and posttransplant outcomes, costs, quality-adjusted life-years (QALYs), and incremental cost-effectiveness ratios. Health state transition probabilities were derived from Scientific Registry of Transplant Recipients data. Costs and quality-of-life weights were derived from published literature and US Renal Data System annual reports, all of which were varied in a probabilistic sensiti…",
+      "authors": [
+        {
+          "name": "Kaufmann MB",
+          "orcid": ""
+        },
+        {
+          "name": "Tan JC",
+          "orcid": ""
+        },
+        {
+          "name": "Owens DK",
+          "orcid": ""
+        },
+        {
+          "name": "Chertow GM",
+          "orcid": "0000-0002-7599-0534"
+        },
+        {
+          "name": "Goldhaber-Fiebert JD",
+          "orcid": "0000-0002-4007-5192"
         }
       ]
     },
@@ -64938,6 +65707,91 @@
         }
       ]
     },
+    "31c524546252ae6dc0fe": {
+      "abstract": "Background Understanding the epidemiological parameters and transmission dynamics of Lassa fever, a significant public health threat in west Africa caused by the rodent-borne Lassa virus, is crucial for informing evidence-based interventions and outbreak response strategies. Therefore, our study aimed to collate and enhance understanding of the key epidemiological parameters of Lassa fever. Methods We conducted a systematic review, searching PubMed and Web of Science for peer-reviewed studies published from database inception up to June 13, 2024, to compile and analyse key epidemiological parameters, mathematical models, and outbreaks of Lassa fever. English-language, peer-reviewed, original research articles were included if they reported on Lassa fever outbreak sizes, transmission models, viral evolution, transmission, natural history, severity, seroprevalence, or risk factors. Non-peer-reviewed literature was excluded. Data were extracted by two independent individuals from published literature, focusing on seroprevalence, transmissibility, epidemiological delays, and disease severity. We performed a meta-analysis to calculate pooled estimates of case-fatality ratios (CFRs) and the delay from symptom onset to hospital admission. This study is registered with PROSPERO (identifier number CRD42023393345). Findings The database search returned 5614 potentially relevant studies, and a further 16 studies were identified from backward citation chaining. After de-duplication and…",
+      "authors": [
+        {
+          "name": "Doohan P",
+          "orcid": ""
+        },
+        {
+          "name": "Jorgensen D",
+          "orcid": ""
+        },
+        {
+          "name": "Naidoo TM",
+          "orcid": ""
+        },
+        {
+          "name": "McCain K",
+          "orcid": ""
+        },
+        {
+          "name": "Hicks JT",
+          "orcid": ""
+        },
+        {
+          "name": "McCabe R",
+          "orcid": ""
+        },
+        {
+          "name": "Bhatia S",
+          "orcid": ""
+        },
+        {
+          "name": "Charniga K",
+          "orcid": ""
+        },
+        {
+          "name": "Cuomo-Dannenburg G",
+          "orcid": ""
+        },
+        {
+          "name": "Hamlet A",
+          "orcid": ""
+        },
+        {
+          "name": "Nash RK",
+          "orcid": ""
+        },
+        {
+          "name": "Nikitin D",
+          "orcid": ""
+        },
+        {
+          "name": "Rawson T",
+          "orcid": ""
+        },
+        {
+          "name": "Sheppard RJ",
+          "orcid": ""
+        },
+        {
+          "name": "Unwin HJT",
+          "orcid": ""
+        },
+        {
+          "name": "van Elsland S",
+          "orcid": ""
+        },
+        {
+          "name": "Cori A",
+          "orcid": ""
+        },
+        {
+          "name": "Morgenstern C",
+          "orcid": ""
+        },
+        {
+          "name": "Imai-Eaton N",
+          "orcid": ""
+        },
+        {
+          "name": "Pathogen Epidemiology Review Group",
+          "orcid": ""
+        }
+      ]
+    },
     "98bad5ba2515f2f16e67": {
       "authors": [
         {
@@ -64959,6 +65813,107 @@
         {
           "name": "Vito Giannini",
           "orcid": ""
+        }
+      ]
+    },
+    "d060c207775832bf69ad": {
+      "abstract": "Ebola virus disease poses a recurring risk to human health. We conducted a systematic review (PROSPERO CRD42023393345) of Ebola virus disease transmission models and parameters published from database inception to July 7, 2023, from PubMed and Web of Science. Two people screened each abstract and full text. Papers were extracted with a bespoke Access database, 10% were double extracted. We extracted 1280 parameters and 295 models from 522 papers. Basic reproduction number estimates were highly variable, as were effective reproduction numbers, likely reflecting spatiotemporal variability in interventions. Random-effect estimates were 15·4 days (95% CI 13·2-17·5) for the serial interval, 8·5 days (7·7-9·2) for the incubation period, 9·3 days (8·5-10·1) for the symptom-onset-to-death delay, and 13·0 days (10·4-15·7) for symptom-onset-to-recovery. Common effect estimates were similar, albeit with narrower CIs. Case-fatality ratio estimates were generally high but highly variable, which could reflect heterogeneity in underlying risk factors. Although a substantial body of literature exists on Ebola virus disease models and epidemiological parameter estimates, many of these studies focus on the west African Ebola epidemic and are primarily associated with Zaire Ebola virus, which leaves a key gap in our knowledge regarding other Ebola virus species and outbreak contexts.",
+      "authors": [
+        {
+          "name": "Nash RK",
+          "orcid": "0000-0002-5213-4364"
+        },
+        {
+          "name": "Bhatia S",
+          "orcid": "0000-0001-6525-101X"
+        },
+        {
+          "name": "Morgenstern C",
+          "orcid": "0000-0003-3735-1130"
+        },
+        {
+          "name": "Doohan P",
+          "orcid": ""
+        },
+        {
+          "name": "Jorgensen D",
+          "orcid": "0000-0003-4982-3764"
+        },
+        {
+          "name": "McCain K",
+          "orcid": ""
+        },
+        {
+          "name": "McCabe R",
+          "orcid": ""
+        },
+        {
+          "name": "Nikitin D",
+          "orcid": ""
+        },
+        {
+          "name": "Forna A",
+          "orcid": ""
+        },
+        {
+          "name": "Cuomo-Dannenburg G",
+          "orcid": ""
+        },
+        {
+          "name": "Hicks JT",
+          "orcid": ""
+        },
+        {
+          "name": "Sheppard RJ",
+          "orcid": ""
+        },
+        {
+          "name": "Naidoo T",
+          "orcid": ""
+        },
+        {
+          "name": "van Elsland S",
+          "orcid": "0000-0003-0775-7463"
+        },
+        {
+          "name": "Geismar C",
+          "orcid": ""
+        },
+        {
+          "name": "Rawson T",
+          "orcid": "0000-0001-8182-4279"
+        },
+        {
+          "name": "Leuba SI",
+          "orcid": "0000-0002-6585-2824"
+        },
+        {
+          "name": "Wardle J",
+          "orcid": ""
+        },
+        {
+          "name": "Routledge I",
+          "orcid": "0000-0002-0354-4076"
+        },
+        {
+          "name": "Fraser K",
+          "orcid": "0000-0002-8933-9750"
+        },
+        {
+          "name": "Pathogen Epidemiology Review Group",
+          "orcid": ""
+        },
+        {
+          "name": "Imai-Eaton N",
+          "orcid": ""
+        },
+        {
+          "name": "Cori A",
+          "orcid": ""
+        },
+        {
+          "name": "Unwin HJT",
+          "orcid": "0000-0002-9120-4003"
         }
       ]
     },
@@ -77421,6 +78376,59 @@
         }
       ]
     },
+    "069c1237f36d51b2dde1": {
+      "abstract": "We propose a method to estimate the household secondary attack rate (hSAR) of COVID-19 in the United Kingdom based on activity on the social media platform X, formerly known as Twitter. Conventional methods of hSAR estimation are resource intensive, requiring regular contact tracing of COVID-19 cases. Our proposed framework provides a complementary method that does not rely on conventional contact tracing or laboratory involvement, including the collection, processing, and analysis of biological samples. We use a text classifier to identify reports of people tweeting about themselves and/or members of their household having COVID-19 infections. A probabilistic analysis is then performed to estimate the hSAR based on the number of self or household, and self and household tweets of COVID-19 infection. The analysis includes adjustments for a reluctance of Twitter users to tweet about household members, and the possibility that the secondary infection was not acquired within the household. Experimental results for the UK, both monthly and weekly, are reported for the period from January 2020 to February 2022. Our results agree with previously reported hSAR estimates, varying with the primary variants of concern, e.g. delta and omicron. The serial interval (SI) is based on the time between the two tweets that indicate a primary and secondary infection. Experimental results, though larger than the consensus, are qualitatively similar. The estimation of hSAR and SI using social me…",
+      "authors": [
+        {
+          "name": "Dhiman A",
+          "orcid": ""
+        },
+        {
+          "name": "Yom-Tov E",
+          "orcid": "0000-0002-2380-4584"
+        },
+        {
+          "name": "Pellis L",
+          "orcid": "0000-0002-3436-6487"
+        },
+        {
+          "name": "Edelstein M",
+          "orcid": ""
+        },
+        {
+          "name": "Pebody R",
+          "orcid": ""
+        },
+        {
+          "name": "Hayward A",
+          "orcid": ""
+        },
+        {
+          "name": "House T",
+          "orcid": "0000-0001-5835-8062"
+        },
+        {
+          "name": "Finnie T",
+          "orcid": "0000-0001-5962-4211"
+        },
+        {
+          "name": "Guzman D",
+          "orcid": ""
+        },
+        {
+          "name": "Lampos V",
+          "orcid": "0000-0001-8555-2063"
+        },
+        {
+          "name": "Virus Watch Consortium",
+          "orcid": ""
+        },
+        {
+          "name": "Cox IJ",
+          "orcid": "0000-0002-6662-417X"
+        }
+      ]
+    },
     "089f97792f201b5953bd": {
       "abstract": "Background Rural underserved areas facing health disparities have unequal access to health resources. By the third and fourth waves of SARS-CoV-2 infections in the United States, COVID-19 testing had reduced, with more reliance on home testing, and those seeking testing were mostly symptomatic. Objective This study identifies factors associated with COVID-19 testing among individuals who were symptomatic versus asymptomatic seen at a Rapid Acceleration of Diagnostics for Underserved Populations phase 2 (RADx-UP2) testing site in West Virginia. Methods Demographic, clinical, and behavioral factors were collected via survey from tested individuals. Logistic regression was used to identify factors associated with the presence of individuals who were symptomatic seen at testing sites. Global tests for spatial autocorrelation were conducted to examine clustering in the proportion of symptomatic to total individuals tested by zip code. Bivariate maps were created to display geographic distributions between higher proportions of tested individuals who were symptomatic and social determinants of health. Results Among predictors, the presence of a physical (adjusted odds ratio [aOR] 1.85, 95% CI 1.3-2.65) or mental (aOR 1.53, 95% CI 0.96-2.48) comorbid condition, challenges related to a place to stay/live (aOR 307.13, 95% CI 1.46-10,6372), no community socioeconomic distress (aOR 0.99, 95% CI 0.98-1.00), no challenges in getting needed medicine (aOR 0.01, 95% CI 0.00-0.82) or transpo…",
       "authors": [
@@ -88337,6 +89345,107 @@
         {
           "name": "Ercumen A",
           "orcid": "0000-0001-6002-1514"
+        }
+      ]
+    },
+    "d7173da12b1ec0806d53": {
+      "abstract": "Summary Background Ebola Virus Disease (EVD) poses a recurring risk to human health. Modelling can provide key insights informing epidemic response, hence synthesising current evidence about EVD epidemiology and models is critical to prepare for future outbreaks. Methods We conducted a systematic review (PROSPERO CRD42023393345) and meta-analysis of EVD transmission models and parameters characterising EVD transmission, evolution, natural history, severity, risk factors and seroprevalence published prior to 7th July 2023 from PubMed and Web of Science. Two people screened each abstract and full text. Papers were extracted using a bespoke Access database, 10% were double extracted. Meta - analyses were conducted to synthesise information where possible. Findings We extracted 1,280 parameters and 295 models from 522 papers. Basic reproduction number estimates were highly variable (central estimates between 0.1 and 12.0 for high quality assessment scores), as were effective reproduction numbers, likely reflecting spatiotemporal variability in interventions. Pooled random effect estimates were 15.4 days (95% Confidence Interval (CI) 13.2-17.5) for the serial interval, 8.5 (95% CI 7.7-9.2) for the incubation period, 9.3 (95% CI 8.5-10.1) for the symptom-onset-to-death delay and 13.0 (95% CI 10.4-15.7) for symptom-onset-to-recovery. Common effect estimates were similar albeit with narrower CIs. Case fatality ratio estimates were generally high but highly variable (from 0 to 100%),…",
+      "authors": [
+        {
+          "name": "Nash RK",
+          "orcid": ""
+        },
+        {
+          "name": "Bhatia S",
+          "orcid": "0000-0001-6525-101X"
+        },
+        {
+          "name": "Morgenstern C",
+          "orcid": "0000-0003-3735-1130"
+        },
+        {
+          "name": "Doohan P",
+          "orcid": ""
+        },
+        {
+          "name": "Jorgensen D",
+          "orcid": "0000-0003-4982-3764"
+        },
+        {
+          "name": "McCain K",
+          "orcid": "0000-0003-2393-2217"
+        },
+        {
+          "name": "McCabe R",
+          "orcid": ""
+        },
+        {
+          "name": "Nikitin D",
+          "orcid": ""
+        },
+        {
+          "name": "Forna A",
+          "orcid": ""
+        },
+        {
+          "name": "Cuomo-Dannenburg G",
+          "orcid": ""
+        },
+        {
+          "name": "Hicks JT",
+          "orcid": ""
+        },
+        {
+          "name": "Sheppard RJ",
+          "orcid": ""
+        },
+        {
+          "name": "Naidoo T",
+          "orcid": ""
+        },
+        {
+          "name": "van Elsland S",
+          "orcid": "0000-0003-0775-7463"
+        },
+        {
+          "name": "Geismar C",
+          "orcid": ""
+        },
+        {
+          "name": "Rawson T",
+          "orcid": "0000-0001-8182-4279"
+        },
+        {
+          "name": "Leuba SI",
+          "orcid": ""
+        },
+        {
+          "name": "Wardle J",
+          "orcid": ""
+        },
+        {
+          "name": "Routledge I",
+          "orcid": ""
+        },
+        {
+          "name": "Fraser K",
+          "orcid": ""
+        },
+        {
+          "name": "Pathogen Epidemiology Review Group",
+          "orcid": ""
+        },
+        {
+          "name": "Imai-Eaton N",
+          "orcid": ""
+        },
+        {
+          "name": "Cori A",
+          "orcid": ""
+        },
+        {
+          "name": "Unwin HJT",
+          "orcid": "0000-0002-9120-4003"
         }
       ]
     },
@@ -108395,6 +109504,71 @@
         {
           "name": "Drawz PE",
           "orcid": "0000-0001-7301-9253"
+        }
+      ]
+    },
+    "62ad0ec600ac44281894": {
+      "abstract": "Background It is poorly understood which workers lack access to sick pay in England and Wales. This evidence gap has been of particular interest in the context of the Covid-19 pandemic given the relationship between presenteeism and infectious disease transmission. Method This cross-sectional analysis (n = 8874) was nested within a large community cohort study based across England and Wales (Virus Watch). An online survey in February 2021 asked participants in work if they had access to paid sick leave. We used logistic regression to examine sociodemographic factors associated with lacking access to sick pay. Results Only 66% (n = 5864) of participants reported access to sick pay. South Asian workers (adjusted odds ratio [OR] 1.40, 95% confidence interval [CI] 1.06-1.83) and those from Other minority ethnic backgrounds (OR 2.93, 95% CI 1.54-5.59) were more likely to lack access to sick pay compared to White British workers. Older workers (OR range 1.72 [1.53-1.93]-5.26 [4.42-6.26]), workers in low-income households (OR 2.53, 95% CI 2.15-2.98) and those in transport, trade, and service occupations (OR range 2.03 [1.58-2.61]-5.29 [3.67-7.72]) were also more likely to lack access to sick pay compared respectively to workers aged 25-44, those in high income households and managerial occupations. Discussion Unwarranted age and ethnic inequalities in sick pay access are suggestive of labour market discrimination. Occupational differences are also cause for concern. Policymakers sh…",
+      "authors": [
+        {
+          "name": "Patel P",
+          "orcid": ""
+        },
+        {
+          "name": "Beale S",
+          "orcid": ""
+        },
+        {
+          "name": "Nguyen V",
+          "orcid": ""
+        },
+        {
+          "name": "Braithwaite I",
+          "orcid": "0000-0001-5327-5612"
+        },
+        {
+          "name": "Byrne TE",
+          "orcid": "0000-0001-8667-0870"
+        },
+        {
+          "name": "Erica Fong WL",
+          "orcid": ""
+        },
+        {
+          "name": "Fragaszy E",
+          "orcid": "0000-0002-0178-6098"
+        },
+        {
+          "name": "Geismar C",
+          "orcid": ""
+        },
+        {
+          "name": "Hoskins S",
+          "orcid": ""
+        },
+        {
+          "name": "Navaratnam AMD",
+          "orcid": "0000-0002-8141-5923"
+        },
+        {
+          "name": "Shrotri M",
+          "orcid": ""
+        },
+        {
+          "name": "Kovar J",
+          "orcid": "0000-0002-0477-2767"
+        },
+        {
+          "name": "Aryee A",
+          "orcid": ""
+        },
+        {
+          "name": "Hayward AC",
+          "orcid": ""
+        },
+        {
+          "name": "Aldridge RW",
+          "orcid": "0000-0003-0542-0816"
         }
       ]
     },
@@ -136148,6 +137322,75 @@
         }
       ]
     },
+    "a19b47272feffac5e3a5": {
+      "abstract": "Objectives Risk of SARS-CoV-2 infection varies across occupations; however, investigation into factors underlying differential risk is limited. We aimed to estimate the total effect of occupation on SARS-CoV-2 serological status, whether this is mediated by workplace close contact, and how exposure to poorly ventilated workplaces varied across occupations. Methods We used data from a subcohort (n=3775) of adults in the UK-based Virus Watch cohort study who were tested for SARS-CoV-2 anti-nucleocapsid antibodies (indicating natural infection). We used logistic decomposition to investigate the relationship between occupation, contact and seropositivity, and logistic regression to investigate exposure to poorly ventilated workplaces. Results Seropositivity was 17.1% among workers with daily close contact vs 10.0% for those with no work-related close contact. Compared with other professional occupations, healthcare, indoor trade/process/plant, leisure/personal service, and transport/mobile machine workers had elevated adjusted total odds of seropositivity (1.80 (1.03 to 3.14) - 2.46 (1.82 to 3.33)). Work-related contact accounted for a variable part of increased odds across occupations (1.04 (1.01 to 1.08) - 1.23 (1.09 to 1.40)). Occupations with raised odds of infection after accounting for work-related contact also had greater exposure to poorly ventilated workplaces. Conclusions Work-related close contact appears to contribute to occupational variation in seropositivity. Redu…",
+      "authors": [
+        {
+          "name": "Beale S",
+          "orcid": "0000-0002-4038-7460"
+        },
+        {
+          "name": "Patel P",
+          "orcid": ""
+        },
+        {
+          "name": "Rodger A",
+          "orcid": "0000-0001-8817-4651"
+        },
+        {
+          "name": "Braithwaite I",
+          "orcid": "0000-0001-5327-5612"
+        },
+        {
+          "name": "Byrne T",
+          "orcid": "0000-0001-8667-0870"
+        },
+        {
+          "name": "Fong WLE",
+          "orcid": "0000-0001-5097-2228"
+        },
+        {
+          "name": "Fragaszy E",
+          "orcid": "0000-0002-0178-6098"
+        },
+        {
+          "name": "Geismar C",
+          "orcid": ""
+        },
+        {
+          "name": "Kovar J",
+          "orcid": "0000-0002-0477-2767"
+        },
+        {
+          "name": "Navaratnam A",
+          "orcid": "0000-0002-8141-5923"
+        },
+        {
+          "name": "Nguyen V",
+          "orcid": ""
+        },
+        {
+          "name": "Shrotri M",
+          "orcid": ""
+        },
+        {
+          "name": "Aryee A",
+          "orcid": ""
+        },
+        {
+          "name": "Aldridge R",
+          "orcid": "0000-0003-0542-0816"
+        },
+        {
+          "name": "Hayward A",
+          "orcid": ""
+        },
+        {
+          "name": "Virus Watch Collaborative",
+          "orcid": ""
+        }
+      ]
+    },
     "cf24291b94ee9f8bca6a": {
       "abstract": "High dimensional predictive models of Major Adverse Cardiac Events (MACE), which includes heart attack (AMI), stroke, and death caused by cardiovascular disease (CVD), were built using four longitudinal cohorts of Veterans Administration (VA) patients created from VA medical records. We considered 247 variables / risk factors measured across 7.5 years for millions of patients in order to compare predictions for the first reported MACE event using six distinct modelling methodologies. The best-performing methodology varied across the four cohorts. Model coefficients related to disease pathophysiology and treatment were relatively constant across cohorts, while coefficients dependent upon the confounding variables of age and healthcare utilization varied considerably across cohorts. In particular, models trained on a retrospective case-control (Rcc) cohort (where controls are matched to cases by date of birth cohort and overall level of healthcare utilization) emphasize variables describing pathophysiology and treatment, while predictions based on the cohort of all active patients at the start of 2017 (C-17) rely much more on age and variables reflecting healthcare utilization. In consequence, directly using an Rcc-trained model to evaluate the C-17 cohort resulted in poor performance (C-statistic = 0.65). However, a simple reoptimization of model dependence on age, demographics, and five other variables improved the C-statistic to 0.74, nearly matching the 0.76 obtained on C-…",
       "authors": [
@@ -136570,6 +137813,75 @@
         },
         {
           "name": "Marshall BDL",
+          "orcid": ""
+        }
+      ]
+    },
+    "08f9d60fd60a3080edac": {
+      "abstract": "Background The serial interval is a key epidemiological measure that quantifies the time between an infector's and an infectee's onset of symptoms. This measure helps investigate epidemiological links between cases, and is an important parameter in transmission models used to estimate transmissibility and inform control strategies. The emergence of multiple variants of concern (VOC) during the SARS-CoV-2 pandemic has led to uncertainties about potential changes in the serial interval of COVID-19. We estimated the household serial interval of multiple VOC using data collected by the Virus Watch study. This online, prospective, community cohort study followed-up entire households in England and Wales since mid-June 2020. Methods This analysis included 5842 symptomatic individuals with confirmed SARS-CoV-2 infection among 2579 households from Sept 1, 2020, to Aug 10, 2022. SARS-CoV-2 variant designation was based upon national surveillance data of variant prevalence by date and geographical region. We used a Bayesian framework to infer who infected whom by exploring all transmission trees compatible with the observed dates of symptoms, given assumptions on the incubation period and generation time distributions using the R package outbreaker2. Findings We characterised the serial interval of COVID-19 by VOC. The mean serial interval was shortest for omicron BA5 (2·02 days; 95% credible interval [CrI] 1·26-2·84) and longest for alpha (3·37 days; 2·52-4·04). The mean serial inter…",
+      "authors": [
+        {
+          "name": "Geismar C",
+          "orcid": ""
+        },
+        {
+          "name": "Nguyen V",
+          "orcid": ""
+        },
+        {
+          "name": "Fragaszy E",
+          "orcid": "0000-0002-0178-6098"
+        },
+        {
+          "name": "Shrotri M",
+          "orcid": ""
+        },
+        {
+          "name": "Navaratnam AMD",
+          "orcid": "0000-0002-8141-5923"
+        },
+        {
+          "name": "Beale S",
+          "orcid": ""
+        },
+        {
+          "name": "Byrne TE",
+          "orcid": "0000-0001-8667-0870"
+        },
+        {
+          "name": "Fong WLE",
+          "orcid": "0000-0001-5097-2228"
+        },
+        {
+          "name": "Yavlinsky A",
+          "orcid": ""
+        },
+        {
+          "name": "Kovar J",
+          "orcid": "0000-0002-0477-2767"
+        },
+        {
+          "name": "Braithwaite I",
+          "orcid": "0000-0001-5327-5612"
+        },
+        {
+          "name": "Aldridge RW",
+          "orcid": "0000-0003-0542-0816"
+        },
+        {
+          "name": "Hayward AC",
+          "orcid": ""
+        },
+        {
+          "name": "White P",
+          "orcid": ""
+        },
+        {
+          "name": "Jombart T",
+          "orcid": ""
+        },
+        {
+          "name": "Cori A",
           "orcid": ""
         }
       ]
@@ -161771,6 +163083,79 @@
         }
       ]
     },
+    "ba9031f470813701a030": {
+      "abstract": "Background Differential exposure to public activities may contribute to stark deprivation-related inequalities in SARS-CoV-2 infection and outcomes but has not been directly investigated. We set out to investigate whether participants in Virus Watch-a large community cohort study based in England and Wales-reported differential exposure to public activities and non-household contacts during the autumn-winter phase of the COVID-19 pandemic according to postcode-level socioeconomic deprivation. Methods Participants (n=20 120-25 228 across surveys) reported their daily activities during 3 weekly periods in late November 2020, late December 2020 and mid-February 2021. Deprivation was quantified based on participants' residential postcode using English or Welsh Index of Multiple Deprivation quintiles. We used Poisson mixed-effect models with robust standard errors to estimate the relationship between deprivation and risk of exposure to public activities during each survey period. Results Relative to participants in the least deprived areas, participants in the most deprived areas exhibited elevated risk of exposure to vehicle sharing (adjusted risk ratio (aRR) range across time points: 1.73-8.52), public transport (aRR: 3.13-5.73), work or education outside of the household (aRR: 1.09-1.21), essential shops (aRR: 1.09-1.13) and non-household contacts (aRR: 1.15-1.19) across multiple survey periods. Conclusion Differential exposure to essential public activities-such as attending…",
+      "authors": [
+        {
+          "name": "Beale S",
+          "orcid": "0000-0002-4038-7460"
+        },
+        {
+          "name": "Braithwaite I",
+          "orcid": "0000-0001-5327-5612"
+        },
+        {
+          "name": "Navaratnam AM",
+          "orcid": ""
+        },
+        {
+          "name": "Hardelid P",
+          "orcid": ""
+        },
+        {
+          "name": "Rodger A",
+          "orcid": "0000-0001-8817-4651"
+        },
+        {
+          "name": "Aryee A",
+          "orcid": ""
+        },
+        {
+          "name": "Byrne TE",
+          "orcid": "0000-0001-8667-0870"
+        },
+        {
+          "name": "Fong EWL",
+          "orcid": ""
+        },
+        {
+          "name": "Fragaszy E",
+          "orcid": "0000-0002-0178-6098"
+        },
+        {
+          "name": "Geismar C",
+          "orcid": ""
+        },
+        {
+          "name": "Kovar J",
+          "orcid": "0000-0002-0477-2767"
+        },
+        {
+          "name": "Nguyen V",
+          "orcid": ""
+        },
+        {
+          "name": "Patel P",
+          "orcid": "0000-0001-5207-2776"
+        },
+        {
+          "name": "Shrotri M",
+          "orcid": ""
+        },
+        {
+          "name": "Aldridge R",
+          "orcid": "0000-0003-0542-0816"
+        },
+        {
+          "name": "Hayward A",
+          "orcid": ""
+        },
+        {
+          "name": "Virus Watch Collaborative",
+          "orcid": ""
+        }
+      ]
+    },
     "4d6f1bf49c90a7573288": {
       "abstract": "Breakthrough infections with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) variants have been reported frequently in vaccinated individuals with waning immunity. In particular, a cluster of over 1000 infections with the SARS-CoV-2 delta variant was identified in a predominantly fully vaccinated population in Provincetown, Massachusetts in July 2021. In this study, vaccinated individuals who tested positive for SARS-CoV-2 (",
       "authors": [
@@ -163256,58 +164641,58 @@
       ]
     },
     "2550b1c5b536fd330958": {
-      "abstract": "Background The availability of patient outcomes-based feedback is limited in episodic care environments such as the emergency department. Emergency medicine (EM) clinicians set care trajectories for a majority of hospitalized patients and provide definitive care to an even larger number of those discharged into the community. EM clinicians are often unaware of the short- and long-term health outcomes of patients and how their actions may have contributed. Despite large volumes of patients and data, outcomes-driven learning that targets individual clinician experiences is meager. Integrated electronic health record (EHR) systems provide opportunity, but they do not have readily available functionality intended for outcomes-based learning. Objective This study sought to unlock insights from routinely collected EHR data through the development of an individualizable patient outcomes feedback platform for EM clinicians. Here, we describe the iterative development of this platform, Linking Outcomes Of Patients (LOOP), under a human-centered design framework, including structured feedback obtained from its use. Methods This multimodal study consisting of human-centered design studios, surveys (24 physicians), interviews (11 physicians), and a LOOP application usability evaluation (12 EM physicians for ≥30 minutes each) was performed between August 2019 and February 2021. The study spanned 3 phases: (1) conceptual development under a human-centered design framework, (2) LOOP techni…",
+      "abstract": "BACKGROUND: The availability of patient outcomes-based feedback is limited in episodic care environments such as the emergency department. Emergency medicine (EM) clinicians set care trajectories for a majority of hospitalized patients and provide definitive care to an even larger number of those discharged into the community. EM clinicians are often unaware of the short- and long-term health outcomes of patients and how their actions may have contributed. Despite large volumes of patients and data, outcomes-driven learning that targets individual clinician experiences is meager. Integrated electronic health record (EHR) systems provide opportunity, but they do not have readily available functionality intended for outcomes-based learning. OBJECTIVE: This study sought to unlock insights from routinely collected EHR data through the development of an individualizable patient outcomes feedback platform for EM clinicians. Here, we describe the iterative development of this platform, Linking Outcomes Of Patients (LOOP), under a human-centered design framework, including structured feedback obtained from its use. METHODS: This multimodal study consisting of human-centered design studios, surveys (24 physicians), interviews (11 physicians), and a LOOP application usability evaluation (12 EM physicians for ≥30 minutes each) was performed between August 2019 and February 2021. The study spanned 3 phases: (1) conceptual development under a human-centered design framework, (2) LOOP tec…",
       "authors": [
         {
-          "name": "Strauss AT",
+          "name": "Alexandra T Strauss",
           "orcid": "0000-0001-6313-7221"
         },
         {
-          "name": "Morgan C",
+          "name": "Cameron Morgan",
           "orcid": "0000-0001-7245-6080"
         },
         {
-          "name": "El Khuri C",
+          "name": "Christopher El Khuri",
           "orcid": "0000-0002-2187-8766"
         },
         {
-          "name": "Slogeris B",
+          "name": "Becky Slogeris",
           "orcid": "0000-0001-7563-6108"
         },
         {
-          "name": "Smith AG",
+          "name": "Aria G Smith",
           "orcid": "0000-0002-2688-9018"
         },
         {
-          "name": "Klein E",
+          "name": "Eili Klein",
           "orcid": "0000-0002-1304-5289"
         },
         {
-          "name": "Toerper M",
+          "name": "Matt Toerper",
           "orcid": "0000-0003-0605-5339"
         },
         {
-          "name": "DeAngelo A",
+          "name": "Anthony DeAngelo",
           "orcid": "0000-0001-6173-011X"
         },
         {
-          "name": "Debraine A",
+          "name": "Arnaud Debraine",
           "orcid": "0000-0001-5549-7147"
         },
         {
-          "name": "Peterson S",
+          "name": "Susan Peterson",
           "orcid": "0000-0002-6191-627X"
         },
         {
-          "name": "Gurses AP",
+          "name": "Ayse P Gurses",
           "orcid": "0000-0001-7422-6852"
         },
         {
-          "name": "Levin S",
+          "name": "Scott Levin",
           "orcid": "0000-0002-7143-7635"
         },
         {
-          "name": "Hinson J",
+          "name": "Jeremiah Hinson",
           "orcid": "0000-0002-2024-2360"
         }
       ]
@@ -168859,79 +170244,6 @@
         }
       ]
     },
-    "09e8fe5310bba9705fee": {
-      "abstract": "Background Gay, bisexual, and other men who have sex with men (GBMSM) face the highest burden of HIV in the United States, and there is a paucity of efficacious mobile health (mHealth) HIV prevention and care interventions tailored specifically for GBMSM. We tested a mobile app combining prevention messages and access to core prevention services for GBMSM. Objective This study aims to measure the efficacy of the Mobile Messaging for Men (M-cubed) app and related services to increase HIV prevention and care behaviors in diverse US GBMSM. Methods We conducted a randomized open-label study with a waitlist control group among GBMSM in 3 groups (low-risk HIV-negative group, high-risk HIV-negative group, and living-with-HIV [LWH] group) recruited online and in venues in Atlanta, Detroit, and New York City. Participants were randomly assigned to receive access to the app immediately or at 9 months after randomization. The app provided prevention messages in 6 domains of sexual health and offered ordering of at-home HIV and sexually transmitted infection test kits, receiving preexposure prophylaxis (PrEP) evaluations and navigation, and service locators. Serostatus- and risk-specific prevention outcomes were evaluated at baseline, at the end of the intervention period, and at 3, 6, and 9 months after the intervention period. Results In total, 1226 GBMSM were enrolled and randomized; of these 611 (49.84%) were assigned to the intervention group and 608 (99.51%) were analyzed, while 6…",
-      "authors": [
-        {
-          "name": "Sullivan PS",
-          "orcid": "0000-0002-7728-0587"
-        },
-        {
-          "name": "Stephenson R",
-          "orcid": "0000-0002-9239-2640"
-        },
-        {
-          "name": "Hirshfield S",
-          "orcid": "0000-0002-2649-469X"
-        },
-        {
-          "name": "Mehta CC",
-          "orcid": "0000-0001-6854-7983"
-        },
-        {
-          "name": "Zahn R",
-          "orcid": "0000-0001-6001-2220"
-        },
-        {
-          "name": "Bauermeister JA",
-          "orcid": "0000-0002-9276-2306"
-        },
-        {
-          "name": "Horvath K",
-          "orcid": "0000-0001-7569-2839"
-        },
-        {
-          "name": "Chiasson MA",
-          "orcid": "0000-0002-4906-0667"
-        },
-        {
-          "name": "Gelaude D",
-          "orcid": "0000-0001-5360-5837"
-        },
-        {
-          "name": "Mullin S",
-          "orcid": "0000-0002-0494-7109"
-        },
-        {
-          "name": "Downing MJ Jr",
-          "orcid": "0000-0003-0283-399X"
-        },
-        {
-          "name": "Olansky EJ",
-          "orcid": "0000-0001-5086-6038"
-        },
-        {
-          "name": "Wiatrek S",
-          "orcid": "0000-0003-0533-8257"
-        },
-        {
-          "name": "Rogers EQ",
-          "orcid": "0000-0003-3189-1558"
-        },
-        {
-          "name": "Rosenberg E",
-          "orcid": "0000-0002-1695-8075"
-        },
-        {
-          "name": "Siegler AJ",
-          "orcid": "0000-0001-5553-7540"
-        },
-        {
-          "name": "Mansergh G",
-          "orcid": "0000-0002-3202-9081"
-        }
-      ]
-    },
     "622a74b81c1366a82000": {
       "abstract": "Purpose of review Preexposure prophylaxis (PrEP) is a critical strategy to curb new HIV infections globally. National and global targets have been set for people starting PrEP. However, global PrEP initiations fell short of UNAIDS 2020 targets, and reflection is needed on how we set and meet targets for PrEP use. Recent findings Recent literature documents challenges to meeting ambitious goals for PrEP coverage in multiple phases of PrEP: PrEP initiations are limited by gaps in the identification of those who might benefit from PrEP. Conversely, getting PrEP to those who need it most is threatened by inaccurate risk perception and HIV and PrEP stigma. Once people are on PrEP, a substantial number discontinue PrEP in the first year (the 'PrEP Cliff'), a finding that is robust across groups of PrEP users (e.g., women, men who have sex with men, transwomen) and across global prevention settings. Further, PrEP inequities - by which we refer to utilization of PrEP in a specific group that is not commensurate with their epidemic risk - threaten the overall population benefit of PrEP because those at highest risk of acquiring HIV are not adequately protected. Summary To realize global goals for PrEP utilization and impact, we must address multiple points of PrEP delivery programs that address not just PrEP starts, but also retention in PrEP and measurement and accountability to PrEP equity. We call for new approaches to better identify PrEP candidates, suggest additional research t…",
       "authors": [
@@ -170061,6 +171373,79 @@
         {
           "name": "COVID-19 National Microbiology Surveillance Study Group",
           "orcid": ""
+        }
+      ]
+    },
+    "09e8fe5310bba9705fee": {
+      "abstract": "BACKGROUND: Gay, bisexual, and other men who have sex with men (GBMSM) face the highest burden of HIV in the United States, and there is a paucity of efficacious mobile health (mHealth) HIV prevention and care interventions tailored specifically for GBMSM. We tested a mobile app combining prevention messages and access to core prevention services for GBMSM. OBJECTIVE: This study aims to measure the efficacy of the Mobile Messaging for Men (M-cubed) app and related services to increase HIV prevention and care behaviors in diverse US GBMSM. METHODS: We conducted a randomized open-label study with a waitlist control group among GBMSM in 3 groups (low-risk HIV-negative group, high-risk HIV-negative group, and living-with-HIV [LWH] group) recruited online and in venues in Atlanta, Detroit, and New York City. Participants were randomly assigned to receive access to the app immediately or at 9 months after randomization. The app provided prevention messages in 6 domains of sexual health and offered ordering of at-home HIV and sexually transmitted infection test kits, receiving preexposure prophylaxis (PrEP) evaluations and navigation, and service locators. Serostatus- and risk-specific prevention outcomes were evaluated at baseline, at the end of the intervention period, and at 3, 6, and 9 months after the intervention period. RESULTS: In total, 1226 GBMSM were enrolled and randomized; of these 611 (49.84%) were assigned to the intervention group and 608 (99.51%) were analyzed, whi…",
+      "authors": [
+        {
+          "name": "Patrick Sean Sullivan",
+          "orcid": "0000-0002-7728-0587"
+        },
+        {
+          "name": "Rob Stephenson",
+          "orcid": "0000-0002-9239-2640"
+        },
+        {
+          "name": "Sabina Hirshfield",
+          "orcid": "0000-0002-2649-469X"
+        },
+        {
+          "name": "Cyra Christina Mehta",
+          "orcid": "0000-0001-6854-7983"
+        },
+        {
+          "name": "Ryan Zahn",
+          "orcid": "0000-0001-6001-2220"
+        },
+        {
+          "name": "Jose A Bauermeister",
+          "orcid": "0000-0002-9276-2306"
+        },
+        {
+          "name": "Keith Horvath",
+          "orcid": "0000-0001-7569-2839"
+        },
+        {
+          "name": "Mary Ann Chiasson",
+          "orcid": "0000-0002-4906-0667"
+        },
+        {
+          "name": "Deborah Gelaude",
+          "orcid": "0000-0001-5360-5837"
+        },
+        {
+          "name": "Shelby Mullin",
+          "orcid": "0000-0002-0494-7109"
+        },
+        {
+          "name": "Martin J Downing",
+          "orcid": "0000-0003-0283-399X"
+        },
+        {
+          "name": "Evelyn Jolene Olansky",
+          "orcid": "0000-0001-5086-6038"
+        },
+        {
+          "name": "Sarah Wiatrek",
+          "orcid": "0000-0003-0533-8257"
+        },
+        {
+          "name": "Erin Q Rogers",
+          "orcid": "0000-0003-3189-1558"
+        },
+        {
+          "name": "Eli Rosenberg",
+          "orcid": "0000-0002-1695-8075"
+        },
+        {
+          "name": "Aaron J Siegler",
+          "orcid": "0000-0001-5553-7540"
+        },
+        {
+          "name": "Gordon Mansergh",
+          "orcid": "0000-0002-3202-9081"
         }
       ]
     },
@@ -236676,58 +238061,58 @@
       ]
     },
     "872dc39417e0975031cd": {
-      "abstract": "BACKGROUND: The severe acute respiratory coronavirus 2 (SARS-CoV-2) pandemic calls for expanded opportunities for testing, including novel testing strategies such as home-collected specimens. OBJECTIVE: We aimed to understand whether oropharyngeal swab (OPS), saliva, and dried blood spot (DBS) specimens collected by participants at home and mailed to a laboratory were sufficient for use in diagnostic and serology tests of SARS-CoV-2. METHODS: Eligible participants consented online and were mailed a participant-collection kit to support collection of three specimens for SARS-CoV-2 testing: saliva, OPS, and DBS. Participants performed the specimen collection procedures during a telehealth video appointment while clinical observers watched and documented the suitability of the collection. The biological sufficiency of the specimens for detection of SARS-CoV-2 by reverse transcriptase-polymerase chain reaction and serology testing was assessed by laboratorians using visual inspection and quantification of the nucleic acid contents of the samples by ribonuclease P (RNase P) measurements. RESULTS: Of the enrolled participants,153/159 (96.2%) returned their kits, which were included in this analysis. All these participants attended their video appointments. Clinical observers assessed that of the samples collected, 147/153 (96.1%) of the saliva samples, 146/151 (96.7%) of the oropharyngeal samples, and 135/145 (93.1%) of the DBS samples were of sufficient quality for submission for…",
+      "abstract": "Background The severe acute respiratory coronavirus 2 (SARS-CoV-2) pandemic calls for expanded opportunities for testing, including novel testing strategies such as home-collected specimens. Objective We aimed to understand whether oropharyngeal swab (OPS), saliva, and dried blood spot (DBS) specimens collected by participants at home and mailed to a laboratory were sufficient for use in diagnostic and serology tests of SARS-CoV-2. Methods Eligible participants consented online and were mailed a participant-collection kit to support collection of three specimens for SARS-CoV-2 testing: saliva, OPS, and DBS. Participants performed the specimen collection procedures during a telehealth video appointment while clinical observers watched and documented the suitability of the collection. The biological sufficiency of the specimens for detection of SARS-CoV-2 by reverse transcriptase-polymerase chain reaction and serology testing was assessed by laboratorians using visual inspection and quantification of the nucleic acid contents of the samples by ribonuclease P (RNase P) measurements. Results Of the enrolled participants,153/159 (96.2%) returned their kits, which were included in this analysis. All these participants attended their video appointments. Clinical observers assessed that of the samples collected, 147/153 (96.1%) of the saliva samples, 146/151 (96.7%) of the oropharyngeal samples, and 135/145 (93.1%) of the DBS samples were of sufficient quality for submission for lab…",
       "authors": [
         {
-          "name": "Jodie L Guest",
+          "name": "Guest JL",
           "orcid": "0000-0002-3650-3975"
         },
         {
-          "name": "Patrick S Sullivan",
+          "name": "Sullivan PS",
           "orcid": "0000-0002-7728-0587"
         },
         {
-          "name": "Mariah Valentine-Graves",
+          "name": "Valentine-Graves M",
           "orcid": "0000-0002-2834-8602"
         },
         {
-          "name": "Rachel Valencia",
+          "name": "Valencia R",
           "orcid": "0000-0002-9130-7176"
         },
         {
-          "name": "Elizabeth Adam",
+          "name": "Adam E",
           "orcid": "0000-0002-4061-2971"
         },
         {
-          "name": "Nicole Luisi",
+          "name": "Luisi N",
           "orcid": "0000-0003-4466-7141"
         },
         {
-          "name": "Mariko Nakano",
+          "name": "Nakano M",
           "orcid": "0000-0002-2465-3212"
         },
         {
-          "name": "Jeannette Guarner",
+          "name": "Guarner J",
           "orcid": "0000-0001-5610-3541"
         },
         {
-          "name": "Carlos Del Rio",
+          "name": "Del Rio C",
           "orcid": "0000-0002-0153-3517"
         },
         {
-          "name": "Charles Sailey",
+          "name": "Sailey C",
           "orcid": "0000-0002-7866-4224"
         },
         {
-          "name": "Zoe Goedecke",
+          "name": "Goedecke Z",
           "orcid": "0000-0003-0666-7044"
         },
         {
-          "name": "Aaron J Siegler",
+          "name": "Siegler AJ",
           "orcid": "0000-0001-5553-7540"
         },
         {
-          "name": "Travis H Sanchez",
+          "name": "Sanchez TH",
           "orcid": "0000-0003-1133-4762"
         }
       ]
@@ -238885,35 +240270,6 @@
         },
         {
           "name": "Fisher D",
-          "orcid": ""
-        }
-      ]
-    },
-    "59572abf0b38034a4460": {
-      "abstract": "BACKGROUND: The optimal surgical treatment for scapholunate advanced collapse (SLAC) and scaphoid nonunion advanced collapse (SNAC) remains unclear. To inform clinical decision-makers, we conducted a cost-effectiveness analysis comparing proximal row carpectomy (PRC) and four-corner arthrodesis (FCA). METHODS: A Markov microsimulation model was used to compare clinical outcomes, costs, and health utilities between PRC and FCA. The model used a 10-year time horizon and a 1-month cycle length, and it was evaluated from the societal perspective. Utilities and clinical parameters including transition probabilities for debridement for infection, removal of implants, conversion to total wrist arthrodesis, revision FCA, and revision total wrist arthrodesis were obtained from published literature. Timing of complications was estimated from the literature. Direct medical costs were derived from Medicare ambulatory surgical cost data, and indirect costs for missed work due to surgical procedures and complications were included. The effectiveness outcome was quality-adjusted life years (QALYs). Probabilistic sensitivity analysis and 1-way threshold analysis for utilities were performed. RESULTS: In the base-case model, PRC dominated FCA (i.e., PRC had lower cost and greater effectiveness). The mean (and standard deviation) for the total cost and QALYs per patient were $30,970 ± $5,931 and 8.24 ± 1.28, respectively, for PRC and $44,526 ± $11,205 and 8.23 ± 1.26, respectively, for FCA. I…",
-      "authors": [
-        {
-          "name": "Minkyoung Yoo",
-          "orcid": ""
-        },
-        {
-          "name": "Richard E Nelson",
-          "orcid": ""
-        },
-        {
-          "name": "Damian A Illing",
-          "orcid": ""
-        },
-        {
-          "name": "Brook I Martin",
-          "orcid": ""
-        },
-        {
-          "name": "Andrew R Tyser",
-          "orcid": ""
-        },
-        {
-          "name": "Nikolas H Kazmers",
           "orcid": ""
         }
       ]
@@ -297835,35 +299191,6 @@
         }
       ]
     },
-    "cd0ebb4ea764cb37833f": {
-      "abstract": "To prevent disease transmission, 0.05% chlorine solution is commonly recommended for handwashing in Ebola Treatment Units. In the 2014 West Africa outbreak this recommendation was widely extended to community settings, although many organizations recommend soap and hand sanitizer over chlorine. To evaluate skin irritation caused by frequent handwashing that may increase transmission risk in Ebola-affected communities, we conducted a randomized trial with 91 subjects who washed their hands 10 times a day for 28 days. Subjects used soap and water, sanitizer, or one of four chlorine solutions used by Ebola responders (calcium hypochlorite (HTH), sodium dichloroisocyanurate (NaDCC), and generated or pH-stabilized sodium hypochlorite (NaOCl)). Outcomes were self-reported hand feel, irritation as measured by the Hand Eczema Score Index (HECSI) (range 0-360), signs of transmission risk (e.g., cracking), and dermatitis diagnosis. All groups experienced statistically significant increases in HECSI score. Subjects using sanitizer had the smallest increases, followed by higher pH chlorine solutions (HTH and stabilized NaOCl), and soap and water. The greatest increases were among neutral pH chlorine solutions (NaDCC and generated NaOCl). Signs of irritation related to higher transmission risk were observed most frequently in subjects using soap and least frequently by those using sanitizer or HTH. Despite these irritation increases, all methods represented minor changes in HECSI score.…",
-      "authors": [
-        {
-          "name": "Wolfe MK",
-          "orcid": "0000-0002-6476-0450"
-        },
-        {
-          "name": "Wells E",
-          "orcid": "0000-0002-3675-0407"
-        },
-        {
-          "name": "Mitro B",
-          "orcid": ""
-        },
-        {
-          "name": "Desmarais AM",
-          "orcid": ""
-        },
-        {
-          "name": "Scheinman P",
-          "orcid": ""
-        },
-        {
-          "name": "Lantagne D",
-          "orcid": ""
-        }
-      ]
-    },
     "424648527ea7a51afebf": {
       "abstract": "BACKGROUND: Data on oseltamivir treatment among hospitalized community-acquired pneumonia (CAP) patients are limited. METHODS: Patients hospitalized with CAP at 6 hospitals during the 2010-2012 influenza seasons were included. We assessed factors associated with oseltamivir treatment using logistic regression. RESULTS: Oseltamivir treatment was provided to 89 of 1627 (5%) children (<18 years) and 143 of 1051 (14%) adults. Among those with positive clinician-ordered influenza tests, 39 of 61 (64%) children and 37 of 48 (77%) adults received oseltamivir. Among children, oseltamivir treatment was associated with hospital A (adjusted odds ratio [aOR], 2.76; 95% confidence interval [CI], 1.36-4.88), clinician-ordered testing performed (aOR, 2.44; 95% CI, 1.47-5.19), intensive care unit (ICU) admission (aOR, 2.09; 95% CI, 1.27-3.45), and age ≥2 years (aOR, 1.43; 95% CI, 1.16-1.76). Among adults, oseltamivir treatment was associated with clinician-ordered testing performed (aOR, 8.38; 95% CI, 4.64-15.12), hospitals D and E (aOR, 3.46-5.11; 95% CI, 1.75-11.01), Hispanic ethnicity (aOR, 2.06; 95% CI, 1.18-3.59), and ICU admission (aOR, 2.05; 95% CI, 1.34-3.13). CONCLUSIONS: Among patients hospitalized with CAP during influenza season, oseltamivir treatment was moderate overall and associated with clinician-ordered testing, severe illness, and specific hospitals. Increased clinician education is needed to include influenza in the differential diagnosis for hospitalized CAP patients an…",
       "authors": [
@@ -306052,83 +307379,6 @@
         }
       ]
     },
-    "1bf83a9d5dcafe1256c6": {
-      "abstract": "Background The Brain in Kidney Disease (BRINK) Study aims to identify mechanisms that contribute to increased risk for cognitive impairment in patients with chronic kidney disease (CKD). We describe the rationale, design, and methods of the study and report baseline recruitment and cognitive function results. Study design Longitudinal observational cohort study of the epidemiology of cognitive impairment in CKD. The primary aim is to characterize the association between (1) baseline and incident stroke, white matter disease, estimated glomerular filtration rate (eGFR), inflammation, microalbuminuria, and dialysis initiation and (2) cognitive decline over 3 years in a CKD cohort with a mean eGFR Setting & participants Community-dwelling participants 45 years or older recruited from 4 health systems into 2 groups: reduced eGFR, defined as eGFR Predictor eGFR group. Outcomes Performance on cognitive function tests and structural brain magnetic resonance imaging. Measurements Sequential cognitive and physical function testing, serum and urine biomarker measurement, and brain magnetic resonance images over 3 years. Results Of 554 participants, mean age was 69.3 years; 333, 88, and 133 had eGFRs Limitations Healthy cohort bias, competing risk for death versus cognitive decline. Conclusions Cognitive function was significantly worse in participants with eGFRs<30 mL/min/1.73 m(2). Future BRINK analyses will measure risk factors for cognitive decline using the longitudinal data.",
-      "authors": [
-        {
-          "name": "Murray AM",
-          "orcid": ""
-        },
-        {
-          "name": "Bell EJ",
-          "orcid": ""
-        },
-        {
-          "name": "Tupper DE",
-          "orcid": ""
-        },
-        {
-          "name": "Davey CS",
-          "orcid": ""
-        },
-        {
-          "name": "Pederson SL",
-          "orcid": ""
-        },
-        {
-          "name": "Amiot EM",
-          "orcid": ""
-        },
-        {
-          "name": "Miley KM",
-          "orcid": "0000-0002-7685-8623"
-        },
-        {
-          "name": "McPherson L",
-          "orcid": "0000-0001-9272-0803"
-        },
-        {
-          "name": "Heubner BM",
-          "orcid": ""
-        },
-        {
-          "name": "Gilbertson DT",
-          "orcid": ""
-        },
-        {
-          "name": "Foley RN",
-          "orcid": ""
-        },
-        {
-          "name": "Drawz PE",
-          "orcid": ""
-        },
-        {
-          "name": "Slinin Y",
-          "orcid": ""
-        },
-        {
-          "name": "Rossom RC",
-          "orcid": "0000-0002-9531-914X"
-        },
-        {
-          "name": "Lakshminarayan K",
-          "orcid": "0000-0002-8564-8986"
-        },
-        {
-          "name": "Vemuri P",
-          "orcid": "0000-0003-4286-0589"
-        },
-        {
-          "name": "Jack CR",
-          "orcid": "0000-0001-7916-622X"
-        },
-        {
-          "name": "Knopman DS",
-          "orcid": ""
-        }
-      ]
-    },
     "7304ca0c24335091091d": {
       "authors": [
         {
@@ -306689,51 +307939,6 @@
         },
         {
           "name": "Trickey A",
-          "orcid": ""
-        }
-      ]
-    },
-    "e932bb9a6319208056f3": {
-      "abstract": "APOL1 risk variants are associated with kidney disease in blacks, but the mechanisms of renal injury associated with APOL1 risk variants are unknown. Because APOL1 is unique to humans and some primates, we created transgenic (Tg) mice using the promoter of nephrin-encoding Nphs1 to express the APOL1 reference sequence (G0) or the G2 risk variant in podocytes, establishing Tg lines with a spectrum of APOL1 expression levels. Podocytes from Tg-G0 and Tg-G2 mice did not undergo necrosis, apoptosis, or autophagic cell death in vivo, even in lines with highly expressed transgenes. Further, Tg-G0 and Tg-G2 mice did not develop kidney pathology, proteinuria, or azotemia as of 300 days of age. However, by 200 days of age, Tg-G2 mice had significantly lower podocyte density than age-matched WT and Tg-G0 mice had, a difference that was not evident at weaning. Notably, a pregnancy-associated phenotype that encompassed eclampsia, preeclampsia, fetal/neonatal deaths, and small litter sizes occurred in some Tg-G0 mice and more severely in Tg-G2 mice. Similar to human placenta, placentas of Tg mice expressed APOL1. Overall, these results suggest podocyte depletion could predispose individuals with APOL1 risk genotypes to kidney disease in response to a second stressor, and add to other published evidence associating APOL1 expression with preeclampsia.",
-      "authors": [
-        {
-          "name": "Bruggeman LA",
-          "orcid": ""
-        },
-        {
-          "name": "Wu Z",
-          "orcid": ""
-        },
-        {
-          "name": "Luo L",
-          "orcid": ""
-        },
-        {
-          "name": "Madhavan SM",
-          "orcid": "0000-0002-0528-7333"
-        },
-        {
-          "name": "Konieczkowski M",
-          "orcid": ""
-        },
-        {
-          "name": "Drawz PE",
-          "orcid": "0000-0001-7301-9253"
-        },
-        {
-          "name": "Thomas DB",
-          "orcid": ""
-        },
-        {
-          "name": "Barisoni L",
-          "orcid": ""
-        },
-        {
-          "name": "Sedor JR",
-          "orcid": ""
-        },
-        {
-          "name": "O'Toole JF",
           "orcid": ""
         }
       ]
@@ -327399,23 +328604,6 @@
         {
           "name": "Galvani AP",
           "orcid": ""
-        }
-      ]
-    },
-    "c61f26e87c4f0f52b451": {
-      "abstract": "Contact patterns in group-structured populations determine the course of infectious disease outbreaks. Network-based models have revealed important connections between group-level contact patterns and the dynamics of epidemics, but these models typically ignore heterogeneities in within-group composition. Here, we analyse a flexible mathematical model of disease transmission in a hierarchically structured wildlife population, and find that increased variation in group size reduces the epidemic threshold, making social animal populations susceptible to a broader range of pathogens. Variation in group size also increases the likelihood of an epidemic for mildly transmissible diseases, but can reduce the likelihood and expected size of an epidemic for highly transmissible diseases. Further, we introduce the concept of epidemiological effective group size, which we define to be the group size of a hypothetical population containing groups of identical size that has the same epidemic threshold as an observed population. Using data from the Serengeti Lion Project, we find that pride-living Serengeti lions are epidemiologically comparable to a homogeneous population with up to 20 per cent larger prides.",
-      "authors": [
-        {
-          "name": "Caillaud D",
-          "orcid": "0000-0002-8347-6869"
-        },
-        {
-          "name": "Craft ME",
-          "orcid": "0000-0001-5333-8513"
-        },
-        {
-          "name": "Meyers LA",
-          "orcid": "0000-0002-5828-8874"
         }
       ]
     },
